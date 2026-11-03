@@ -1,0 +1,267 @@
+{
+  "training_hosts": 19792,
+  "snapshot_parser_differences": 37,
+  "iana_tld_count": 1436,
+  "examples": [
+    {
+      "host": "0643412b.pinit.eth.limo",
+      "model_site": "eth.limo",
+      "snapshot_site": "0643412b.pinit.eth.limo",
+      "model_subdomain": "0643412b.pinit",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "88888.ec.cc",
+      "model_site": "ec.cc",
+      "snapshot_site": "88888.ec.cc",
+      "model_subdomain": "88888",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "allowwellsfargmail.z13.web.core.windows.net",
+      "model_site": "windows.net",
+      "snapshot_site": "z13.web.core.windows.net",
+      "model_subdomain": "allowwellsfargmail.z13.web.core",
+      "snapshot_subdomain": "allowwellsfargmail"
+    },
+    {
+      "host": "blacksupremo01026377.t3.storage.dev",
+      "model_site": "storage.dev",
+      "snapshot_site": "blacksupremo01026377.t3.storage.dev",
+      "model_subdomain": "blacksupremo01026377.t3",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "cloudbeds-qn6s.bolt.host",
+      "model_site": "bolt.host",
+      "snapshot_site": "cloudbeds-qn6s.bolt.host",
+      "model_subdomain": "cloudbeds-qn6s",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "copfwlcr7sjn4.mocha.app",
+      "model_site": "mocha.app",
+      "snapshot_site": "copfwlcr7sjn4.mocha.app",
+      "model_subdomain": "copfwlcr7sjn4",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "crediprodubanc.z13.web.core.windows.net",
+      "model_site": "windows.net",
+      "snapshot_site": "z13.web.core.windows.net",
+      "model_subdomain": "crediprodubanc.z13.web.core",
+      "snapshot_subdomain": "crediprodubanc"
+    },
+    {
+      "host": "debiwac.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "debiwac.cloud-ip.cc",
+      "model_subdomain": "debiwac",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "donjazzy42833835388.t3.storage.dev",
+      "model_site": "storage.dev",
+      "snapshot_site": "donjazzy42833835388.t3.storage.dev",
+      "model_subdomain": "donjazzy42833835388.t3",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "faduciwup.z4.web.core.windows.net",
+      "model_site": "windows.net",
+      "snapshot_site": "z4.web.core.windows.net",
+      "model_subdomain": "faduciwup.z4.web.core",
+      "snapshot_subdomain": "faduciwup"
+    },
+    {
+      "host": "getosoci.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "getosoci.cloud-ip.cc",
+      "model_subdomain": "getosoci",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "hadopan.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "hadopan.cloud-ip.cc",
+      "model_subdomain": "hadopan",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "hemelena.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "hemelena.cloud-ip.cc",
+      "model_subdomain": "hemelena",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "ifeozinkedi323358764.t3.storage.dev",
+      "model_site": "storage.dev",
+      "snapshot_site": "ifeozinkedi323358764.t3.storage.dev",
+      "model_subdomain": "ifeozinkedi323358764.t3",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "intermace.z13.web.core.windows.net",
+      "model_site": "windows.net",
+      "snapshot_site": "z13.web.core.windows.net",
+      "model_subdomain": "intermace.z13.web.core",
+      "snapshot_subdomain": "intermace"
+    },
+    {
+      "host": "junemoha.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "junemoha.cloud-ip.cc",
+      "model_subdomain": "junemoha",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "legger-login-home.wasmer.app",
+      "model_site": "wasmer.app",
+      "snapshot_site": "legger-login-home.wasmer.app",
+      "model_subdomain": "legger-login-home",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "lohigek.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "lohigek.cloud-ip.cc",
+      "model_subdomain": "lohigek",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "microfis-password-recovery.wasmer.app",
+      "model_site": "wasmer.app",
+      "snapshot_site": "microfis-password-recovery.wasmer.app",
+      "model_subdomain": "microfis-password-recovery",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "midasbuy-official.myidasbuy-event.de5.net",
+      "model_site": "de5.net",
+      "snapshot_site": "myidasbuy-event.de5.net",
+      "model_subdomain": "midasbuy-official.myidasbuy-event",
+      "snapshot_subdomain": "midasbuy-official"
+    },
+    {
+      "host": "mmdancr-ncap.eu.cc",
+      "model_site": "eu.cc",
+      "snapshot_site": "mmdancr-ncap.eu.cc",
+      "model_subdomain": "mmdancr-ncap",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "ndhvbs.us.cc",
+      "model_site": "us.cc",
+      "snapshot_site": "ndhvbs.us.cc",
+      "model_subdomain": "ndhvbs",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "network-office-cm51.bolt.host",
+      "model_site": "bolt.host",
+      "snapshot_site": "network-office-cm51.bolt.host",
+      "model_subdomain": "network-office-cm51",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "newdat-storage-googleapis-com-omrio-pomte-477233-e1-appspot-com.t3.storage.dev",
+      "model_site": "storage.dev",
+      "snapshot_site": "newdat-storage-googleapis-com-omrio-pomte-477233-e1-appspot-com.t3.storage.dev",
+      "model_subdomain": "newdat-storage-googleapis-com-omrio-pomte-477233-e1-appspot-com.t3",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "newsignon.bllmason.nz.lmhll.abrdns.com",
+      "model_site": "abrdns.com",
+      "snapshot_site": "lmhll.abrdns.com",
+      "model_subdomain": "newsignon.bllmason.nz.lmhll",
+      "snapshot_subdomain": "newsignon.bllmason.nz"
+    },
+    {
+      "host": "printportal.mcdbirth.us.cc",
+      "model_site": "us.cc",
+      "snapshot_site": "mcdbirth.us.cc",
+      "model_subdomain": "printportal.mcdbirth",
+      "snapshot_subdomain": "printportal"
+    },
+    {
+      "host": "rofoba.cloud-ip.cc",
+      "model_site": "cloud-ip.cc",
+      "snapshot_site": "rofoba.cloud-ip.cc",
+      "model_subdomain": "rofoba",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "sbi.bank.in",
+      "model_site": "bank.in",
+      "snapshot_site": "sbi.bank.in",
+      "model_subdomain": "sbi",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "servicessuscisgov-epaccea8bsemdtct.canadacentral-01.azurewebsites.net",
+      "model_site": "canadacentral-01.azurewebsites.net",
+      "snapshot_site": "servicessuscisgov-epaccea8bsemdtct.canadacentral-01.azurewebsites.net",
+      "model_subdomain": "servicessuscisgov-epaccea8bsemdtct",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "srv1003477.hstgr.cloud",
+      "model_site": "hstgr.cloud",
+      "snapshot_site": "srv1003477.hstgr.cloud",
+      "model_subdomain": "srv1003477",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "support.zoom.us.mamahputri.kasifa.de5.net",
+      "model_site": "de5.net",
+      "snapshot_site": "kasifa.de5.net",
+      "model_subdomain": "support.zoom.us.mamahputri.kasifa",
+      "snapshot_subdomain": "support.zoom.us.mamahputri"
+    },
+    {
+      "host": "trezr-bridgee-sso.wasmer.app",
+      "model_site": "wasmer.app",
+      "snapshot_site": "trezr-bridgee-sso.wasmer.app",
+      "model_subdomain": "trezr-bridgee-sso",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "upholdapp.wasmer.app",
+      "model_site": "wasmer.app",
+      "snapshot_site": "upholdapp.wasmer.app",
+      "model_subdomain": "upholdapp",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "vvavv88xsvip.us.cc",
+      "model_site": "us.cc",
+      "snapshot_site": "vvavv88xsvip.us.cc",
+      "model_subdomain": "vvavv88xsvip",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "webmailbusinesscloudauthss.t3.storage.dev",
+      "model_site": "storage.dev",
+      "snapshot_site": "webmailbusinesscloudauthss.t3.storage.dev",
+      "model_subdomain": "webmailbusinesscloudauthss.t3",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "website-development-x78k.bolt.host",
+      "model_site": "bolt.host",
+      "snapshot_site": "website-development-x78k.bolt.host",
+      "model_subdomain": "website-development-x78k",
+      "snapshot_subdomain": ""
+    },
+    {
+      "host": "www.srv1087900.hstgr.cloud",
+      "model_site": "hstgr.cloud",
+      "snapshot_site": "srv1087900.hstgr.cloud",
+      "model_subdomain": "www.srv1087900",
+      "snapshot_subdomain": "www"
+    }
+  ],
+  "decision": "Model feature values remain based on bundled tldextract PSL; user snapshot is audited only."
+}

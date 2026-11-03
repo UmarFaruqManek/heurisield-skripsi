@@ -4,6 +4,8 @@ Repository penelitian deteksi phishing berbasis **18 fitur URL dengan XGBoost**,
 
 ## Langsung menggunakan extension
 
+Kandidat eksperimen terbaru juga tersedia di **`extension/HeuriShield-URL17-XGBoost`**, versi **0.3.2**: model memakai 17 fitur teks URL dengan threshold 0,45; umur domain diperiksa terpisah. Pencarian brand memakai domain terlebih dahulu (Clearbit → Brandfetch → API domain HeuriShield), kemudian token ketika diperlukan. Pilih folder kandidat tersebut melalui **Load unpacked** untuk menguji URL17; folder URL18 di bawah tetap tersedia sebagai pembanding. Lihat [audit 400 legitimate dan batas replay](docs/AUDIT_URL17_DOMAIN_FIRST_04NOV2026.md).
+
 1. Clone atau unduh repository ini.
 2. Buka `chrome://extensions` atau halaman extension browser Chromium lain, aktifkan **Developer mode**, lalu pilih **Load unpacked**.
 3. Pilih folder **`extension/HeuriShield-URL18-XGBoost`** di dalam repository ini. `manifest.json`, model, aset, dan bundle content script sudah tersedia; tidak ada server atau proses build yang wajib dijalankan.

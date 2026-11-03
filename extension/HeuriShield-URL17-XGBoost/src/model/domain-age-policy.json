@@ -1,0 +1,15 @@
+{
+  "version": "domain-age-v1",
+  "unit": "days",
+  "categories": [
+    {"id": "very_new", "label": "Sangat baru", "min_days": 0, "max_days": 30},
+    {"id": "new", "label": "Baru", "min_days": 31, "max_days": 90},
+    {"id": "relatively_new", "label": "Relatif baru", "min_days": 91, "max_days": 365},
+    {"id": "over_one_year", "label": "Terdaftar lebih dari satu tahun", "min_days": 366, "max_days": null}
+  ],
+  "unknown": {"id": "unknown", "label": "unknown"},
+  "supporting_signal_max_days": 365,
+  "standalone_verdict_change": false,
+  "unknown_is_neutral": true,
+  "older_domain_is_automatic_safe": false
+}
