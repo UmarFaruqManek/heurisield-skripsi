@@ -200,10 +200,20 @@ export async function getWarningContext(id) {
 }
 
 export async function getAllowlist() {
-  return getSetting(STORAGE_KEYS.ALLOWLIST, []);
+  return [...new Set((await getSetting(STORAGE_KEYS.ALLOWLIST, [])).map(normalizeManualDomain).filter(Boolean))];
+}
+
+// www is an alias of the same host for manual lists; other subdomains stay distinct.
+export function normalizeManualDomain(value) {
+  try {
+    const url = new URL(/^https?:\/\//i.test(String(value)) ? String(value) : `https://${value}`);
+    return url.hostname.toLowerCase().replace(/\.$/, "").replace(/^www\./, "");
+  } catch { return ""; }
 }
 
 export async function addToAllowlist(domain) {
+  domain = normalizeManualDomain(domain);
+  if (!domain) throw new Error("Domain daftar izin tidak valid.");
   const list = await getAllowlist();
   if (!list.includes(domain)) {
     list.push(domain);
@@ -214,6 +224,7 @@ export async function addToAllowlist(domain) {
 }
 
 export async function removeFromAllowlist(domain) {
+  domain = normalizeManualDomain(domain);
   const list = await getAllowlist();
   const index = list.indexOf(domain);
   if (index > -1) {
@@ -223,10 +234,12 @@ export async function removeFromAllowlist(domain) {
 }
 
 export async function getBlacklist() {
-  return getSetting(STORAGE_KEYS.BLACKLIST, []);
+  return [...new Set((await getSetting(STORAGE_KEYS.BLACKLIST, [])).map(normalizeManualDomain).filter(Boolean))];
 }
 
 export async function addToBlacklist(domain) {
+  domain = normalizeManualDomain(domain);
+  if (!domain) throw new Error("Domain daftar blokir tidak valid.");
   const list = await getBlacklist();
   if (!list.includes(domain)) {
     list.push(domain);
@@ -237,6 +250,7 @@ export async function addToBlacklist(domain) {
 }
 
 export async function removeFromBlacklist(domain) {
+  domain = normalizeManualDomain(domain);
   const list = await getBlacklist();
   const index = list.indexOf(domain);
   if (index > -1) {

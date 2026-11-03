@@ -4,6 +4,7 @@ import fs from "node:fs/promises";
 const storage = new Map();
 let listener;
 let beforeNavigate;
+let currentTabUrl = "https://account.example.com/login";
 const on = { addListener(fn) { if (fn.length === 3) listener = fn; } };
 const base = new URL("../", import.meta.url);
 globalThis.chrome = {
@@ -20,7 +21,8 @@ globalThis.chrome = {
     async set(values) { for (const [key, value] of Object.entries(values)) storage.set(key, value); }
   } },
   tabs: {
-    async get() { return { url: "https://account.example.com/login" }; },
+    async get() { return { url: currentTabUrl }; },
+    async update(tabId, changes) { currentTabUrl = changes.url; return { id: tabId, url: currentTabUrl }; },
     async sendMessage(tabId, message) {
       if (message.type !== "HEURISHIELD_COLLECT_EVIDENCE") return { ok: true };
       if (tabId === 5) return { ok: true, snapshot: {
@@ -130,3 +132,23 @@ if (portal.model_result.verdict !== "DANGEROUS" || portal.verdict !== "SAFE" ||
 }
 process.stdout.write(JSON.stringify({ portalRaw: portal.model_result.verdict,
   portalFinal: portal.verdict, source: portal.decision_policy.source }) + "\n");
+
+const send = (message, sender = { tab: { id: 6, url: "https://www.example.com/login" } }) =>
+  new Promise((resolve, reject) => listener(message, sender,
+    response => response?.ok ? resolve(response) : reject(new Error(response?.error || "No response"))));
+await send({ type: "HEURISHIELD_TOGGLE_ALLOWLIST", url: "https://www.example.com/login" });
+const allowed = (await send({ type: "HEURISHIELD_ANALYZE_PAGE",
+  url: "https://www.example.com/login" })).analysis;
+if (allowed.verdict !== "SAFE" || allowed.decision_policy?.source !== "manual_allowlist" ||
+    allowed.model_result?.ready !== false) throw new Error("Allow list did not override the panel");
+await send({ type: "HEURISHIELD_TOGGLE_BLOCKLIST", url: "https://www.example.com/login" });
+if (!currentTabUrl.includes("src/warning/warning.html")) throw new Error("Block list did not block the current tab");
+const blocked = (await send({ type: "HEURISHIELD_ANALYZE_PAGE",
+  url: "https://www.example.com/login" })).analysis;
+if (blocked.verdict !== "DANGEROUS" || blocked.decision_policy?.source !== "manual_blocklist") {
+  throw new Error("Block list was not reflected in the panel");
+}
+await send({ type: "HEURISHIELD_TOGGLE_ALLOWLIST", url: "https://www.example.com/login",
+  }, { tab: { id: 6, url: currentTabUrl } });
+if (currentTabUrl !== "https://www.example.com/login") throw new Error("Allow list did not reopen warning tab");
+process.stdout.write("Manual lists applied to panel and current tab OK\n");

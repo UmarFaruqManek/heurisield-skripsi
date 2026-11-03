@@ -20,6 +20,7 @@ import {
   getAnalysisByTab,
   getAllowlist,
   getBlacklist,
+  normalizeManualDomain,
   addToAllowlist,
   addToBlacklist,
   removeFromAllowlist,
@@ -35,7 +36,7 @@ import { buildAnalysisExplanation } from "../shared/analysis-explanation.js";
 import { sanitizeAuditUrl } from "../shared/audit-url.js";
 import { createDatasetCollector } from "../storage/dataset-collector.js";
 
-const ANALYSIS_VERSION = "url18-dombrand-evidence-v7";
+const ANALYSIS_VERSION = "url18-dombrand-evidence-v8";
 const METADATA_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
 let runtimeResourcesPromise = null;
@@ -244,7 +245,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 
 async function toggleManualDomain(message, sender) {
   const url = String(message.url || sender?.tab?.url || "");
-  const domain = safeUrl(url)?.hostname;
+  const domain = normalizeManualDomain(safeUrl(url)?.hostname || "");
   if (!domain) throw new Error("Domain tidak valid.");
 
   if (message.type === "HEURISHIELD_TOGGLE_ALLOWLIST") {
@@ -255,6 +256,8 @@ async function toggleManualDomain(message, sender) {
       return { domain, list: "allowlist", listed: false };
     }
     await addToAllowlist(domain);
+    // A warning tab keeps showing the old decision until it visits the site again.
+    await reopenListedWarning(sender?.tab?.id, url);
     return { domain, list: "allowlist", listed: true };
   }
 
@@ -262,10 +265,58 @@ async function toggleManualDomain(message, sender) {
   const listed = blacklist.includes(domain);
   if (listed) {
     await removeFromBlacklist(domain);
+    await reopenListedWarning(sender?.tab?.id, url);
     return { domain, list: "blocklist", listed: false };
   }
   await addToBlacklist(domain);
+  // Apply the user's block immediately on the open page as well as future visits.
+  if (sender?.tab?.id >= 0 && safeUrl(sender.tab.url)?.hostname) {
+    const analysis = manualAnalysis(url, sender.tab.id, "blocklist");
+    await saveAnalysisForTab(sender.tab.id, analysis);
+    await saveUrlHistoryEntry(sender.tab.id, analysis);
+    await redirectToWarningPage(sender.tab.id, analysis);
+  }
   return { domain, list: "blocklist", listed: true };
+}
+
+async function reopenListedWarning(tabId, url) {
+  if (!Number.isInteger(tabId) || tabId < 0) return;
+  try {
+    const tab = await chrome.tabs.get(tabId);
+    if (tab.url?.startsWith(chrome.runtime.getURL("src/warning/warning.html"))) {
+      await chrome.tabs.update(tabId, { url });
+    }
+  } catch { /* The list remains saved if its tab has already closed. */ }
+}
+
+function manualAnalysis(url, tabId, list) {
+  const allowed = list === "allowlist";
+  const analysis = {
+    ...buildBaseAnalysis(url, tabId),
+    final_url: sanitizeAuditUrl(url),
+    verdict: allowed ? "SAFE" : "DANGEROUS",
+    model_result: { ready: false, skipped: "manual_list" },
+    decision_policy: { source: allowed ? "manual_allowlist" : "manual_blocklist" },
+    manual_list: list,
+    matched_rules: allowed ? [] : [{ id: "MANUAL_BLOCKLIST", reason: "Domain ada di daftar blokir manual.", source: "Manual blocklist", severity: "high" }]
+  };
+  analysis.explanation = buildAnalysisExplanation(analysis);
+  return analysis;
+}
+
+async function listedAnalysis(url, tabId) {
+  const domain = normalizeManualDomain(safeUrl(url)?.hostname || "");
+  if (!domain) return null;
+  const [allowlist, blocklist] = await Promise.all([getAllowlist(), getBlacklist()]);
+  if (allowlist.includes(domain)) return manualAnalysis(url, tabId, "allowlist");
+  if (blocklist.includes(domain)) return manualAnalysis(url, tabId, "blocklist");
+  return null;
+}
+
+async function saveManualAnalysis(tabId, analysis) {
+  await saveAnalysisForTab(tabId, analysis);
+  await saveUrlHistoryEntry(tabId, analysis);
+  return analysis;
 }
 
 if (chrome.webNavigation?.onBeforeNavigate) {
@@ -344,6 +395,10 @@ async function analyzeActiveTab(message) {
       model_result: { ready: false, error: "Unsupported URL." }
     };
   }
+
+  // Manual decisions must be the same in the panel and automatic navigation.
+  const manual = await listedAnalysis(finalUrl, tabId);
+  if (manual) return saveManualAnalysis(tabId, manual);
 
   // The frozen URL model always reads the original URL with its original 18 features.
   const model = await getRuntimeResources();
@@ -448,6 +503,9 @@ async function analyzeActiveTab(message) {
   // Penjelasan ringkas untuk UI; fitur dan rule lengkap tetap tersimpan untuk audit.
   const blockedDuringAnalysis = await warningAnalysisForTab(tabId);
   if (blockedDuringAnalysis) return blockedDuringAnalysis;
+  // The user may change a list while slow brand/age lookups are in flight.
+  const latestManual = await listedAnalysis(finalUrl, tabId);
+  if (latestManual) return saveManualAnalysis(tabId, latestManual);
   analysis.explanation = buildAnalysisExplanation(analysis);
   await saveAnalysisForTab(tabId, analysis);
   await saveUrlHistoryEntry(tabId, analysis);
@@ -505,36 +563,16 @@ async function autoAnalyzeAndBlock(tabId, url) {
   if (!(await isProtectionEnabled())) return;
   if (consumeTemporaryBypass(tabId, url)) return;
 
-  const parsed = safeUrl(url);
-  const hostname = parsed?.hostname || "";
-  if (!hostname) return;
-
-  const allowlist = await getAllowlist();
-  if (allowlist.includes(hostname)) return;
+  if (!safeUrl(url)?.hostname) return;
 
   const inFlightKey = `${tabId}:${normalizeComparableUrl(url)}`;
   if (autoAnalysisInFlight.has(inFlightKey)) return;
 
   autoAnalysisInFlight.add(inFlightKey);
   try {
-    const blacklist = await getBlacklist();
-    if (blacklist.includes(hostname)) {
-      await redirectToWarningPage(tabId, {
-        ...buildBaseAnalysis(url, tabId),
-        verdict: "DANGEROUS",
-        score: 100,
-        matched_rules: [{
-          id: "MANUAL_BLOCKLIST",
-          reason: "Domain ada di daftar blokir manual.",
-          source: "Manual blocklist",
-          severity: "high"
-        }]
-      });
-      return;
-    }
-
     const analysis = await analyzeActiveTab({ tabId, url, source: "auto" });
     if (analysis?.verdict === "DANGEROUS") {
+      if ((await listedAnalysis(url, tabId))?.manual_list === "allowlist") return;
       await redirectToWarningPage(tabId, analysis);
       return;
     }

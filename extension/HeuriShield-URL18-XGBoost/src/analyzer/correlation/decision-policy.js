@@ -50,8 +50,12 @@ export function decideWithEvidence(urlVerdict, dom, brand, correlation, context 
   // from the parent domain to this exact subdomain.
   const sameDomainForm = dom?.form_cross_domain === false &&
     (dom.forms || []).some(form => form.relevant && form.cross_domain === false);
+  const chosenName = String(brand?.claimed_brand?.name || "").toLowerCase().trim();
   const conflictingVerifiedClaim = (brand?.candidates || []).some(candidate =>
     candidate.verified === true && candidate.claim === true &&
+    // A parent name contained in the exact first-party brand name (Google /
+    // Google Antigravity) is not a competing page identity by itself.
+    !(candidate.name && chosenName.split(/\W+/).includes(String(candidate.name).toLowerCase().trim())) &&
     candidate.domain !== brand?.claimed_brand?.official_domain &&
     candidate.domain !== context.pageRegistrableDomain &&
     (candidate.in_title === true || candidate.in_logo === true));
@@ -101,6 +105,29 @@ export function decideWithEvidence(urlVerdict, dom, brand, correlation, context 
     noConfirmedConflict;
   if (verifiedOfficialLogin) {
     return { verdict: "SAFE", source: "verified_own_domain_login",
+      review_candidate: false, review_reason: null };
+  }
+  // Documentation on an independently verified first-party domain may be
+  // younger than three years and receive a high lexical URL score. Require
+  // an exact verified reference, the observed HTTPS page, and no sensitive
+  // fields or cross-domain credential form; a copied brand cannot qualify.
+  let documentationPage = false;
+  try {
+    const page = new URL(context.pageUrl || "");
+    documentationPage = /^\/docs(?:\/|$)/i.test(page.pathname) && page.protocol === "https:" &&
+      context.mainSnapshot?.page_origin === page.origin;
+  } catch {}
+  const verifiedDocumentationPage = urlVerdict === "DANGEROUS" && verifiedBrand &&
+    brand.brand_claim_relation === "own_domain" &&
+    brand.verified_reference_domain === context.pageRegistrableDomain &&
+    brand.brand_in_title === true && !conflictingVerifiedClaim &&
+    documentationPage && context.sameSite === true &&
+    dom?.observed_frame_count > 0 && dom.has_password_field === false &&
+    dom.has_sensitive_input === false && dom.form_cross_domain === false &&
+    noConfirmedConflict && Number.isFinite(context.probability) &&
+    context.probability < 0.90;
+  if (verifiedDocumentationPage) {
+    return { verdict: "SAFE", source: "verified_own_domain_documentation_page",
       review_candidate: false, review_reason: null };
   }
   // A long query string can raise the URL score on an ordinary page of an

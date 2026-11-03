@@ -1,6 +1,6 @@
 # Panduan proyek HeuriShield untuk AI lain
 
-Dokumen ini menjelaskan **implementasi yang sedang digunakan** di repository ini. Bacalah bersama kode sebelum mengusulkan perubahan. Fokus pengembangan saat ini adalah extension `extension/HeuriShield-URL18-XGBoost/` versi **0.2.15**, bukan extension RuleFit60 yang disimpan sebagai pembanding di `arsip/pembanding_rulefit60/`.
+Dokumen ini menjelaskan **implementasi yang sedang digunakan** di repository ini. Bacalah bersama kode sebelum mengusulkan perubahan. Fokus pengembangan saat ini adalah extension `extension/HeuriShield-URL18-XGBoost/` versi **0.2.16**, bukan extension RuleFit60 yang disimpan sebagai pembanding di `arsip/pembanding_rulefit60/`.
 
 Semua jalur `src/...` dan `tests/...` di bawah ini dihitung dari folder extension utama tersebut.
 

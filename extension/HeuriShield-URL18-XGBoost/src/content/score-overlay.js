@@ -156,11 +156,13 @@
     });
     wrap.querySelector(".hs-allow-list").addEventListener("click", async () => {
       const response = await sendToBackground({ type: "HEURISHIELD_TOGGLE_ALLOWLIST", url: STATE.analysis?.final_url || location.href });
-      if (response) await requestAnalysis();
+      if (response?.ok) await requestAnalysis();
+      else if (response) { STATE.error = response.error || "Allow list gagal diperbarui."; render(); }
     });
     wrap.querySelector(".hs-block-list").addEventListener("click", async () => {
       const response = await sendToBackground({ type: "HEURISHIELD_TOGGLE_BLOCKLIST", url: STATE.analysis?.final_url || location.href });
-      if (response) await requestAnalysis();
+      if (response?.ok) await requestAnalysis();
+      else if (response) { STATE.error = response.error || "Block list gagal diperbarui."; render(); }
     });
     wrap.querySelector(".hs-history").addEventListener("click", () => {
       void sendToBackground({ type: "HEURISHIELD_OPEN_HISTORY_PAGE" });
@@ -191,7 +193,7 @@
     setText(".hs-brand", brand.value);
     setText(".hs-age", domainAgeText(analysis));
     setText(".hs-refresh", STATE.contextInvalidated ? "Muat ulang halaman" : analysis?.is_warning_snapshot ? "Muat hasil" : "Ulang");
-    setText(".hs-rules", STATE.loading ? "Berjalan" : analysis?.model_result?.ready ? "Selesai" : "Terbatas");
+    setText(".hs-rules", STATE.loading ? "Berjalan" : analysis?.manual_list ? "Daftar manual" : analysis?.model_result?.ready ? "Selesai" : "Terbatas");
     const explanation = analysis?.explanation;
     const reasons = STATE.loading ? ["Analisis sedang berjalan."] : STATE.error ? [STATE.error] : explanation?.reasons || ["Detail pemeriksaan belum tersedia. Coba ulang pemeriksaan."];
     shadow.querySelector(".hs-reason-list").replaceChildren(...reasons.slice(0, 3).map(reason => {
@@ -214,6 +216,8 @@
   }
 
   function updateActionLabels(verdict) {
+    setText(".hs-allow-list", STATE.analysis?.manual_list === "allowlist" ? "Hapus dari Allow list" : "Allow list");
+    setText(".hs-block-list", STATE.analysis?.manual_list === "blocklist" ? "Hapus dari Block list" : "Block list");
     const detail = shadow.querySelector(".hs-detail-action");
     if (detail) {
       detail.textContent = STATE.detailsExpanded ? "Tutup alasan" : "Detail alasan";

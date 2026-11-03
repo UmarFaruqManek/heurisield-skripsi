@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "minimum_chrome_version": "106",
   "name": "HeuriShield URL18 XGBoost Experiment",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "URL18 XGBoost with DOM and brand evidence, OAuth context, and correlation rules.",
   "permissions": [
     "storage",

@@ -1,5 +1,19 @@
 /* Jelaskan bukti yang teramati; pisahkan hasil model URL dari koreksi DOM/brand. */
 export function buildAnalysisExplanation(analysis = {}) {
+  if (analysis.decision_policy?.source === "manual_allowlist" ||
+      analysis.decision_policy?.source === "manual_blocklist") {
+    const allowed = analysis.decision_policy.source === "manual_allowlist";
+    return {
+      title: allowed ? "Diizinkan oleh daftar Anda" : "Diblokir oleh daftar Anda",
+      summary: allowed ? "Domain ini ada di Allow list Anda." : "Domain ini ada di Block list Anda.",
+      domain: hostname(analysis.final_url || analysis.url),
+      reasons: [allowed ? "Anda mengizinkan domain ini secara manual; hasil model tidak digunakan untuk keputusan ini."
+        : "Anda memblokir domain ini secara manual; hasil model tidak digunakan untuk keputusan ini."],
+      action: allowed ? "Tetap periksa alamat situs sebelum memasukkan data pribadi."
+        : "Hapus domain dari Block list jika Anda ingin membuka situs ini.",
+      limitation: ""
+    };
+  }
   if (analysis.model_result?.model_family === "XGBoost") {
     const verdict = analysis.verdict;
     const urlVerdict = analysis.model_result.verdict ||
@@ -12,6 +26,8 @@ export function buildAnalysisExplanation(analysis = {}) {
         ? "Bukti identitas situs mengubah penilaian alamat menjadi phishing."
         : decisionSource === "verified_own_domain_non_sensitive_page"
           ? "Domain resmi dan halaman tanpa permintaan data sensitif mengoreksi penilaian alamat."
+          : decisionSource === "verified_own_domain_documentation_page"
+            ? "Halaman dokumentasi pada domain resmi yang terverifikasi mengoreksi penilaian alamat."
           : decisionSource === "verified_oauth_provider_page"
             ? "Halaman login berada pada domain resmi penyedia identitas; pola URL yang panjang dikoreksi oleh pemeriksaan identitas."
           : decisionSource === "verified_own_domain_login"
@@ -31,6 +47,8 @@ export function buildAnalysisExplanation(analysis = {}) {
         ? "Alamat: model menandai risiko, tetapi domain brand terverifikasi cocok dan formulir login tetap pada situs ini."
         : decisionSource === "verified_own_domain_non_sensitive_page"
         ? "Alamat: pola URL melewati ambang model, tetapi pemeriksaan domain resmi dan halaman mengoreksi keputusan."
+        : decisionSource === "verified_own_domain_documentation_page"
+        ? "Alamat: model menandai risiko, tetapi halaman dokumentasi berada pada domain resmi terverifikasi dan tidak meminta data akun."
         : urlVerdict === "DANGEROUS" ? "Alamat: dinilai phishing oleh model."
         : urlVerdict === "SAFE" ? "Alamat: dinilai legitimate oleh model."
           : "Alamat: penilaian belum tersedia.",

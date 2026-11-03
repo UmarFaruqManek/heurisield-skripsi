@@ -1,6 +1,6 @@
 # HeuriShield Skripsi
 
-Repository penelitian deteksi phishing berbasis **18 fitur URL dengan XGBoost**, dilengkapi pemeriksaan DOM, identitas brand, dan aturan korelasi. Versi extension yang dibekukan di sini adalah **0.2.15** dengan ambang URL **0,35**.
+Repository penelitian deteksi phishing berbasis **18 fitur URL dengan XGBoost**, dilengkapi pemeriksaan DOM, identitas brand, dan aturan korelasi. Versi extension saat ini adalah **0.2.16** dengan ambang URL **0,35**.
 
 ## Langsung menggunakan extension
 
