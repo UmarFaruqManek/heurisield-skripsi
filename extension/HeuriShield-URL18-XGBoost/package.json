@@ -1,6 +1,6 @@
 {
   "name": "heurishield-url18-xgboost-experiment",
-  "version": "0.2.18",
+  "version": "0.2.19",
   "type": "module",
   "private": true,
   "scripts": {

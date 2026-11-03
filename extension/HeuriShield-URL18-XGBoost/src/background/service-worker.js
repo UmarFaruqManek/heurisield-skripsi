@@ -36,7 +36,7 @@ import { buildAnalysisExplanation } from "../shared/analysis-explanation.js";
 import { sanitizeAuditUrl } from "../shared/audit-url.js";
 import { createDatasetCollector } from "../storage/dataset-collector.js";
 
-const ANALYSIS_VERSION = "url18-dombrand-evidence-v10";
+const ANALYSIS_VERSION = "url18-dombrand-evidence-v11";
 const METADATA_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
 let runtimeResourcesPromise = null;

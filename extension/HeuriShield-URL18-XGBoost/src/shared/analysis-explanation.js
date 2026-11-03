@@ -29,7 +29,7 @@ export function buildAnalysisExplanation(analysis = {}) {
           : decisionSource === "verified_own_domain_documentation_page"
             ? "Halaman dokumentasi pada domain resmi yang terverifikasi mengoreksi penilaian alamat."
           : decisionSource === "verified_own_domain_search_page"
-            ? "Halaman pencarian berada pada domain resmi yang terverifikasi; pola alamat yang panjang dikoreksi oleh pemeriksaan halaman."
+            ? "Alamat pencarian berada pada domain resmi yang terverifikasi; penilaian pola URL dikoreksi oleh pemeriksaan identitas domain."
           : decisionSource === "verified_oauth_provider_page"
             ? "Halaman login berada pada domain resmi penyedia identitas; pola URL yang panjang dikoreksi oleh pemeriksaan identitas."
           : decisionSource === "verified_own_domain_login"
@@ -52,7 +52,7 @@ export function buildAnalysisExplanation(analysis = {}) {
         : decisionSource === "verified_own_domain_documentation_page"
         ? "Alamat: model menandai risiko, tetapi halaman dokumentasi berada pada domain resmi terverifikasi dan tidak meminta data akun."
         : decisionSource === "verified_own_domain_search_page"
-        ? "Alamat: model menandai risiko, tetapi halaman pencarian berada pada domain resmi terverifikasi dan tidak menunjukkan permintaan data akun pada bagian yang diperiksa."
+        ? "Alamat: model menandai risiko, tetapi alamat pencarian berada pada domain resmi yang terverifikasi."
         : urlVerdict === "DANGEROUS" ? "Alamat: dinilai phishing oleh model."
         : urlVerdict === "SAFE" ? "Alamat: dinilai legitimate oleh model."
           : "Alamat: penilaian belum tersedia.",

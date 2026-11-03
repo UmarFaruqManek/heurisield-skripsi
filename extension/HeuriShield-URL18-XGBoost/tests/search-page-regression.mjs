@@ -97,6 +97,26 @@ const searchExplanation = buildAnalysisExplanation({ url: prabowoUrl,
   decision_policy: { source: "verified_own_domain_search_page" },
   brand_features: searchBrand, dom_features: searchDom });
 assert.match(searchExplanation.reasons.join(" "), /jenis data dan tujuan formulir/);
+
+// The protection is for the verified search route, independent of the search
+// term, model score, domain-age API availability, and readable iframe state.
+for (const term of ["kendari", "prabowo", "bca login", "verifikasi akun", "berita hari ini"]) {
+  const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}&gs_lcrp=${"ab09-CD_".repeat(65)}`;
+  const withoutSnapshot = await analyzeBrandEvidence(null, searchUrl, { lookup });
+  const unknownDom = analyzeDomEvidence([]);
+  assert.equal(withoutSnapshot.official_domain_match, true);
+  assert.equal(decideWithEvidence("DANGEROUS", unknownDom, withoutSnapshot,
+    evaluateCorrelation(unknownDom, withoutSnapshot), {
+      pageUrl: searchUrl, pageRegistrableDomain: "google.com", mainSnapshot: null,
+      sameSite: true, domainAgeDays: null, probability: 0.99
+    }).source, "verified_own_domain_search_page");
+}
+assert.equal(decideWithEvidence("DANGEROUS", searchDom, searchBrand,
+  evaluateCorrelation(searchDom, searchBrand),
+  { ...searchContext, sameSite: false }).verdict, "DANGEROUS");
+assert.equal(decideWithEvidence("DANGEROUS", searchDom, searchBrand,
+  evaluateCorrelation(searchDom, searchBrand),
+  { ...searchContext, pageUrl: "https://www.google.com/login?q=prabowo" }).verdict, "DANGEROUS");
 for (const [badDom, badBrand, badContext] of [
   [{ ...incompleteDom, forms: [{ relevant: true, cross_domain: true,
     destination_verification: false }] },

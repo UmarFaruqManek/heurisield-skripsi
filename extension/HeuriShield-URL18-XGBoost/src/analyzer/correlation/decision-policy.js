@@ -138,23 +138,20 @@ export function decideWithEvidence(urlVerdict, dom, brand, correlation, context 
   try {
     const page = new URL(context.pageUrl || "");
     searchPage = page.protocol === "https:" && page.pathname === "/search" &&
-      page.searchParams.has("q") && context.mainSnapshot?.page_origin === page.origin;
+      page.searchParams.has("q") &&
+      (!context.mainSnapshot || context.mainSnapshot.page_origin === page.origin);
   } catch {}
   const verifiedSearchPage = urlVerdict === "DANGEROUS" && verifiedBrand &&
     brand.brand_claim_relation === "own_domain" &&
     brand.verified_reference_domain === context.pageRegistrableDomain &&
-    brand.brand_in_title === true &&
-    noConfirmedConflict && searchPage &&
-    context.sameSite === true && dom?.observed_frame_count > 0 &&
-    dom.has_password_field !== true && dom.has_sensitive_input !== true &&
-    dom.form_cross_domain !== true &&
-    (dom.password_fields || []).length === 0 &&
-    (dom.sensitive_fields || []).length === 0 &&
-    (context.mainSnapshot.password_fields || []).length === 0 &&
-    (context.mainSnapshot.sensitive_fields || []).length === 0 &&
-    !(dom.forms || []).some(form => form.relevant && form.cross_domain === true) &&
-    Number.isFinite(context.domainAgeDays) && context.domainAgeDays >= 1095 &&
-    Number.isFinite(context.probability) && context.probability < 0.60;
+    noConfirmedConflict && searchPage && context.sameSite === true &&
+    dom?.has_password_field !== true && dom?.has_sensitive_input !== true &&
+    dom?.form_cross_domain !== true &&
+    (dom?.password_fields || []).length === 0 &&
+    (dom?.sensitive_fields || []).length === 0 &&
+    (context.mainSnapshot?.password_fields || []).length === 0 &&
+    (context.mainSnapshot?.sensitive_fields || []).length === 0 &&
+    !(dom?.forms || []).some(form => form.relevant && form.cross_domain === true);
   if (verifiedSearchPage) {
     return { verdict: "SAFE", source: "verified_own_domain_search_page",
       review_candidate: false, review_reason: null };
