@@ -29,7 +29,7 @@ Arsip `browser_live_analysis.json` adalah sumber riwayat per URL. Database SQLit
 python .\skrip\evaluasi\rebuild_history_db.py
 ```
 
-Untuk menjalankan skrip penelitian, pasang dependensi dengan `python -m pip install -r requirements-research.txt`. Untuk uji live baru, jalankan pula `python -m playwright install chromium`, lalu gunakan evaluator dengan `--isolated-per-url`. Pengujian live membuka URL yang diberikan; lakukan dalam lingkungan uji terpisah. Contoh:
+Untuk menjalankan skrip penelitian, pasang dependensi dengan `python -m pip install -r requirements-research.txt`. Sebagian skrip persiapan historis masih memerlukan sumber asli di luar repository; extension utama dan laporan yang telah diarsipkan tidak memerlukannya. Untuk uji live baru, jalankan pula `python -m playwright install chromium`, lalu gunakan evaluator dengan `--isolated-per-url`. Pengujian live membuka URL yang diberikan; lakukan dalam lingkungan uji terpisah. Contoh:
 
 ```powershell
 python .\skrip\evaluasi\evaluate-extension-browser-live.py --extension-dir .\extension\HeuriShield-URL18-XGBoost --input .\data\input_uji\daftar_terbaru\phishing_fresh_300_03nov2026_url18.txt --label phishing --out-dir .\hasil_baru\phishing --isolated-per-url --checkpoint-every 25
