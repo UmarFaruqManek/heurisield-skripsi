@@ -6,7 +6,7 @@ Repository penelitian deteksi phishing berbasis **18 fitur URL dengan XGBoost**,
 
 1. Clone atau unduh repository ini.
 2. Buka `chrome://extensions` atau halaman extension browser Chromium lain, aktifkan **Developer mode**, lalu pilih **Load unpacked**.
-3. Pilih folder **`HeuriShield-URL18-XGBoost`** di dalam repository ini. `manifest.json`, model, aset, dan bundle content script sudah tersedia; tidak ada server atau proses build yang wajib dijalankan.
+3. Pilih folder **`extension/HeuriShield-URL18-XGBoost`** di dalam repository ini. `manifest.json`, model, aset, dan bundle content script sudah tersedia; tidak ada server atau proses build yang wajib dijalankan.
 
 Alurnya: URL dan umur domain → skor XGBoost → pemeriksaan DOM dan brand → aturan korelasi → keputusan serta alasan pada panel/halaman peringatan. URL tanpa umur domain memakai cabang nilai hilang pada model. Halaman OAuth penyedia resmi diperiksa pada domain penyedianya; domain aplikasi tujuan tidak otomatis dianggap aman. Daftar izin/blokir pengguna tersimpan lokal pada browser.
 
@@ -14,26 +14,25 @@ Alurnya: URL dan umur domain → skor XGBoost → pemeriksaan DOM dan brand → 
 
 | Lokasi | Isi |
 |---|---|
-| `HeuriShield-URL18-XGBoost/` | Extension siap dimuat, model, dan uji kode. |
-| `DATA_URL_18_FITUR.csv` | Data fitur URL yang digunakan untuk pengembangan model. |
-| `gabungan_url_label_umur.csv`, `audit_gabungan_url.csv` | Penggabungan URL, label, umur domain, dan jejak audit persiapan data. |
-| `hasil_perbandingan_6_model/`, `perbaikan_legitimate_id_02nov2026/` | Model pembanding, pelatihan kandidat, dan evaluasi pengembangan. |
-| `hasil_live_*/`, `pengujian_eksternal_02nov2026/` | Laporan pengujian live per URL, status HTTP, fitur, skor, temuan DOM/brand, serta ringkasan. |
-| `input_uji/` | Daftar uji terbaru yang sudah disamarkan bila mengandung parameter autentikasi. |
-| `Skrip/` | Evaluator live, penyatuan laporan, dan pembentukan kembali indeks SQLite lokal. |
-| `pembanding_rulefit60/extension/` | Snapshot extension RuleFit60 lama sebagai pembanding, lengkap dengan model dan uji kodenya. |
-| `pembanding_rulefit60/riwayat_uji/` | Laporan pengujian RuleFit60: hasil per URL, ringkasan, serta audit kasus. |
+| `extension/HeuriShield-URL18-XGBoost/` | Extension utama siap dimuat, model, dan uji kode. |
+| `data/dataset/` | Dataset URL, label, umur domain, dan fitur untuk pengembangan model. |
+| `data/input_uji/` | Daftar dan persiapan URL uji. Parameter autentikasi disamarkan pada salinan publik. |
+| `skrip/` | Ekstraksi fitur, pelatihan, audit, dan uji kode penelitian. |
+| `skrip/evaluasi/` | Evaluator live, penyatuan laporan, pemutaran ulang, dan pembentukan indeks SQLite lokal. |
+| `hasil/` | Model pembanding, hasil eksperimen, laporan live per URL, audit, dan ringkasan. |
+| `arsip/pembanding_rulefit60/` | Extension RuleFit60 lama beserta riwayat pengujiannya. |
+| `docs/` | Catatan metode, penggabungan data, dan tinjauan referensi. |
 
 Arsip `browser_live_analysis.json` adalah sumber riwayat per URL. Database SQLite lokal tidak disertakan karena merupakan indeks turunan berukuran lebih dari 100 MiB; indeks dapat dibuat kembali dari laporan dengan:
 
 ```powershell
-python .\Skrip\rebuild_history_db.py
+python .\skrip\evaluasi\rebuild_history_db.py
 ```
 
 Untuk menjalankan skrip penelitian, pasang dependensi dengan `python -m pip install -r requirements-research.txt`. Untuk uji live baru, jalankan pula `python -m playwright install chromium`, lalu gunakan evaluator dengan `--isolated-per-url`. Pengujian live membuka URL yang diberikan; lakukan dalam lingkungan uji terpisah. Contoh:
 
 ```powershell
-python .\Skrip\evaluate-extension-browser-live.py --extension-dir .\HeuriShield-URL18-XGBoost --input .\input_uji\phishing_fresh_300_03nov2026_url18.txt --label phishing --out-dir .\hasil_baru\phishing --isolated-per-url --checkpoint-every 25
+python .\skrip\evaluasi\evaluate-extension-browser-live.py --extension-dir .\extension\HeuriShield-URL18-XGBoost --input .\data\input_uji\daftar_terbaru\phishing_fresh_300_03nov2026_url18.txt --label phishing --out-dir .\hasil_baru\phishing --isolated-per-url --checkpoint-every 25
 ```
 
 ## Membaca hasil
