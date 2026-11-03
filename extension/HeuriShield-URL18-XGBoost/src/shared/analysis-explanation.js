@@ -153,7 +153,7 @@ function domExplanation(dom) {
       ? "Formulir: tujuan pengiriman data akun adalah domain lain yang terverifikasi."
       : "Formulir: tujuan pengiriman data akun adalah domain lain; hubungan resminya belum dapat dipastikan.";
   if (relevant.some(form => form.cross_domain === "unknown"))
-    return "Formulir: tujuan pengiriman data akun belum dapat dipastikan.";
+    return "Formulir: jenis data dan tujuan formulir yang terdeteksi belum dapat dipastikan.";
   if (!relevant.length && dom.unresolved_checks?.includes("inaccessible_iframe"))
     return "Formulir: tidak terlihat permintaan data akun pada bagian halaman yang diperiksa; sebagian iframe belum dapat diperiksa.";
   if (dom.form_cross_domain === "unknown")

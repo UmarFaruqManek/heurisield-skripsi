@@ -36,7 +36,8 @@ const copyUrl = "https://google.com.example.test/search?q=bca";
 const copy = await analyzeBrandEvidence(snapshot, copyUrl, { lookup });
 assert.equal(copy.official_domain_match, false);
 assert.equal(decideWithEvidence("DANGEROUS", dom, copy, evaluateCorrelation(dom, copy),
-  { ...context, pageRegistrableDomain: "example.test" }).verdict, "DANGEROUS");
+  { ...context, pageUrl: copyUrl, pageRegistrableDomain: "example.test",
+    mainSnapshot: { ...snapshot, page_origin: "https://google.com.example.test" } }).verdict, "DANGEROUS");
 
 // A long search URL can exceed the URL threshold while a cross-origin iframe
 // is unreadable. Unknown iframe contents must not become a claim that a
@@ -66,10 +67,42 @@ const correctedText = buildAnalysisExplanation({ url: kendariUrl,
   dom_features: incompleteDom });
 assert.match(correctedText.reasons.join(" "), /sebagian iframe belum dapat diperiksa/i);
 assert.doesNotMatch(correctedText.reasons.join(" "), /tujuan pengiriman data akun belum dapat dipastikan/i);
+
+// Search results can mention an unrelated verified brand in both title and
+// heading. That name is the subject of the search, not the site's identity.
+const prabowoUrl = "https://www.google.com/search?q=prabowo&oq=prabowo&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyDQgBEC4YgwEYsQMYgAQyEggCEAAYQxiDARixAxiABBiKBTIPCAMQABhDGLEDGIAEGIoFMg0IBBAAGIMBGLEDGIAEMgYIBRBFGD0yBggGEEUYPTIGCAcQRRg90gEIMTExMWowajeoAgCwAgA&sourceid=chrome&source=chrome.ob&ie=UTF-8";
+const prabowoProbability = predictProbability(model,
+  { ...extractUrl18Features(prabowoUrl), domain_age_days: 10658 });
+assert.ok(prabowoProbability >= model.threshold && prabowoProbability < 0.6);
+const searchSnapshot = { ...incompleteSnapshot,
+  title: "prabowo - Google Search", headings: [{ text: "Prabowo" }],
+  forms: [{ relevant: true, action_known: false, action_origin: null }] };
+const searchLookup = async token => ({ lookup_success: true, candidates:
+  token === "google" ? [{ name: "Google", domain: "google.com", verified: true }]
+    : token === "prabowo" ? [{ name: "Prabowo", domain: "prabowo.id", verified: true }]
+      : [] });
+const searchBrand = await analyzeBrandEvidence(searchSnapshot, prabowoUrl,
+  { lookup: searchLookup });
+const searchDom = analyzeDomEvidence([searchSnapshot]);
+assert.equal(searchBrand.official_domain_match, true);
+assert.ok(searchBrand.candidates.some(candidate => candidate.name === "Prabowo" && candidate.claim));
+assert.equal(searchDom.form_cross_domain, "unknown");
+const searchContext = { ...incompleteContext, pageUrl: prabowoUrl,
+  mainSnapshot: searchSnapshot, probability: prabowoProbability };
+assert.equal(decideWithEvidence("DANGEROUS", searchDom, searchBrand,
+  evaluateCorrelation(searchDom, searchBrand), searchContext).verdict, "SAFE");
+const searchExplanation = buildAnalysisExplanation({ url: prabowoUrl,
+  final_url: prabowoUrl, verdict: "SAFE",
+  model_result: { model_family: "XGBoost", verdict: "DANGEROUS" },
+  decision_policy: { source: "verified_own_domain_search_page" },
+  brand_features: searchBrand, dom_features: searchDom });
+assert.match(searchExplanation.reasons.join(" "), /jenis data dan tujuan formulir/);
 for (const [badDom, badBrand, badContext] of [
-  [{ ...incompleteDom, forms: [{ relevant: true, cross_domain: "unknown" }] },
+  [{ ...incompleteDom, forms: [{ relevant: true, cross_domain: true,
+    destination_verification: false }] },
     incompleteBrand, incompleteContext],
   [{ ...incompleteDom, has_password_field: true }, incompleteBrand, incompleteContext],
+  [{ ...incompleteDom, has_sensitive_input: true }, incompleteBrand, incompleteContext],
   [incompleteDom, { ...incompleteBrand, official_domain_match: "unknown" }, incompleteContext],
   [incompleteDom, incompleteBrand, { ...incompleteContext, pageUrl: "https://www.google.com/login?q=kendari" }],
   [incompleteDom, incompleteBrand, { ...incompleteContext, sameSite: false }]
