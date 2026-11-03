@@ -37,4 +37,42 @@ const copy = await analyzeBrandEvidence(snapshot, copyUrl, { lookup });
 assert.equal(copy.official_domain_match, false);
 assert.equal(decideWithEvidence("DANGEROUS", dom, copy, evaluateCorrelation(dom, copy),
   { ...context, pageRegistrableDomain: "example.test" }).verdict, "DANGEROUS");
-console.log("Official search page correction OK; copied brand remains dangerous");
+
+// A long search URL can exceed the URL threshold while a cross-origin iframe
+// is unreadable. Unknown iframe contents must not become a claim that a
+// credential form exists, but an observed account form must still block.
+const kendariUrl = "https://www.google.com/search?q=kendari&oq=kendari&gs_lcrp=EgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wIYsQMYgAQyCggBEC4YsQMYgAQyCggCEAAYsQMYgAQyBwgDEAAYgAQyDQgEEAAYgwEYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxMDE5ajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8";
+const kendariProbability = predictProbability(model,
+  { ...extractUrl18Features(kendariUrl), domain_age_days: 10658 });
+assert.ok(kendariProbability >= model.threshold && kendariProbability < 0.6);
+const incompleteSnapshot = { ...snapshot, title: "kendari - Google Search",
+  logos: [],
+  forms: [{ relevant: false, action_known: true, action_origin: "https://www.google.com" }],
+  inaccessible_frames: 1 };
+const incompleteBrand = await analyzeBrandEvidence(incompleteSnapshot, kendariUrl, { lookup });
+assert.equal(incompleteBrand.brand_in_title, true);
+const incompleteDom = analyzeDomEvidence([incompleteSnapshot]);
+assert.equal(incompleteDom.form_cross_domain, "unknown");
+const incompleteContext = { ...context, pageUrl: kendariUrl,
+  mainSnapshot: incompleteSnapshot, probability: kendariProbability };
+const incompleteCorrelation = evaluateCorrelation(incompleteDom, incompleteBrand);
+const corrected = decideWithEvidence("DANGEROUS", incompleteDom, incompleteBrand,
+  incompleteCorrelation, incompleteContext);
+assert.equal(corrected.source, "verified_own_domain_search_page");
+const correctedText = buildAnalysisExplanation({ url: kendariUrl,
+  final_url: kendariUrl, verdict: corrected.verdict,
+  model_result: { model_family: "XGBoost", verdict: "DANGEROUS" },
+  decision_policy: corrected, brand_features: incompleteBrand,
+  dom_features: incompleteDom });
+assert.match(correctedText.reasons.join(" "), /sebagian iframe belum dapat diperiksa/i);
+assert.doesNotMatch(correctedText.reasons.join(" "), /tujuan pengiriman data akun belum dapat dipastikan/i);
+for (const [badDom, badBrand, badContext] of [
+  [{ ...incompleteDom, forms: [{ relevant: true, cross_domain: "unknown" }] },
+    incompleteBrand, incompleteContext],
+  [{ ...incompleteDom, has_password_field: true }, incompleteBrand, incompleteContext],
+  [incompleteDom, { ...incompleteBrand, official_domain_match: "unknown" }, incompleteContext],
+  [incompleteDom, incompleteBrand, { ...incompleteContext, pageUrl: "https://www.google.com/login?q=kendari" }],
+  [incompleteDom, incompleteBrand, { ...incompleteContext, sameSite: false }]
+]) assert.equal(decideWithEvidence("DANGEROUS", badDom, badBrand,
+  evaluateCorrelation(badDom, badBrand), badContext).verdict, "DANGEROUS");
+console.log("Official search page correction and inaccessible iframe safeguards OK");

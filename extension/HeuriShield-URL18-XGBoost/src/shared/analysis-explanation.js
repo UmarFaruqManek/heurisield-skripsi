@@ -28,6 +28,8 @@ export function buildAnalysisExplanation(analysis = {}) {
           ? "Domain resmi dan halaman tanpa permintaan data sensitif mengoreksi penilaian alamat."
           : decisionSource === "verified_own_domain_documentation_page"
             ? "Halaman dokumentasi pada domain resmi yang terverifikasi mengoreksi penilaian alamat."
+          : decisionSource === "verified_own_domain_search_page"
+            ? "Halaman pencarian berada pada domain resmi yang terverifikasi; pola alamat yang panjang dikoreksi oleh pemeriksaan halaman."
           : decisionSource === "verified_oauth_provider_page"
             ? "Halaman login berada pada domain resmi penyedia identitas; pola URL yang panjang dikoreksi oleh pemeriksaan identitas."
           : decisionSource === "verified_own_domain_login"
@@ -49,6 +51,8 @@ export function buildAnalysisExplanation(analysis = {}) {
         ? "Alamat: pola URL melewati ambang model, tetapi pemeriksaan domain resmi dan halaman mengoreksi keputusan."
         : decisionSource === "verified_own_domain_documentation_page"
         ? "Alamat: model menandai risiko, tetapi halaman dokumentasi berada pada domain resmi terverifikasi dan tidak meminta data akun."
+        : decisionSource === "verified_own_domain_search_page"
+        ? "Alamat: model menandai risiko, tetapi halaman pencarian berada pada domain resmi terverifikasi dan tidak menunjukkan permintaan data akun pada bagian yang diperiksa."
         : urlVerdict === "DANGEROUS" ? "Alamat: dinilai phishing oleh model."
         : urlVerdict === "SAFE" ? "Alamat: dinilai legitimate oleh model."
           : "Alamat: penilaian belum tersedia.",
@@ -148,7 +152,11 @@ function domExplanation(dom) {
     return otherCross.destination_verification === true
       ? "Formulir: tujuan pengiriman data akun adalah domain lain yang terverifikasi."
       : "Formulir: tujuan pengiriman data akun adalah domain lain; hubungan resminya belum dapat dipastikan.";
-  if (relevant.some(form => form.cross_domain === "unknown") || dom.form_cross_domain === "unknown")
+  if (relevant.some(form => form.cross_domain === "unknown"))
+    return "Formulir: tujuan pengiriman data akun belum dapat dipastikan.";
+  if (!relevant.length && dom.unresolved_checks?.includes("inaccessible_iframe"))
+    return "Formulir: tidak terlihat permintaan data akun pada bagian halaman yang diperiksa; sebagian iframe belum dapat diperiksa.";
+  if (dom.form_cross_domain === "unknown")
     return "Formulir: tujuan pengiriman data akun belum dapat dipastikan.";
   if (relevant.length && dom.form_cross_domain === false)
     return "Formulir: tujuan yang tertera berada pada domain halaman ini; pengiriman aktual belum diamati.";
