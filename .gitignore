@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+node_modules/
+profiles/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.inspect.ndjson
+*.partial.csv
+*.log
+hasil_baru/
+.env
+.env.*

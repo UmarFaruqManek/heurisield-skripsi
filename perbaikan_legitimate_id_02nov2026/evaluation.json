@@ -1,0 +1,161 @@
+{
+  "source_sha256": "54fe97623e3ef5dd20639f2b45c475385a44e04b697ef83bca8a0abc1d193f2e",
+  "audit_counts": {
+    "supported_archive": 233,
+    "manual_review": 67
+  },
+  "development_train_added": 163,
+  "development_holdout": 70,
+  "development_sample_weight": 16,
+  "private_phishing_sample_weight": 4,
+  "private_phishing_train_rows": 3076,
+  "threshold_selected_from_original_validation": 0.35,
+  "cohorts": {
+    "original_validation": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 1578,
+        "legitimate_correct": 1453,
+        "legitimate_specificity_percent": 92.08,
+        "phishing": 1527,
+        "phishing_correct": 1403,
+        "phishing_recall_percent": 91.88
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 1578,
+        "legitimate_correct": 1455,
+        "legitimate_specificity_percent": 92.21,
+        "phishing": 1527,
+        "phishing_correct": 1405,
+        "phishing_recall_percent": 92.01
+      }
+    },
+    "original_test": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 1463,
+        "legitimate_correct": 1329,
+        "legitimate_specificity_percent": 90.84,
+        "phishing": 1521,
+        "phishing_correct": 1416,
+        "phishing_recall_percent": 93.1
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 1463,
+        "legitimate_correct": 1326,
+        "legitimate_specificity_percent": 90.64,
+        "phishing": 1521,
+        "phishing_correct": 1401,
+        "phishing_recall_percent": 92.11
+      }
+    },
+    "indonesia_dev_holdout": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 70,
+        "legitimate_correct": 42,
+        "legitimate_specificity_percent": 60.0,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 70,
+        "legitimate_correct": 61,
+        "legitimate_specificity_percent": 87.14,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      }
+    },
+    "prior_legitimate_500": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 491,
+        "legitimate_correct": 476,
+        "legitimate_specificity_percent": 96.95,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 491,
+        "legitimate_correct": 481,
+        "legitimate_specificity_percent": 97.96,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      }
+    },
+    "prior_legitimate_300": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 290,
+        "legitimate_correct": 261,
+        "legitimate_specificity_percent": 90.0,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 290,
+        "legitimate_correct": 255,
+        "legitimate_specificity_percent": 87.93,
+        "phishing": 0,
+        "phishing_correct": 0,
+        "phishing_recall_percent": null
+      }
+    },
+    "prior_phishing_183": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 0,
+        "legitimate_correct": 0,
+        "legitimate_specificity_percent": null,
+        "phishing": 121,
+        "phishing_correct": 119,
+        "phishing_recall_percent": 98.35
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 0,
+        "legitimate_correct": 0,
+        "legitimate_specificity_percent": null,
+        "phishing": 121,
+        "phishing_correct": 118,
+        "phishing_recall_percent": 97.52
+      }
+    },
+    "prior_phishing_300": {
+      "baseline": {
+        "threshold": 0.38,
+        "legitimate": 0,
+        "legitimate_correct": 0,
+        "legitimate_specificity_percent": null,
+        "phishing": 164,
+        "phishing_correct": 152,
+        "phishing_recall_percent": 92.68
+      },
+      "candidate": {
+        "threshold": 0.35,
+        "legitimate": 0,
+        "legitimate_correct": 0,
+        "legitimate_specificity_percent": null,
+        "phishing": 164,
+        "phishing_correct": 151,
+        "phishing_recall_percent": 92.07
+      }
+    }
+  },
+  "candidate_deployable": false,
+  "limits": [
+    "The 300 Indonesian URLs are development data after this analysis.",
+    "An ROR-linked site and matching title do not prove the page was uncompromised.",
+    "Archived phishing is a development gate, not a fresh external live test."
+  ]
+}

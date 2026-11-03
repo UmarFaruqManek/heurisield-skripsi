@@ -1,0 +1,12 @@
+{
+  "mode": "offline_url_only",
+  "model": "XGBoost_18",
+  "threshold": 0.38,
+  "total": 300,
+  "evaluated": 300,
+  "correct": 234,
+  "incorrect": 66,
+  "legitimate_correct_percent": 78.0,
+  "generated_at_utc": "2026-10-31T14:43:31.349350+00:00",
+  "note": "Label halaman belum diverifikasi ulang dalam browser saat prediksi; tidak ada DOM atau brand."
+}

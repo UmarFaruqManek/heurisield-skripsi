@@ -1,0 +1,60 @@
+{
+  "mode": "offline_decision_replay_no_network",
+  "generated_at": "2026-11-02T12:45:46.505239+00:00",
+  "database": "D:\\experimen\\ide bagus\\database_evaluasi\\riwayat_analisis.sqlite",
+  "extension": "D:\\experimen\\ide bagus\\HeuriShield-URL18-XGBoost",
+  "run_ids": [
+    "5d7baea622f504a601df",
+    "c7b9103cb89ee8d43cc3",
+    "c578f131a8ef60fbec61",
+    "2adf67ed0e528a517cf8",
+    "f636934b942d96013d52"
+  ],
+  "total_urls": 1583,
+  "replay_levels": {
+    "decision_only": 184,
+    "full_snapshot": 386,
+    "not_replayable": 429,
+    "partial_api_snapshot": 584
+  },
+  "no_analysis": 429,
+  "excluded_partial_api_snapshot": 584,
+  "changed_decisions": 3,
+  "different_model_snapshots": [],
+  "by_label": {
+    "legitimate": {
+      "old": {
+        "evaluated": 686,
+        "correct": 668,
+        "incorrect": 18,
+        "correct_percent": 97.38
+      },
+      "replay": {
+        "evaluated": 358,
+        "correct": 353,
+        "incorrect": 5,
+        "correct_percent": 98.6
+      }
+    },
+    "phishing": {
+      "old": {
+        "evaluated": 468,
+        "correct": 424,
+        "incorrect": 44,
+        "correct_percent": 90.6
+      },
+      "replay": {
+        "evaluated": 212,
+        "correct": 176,
+        "incorrect": 36,
+        "correct_percent": 83.02
+      }
+    }
+  },
+  "limits": [
+    "Hanya keputusan DOM/brand/rule yang diputar ulang; prediksi model URL memakai hasil saat uji live.",
+    "decision_only berarti arsip lama tidak menyimpan snapshot DOM dan hasil API untuk menghitung ulang ekstraksi.",
+    "partial_api_snapshot berarti aturan baru meminta informasi API yang tidak ada dalam arsip; hasil perlu ditinjau.",
+    "Data yang telah dipakai untuk perbaikan merupakan data pengembangan, bukan uji eksternal independen."
+  ]
+}

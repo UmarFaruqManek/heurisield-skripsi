@@ -1,0 +1,36 @@
+{
+  "source": "D:\\experimen\\ide bagus\\HeuriShield_URL_Label_Umur_Domain_Seimbang.xlsx",
+  "source_sha256": "72218cd53184082a8edc3ac51f3a3e5b21703ab22e90094beda9fce02ed6da0c",
+  "output": "D:\\experimen\\ide bagus\\DATA_URL_18_FITUR.csv",
+  "dry_run": false,
+  "feature_count": 18,
+  "url_feature_count": 17,
+  "feature_names": [
+    "url_length",
+    "hostname_length",
+    "path_length",
+    "query_length",
+    "subdomain_count",
+    "path_depth",
+    "dot_count",
+    "hyphen_count",
+    "digit_ratio",
+    "special_char_count",
+    "has_at_symbol",
+    "has_ip_host",
+    "has_https_scheme",
+    "hostname_entropy",
+    "sensitive_token_count",
+    "url_entropy",
+    "path_hyphen_count",
+    "domain_age_days"
+  ],
+  "rows": {
+    "source_rows": 29868,
+    "legitimate": 14934,
+    "phishing": 14934
+  },
+  "failed_rows": 0,
+  "parsing": "URL awal, whitespace tepi dihapus, hostname IDN ASCII; PSL bundel + private suffix",
+  "age": "disalin dari sumber; tidak dicek ulang melalui API"
+}

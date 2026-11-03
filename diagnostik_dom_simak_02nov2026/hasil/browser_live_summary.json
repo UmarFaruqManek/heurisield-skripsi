@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-11-02T05:03:07.841537+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "D:\\experimen\\ide bagus\\diagnostik_dom_simak_02nov2026\\url.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 1,
+  "evaluated": 1,
+  "correct": 0,
+  "incorrect": 1,
+  "no_analysis": 0,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 1
+  },
+  "response_category_counts": {
+    "page_loaded": 1
+  },
+  "no_analysis_reason_counts": {},
+  "redirect_category_counts": {
+    "none": 1
+  },
+  "http_error_codes": {},
+  "model_analysis_count": 1,
+  "brand_identity_status_counts": {
+    "unknown": 1
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 0.0,
+  "coverage_percent": 100.0
+}

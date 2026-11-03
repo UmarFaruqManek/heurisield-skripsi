@@ -1,0 +1,26 @@
+{
+  "requested": 500,
+  "prepared": 500,
+  "unique_sites": 500,
+  "sector_counts": {
+    "government": 42,
+    "healthcare": 60,
+    "education": 104,
+    "nonprofit": 94,
+    "company": 41,
+    "funder": 83,
+    "other": 76
+  },
+  "country_count": 73,
+  "auth_path_count": 466,
+  "password_input_in_html": 264,
+  "strong_title_or_password": 419,
+  "excluded_site_key_count": 464325,
+  "exclusion_audit": {
+    "existing_lists_and_main_training": 463715,
+    "csv_files_with_url_scanned": 270,
+    "excluded_site_keys": 464825
+  },
+  "checked_at_utc": "2026-11-02T02:50:00.656228+00:00",
+  "scope": "HTTP preflight on official ROR website links; browser extension completion not guaranteed"
+}

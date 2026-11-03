@@ -1,0 +1,15 @@
+https://sso.pom.go.id/
+https://mahasiswa.umsu.ac.id/Account/Login
+https://simak.unkris.ac.id/
+https://simka.uit.ac.id/mahasiswa/web/index.php?r=site%2Flogin
+https://fp.um-palembang.ac.id/simak/id/login/
+https://simak.uss.ac.id/
+https://simak.ua.ac.id/?portal_notice=login
+https://simakad.um-ad.ac.id/
+https://simak.unpak.ac.id/
+https://simak.unikarta.ac.id/
+https://sso.jogjaprov.go.id/
+https://satamasn.babelprov.go.id/web/auth/login
+https://siak.ummu.ac.id/?act=login
+https://my.utpb.edu/
+https://connect.calcoast.edu/sign-in

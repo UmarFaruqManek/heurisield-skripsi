@@ -1,0 +1,34 @@
+run_id,index,url,expected_label,analysis_status,url_model_verdict,old_verdict,new_verdict,old_correct,new_correct,changed,replay_level,missing_saved_lookups,old_source,new_source,matched_rules,review_candidate,brand_status,official_domain_match,dom_sensitive,reason
+cdae688e0c7760b08fd8,1,https://sso.pom.go.id/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,False,
+cdae688e0c7760b08fd8,2,https://mahasiswa.umsu.ac.id/Account/Login,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,identified,unknown,True,
+cdae688e0c7760b08fd8,3,https://simak.unkris.ac.id/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,4,https://simka.uit.ac.id/mahasiswa/web/index.php?r=site%2Flogin,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,identified,unknown,True,
+cdae688e0c7760b08fd8,5,https://fp.um-palembang.ac.id/simak/id/login/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,False,
+cdae688e0c7760b08fd8,6,https://simak.uss.ac.id/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,7,https://simak.ua.ac.id/?portal_notice=login,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,identified,unknown,True,
+cdae688e0c7760b08fd8,8,https://simakad.um-ad.ac.id/,legitimate,completed,DANGEROUS,DANGEROUS,DANGEROUS,False,False,False,partial_api_snapshot,domain:um-ad.ac.id,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,9,https://simak.unpak.ac.id/,legitimate,http_error,SAFE,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+cdae688e0c7760b08fd8,10,https://simak.unikarta.ac.id/,legitimate,completed,DANGEROUS,DANGEROUS,DANGEROUS,False,False,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,11,https://sso.jogjaprov.go.id/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,ambiguous,unknown,False,
+cdae688e0c7760b08fd8,12,https://satamasn.babelprov.go.id/web/auth/login,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,13,https://siak.ummu.ac.id/?act=login,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,True,
+cdae688e0c7760b08fd8,14,https://my.utpb.edu/,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,False,
+cdae688e0c7760b08fd8,15,https://connect.calcoast.edu/sign-in,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,identified,unknown,False,
+19955f9d97d015583ca7,1,https://skylanai.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:skylanai.com,url_model,url_model,R08,False,identified,unknown,False,
+19955f9d97d015583ca7,2,https://internationaldatasystems.ca/speed/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,partial_api_snapshot,domain:internationaldatasystems.ca,url_model,url_model,R08,False,unknown,unknown,False,
+19955f9d97d015583ca7,3,http://connect.mytonwallet.org/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+19955f9d97d015583ca7,4,https://operator.zh5-app-ayxsports.com/index.html,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+19955f9d97d015583ca7,5,https://perfectgiftchoice.life/paypal-gift/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,full_snapshot,,url_model,url_model,R08,False,unknown,unknown,False,
+19955f9d97d015583ca7,6,https://store.communityartsections.com/item/AWP-AncientHeritage/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+19955f9d97d015583ca7,7,https://caix-ltda.online/tsi/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:caix-ltda.online,url_model,url_model,R08,False,ambiguous,unknown,False,
+19955f9d97d015583ca7,8,https://ipkobiznes-pl.onoriki-meibokuten.com/pl/details/1wwGFYIA1KwPrD2YmkjJuhg6eUdF/main/index.php/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:onoriki-meibokuten.com,url_model,url_model,R08,False,ambiguous,unknown,True,
+19955f9d97d015583ca7,9,http://app.shopledgerapp.com/login,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:shopledgerapp.com,url_model,url_model,R08,False,unknown,unknown,True,
+19955f9d97d015583ca7,10,https://97zz1.casmex.at/cnbcard/signin.php,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:casmex.at,url_model,url_model,"R01,R08",False,identified,False,False,
+19955f9d97d015583ca7,11,https://exel.programcraftsoft.com/?etext=2202.lFxK8CfQRDbY6PGIG57lpbLSAiWTKTm9ikOrdo-wSto30Df2BLP2BauoDDXdGNQ1XOxv6rZ6xNq8OQtQJJxwd2hnBpFckLTLNebJDCLKiRNoYXZwYndpenV1c2FweWhs.42393925e659c38be22bb83f30c16115c444f391&yclid=14468426852329062399,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:programcraftsoft.com,url_model,url_model,"R01,R08",False,identified,False,False,
+19955f9d97d015583ca7,12,http://www.4810k.top/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:4810k.top,url_model,url_model,R08,False,ambiguous,unknown,False,
+19955f9d97d015583ca7,13,https://robloxc.com.es/users/1901060764/profile%E2%80%8C%E2%80%8B,phishing,completed,SAFE,DANGEROUS,DANGEROUS,True,True,False,partial_api_snapshot,domain:robloxc.com.es,corroborated_brand_impersonation,corroborated_brand_impersonation,"R01,R08,R09",False,identified,False,False,
+19955f9d97d015583ca7,14,https://wswhataspp.xyz/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+19955f9d97d015583ca7,15,https://booking.guesytrsrv-pagina.com/547518860,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+339441b74aa2d7154a1c,1,https://simak.un-sultra.ac.id/login,legitimate,completed,DANGEROUS,SAFE,DANGEROUS,True,False,True,partial_api_snapshot,domain:un-sultra.ac.id,corroborated_local_login_review,url_model,R08,True,unknown,unknown,True,
+339441b74aa2d7154a1c,2,https://accounts.google.com/,legitimate,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+339441b74aa2d7154a1c,3,https://www.dicoding.com/login/mfa-verification,legitimate,completed,SAFE,SAFE,SAFE,True,True,False,full_snapshot,,url_model,url_model,R08,False,identified,unknown,True,

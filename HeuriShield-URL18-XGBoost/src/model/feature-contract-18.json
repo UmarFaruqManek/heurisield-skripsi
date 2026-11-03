@@ -1,0 +1,11 @@
+{
+  "feature_set": "url18-xgboost-v1",
+  "feature_count": 18,
+  "features": [
+    "url_length", "hostname_length", "path_length", "query_length",
+    "subdomain_count", "path_depth", "dot_count", "hyphen_count",
+    "digit_ratio", "special_char_count", "has_at_symbol", "has_ip_host",
+    "has_https_scheme", "hostname_entropy", "sensitive_token_count",
+    "url_entropy", "path_hyphen_count", "domain_age_days"
+  ]
+}

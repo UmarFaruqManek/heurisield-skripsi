@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-11-01T06:53:46.307680+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_dual_extension_01nov2026_300.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 183,
+  "correct": 153,
+  "incorrect": 30,
+  "no_analysis": 117,
+  "warning_page_observed": 4,
+  "analysis_status_counts": {
+    "completed": 183,
+    "http_error": 70,
+    "no_valid_analysis": 40,
+    "unverified_http_status": 3,
+    "warning_page_observed": 4
+  },
+  "http_error_codes": {
+    "402": 1,
+    "403": 68,
+    "410": 1
+  },
+  "model_analysis_count": 183,
+  "brand_identity_status_counts": {
+    "unavailable": 183
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 83.61,
+  "coverage_percent": 61.0
+}

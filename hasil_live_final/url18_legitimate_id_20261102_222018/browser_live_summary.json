@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-02T14:52:47.044574+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_indonesia_fresh_300_02nov2026.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 300,
+  "evaluated": 281,
+  "correct": 175,
+  "incorrect": 106,
+  "no_analysis": 19,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 281,
+    "http_error": 18,
+    "unverified_http_status": 1
+  },
+  "response_category_counts": {
+    "http_403_denied": 17,
+    "http_521_error": 1,
+    "page_loaded": 282
+  },
+  "no_analysis_reason_counts": {
+    "http_403_denied": 17,
+    "http_521_error": 1,
+    "unverified_http_status": 1
+  },
+  "redirect_category_counts": {
+    "none": 293,
+    "same_host": 7
+  },
+  "http_error_codes": {
+    "403": 17,
+    "521": 1
+  },
+  "model_analysis_count": 281,
+  "brand_identity_status_counts": {
+    "ambiguous": 16,
+    "identified": 116,
+    "unknown": 149
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 62.28,
+  "coverage_percent": 93.67
+}

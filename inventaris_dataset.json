@@ -1,0 +1,6594 @@
+[
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\ml_pipeline_v2_domain_age_recovered_v1\\cleaned_master_success_v2_domain_age_recovered.csv",
+    "bytes": 161761124,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\ml_pipeline_v2\\cleaned_master_success_v2.csv",
+    "bytes": 161527651,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\data\\PhiUSIIL_Phishing_URL_Dataset.csv",
+    "bytes": 56854345,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\phiusiil+phishing+url+dataset\\PhiUSIIL_Phishing_URL_Dataset.csv",
+    "bytes": 56854345,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\PhishBD_2026.csv",
+    "bytes": 29401118,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_pipeline_v2_domain_age_brand_recovered_118_v1\\combined_full_recovered_118_source_rows.csv",
+    "bytes": 24833078,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\_cleanup_archive_20261011\\ml_pipeline_v2_domain_age_brand_recovered_118_v1_smoke_test\\combined_full_recovered_118_source_rows.csv",
+    "bytes": 24773384,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\new-legitimate-crawl-audit-v1\\new_legitimate_success_records.csv",
+    "bytes": 22157775,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\dataset_32_fitur_umur_observed_only.csv",
+    "bytes": 19008565,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\simulasi_umur_domain\\brand_recheck\\dataset_000_004_age_synthetic_brand_url32_EXPERIMENT_ONLY.csv",
+    "bytes": 18869887,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\eksperimen_rulefit32_t075\\data\\dataset_32_fitur.csv",
+    "bytes": 18869887,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\simulasi_umur_domain\\brand_recheck\\dataset_000_004_age_synthetic_brand_partial_DO_NOT_TRAIN.csv",
+    "bytes": 18422532,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\simulasi_umur_domain\\brand_recheck\\dataset_000_004_age_synthetic_brand_filtered_25413_EXPERIMENT_ONLY.csv",
+    "bytes": 18422107,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\simulasi_umur_domain\\dataset_000_004_age_synthetic_EXPERIMENT_ONLY.csv",
+    "bytes": 17931851,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\new-legitimate-crawl-audit-v1\\new_legitimate_clean_candidate_records.csv",
+    "bytes": 17545037,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v2\\dataset_000_004.csv",
+    "bytes": 17395331,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\pengayaan_api\\dataset_000_004_enriched_partial_DO_NOT_TRAIN.csv",
+    "bytes": 17252141,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online (1).csv",
+    "bytes": 14779369,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online.csv",
+    "bytes": 14779369,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\data\\verified_online.csv",
+    "bytes": 14738186,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online (2).csv",
+    "bytes": 14171122,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online (3).csv",
+    "bytes": 13790150,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online (4).csv",
+    "bytes": 13564848,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\verified_online (5).csv",
+    "bytes": 12721567,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "target"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\dataset_000_003.csv",
+    "bytes": 12597858,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\dataset2.csv",
+    "bytes": 11234312,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v7_umur_acak_eksperimen\\dataset_32_umur_acak_berdasarkan_label_EKSPERIMEN.csv",
+    "bytes": 7344978,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v6_uji_umur_rulefit32\\dataset_32_age_lookup_partial_20261030_v2.csv",
+    "bytes": 7032801,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v6_uji_umur_rulefit32\\dataset_32_age_lookup_partial_20261030.csv",
+    "bytes": 6989544,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\dataset_32_fitur_pengembangan_plus_legitimate_29okt.csv",
+    "bytes": 6852269,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\new-legitimate-crawl-audit-v1\\new_legitimate_suspicious_or_dirty_records.csv",
+    "bytes": 4618215,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v7_umur_acak_eksperimen\\manifest_calon_data_latih_EKSPERIMEN.csv",
+    "bytes": 4370431,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\phishDB.csv",
+    "bytes": 4330776,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v2\\split_index.csv",
+    "bytes": 3942333,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\dataset_phishing.csv\\dataset_phishing.csv",
+    "bytes": 3661166,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\web_phish_extract\\Web page phishing detection\\dataset_B_05_2020.csv",
+    "bytes": 3661166,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v1\\split_index.csv",
+    "bytes": 2856829,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\balanced-live-benchmark-1to1-v1\\live_benchmark_1to1_530_urls.csv",
+    "bytes": 2542126,
+    "url_columns": [
+      "original_url",
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v6_uji_umur_rulefit32\\hasil\\pembagian_domain.csv",
+    "bytes": 2519729,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\data testing\\openphish_external_RUN_20261007_163058_40ED0D\\openphish_external_test_features.csv",
+    "bytes": 2468167,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\data testing\\openphish_external_RUN_20261007_163058_40ED0D\\openphish_raw_success_records.csv",
+    "bytes": 2391404,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\balanced-live-benchmark-1to1-v1\\openphish_265_urls.csv",
+    "bytes": 2389978,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\domain-age-recheck\\missing_domain_age_candidates.csv",
+    "bytes": 1758168,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\legitimate_5000_urls_with_source.csv",
+    "bytes": 1619553,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v6_uji_umur_rulefit32\\hasil\\prediksi_per_url.csv",
+    "bytes": 1585061,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\domain-age-recheck-full\\missing_domain_age_candidates.csv",
+    "bytes": 1356125,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\domain-age-recheck-local-first-full\\missing_domain_age_candidates.csv",
+    "bytes": 1356125,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\domain-age-recheck-local-first-test\\missing_domain_age_candidates.csv",
+    "bytes": 1356125,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\domain-age-recheck-no-skip\\missing_domain_age_candidates.csv",
+    "bytes": 1356125,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\legitimate_5000_balanced_urls_with_source.csv",
+    "bytes": 1159980,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_before_url_match_fix_20261013\\legitimate_features.csv",
+    "bytes": 1055708,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-phishing-13oktober-all-1070\\browser_live_rows.csv",
+    "bytes": 1003758,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-phishing-13oktober-all-1070\\browser_live_rows.partial.csv",
+    "bytes": 986684,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\reachable_random_candidates.reachability.csv",
+    "bytes": 583081,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-600-path-subdomain-plus-query\\browser_live_rows.csv",
+    "bytes": 556329,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-600-path-subdomain-plus-query\\browser_live_rows.partial.csv",
+    "bytes": 556329,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261017_231341_799\\legitimate\\browser_live_rows.csv",
+    "bytes": 552349,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261017_231341_799\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 552349,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_010551_638\\legitimate\\browser_live_rows.csv",
+    "bytes": 538155,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_010551_638\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 538155,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261028_183223_459\\legitimate\\browser_live_rows.csv",
+    "bytes": 534533,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261028_183223_459\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 534533,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_gabungan\\browser_live_rows.csv",
+    "bytes": 500556,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\legitimate\\browser_live_rows.csv",
+    "bytes": 455927,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 455927,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_before_url_match_fix_20261013\\phishing_features.csv",
+    "bytes": 453587,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v2\\holdout_predictions.csv",
+    "bytes": 447696,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_gabungan\\browser_live_rows.csv",
+    "bytes": 444657,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\new_legitimate_success_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 430834,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\new_legitimate_success_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 430834,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\live_eval_retrain_features_combined.csv",
+    "bytes": 419495,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\sumber\\data_tambahan_live.csv",
+    "bytes": 419495,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\eksperimen_rulefit32_t075\\prediksi_holdout_rulefit_t075_vs_t080.csv",
+    "bytes": 418439,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v1\\pelatihan_v1\\holdout_predictions.csv",
+    "bytes": 414950,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60\\browser_live_rows.partial.csv",
+    "bytes": 383310,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_024250_305\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 376801,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\eksperimen_rulefit32_t075\\prediksi_holdout.csv",
+    "bytes": 375173,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32\\browser_live_rows.partial.csv",
+    "bytes": 345019,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_220551_300\\legitimate\\browser_live_rows.csv",
+    "bytes": 331749,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_220551_300\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 331749,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\legitimate\\browser_live_rows.csv",
+    "bytes": 331426,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 331426,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\holdout_predictions.csv",
+    "bytes": 330842,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v3_30_balanced\\holdout_predictions.csv",
+    "bytes": 330595,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261016_203041_601\\phishing\\browser_live_rows.csv",
+    "bytes": 329653,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261016_203041_601\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 329653,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_202333_982\\phishing\\browser_live_rows.csv",
+    "bytes": 326983,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_202333_982\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 326983,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\phishing\\browser_live_rows.csv",
+    "bytes": 325541,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 325541,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-legitimate-phishing-like-300\\browser_live_rows.csv",
+    "bytes": 316192,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-legitimate-phishing-like-300\\browser_live_rows.partial.csv",
+    "bytes": 316192,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-legitimate-phishing-like-300\\browser_live_rows.csv",
+    "bytes": 315987,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-legitimate-phishing-like-300\\browser_live_rows.partial.csv",
+    "bytes": 315987,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-legitimate-phishing-like-300\\browser_live_rows.csv",
+    "bytes": 314920,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-legitimate-phishing-like-300\\browser_live_rows.partial.csv",
+    "bytes": 314920,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_rows.csv",
+    "bytes": 313703,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_rows.partial.csv",
+    "bytes": 313703,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_rows.csv",
+    "bytes": 313703,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit60_v5019\\browser_live_rows.csv",
+    "bytes": 309958,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit60_v5019\\browser_live_rows.partial.csv",
+    "bytes": 309958,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\browser_live_reachable_candidates\\browser_live_rows.csv",
+    "bytes": 309869,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\browser_live_reachable_candidates\\browser_live_rows.partial.csv",
+    "bytes": 309869,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-stress-path-subdomain-query-300\\browser_live_rows.csv",
+    "bytes": 308468,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-stress-path-subdomain-query-300\\browser_live_rows.partial.csv",
+    "bytes": 308468,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\phishing\\browser_live_rows.csv",
+    "bytes": 307833,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 307833,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_001458_009\\phishing\\browser_live_rows.csv",
+    "bytes": 307633,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_001458_009\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 307633,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-stress-path-subdomain-query-300\\browser_live_rows.csv",
+    "bytes": 307315,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-stress-path-subdomain-query-300\\browser_live_rows.partial.csv",
+    "bytes": 307315,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next\\legitimate_clean_1531\\runtime_eval_rows.csv",
+    "bytes": 297521,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\legitimate\\browser_live_rows.csv",
+    "bytes": 288067,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 288067,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_101458\\phishing_features.csv",
+    "bytes": 286307,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_155741_912\\legitimate\\browser_live_rows.csv",
+    "bytes": 284898,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_155741_912\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 284898,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\legitimate_clean_1531\\runtime_eval_rows.csv",
+    "bytes": 283508,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\legitimate\\browser_live_rows.csv",
+    "bytes": 281740,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 281740,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\legitimate_features.csv",
+    "bytes": 280488,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-phishing-300-isolated\\browser_live_rows.csv",
+    "bytes": 270064,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-phishing-300-isolated\\browser_live_rows.partial.csv",
+    "bytes": 270064,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-phishing-testing-isolated\\browser_live_rows.csv",
+    "bytes": 268562,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-phishing-testing-isolated\\browser_live_rows.partial.csv",
+    "bytes": 268562,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active\\browser_live_rows.csv",
+    "bytes": 262694,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active\\browser_live_rows.partial.csv",
+    "bytes": 262694,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_103555\\phishing_features.csv",
+    "bytes": 262554,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_rows.csv",
+    "bytes": 261409,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_rows.partial.csv",
+    "bytes": 261409,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_rows.csv",
+    "bytes": 261409,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_rulefit32_v022_300\\browser_live_rows.csv",
+    "bytes": 260887,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_rulefit32_v022_300\\browser_live_rows.partial.csv",
+    "bytes": 260887,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_040851_692\\phishing\\browser_live_rows.csv",
+    "bytes": 260519,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_040851_692\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 260519,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\new-legitimate-crawl-audit-v1\\new_legitimate_failed_records.csv",
+    "bytes": 260054,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active-brandfix-warningfix\\browser_live_rows.csv",
+    "bytes": 258392,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active-brandfix-warningfix\\browser_live_rows.partial.csv",
+    "bytes": 258392,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-path-subdomain-300\\browser_live_rows.csv",
+    "bytes": 258349,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-path-subdomain-300\\browser_live_rows.partial.csv",
+    "bytes": 258349,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-path-subdomain-300\\browser_live_rows.csv",
+    "bytes": 258198,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-path-subdomain-300\\browser_live_rows.partial.csv",
+    "bytes": 258198,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-phishing-feed-300\\browser_live_rows.csv",
+    "bytes": 255380,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-phishing-feed-300\\browser_live_rows.partial.csv",
+    "bytes": 255380,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-phishing-feed-300\\browser_live_rows.csv",
+    "bytes": 254491,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-phishing-feed-300\\browser_live_rows.partial.csv",
+    "bytes": 254491,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-phishing-feed-300\\browser_live_rows.csv",
+    "bytes": 252391,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-phishing-feed-300\\browser_live_rows.partial.csv",
+    "bytes": 252391,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\final_browser_live\\phishing_300_browser_live_rows.csv",
+    "bytes": 250708,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit32_v033\\browser_live_rows.csv",
+    "bytes": 249269,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit32_v033\\browser_live_rows.partial.csv",
+    "bytes": 249269,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_230536_964\\legitimate\\browser_live_rows.csv",
+    "bytes": 247394,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_230536_964\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 247394,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-300-isolated\\browser_live_rows.csv",
+    "bytes": 235784,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-300-isolated\\browser_live_rows.partial.csv",
+    "bytes": 235784,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\hasil_retrain_rulefit32_t080\\prediksi_holdout_lama.csv",
+    "bytes": 231855,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-legitimate-300-isolated\\browser_live_rows.csv",
+    "bytes": 230358,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-legitimate-300-isolated\\browser_live_rows.partial.csv",
+    "bytes": 230358,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_130054_413\\phishing\\browser_live_rows.csv",
+    "bytes": 228908,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_130054_413\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 228908,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-3000-v1\\heurishield_legitimate_3000_all.csv",
+    "bytes": 221996,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_3000_seed\\heurishield_legitimate_3000_all.csv",
+    "bytes": 221996,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.csv",
+    "bytes": 218468,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.partial.csv",
+    "bytes": 218468,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.csv",
+    "bytes": 217093,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.partial.csv",
+    "bytes": 217093,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_232145_386\\phishing\\browser_live_rows.csv",
+    "bytes": 214082,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_232145_386\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 214082,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\final_browser_live\\legitimate_300_browser_live_rows.csv",
+    "bytes": 207425,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\legitimate_300_browser_live\\browser_live_rows.csv",
+    "bytes": 207425,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\legitimate_300_browser_live\\browser_live_rows.partial.csv",
+    "bytes": 207425,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine\\browser_live_rows.csv",
+    "bytes": 203142,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine\\browser_live_rows.partial.csv",
+    "bytes": 203142,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\phishing\\browser_live_rows.csv",
+    "bytes": 197824,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 197824,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_171451_951\\phishing\\browser_live_rows.csv",
+    "bytes": 197616,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_171451_951\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 197616,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\retest_legitimate_guard_20261030\\browser_live_rows.partial.csv",
+    "bytes": 195502,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-2500-v1\\heurishield_legitimate_2500_all.csv",
+    "bytes": 185904,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_2500_seed\\heurishield_legitimate_2500_all.csv",
+    "bytes": 185904,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit60_t080\\browser_live_rows.csv",
+    "bytes": 176557,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit60_t080\\browser_live_rows.partial.csv",
+    "bytes": 176557,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_222536_341\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 174380,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\persiapan_legitimate_500_31okt\\audit_500_FINAL.csv",
+    "bytes": 172659,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_gabungan\\browser_live_incorrect.csv",
+    "bytes": 168493,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_195358_012\\phishing\\browser_live_rows.csv",
+    "bytes": 163799,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_195358_012\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 163799,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-phishing-13oktober-all-1070\\browser_live_incorrect.csv",
+    "bytes": 161907,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_phishing_like_new_300_audit.csv",
+    "bytes": 153867,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit32_t080\\browser_live_rows.csv",
+    "bytes": 153513,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit32_t080\\browser_live_rows.partial.csv",
+    "bytes": 153513,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\phishing_skipped_inactive.csv",
+    "bytes": 143919,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\phishing_features.csv",
+    "bytes": 141812,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\phishing\\browser_live_rows.csv",
+    "bytes": 141186,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 141186,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_rulefit32_v022_300_28okt\\browser_live_rows.csv",
+    "bytes": 139879,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_rulefit32_v022_300_28okt\\browser_live_rows.partial.csv",
+    "bytes": 139879,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\testing_phishing_browser_live_part2\\browser_live_rows.csv",
+    "bytes": 133858,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\testing_phishing_browser_live_part2\\browser_live_rows.partial.csv",
+    "bytes": 133858,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\phishing-seed-list\\phishing_testing_13_oktober_audit.csv",
+    "bytes": 129004,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\browser_live_reachable_candidates\\browser_live_incorrect.csv",
+    "bytes": 125429,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_lanjutan\\browser_live_rows.csv",
+    "bytes": 117662,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_lanjutan\\browser_live_rows.partial.csv",
+    "bytes": 117662,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\testing_phishing_browser_live\\browser_live_rows.partial.csv",
+    "bytes": 117185,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\openphish-current-engine\\live_extension_eval_rows.csv",
+    "bytes": 114866,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\openphish-current-engine\\live_extension_eval_rows.partial.csv",
+    "bytes": 114866,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_103555\\legitimate_features.csv",
+    "bytes": 114660,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active\\browser_live_incorrect.csv",
+    "bytes": 109660,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-extension\\legitimate_extension_eval_rows.csv",
+    "bytes": 107684,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\audit_legitimate_fresh_500_30okt.csv",
+    "bytes": 105966,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-300-current-engine\\live_extension_eval_rows.csv",
+    "bytes": 105827,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-300-current-engine\\live_extension_eval_rows.partial.csv",
+    "bytes": 105827,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v6_uji_umur_rulefit32\\hasil\\legitimate_live_495_development.csv",
+    "bytes": 105199,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\legitimate_300_fetch_runtime\\legitimate_extension_eval_rows.csv",
+    "bytes": 104028,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\mixed-live-eval-manifests\\mixed_legitimate599_phishing1070_t050_manifest.csv",
+    "bytes": 101764,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_rulefit32_v022_300\\browser_live_incorrect.csv",
+    "bytes": 101143,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 100618,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_lanjutan\\browser_live_rows.csv",
+    "bytes": 100054,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_lanjutan\\browser_live_rows.partial.csv",
+    "bytes": 100054,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-legitimate-phishing-like-300\\browser_live_incorrect.csv",
+    "bytes": 97505,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_112412_035\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 96715,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-600-path-subdomain-plus-query\\browser_live_incorrect.csv",
+    "bytes": 95362,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit32_v033\\browser_live_incorrect.csv",
+    "bytes": 86174,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-phishing-testing-isolated\\browser_live_incorrect.csv",
+    "bytes": 81837,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\phishing_skipped_inactive.csv",
+    "bytes": 75372,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-3000-v1\\heurishield_legitimate_3000_part3.csv",
+    "bytes": 74560,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_3000_seed\\heurishield_legitimate_3000_part3.csv",
+    "bytes": 74560,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\legitimate_fresh_250\\url_verification.csv",
+    "bytes": 74353,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label",
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-3000-v1\\heurishield_legitimate_3000_part2.csv",
+    "bytes": 74260,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_3000_seed\\heurishield_legitimate_3000_part2.csv",
+    "bytes": 74260,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_gabungan\\browser_live_incorrect.csv",
+    "bytes": 73681,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\legitimate_features.csv",
+    "bytes": 73267,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-3000-v1\\heurishield_legitimate_3000_part1.csv",
+    "bytes": 73236,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_3000_seed\\heurishield_legitimate_3000_part1.csv",
+    "bytes": 73236,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\openphish_265_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 71892,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\openphish_265_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 71892,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-legitimate-phishing-like-300\\browser_live_incorrect.csv",
+    "bytes": 71275,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\openphish_265\\runtime_eval_rows.csv",
+    "bytes": 70990,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\openphish_265_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 70990,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_rulefit32_v022_300_28okt\\browser_live_no_analysis.csv",
+    "bytes": 70784,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live_part2\\browser_live_rows.partial.csv",
+    "bytes": 69176,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_010551_638\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 67788,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next\\phishing_txt_success\\runtime_eval_rows.csv",
+    "bytes": 67394,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-legitimate-phishing-like-300\\browser_live_incorrect.csv",
+    "bytes": 67368,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\testing_phishing_txt_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 67157,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\testing_phishing_txt_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 67157,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\phishing_txt_success\\runtime_eval_rows.csv",
+    "bytes": 66300,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\testing_phishing_txt_record_runtime\\runtime_eval_rows.csv",
+    "bytes": 66300,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-2500-v1\\heurishield_legitimate_2500_part3.csv",
+    "bytes": 62304,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_2500_seed\\heurishield_legitimate_2500_part3.csv",
+    "bytes": 62304,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-2500-v1\\heurishield_legitimate_2500_part2.csv",
+    "bytes": 62164,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_2500_seed\\heurishield_legitimate_2500_part2.csv",
+    "bytes": 62164,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-crawl-seed-2500-v1\\heurishield_legitimate_2500_part1.csv",
+    "bytes": 61496,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "C:\\Users\\USER\\Downloads\\heurishield_legitimate_2500_seed\\heurishield_legitimate_2500_part1.csv",
+    "bytes": 61496,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active-brandfix-warningfix\\browser_live_incorrect.csv",
+    "bytes": 59917,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 58831,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_indo400_luar100_rulefit32_28okt\\browser_live_rows.partial.csv",
+    "bytes": 57973,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\persiapan_legitimate_500_31okt\\audit_500.csv",
+    "bytes": 57930,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\audit_input_300_30okt\\audit_legitimate.csv",
+    "bytes": 57223,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-stress-path-subdomain-query-300\\browser_live_incorrect.csv",
+    "bytes": 56842,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\hasil_retrain_rulefit32_t080\\perbandingan_url_live.csv",
+    "bytes": 56584,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_lanjutan\\browser_live_incorrect.csv",
+    "bytes": 56344,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-stress-path-subdomain-query-300\\browser_live_incorrect.csv",
+    "bytes": 54505,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-extension\\legitimate_extension_eval_false_positives.csv",
+    "bytes": 53970,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next\\legitimate_clean_1531\\runtime_eval_errors.csv",
+    "bytes": 52726,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\browser_live_rows.partial.csv",
+    "bytes": 52465,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\hasil_eksperimen_phishing_dev_r250_t5_p105\\prediksi_silang_389_url.csv",
+    "bytes": 50438,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\hasil_eksperimen_phishing_dev\\prediksi_silang_389_url.csv",
+    "bytes": 50416,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_before_url_match_fix_20261013\\phishing_no_analysis.csv",
+    "bytes": 50037,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_195358_012\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 49950,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v3_30_balanced\\live_replay_predictions.csv",
+    "bytes": 49897,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v4_29_no_brand_similarity\\live_replay_predictions.csv",
+    "bytes": 49853,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "actual_label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_INPUTS\\live_eval_retrain_urls_labels.csv",
+    "bytes": 49798,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit60_v5019\\browser_live_incorrect.csv",
+    "bytes": 49698,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-300-current-engine\\live_extension_eval_false_positives.csv",
+    "bytes": 49581,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_105410_212\\legitimate\\browser_live_rows.partial.csv",
+    "bytes": 48864,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_openphish_300_28_oktober_2026\\browser_live_rows.partial.csv",
+    "bytes": 48523,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\final_browser_live\\phishing_missed_safe_browser_live.csv",
+    "bytes": 47488,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit32_t080\\browser_live_no_analysis.csv",
+    "bytes": 46068,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261017_231341_799\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 44429,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_101458\\legitimate_features.csv",
+    "bytes": 44205,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit60_t080\\browser_live_no_analysis.csv",
+    "bytes": 44021,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_171451_951\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 42696,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_130054_413\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 41944,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261028_183223_459\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 40517,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-legitimate-300\\browser_live_rows.partial.csv",
+    "bytes": 37870,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_diverse_new_strict_reachable_420_urls.reachability.csv",
+    "bytes": 37371,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_stress_path_subdomain_query_300_urls.csv",
+    "bytes": 37202,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_test_300_reachability.csv",
+    "bytes": 37152,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label",
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-path-subdomain-300\\browser_live_incorrect.csv",
+    "bytes": 36890,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v2\\excluded_rows.csv",
+    "bytes": 36011,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-phishing-300-isolated\\browser_live_incorrect.csv",
+    "bytes": 35662,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_no_login_curated_300_urls.csv",
+    "bytes": 34796,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-path-subdomain-300\\browser_live_incorrect.csv",
+    "bytes": 33675,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_040851_692\\phishing\\browser_live_incorrect.csv",
+    "bytes": 33098,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_130054_413\\phishing\\browser_live_incorrect.csv",
+    "bytes": 32854,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 32754,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_incorrect.csv",
+    "bytes": 32144,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-phishing-feed-300\\browser_live_incorrect.csv",
+    "bytes": 31560,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-phishing-feed-300\\browser_live_incorrect.csv",
+    "bytes": 31194,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\legitimate_salah_blokir_29okt_32_fitur.csv",
+    "bytes": 30292,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_202333_982\\phishing\\browser_live_incorrect.csv",
+    "bytes": 29523,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 28952,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_220551_300\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 27527,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 27522,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_diverse_new_clean_reachable_330_urls.reachability.csv",
+    "bytes": 26905,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_diverse_new_path_subdomain_300_urls.csv",
+    "bytes": 26832,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\new_legitimate_success_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 26676,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\new_legitimate_success_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 26676,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_155741_912\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 26665,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_232145_386\\phishing\\browser_live_incorrect.csv",
+    "bytes": 26478,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit60_t080\\browser_live_incorrect.csv",
+    "bytes": 26048,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v1\\excluded_rows.csv",
+    "bytes": 25740,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_incorrect.csv",
+    "bytes": 25672,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_test_300_urls.csv",
+    "bytes": 25536,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_diverse_new_300_urls.reachability.csv",
+    "bytes": 25304,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261027_014507_241\\phishing\\browser_live_rows.partial.csv",
+    "bytes": 25084,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-phishing-feed-300\\browser_live_incorrect.csv",
+    "bytes": 25034,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_lanjutan\\browser_live_incorrect.csv",
+    "bytes": 25009,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_195358_012\\phishing\\browser_live_incorrect.csv",
+    "bytes": 24532,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_no_login_300_urls.reachability.csv",
+    "bytes": 24305,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\persiapan_model_v5_age_observed_only\\hasil_retrain_rulefit32_t080\\legitimate_274_out_of_fold.csv",
+    "bytes": 24174,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_no_login_clean_300_urls.reachability.csv",
+    "bytes": 23835,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "status"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\phishing_features.csv",
+    "bytes": 23537,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_232145_386\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 23345,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 23051,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\balanced-live-benchmark-1to1-v1\\legitimate_random_265_urls.csv",
+    "bytes": 22835,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\phishing\\browser_live_incorrect.csv",
+    "bytes": 22368,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_001458_009\\phishing\\browser_live_incorrect.csv",
+    "bytes": 22064,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_incorrect.csv",
+    "bytes": 21596,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_171451_951\\phishing\\browser_live_incorrect.csv",
+    "bytes": 21581,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_diverse_new_clean_300_urls.csv",
+    "bytes": 21468,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\legitimate_clean_1531\\runtime_eval_errors.csv",
+    "bytes": 21061,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\phishing_no_analysis.csv",
+    "bytes": 20531,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_29okt_32_vs_60\\hasil_rulefit32_t080\\browser_live_incorrect.csv",
+    "bytes": 19469,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-300-isolated\\browser_live_incorrect.csv",
+    "bytes": 17564,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\final_browser_live\\phishing_no_analysis_browser_live.csv",
+    "bytes": 17493,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_155741_912\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 16729,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_incorrect.csv",
+    "bytes": 16646,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\blocklist_lite_random_300_browser_live\\browser_live_reachable_candidates\\browser_live_no_analysis.csv",
+    "bytes": 16253,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_before_url_match_fix_20261013\\legitimate_no_analysis.csv",
+    "bytes": 16202,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\_backup_root_cleanup_20261011\\folders\\data testing\\openphish_external_RUN_20261007_163058_40ED0D\\openphish_failed_records.csv",
+    "bytes": 16117,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\testing_phishing_browser_live_part2\\browser_live_incorrect.csv",
+    "bytes": 15955,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\phishing\\browser_live_incorrect.csv",
+    "bytes": 15752,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\testing_phishing_txt_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 15409,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\testing_phishing_txt_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 15409,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval-comparison-old118\\openphish_265_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 14933,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\rulefit-30-active-eval\\openphish_265_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 14933,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_101458\\legitimate_no_analysis.csv",
+    "bytes": 14876,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_28okt_list_baru_rulefit32\\browser_live_rows.partial.csv",
+    "bytes": 14865,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_seed_urls.csv",
+    "bytes": 14834,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_after_fix_features.csv",
+    "bytes": 13626,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\phishing\\browser_live_incorrect.csv",
+    "bytes": 13600,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_features.csv",
+    "bytes": 13590,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-phishing-13oktober-all-1070\\browser_live_no_analysis.csv",
+    "bytes": 13210,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\audit_summary\\legitimate_false_positives_audited.csv",
+    "bytes": 12169,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\audit_summary\\testing_phishing_missed_audited.csv",
+    "bytes": 12140,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261016_203041_601\\phishing\\browser_live_incorrect.csv",
+    "bytes": 12139,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine\\browser_live_incorrect.csv",
+    "bytes": 11731,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\legitimate_300_fetch_runtime\\legitimate_extension_eval_false_positives.csv",
+    "bytes": 11299,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\openphish-current-engine\\live_extension_eval_missed_phishing.csv",
+    "bytes": 11178,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active\\browser_live_no_analysis.csv",
+    "bytes": 11166,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_040851_692\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 10790,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-legitimate-300-isolated\\browser_live_incorrect.csv",
+    "bytes": 10689,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\legitimate_skipped_inactive.csv",
+    "bytes": 10485,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\phishing_txt_success\\runtime_eval_errors.csv",
+    "bytes": 10231,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\testing_phishing_txt_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 10231,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\final_browser_live\\legitimate_false_positive_browser_live.csv",
+    "bytes": 9966,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\legitimate_300_browser_live\\browser_live_incorrect.csv",
+    "bytes": 9966,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\audit_summary\\openphish_missed_audited.csv",
+    "bytes": 9754,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\phishing\\browser_live_incorrect.csv",
+    "bytes": 9735,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_no_analysis.csv",
+    "bytes": 9391,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_rulefit32_v022_300_28okt\\browser_live_incorrect.csv",
+    "bytes": 9343,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next\\phishing_txt_success\\runtime_eval_errors.csv",
+    "bytes": 9185,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-265-balanced-engine\\live_extension_eval_rows.partial.csv",
+    "bytes": 8987,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_101458\\phishing_no_analysis.csv",
+    "bytes": 8717,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\testing_phishing_browser_live_part2\\browser_live_no_analysis.csv",
+    "bytes": 8717,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-phishing-feed-300\\browser_live_no_analysis.csv",
+    "bytes": 8663,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-phishing-feed-300\\browser_live_no_analysis.csv",
+    "bytes": 8634,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-phishing-feed-300\\browser_live_no_analysis.csv",
+    "bytes": 8299,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\runtime_eval_phase_next_v2_brand_tight\\openphish_265\\runtime_eval_errors.csv",
+    "bytes": 8250,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\external_holdout_eval_current\\openphish_265_record_runtime\\runtime_eval_errors.csv",
+    "bytes": 8250,
+    "url_columns": [
+      "original_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\phishing_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_no_analysis.csv",
+    "bytes": 6257,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\legitimate_skipped_inactive.csv",
+    "bytes": 6064,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_final_20261027\\browser_live_rows.csv",
+    "bytes": 5823,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_final_20261027\\browser_live_rows.partial.csv",
+    "bytes": 5823,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\data-uji-12-oktober-phishing-30-active-brandfix-warningfix\\browser_live_no_analysis.csv",
+    "bytes": 5802,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_20261027\\browser_live_rows.csv",
+    "bytes": 5776,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_20261027\\browser_live_rows.partial.csv",
+    "bytes": 5776,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit32_v033\\browser_live_no_analysis.csv",
+    "bytes": 5190,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261028_183223_459\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 5068,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\rerun_single_summary.csv",
+    "bytes": 4989,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\smoke_legitimate_3\\browser_live_rows.csv",
+    "bytes": 4900,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_RETRAIN_RULEFIT60_CRAWL\\legitimate_no_analysis.csv",
+    "bytes": 4896,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_103555\\phishing_no_analysis.csv",
+    "bytes": 4461,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-phishing-testing-isolated\\browser_live_no_analysis.csv",
+    "bytes": 4402,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-phishing-300-isolated\\browser_live_no_analysis.csv",
+    "bytes": 4402,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1_discarded_20261013_103555\\legitimate_no_analysis.csv",
+    "bytes": 3622,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_29okt_rulefit60_v5019\\browser_live_no_analysis.csv",
+    "bytes": 3214,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\phishing_no_analysis.csv",
+    "bytes": 3110,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\LIVE_CRAWL_DATASET_V1\\legitimate_no_analysis.csv",
+    "bytes": 3105,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_rulefit32_v022_300\\browser_live_no_analysis.csv",
+    "bytes": 3080,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\hasil_uji_live\\legitimate_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_no_analysis.csv",
+    "bytes": 2905,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_after_fix_skipped_inactive.csv",
+    "bytes": 2846,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_after_fix_no_analysis.csv",
+    "bytes": 2834,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_skipped_inactive.csv",
+    "bytes": 2817,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_audit_no_analysis.csv",
+    "bytes": 2805,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261031_010551_638\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 2723,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 2412,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-smoke\\live_extension_eval_rows.csv",
+    "bytes": 2380,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 1751,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_001458_009\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 1663,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261016_203041_601\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 1576,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_155741_912\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 1564,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_183556_931\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 1506,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261030_114554_932\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 1450,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_gabungan\\browser_live_no_analysis.csv",
+    "bytes": 1375,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_gabungan\\browser_live_no_analysis.csv",
+    "bytes": 1368,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\portal_merdekasiber_brand_check\\browser_live_rows.csv",
+    "bytes": 1314,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\portal_merdekasiber_brand_check\\browser_live_rows.partial.csv",
+    "bytes": 1314,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_230536_964\\legitimate\\browser_live_incorrect.csv",
+    "bytes": 1313,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-300-isolated\\browser_live_no_analysis.csv",
+    "bytes": 1225,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_138\\browser_live_rows.csv",
+    "bytes": 1202,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_138\\browser_live_rows.partial.csv",
+    "bytes": 1202,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_219\\browser_live_rows.csv",
+    "bytes": 1197,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_219\\browser_live_rows.partial.csv",
+    "bytes": 1197,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_150\\browser_live_rows.csv",
+    "bytes": 1166,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_150\\browser_live_rows.partial.csv",
+    "bytes": 1166,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\FEATURE_PARITY_AUDIT_LEGITIMATE\\legitimate_10_urls.csv",
+    "bytes": 1136,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_159\\browser_live_rows.csv",
+    "bytes": 1101,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_159\\browser_live_rows.partial.csv",
+    "bytes": 1101,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-legitimate-300-isolated\\browser_live_no_analysis.csv",
+    "bytes": 1096,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-smoke-isolated-1\\browser_live_rows.csv",
+    "bytes": 1085,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-smoke-isolated-1\\browser_live_rows.partial.csv",
+    "bytes": 1085,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_139\\browser_live_rows.csv",
+    "bytes": 1056,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_139\\browser_live_rows.partial.csv",
+    "bytes": 1056,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_160\\browser_live_rows.csv",
+    "bytes": 1054,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_160\\browser_live_rows.partial.csv",
+    "bytes": 1054,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261025_141722_839\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 1046,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-stress-path-subdomain-query-300\\browser_live_no_analysis.csv",
+    "bytes": 1042,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_99\\browser_live_rows.csv",
+    "bytes": 1034,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_99\\browser_live_rows.partial.csv",
+    "bytes": 1034,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_149\\browser_live_rows.csv",
+    "bytes": 1026,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_149\\browser_live_rows.partial.csv",
+    "bytes": 1026,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_55\\browser_live_rows.csv",
+    "bytes": 1026,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_55\\browser_live_rows.partial.csv",
+    "bytes": 1026,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_62\\browser_live_rows.csv",
+    "bytes": 1014,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_62\\browser_live_rows.partial.csv",
+    "bytes": 1014,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_202333_982\\phishing\\browser_live_no_analysis.csv",
+    "bytes": 1010,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_184\\browser_live_rows.csv",
+    "bytes": 1008,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_184\\browser_live_rows.partial.csv",
+    "bytes": 1008,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_183\\browser_live_rows.csv",
+    "bytes": 1002,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_183\\browser_live_rows.partial.csv",
+    "bytes": 1002,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_246\\browser_live_rows.csv",
+    "bytes": 1002,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_246\\browser_live_rows.partial.csv",
+    "bytes": 1002,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_96\\browser_live_rows.csv",
+    "bytes": 986,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_96\\browser_live_rows.partial.csv",
+    "bytes": 986,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-guards-legitimate-phishing-like-300\\browser_live_no_analysis.csv",
+    "bytes": 933,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_296\\browser_live_rows.csv",
+    "bytes": 931,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_296\\browser_live_rows.partial.csv",
+    "bytes": 931,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_lanjutan\\browser_live_no_analysis.csv",
+    "bytes": 899,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_lanjutan\\browser_live_no_analysis.csv",
+    "bytes": 756,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-600-path-subdomain-plus-query\\browser_live_no_analysis.csv",
+    "bytes": 746,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t050-legitimate-phishing-like-300\\browser_live_no_analysis.csv",
+    "bytes": 647,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-legitimate-phishing-like-300\\browser_live_no_analysis.csv",
+    "bytes": 647,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t045-legitimate-path-subdomain-300\\browser_live_no_analysis.csv",
+    "bytes": 510,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine\\browser_live_no_analysis.csv",
+    "bytes": 507,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-path-subdomain-300\\browser_live_no_analysis.csv",
+    "bytes": 496,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-no-analysis-single\\url_297\\browser_live_no_analysis.csv",
+    "bytes": 493,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-no-analysis-single\\url_297\\browser_live_rows.csv",
+    "bytes": 493,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-no-analysis-single\\url_297\\browser_live_rows.partial.csv",
+    "bytes": 493,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_20261027\\browser_live_incorrect.csv",
+    "bytes": 403,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_20261027\\browser_live_no_analysis.csv",
+    "bytes": 403,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_final_20261027\\browser_live_incorrect.csv",
+    "bytes": 403,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_final_20261027\\browser_live_no_analysis.csv",
+    "bytes": 403,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "source_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\legitimate_300_browser_live\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\portal_merdekasiber_brand_check\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\portal_merdekasiber_brand_check\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\smoke_legitimate_3\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\ml_models_rulefit_118_recovered_v1\\browser_live_eval_current\\smoke_legitimate_3\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-smoke-isolated-1\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-smoke-isolated-1\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit45-t050-legitimate-stress-path-subdomain-query-300\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-no-analysis-single\\url_297\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_138\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_138\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_139\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_139\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_149\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_149\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_150\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_150\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_159\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_159\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_160\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_160\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_183\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_183\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_184\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_184\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_219\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_219\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_246\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_246\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_296\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_296\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_55\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_55\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_62\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_62\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_96\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_96\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_99\\browser_live_incorrect.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\mesin crawl\\Heurishield-V5\\reports\\live-extension-eval\\legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_99\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261017_231341_799\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_233834_432\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261015_220551_300\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\Deployment Extension\\data\\evaluasi_live\\live_20261014_230536_964\\legitimate\\browser_live_no_analysis.csv",
+    "bytes": 335,
+    "url_columns": [
+      "input_url"
+    ],
+    "label_columns": [
+      "expected_label"
+    ],
+    "age_columns": [
+      "original_domain_age_days"
+    ]
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\legitimate_worker_2.csv",
+    "bytes": 54,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\phishing_worker_2.csv",
+    "bytes": 39,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\legitimate_worker_3.csv",
+    "bytes": 35,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\legitimate_worker_1.csv",
+    "bytes": 32,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\phishing_worker_1.csv",
+    "bytes": 32,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  },
+  {
+    "path": "D:\\experimen\\mesin cralw pc\\tests\\parallel_inputs\\phishing_worker_3.csv",
+    "bytes": 32,
+    "url_columns": [
+      "url"
+    ],
+    "label_columns": [
+      "label"
+    ],
+    "age_columns": []
+  }
+]

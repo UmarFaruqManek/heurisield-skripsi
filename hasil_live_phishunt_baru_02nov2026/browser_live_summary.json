@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-01T19:11:12.728991+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishunt_phishing_semua_baru_02nov2026.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 183,
+  "evaluated": 121,
+  "correct": 119,
+  "incorrect": 2,
+  "no_analysis": 62,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 121,
+    "http_error": 3,
+    "no_valid_analysis": 55,
+    "unverified_http_status": 4
+  },
+  "response_category_counts": {
+    "http_403_denied": 1,
+    "http_status_unobserved": 53,
+    "not_found": 2,
+    "page_loaded": 127
+  },
+  "no_analysis_reason_counts": {
+    "http_403_denied": 1,
+    "http_status_unobserved": 53,
+    "model_analysis_missing_after_page_load": 3,
+    "not_found": 2,
+    "unverified_http_status": 3
+  },
+  "redirect_category_counts": {
+    "cross_host": 69,
+    "none": 82,
+    "same_host": 29,
+    "unknown": 3
+  },
+  "http_error_codes": {
+    "403": 1,
+    "404": 2
+  },
+  "model_analysis_count": 121,
+  "brand_identity_status_counts": {
+    "ambiguous": 12,
+    "identified": 21,
+    "unknown": 88
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 98.35,
+  "coverage_percent": 66.12
+}

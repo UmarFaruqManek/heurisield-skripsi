@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-02T07:11:47.227779+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "D:\\experimen\\ide bagus\\pengujian_eksternal_02nov2026\\phishing_15.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 15,
+  "evaluated": 10,
+  "correct": 8,
+  "incorrect": 2,
+  "no_analysis": 5,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 10,
+    "http_error": 1,
+    "no_valid_analysis": 4
+  },
+  "response_category_counts": {
+    "http_403_denied": 1,
+    "http_status_unobserved": 3,
+    "page_loaded": 11
+  },
+  "no_analysis_reason_counts": {
+    "http_403_denied": 1,
+    "http_status_unobserved": 3,
+    "model_analysis_missing_after_page_load": 1
+  },
+  "redirect_category_counts": {
+    "cross_host": 3,
+    "none": 8,
+    "same_host": 4
+  },
+  "http_error_codes": {
+    "403": 1
+  },
+  "model_analysis_count": 10,
+  "brand_identity_status_counts": {
+    "ambiguous": 3,
+    "identified": 4,
+    "unknown": 3
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 80.0,
+  "coverage_percent": 66.67
+}

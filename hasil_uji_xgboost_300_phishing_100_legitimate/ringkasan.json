@@ -1,0 +1,74 @@
+{
+  "input": {
+    "phishing": 300,
+    "legitimate": 100
+  },
+  "model17": {
+    "features": 17,
+    "threshold": 0.5
+  },
+  "model18": {
+    "features": 18,
+    "threshold": 0.38
+  },
+  "age_available": {
+    "phishing": 271,
+    "legitimate": 86
+  },
+  "age_status": {
+    "no_rdap_server": 39,
+    "found": 357,
+    "ConnectionError": 1,
+    "http_500": 1,
+    "ReadTimeout": 1,
+    "no_registration_event": 1
+  },
+  "leakage": {
+    "phishing": {
+      "exact_url_in_corpus": 3,
+      "in_training_site": 33,
+      "in_validation_site": 3,
+      "in_test_site": 2
+    },
+    "legitimate": {
+      "exact_url_in_corpus": 0,
+      "in_training_site": 0,
+      "in_validation_site": 0,
+      "in_test_site": 0
+    }
+  },
+  "XGB17": {
+    "phishing": {
+      "evaluated": 300,
+      "correct": 268,
+      "incorrect": 32,
+      "no_prediction": 0
+    },
+    "legitimate": {
+      "evaluated": 100,
+      "correct": 50,
+      "incorrect": 50,
+      "no_prediction": 0
+    }
+  },
+  "XGB18": {
+    "phishing": {
+      "evaluated": 271,
+      "correct": 267,
+      "incorrect": 4,
+      "no_prediction": 29
+    },
+    "legitimate": {
+      "evaluated": 86,
+      "correct": 68,
+      "incorrect": 18,
+      "no_prediction": 14
+    }
+  },
+  "limitations": [
+    "Offline: label dari daftar masukan belum diverifikasi terhadap halaman live.",
+    "XGB17 dilatih ulang tanpa umur; ini berbeda dari model XGB18 sebelumnya.",
+    "Metrik XGB18 hanya untuk URL yang berhasil memperoleh umur domain RDAP.",
+    "URL/domain yang tumpang tindih dengan data latih bukan uji eksternal independen."
+  ]
+}

@@ -1,0 +1,5 @@
+url,domain,subdomain,path,query,title
+https://siakad.unpatti.ac.id/gate/login,unpatti.ac.id,siakad,/gate/login,"site:ac.id ""siakad"" ""login""",Universitas Pattimura
+https://id.maptons.com/p/5336351061,maptons.com,id,/p/5336351061,"site:ac.id ""mfa"" ""login""","Pesona Mediterania Pos 11 Balikpapan Baru , Bundaran Monyet, Jl ..."
+https://console.verifyr.com/login,verifyr.com,console,/login,"site:gov ""verify"" ""account""",Login - Verifyr
+https://forum.yitechnology.com/t/yi-yi-technology/841,yitechnology.com,forum,/t/yi-yi-technology/841,"site:com ""secure"" ""account"" ""login""",YI Россия: Официальный форум по камерам видеонаблюдения YI …

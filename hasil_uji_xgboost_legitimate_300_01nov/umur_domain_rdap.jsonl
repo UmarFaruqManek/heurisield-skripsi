@@ -1,0 +1,420 @@
+{"domain": "baliprov.go.id", "status": "found", "registered_at": "2007-01-29T13:23:29+00:00", "age_days": 7215, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uwyo.edu", "status": "no_rdap_server"}
+{"domain": "stieama.ac.id", "status": "found", "registered_at": "2007-09-06T13:27:00+00:00", "age_days": 6995, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "essex.ac.uk", "status": "http_404"}
+{"domain": "yugabyte.com", "status": "found", "registered_at": "2015-12-01T20:43:41+00:00", "age_days": 3987, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "nvcc.edu", "status": "no_rdap_server"}
+{"domain": "lkouniv.ac.in", "status": "found", "registered_at": "2005-01-18T03:14:28+00:00", "age_days": 7956, "provider": "https://rdap.nixiregistry.in/rdap/"}
+{"domain": "kiu.ac.ug", "status": "no_rdap_server"}
+{"domain": "curtin.edu.au", "status": "no_registration_event"}
+{"domain": "tamu.edu", "status": "no_rdap_server"}
+{"domain": "poltekkesjambi.ac.id", "status": "found", "registered_at": "2013-01-29T13:20:54+00:00", "age_days": 5023, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "universal.ac.id", "status": "found", "registered_at": "2021-05-14T03:15:43+00:00", "age_days": 1996, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uillinois.edu", "status": "no_rdap_server"}
+{"domain": "mnstate.edu", "status": "no_rdap_server"}
+{"domain": "tc.vic.edu.au", "status": "no_registration_event"}
+{"domain": "esaunggul.ac.id", "status": "found", "registered_at": "2010-01-29T13:26:56+00:00", "age_days": 6119, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "cuhk.edu.hk", "status": "no_rdap_server"}
+{"domain": "ticketleap.com", "status": "found", "registered_at": "2002-01-22T00:48:59+00:00", "age_days": 9048, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "mccnh.edu", "status": "no_rdap_server"}
+{"domain": "unissula.ac.id", "status": "found", "registered_at": "1998-06-25T13:27:03+00:00", "age_days": 10355, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "le.ac.uk", "status": "http_404"}
+{"domain": "upgrisba.ac.id", "status": "found", "registered_at": "2021-11-26T10:35:11+00:00", "age_days": 1800, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "smumn.edu", "status": "no_rdap_server"}
+{"domain": "methodistcollege.edu", "status": "no_rdap_server"}
+{"domain": "uidaho.edu", "status": "no_rdap_server"}
+{"domain": "revolut.com", "status": "found", "registered_at": "2006-05-04T22:01:48+00:00", "age_days": 7485, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "prc.gov.ph", "status": "no_rdap_server"}
+{"domain": "unmer.ac.id", "status": "found", "registered_at": "1997-05-03T13:20:59+00:00", "age_days": 10773, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "stu.edu.tw", "status": "http_404"}
+{"domain": "nwu.ac.za", "status": "no_rdap_server"}
+{"domain": "kit.ac.jp", "status": "no_rdap_server"}
+{"domain": "ids.ac.uk", "status": "http_404"}
+{"domain": "chula.ac.th", "status": "found", "registered_at": "1999-01-16T17:00:00+00:00", "age_days": 10150, "provider": "https://rdap.thains.co.th/"}
+{"domain": "utah.edu", "status": "no_rdap_server"}
+{"domain": "umu.ac.ug", "status": "no_rdap_server"}
+{"domain": "polibatam.ac.id", "status": "found", "registered_at": "2001-04-20T13:20:54+00:00", "age_days": 9325, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "missouri.edu", "status": "no_rdap_server"}
+{"domain": "iu.edu", "status": "no_rdap_server"}
+{"domain": "raharja.ac.id", "status": "found", "registered_at": "2001-07-30T13:32:22+00:00", "age_days": 9224, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ugb.edu.br", "status": "found", "registered_at": "2005-06-13T18:47:47+00:00", "age_days": 7810, "provider": "https://rdap.registro.br/"}
+{"domain": "stikom-bali.ac.id", "status": "found", "registered_at": "2006-02-01T13:27:01+00:00", "age_days": 7577, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "snu.ac.kr", "status": "found", "registered_at": "1997-06-24T15:00:00+00:00", "age_days": 10721, "provider": "https://rdap.nic.or.kr/"}
+{"domain": "chicago.gov", "status": "found", "registered_at": "2018-06-20T22:15:05+00:00", "age_days": 3055, "provider": "https://rdap.nic.gov/rdap/"}
+{"domain": "undiksha.ac.id", "status": "found", "registered_at": "2006-10-17T13:27:03+00:00", "age_days": 7319, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "poltekkesgorontalo.ac.id", "status": "found", "registered_at": "2015-10-06T01:41:20+00:00", "age_days": 4043, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "unishams.edu.my", "status": "no_rdap_server"}
+{"domain": "howard.edu", "status": "no_rdap_server"}
+{"domain": "celeryq.dev", "status": "found", "registered_at": "2022-03-16T13:31:48.444000+00:00", "age_days": 1690, "provider": "https://pubapi.registry.google/rdap/"}
+{"domain": "bantenprov.go.id", "status": "found", "registered_at": "2005-12-30T13:23:29+00:00", "age_days": 7610, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "babelprov.go.id", "status": "found", "registered_at": "2008-12-22T13:35:10+00:00", "age_days": 6522, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "up.edu.mx", "status": "no_rdap_server"}
+{"domain": "poltekkesbengkulu.ac.id", "status": "found", "registered_at": "2019-09-06T13:37:20+00:00", "age_days": 2612, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "illinoisstate.edu", "status": "no_rdap_server"}
+{"domain": "kemnaker.go.id", "status": "found", "registered_at": "2016-01-15T03:23:55+00:00", "age_days": 3942, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "und.edu", "status": "no_rdap_server"}
+{"domain": "institutointep.edu.co", "status": "no_rdap_server"}
+{"domain": "uthscsa.edu", "status": "no_rdap_server"}
+{"domain": "uny.ac.id", "status": "found", "registered_at": "2000-02-08T13:20:59+00:00", "age_days": 9762, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "nativeweb.org", "status": "found", "registered_at": "1997-07-04T04:00:00.571000+00:00", "age_days": 10711, "provider": "https://rdap.publicinterestregistry.org/rdap/"}
+{"domain": "montclair.edu", "status": "no_rdap_server"}
+{"domain": "icom.edu", "status": "no_rdap_server"}
+{"domain": "enac.gov.it", "status": "no_rdap_server"}
+{"domain": "sun.ac.za", "status": "no_rdap_server"}
+{"domain": "singaporeexpats.com", "status": "found", "registered_at": "2002-07-25T18:32:38+00:00", "age_days": 8864, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "unukalbar.ac.id", "status": "found", "registered_at": "2015-05-07T09:20:32+00:00", "age_days": 4195, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "unisbar.ac.id", "status": "found", "registered_at": "2021-05-31T07:35:07+00:00", "age_days": 1979, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "cau.edu.tr", "status": "no_rdap_server"}
+{"domain": "yonsei.ac.kr", "status": "found", "registered_at": "1993-06-07T15:00:00+00:00", "age_days": 12199, "provider": "https://rdap.nic.or.kr/"}
+{"domain": "ui.edu.ng", "status": "http_502"}
+{"domain": "jcu.edu.au", "status": "no_registration_event"}
+{"domain": "hkust.edu.hk", "status": "no_rdap_server"}
+{"domain": "umy.ac.id", "status": "found", "registered_at": "1999-01-04T13:20:59+00:00", "age_days": 10162, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ncku.edu.tw", "status": "http_404"}
+{"domain": "utem.edu.my", "status": "no_rdap_server"}
+{"domain": "swosu.edu", "status": "no_rdap_server"}
+{"domain": "mut.ac.ke", "status": "found", "registered_at": "2015-05-13T14:06:44+00:00", "age_days": 4189, "provider": "https://rdap.kenic.or.ke/"}
+{"domain": "eku.edu", "status": "no_rdap_server"}
+{"domain": "iainbengkulu.ac.id", "status": "found", "registered_at": "2013-02-17T13:26:57+00:00", "age_days": 5004, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "cardiff.ac.uk", "status": "http_404"}
+{"domain": "utp.edu.pe", "status": "no_rdap_server"}
+{"domain": "uiowa.edu", "status": "no_rdap_server"}
+{"domain": "polri.go.id", "status": "found", "registered_at": "2000-05-10T13:29:35+00:00", "age_days": 9670, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uwa.edu.au", "status": "no_registration_event"}
+{"domain": "mscok.edu", "status": "no_rdap_server"}
+{"domain": "ikippgrikaltim.ac.id", "status": "found", "registered_at": "2013-12-18T04:34:57+00:00", "age_days": 4700, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "zueb.edu.pk", "status": "no_rdap_server"}
+{"domain": "unipa.ac.id", "status": "found", "registered_at": "2003-12-24T13:32:26+00:00", "age_days": 8347, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "stiesabang.ac.id", "status": "found", "registered_at": "2018-08-02T12:47:49+00:00", "age_days": 3012, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "mef.gov.it", "status": "no_rdap_server"}
+{"domain": "mfu.ac.th", "status": "found", "registered_at": "2000-05-15T17:00:00+00:00", "age_days": 9665, "provider": "https://rdap.thains.co.th/"}
+{"domain": "hcmus.edu.vn", "status": "no_rdap_server"}
+{"domain": "calcoast.edu", "status": "no_rdap_server"}
+{"domain": "tn.edu", "status": "no_rdap_server"}
+{"domain": "ohio.edu", "status": "no_rdap_server"}
+{"domain": "ejust.edu.eg", "status": "no_rdap_server"}
+{"domain": "unimal.ac.id", "status": "found", "registered_at": "2006-10-06T13:20:59+00:00", "age_days": 7330, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "sari-mutiara.ac.id", "status": "found", "registered_at": "2013-02-27T13:32:22+00:00", "age_days": 4994, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "imperialcollegeegypt.edu.eg", "status": "no_rdap_server"}
+{"domain": "ummetro.ac.id", "status": "found", "registered_at": "2007-08-30T13:32:26+00:00", "age_days": 7002, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ndsu.edu", "status": "no_rdap_server"}
+{"domain": "iainutuban.ac.id", "status": "found", "registered_at": "2020-02-18T04:21:36+00:00", "age_days": 2447, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "batstate-u.edu.ph", "status": "no_rdap_server"}
+{"domain": "usu.ac.id", "status": "found", "registered_at": "1995-05-18T13:27:03+00:00", "age_days": 11489, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "idu.ac.id", "status": "found", "registered_at": "2009-06-17T13:26:57+00:00", "age_days": 6345, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "untad.ac.id", "status": "found", "registered_at": "2009-12-19T13:20:59+00:00", "age_days": 6160, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "unsrat.ac.id", "status": "found", "registered_at": "2001-02-15T13:27:03+00:00", "age_days": 9389, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "scsa.wa.edu.au", "status": "no_registration_event"}
+{"domain": "princeton.edu", "status": "no_rdap_server"}
+{"domain": "samarindakota.go.id", "status": "found", "registered_at": "2009-03-05T13:35:20+00:00", "age_days": 6449, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ohu.edu.tr", "status": "no_rdap_server"}
+{"domain": "iitgn.ac.in", "status": "found", "registered_at": "2008-12-01T05:40:47.036000+00:00", "age_days": 6543, "provider": "https://rdap.nixiregistry.in/rdap/"}
+{"domain": "hbku.edu.qa", "status": "no_rdap_server"}
+{"domain": "poltekkesbanten.ac.id", "status": "found", "registered_at": "2013-03-06T13:26:59+00:00", "age_days": 4987, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "lampungprov.go.id", "status": "found", "registered_at": "2008-12-10T13:29:32+00:00", "age_days": 6534, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "aapg.org", "status": "found", "registered_at": "1995-03-06T05:00:00+00:00", "age_days": 11562, "provider": "https://rdap.publicinterestregistry.org/rdap/"}
+{"domain": "sdstate.edu", "status": "no_rdap_server"}
+{"domain": "qu.edu.qa", "status": "no_rdap_server"}
+{"domain": "minnstate.edu", "status": "no_rdap_server"}
+{"domain": "bazeuniversity.edu.ng", "status": "ReadTimeout"}
+{"domain": "tku.edu.tw", "status": "http_404"}
+{"domain": "montana.edu", "status": "no_rdap_server"}
+{"domain": "xmission.com", "status": "found", "registered_at": "1994-03-25T05:00:00+00:00", "age_days": 11908, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "unilasalle.edu.br", "status": "found", "registered_at": "2002-05-02T12:06:36+00:00", "age_days": 8948, "provider": "https://rdap.registro.br/"}
+{"domain": "mp.edu.au", "status": "no_registration_event"}
+{"domain": "umkt.ac.id", "status": "found", "registered_at": "2017-08-31T12:52:51+00:00", "age_days": 3348, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "yabla.com", "status": "found", "registered_at": "2000-04-03T23:56:11+00:00", "age_days": 9707, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "montgomerycollege.edu", "status": "no_rdap_server"}
+{"domain": "ahu.edu", "status": "no_rdap_server"}
+{"domain": "reading.ac.uk", "status": "http_404"}
+{"domain": "manipal.edu.my", "status": "no_rdap_server"}
+{"domain": "ouhsc.edu", "status": "no_rdap_server"}
+{"domain": "umsb.ac.id", "status": "found", "registered_at": "2007-01-14T13:20:59+00:00", "age_days": 7230, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ncl.ac.uk", "status": "http_404"}
+{"domain": "layanan.go.id", "status": "found", "registered_at": "2011-07-11T13:35:16+00:00", "age_days": 5591, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uri.edu", "status": "no_rdap_server"}
+{"domain": "unsoed.ac.id", "status": "found", "registered_at": "1997-01-31T13:27:03+00:00", "age_days": 10865, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "umgc.edu", "status": "no_rdap_server"}
+{"domain": "adhe.edu", "status": "no_rdap_server"}
+{"domain": "sus.edu", "status": "no_rdap_server"}
+{"domain": "wisc.edu", "status": "no_rdap_server"}
+{"domain": "unej.ac.id", "status": "found", "registered_at": "1998-10-04T13:32:26+00:00", "age_days": 10254, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ncu.edu.tw", "status": "http_404"}
+{"domain": "jogjakota.go.id", "status": "found", "registered_at": "2008-10-31T13:35:14+00:00", "age_days": 6574, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ukzn.ac.za", "status": "no_rdap_server"}
+{"domain": "hawaii.edu", "status": "no_rdap_server"}
+{"domain": "uns.ac.id", "status": "found", "registered_at": "1998-10-18T13:32:27+00:00", "age_days": 10240, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "utm.edu", "status": "no_rdap_server"}
+{"domain": "ntu.edu.tw", "status": "http_404"}
+{"domain": "jabarprov.go.id", "status": "found", "registered_at": "2006-02-09T13:23:32+00:00", "age_days": 7569, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "dswd.gov.ph", "status": "no_rdap_server"}
+{"domain": "umaine.edu", "status": "no_rdap_server"}
+{"domain": "utahtech.edu", "status": "no_rdap_server"}
+{"domain": "uky.edu", "status": "no_rdap_server"}
+{"domain": "uic.edu.ph", "status": "no_rdap_server"}
+{"domain": "tamus.edu", "status": "no_rdap_server"}
+{"domain": "iti.ac.id", "status": "found", "registered_at": "1995-05-18T13:20:52+00:00", "age_days": 11489, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "drew.edu", "status": "no_rdap_server"}
+{"domain": "wvu.edu", "status": "no_rdap_server"}
+{"domain": "hashicorp.com", "status": "ConnectionError"}
+{"domain": "tubankab.go.id", "status": "found", "registered_at": "2006-02-06T13:29:37+00:00", "age_days": 7572, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "medan.go.id", "status": "found", "registered_at": "2024-03-26T02:11:11+00:00", "age_days": 949, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "maine.edu", "status": "no_rdap_server"}
+{"domain": "ung.ac.id", "status": "found", "registered_at": "2004-11-01T13:20:59+00:00", "age_days": 8034, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "imu.edu.my", "status": "no_rdap_server"}
+{"domain": "unri.ac.id", "status": "found", "registered_at": "1998-04-02T13:27:03+00:00", "age_days": 10439, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "srta.gov.ae", "status": "no_rdap_server"}
+{"domain": "ehawaii.gov", "status": "found", "registered_at": "2003-04-18T20:35:45+00:00", "age_days": 8597, "provider": "https://rdap.nic.gov/rdap/"}
+{"domain": "green.edu.bd", "status": "no_rdap_server"}
+{"domain": "metrostate.edu", "status": "no_rdap_server"}
+{"domain": "wvm.edu", "status": "no_rdap_server"}
+{"domain": "polnep.ac.id", "status": "found", "registered_at": "2003-01-15T13:32:21+00:00", "age_days": 8690, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uitm.edu.my", "status": "no_rdap_server"}
+{"domain": "swu.ac.th", "status": "found", "registered_at": "1999-02-02T17:00:00+00:00", "age_days": 10133, "provider": "https://rdap.thains.co.th/"}
+{"domain": "sau.edu.bd", "status": "no_rdap_server"}
+{"domain": "uade.edu.ar", "status": "ReadTimeout"}
+{"domain": "fsm.edu.tr", "status": "no_rdap_server"}
+{"domain": "inesap.edu.mx", "status": "no_rdap_server"}
+{"domain": "umaryland.edu", "status": "no_rdap_server"}
+{"domain": "uams.edu", "status": "no_rdap_server"}
+{"domain": "riau.go.id", "status": "found", "registered_at": "2000-05-10T13:29:36+00:00", "age_days": 9670, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "malutprov.go.id", "status": "found", "registered_at": "2007-08-30T13:35:16+00:00", "age_days": 7002, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "ulm.ac.id", "status": "found", "registered_at": "2016-05-09T12:00:34+00:00", "age_days": 3827, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "swellendam.gov.za", "status": "no_rdap_server"}
+{"domain": "omu.edu.tr", "status": "no_rdap_server"}
+{"domain": "foxrothschild.com", "status": "found", "registered_at": "1998-05-29T04:00:00+00:00", "age_days": 10382, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "anexa.edu.mx", "status": "no_rdap_server"}
+{"domain": "unesa.ac.id", "status": "found", "registered_at": "2001-08-19T13:27:03+00:00", "age_days": 9204, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "unpatti.ac.id", "status": "found", "registered_at": "2011-03-21T13:20:59+00:00", "age_days": 5703, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "umich.edu", "status": "no_rdap_server"}
+{"domain": "bmc.edu.sa", "status": "no_rdap_server"}
+{"domain": "ames.edu.au", "status": "no_registration_event"}
+{"domain": "uft.edu.br", "status": "found", "registered_at": "2003-07-04T10:37:36+00:00", "age_days": 8520, "provider": "https://rdap.registro.br/"}
+{"domain": "mak.ac.ug", "status": "no_rdap_server"}
+{"domain": "itekesmukalbar.ac.id", "status": "found", "registered_at": "2022-08-30T05:49:18+00:00", "age_days": 1523, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "leedsbeckett.ac.uk", "status": "http_404"}
+{"domain": "flinders.edu.au", "status": "no_registration_event"}
+{"domain": "stitmadani.ac.id", "status": "found", "registered_at": "2017-07-30T09:36:22+00:00", "age_days": 3380, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "sonoran.edu", "status": "no_rdap_server"}
+{"domain": "osu.edu", "status": "no_rdap_server"}
+{"domain": "beds.ac.uk", "status": "http_404"}
+{"domain": "upenn.edu", "status": "no_rdap_server"}
+{"domain": "polyu.edu.hk", "status": "no_rdap_server"}
+{"domain": "21.edu.ar", "status": "ReadTimeout"}
+{"domain": "nstru.ac.th", "status": "found", "registered_at": "2005-12-14T17:00:00+00:00", "age_days": 7626, "provider": "https://rdap.thains.co.th/"}
+{"domain": "fisat.ac.in", "status": "found", "registered_at": "2003-06-18T19:31:08+00:00", "age_days": 8536, "provider": "https://rdap.nixiregistry.in/rdap/"}
+{"domain": "areandina.edu.co", "status": "no_rdap_server"}
+{"domain": "sulekha.com", "status": "found", "registered_at": "1998-02-25T05:00:00+00:00", "age_days": 10475, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "labura.go.id", "status": "found", "registered_at": "2017-06-12T08:07:25+00:00", "age_days": 3428, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "donorbox.org", "status": "found", "registered_at": "2013-09-23T07:47:37.205000+00:00", "age_days": 4786, "provider": "https://rdap.publicinterestregistry.org/rdap/"}
+{"domain": "sosmt.gov", "status": "found", "registered_at": "2018-03-02T18:45:05+00:00", "age_days": 3165, "provider": "https://rdap.nic.gov/rdap/"}
+{"domain": "ontario.ca", "status": "found", "registered_at": "2003-08-07T20:37:15+00:00", "age_days": 8486, "provider": "https://rdap.ca.fury.ca/rdap/"}
+{"domain": "nwu.edu.ph", "status": "no_rdap_server"}
+{"domain": "massey.ac.nz", "status": "no_rdap_server"}
+{"domain": "udst.edu.qa", "status": "no_rdap_server"}
+{"domain": "potomacstatecollege.edu", "status": "no_rdap_server"}
+{"domain": "newschool.edu", "status": "no_rdap_server"}
+{"domain": "hufs.ac.kr", "status": "found", "registered_at": "1994-06-14T15:00:00+00:00", "age_days": 11827, "provider": "https://rdap.nic.or.kr/"}
+{"domain": "usnh.edu", "status": "no_rdap_server"}
+{"domain": "uaz.edu.mx", "status": "no_rdap_server"}
+{"domain": "tenet.ac.za", "status": "no_rdap_server"}
+{"domain": "southark.edu", "status": "no_rdap_server"}
+{"domain": "iastate.edu", "status": "no_rdap_server"}
+{"domain": "ku.edu", "status": "no_rdap_server"}
+{"domain": "aifa.gov.it", "status": "no_rdap_server"}
+{"domain": "unm.edu", "status": "no_rdap_server"}
+{"domain": "nebraska.edu", "status": "no_rdap_server"}
+{"domain": "divx.com", "status": "found", "registered_at": "1997-09-02T04:00:00+00:00", "age_days": 10651, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "uel.ac.uk", "status": "http_404"}
+{"domain": "msu.edu", "status": "no_rdap_server"}
+{"domain": "massbay.edu", "status": "no_rdap_server"}
+{"domain": "ucsicollege.edu.my", "status": "no_rdap_server"}
+{"domain": "uark.edu", "status": "no_rdap_server"}
+{"domain": "alqolam.ac.id", "status": "found", "registered_at": "2014-08-19T07:39:06+00:00", "age_days": 4456, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "k12.sd.us", "status": "no_rdap_server"}
+{"domain": "skkmigas.go.id", "status": "found", "registered_at": "2013-03-28T13:29:36+00:00", "age_days": 4965, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "osmania.ac.in", "status": "found", "registered_at": "2002-12-31T18:47:50+00:00", "age_days": 8705, "provider": "https://rdap.nixiregistry.in/rdap/"}
+{"domain": "uinsgd.ac.id", "status": "found", "registered_at": "2005-10-25T13:20:59+00:00", "age_days": 7676, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "southernct.edu", "status": "no_rdap_server"}
+{"domain": "wikinews.org", "status": "found", "registered_at": "2004-04-02T09:15:29.256000+00:00", "age_days": 8247, "provider": "https://rdap.publicinterestregistry.org/rdap/"}
+{"domain": "superior.edu.pk", "status": "no_rdap_server"}
+{"domain": "kalselprov.go.id", "status": "found", "registered_at": "2007-02-13T13:23:33+00:00", "age_days": 7200, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "diu.edu.bd", "status": "no_rdap_server"}
+{"domain": "nyp.edu.sg", "status": "found", "registered_at": "1996-07-14T16:00:00+00:00", "age_days": 11066, "provider": "https://rdap.sgnic.sg/rdap/"}
+{"domain": "northumbria.ac.uk", "status": "http_404"}
+{"domain": "uinsa.ac.id", "status": "found", "registered_at": "2022-08-15T12:46:17+00:00", "age_days": 1538, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "poltekkesjogja.ac.id", "status": "found", "registered_at": "2011-02-09T13:26:59+00:00", "age_days": 5743, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "itbriaupesisir.ac.id", "status": "found", "registered_at": "2025-08-11T13:35:03+00:00", "age_days": 446, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "staialazhargowa.ac.id", "status": "found", "registered_at": "2024-09-04T04:31:11+00:00", "age_days": 787, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "oregonstate.edu", "status": "no_rdap_server"}
+{"domain": "kaust.edu.sa", "status": "no_rdap_server"}
+{"domain": "unl.edu", "status": "no_rdap_server"}
+{"domain": "sise.edu.pe", "status": "no_rdap_server"}
+{"domain": "komdigi.go.id", "status": "found", "registered_at": "2024-10-28T05:57:27+00:00", "age_days": 733, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "westernu.edu", "status": "no_rdap_server"}
+{"domain": "fedpolyado.edu.ng", "status": "http_502"}
+{"domain": "uai.ac.id", "status": "found", "registered_at": "2000-08-12T13:20:58+00:00", "age_days": 9576, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "trecemartirescity.gov.ph", "status": "no_rdap_server"}
+{"domain": "isbiaceh.ac.id", "status": "found", "registered_at": "2014-11-26T09:12:16+00:00", "age_days": 4357, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uec.edu.eg", "status": "no_rdap_server"}
+{"domain": "uconn.edu", "status": "no_rdap_server"}
+{"domain": "nnmc.edu", "status": "no_rdap_server"}
+{"domain": "bue.edu.eg", "status": "no_rdap_server"}
+{"domain": "uoregon.edu", "status": "no_rdap_server"}
+{"domain": "hsu.edu.hk", "status": "no_rdap_server"}
+{"domain": "uwm.edu", "status": "no_rdap_server"}
+{"domain": "oregoncoast.edu", "status": "no_rdap_server"}
+{"domain": "nmsu.edu", "status": "no_rdap_server"}
+{"domain": "posit.co", "status": "no_rdap_server"}
+{"domain": "ips.edu.ar", "status": "ReadTimeout"}
+{"domain": "dfp.gov.it", "status": "no_rdap_server"}
+{"domain": "wednet.edu", "status": "no_rdap_server"}
+{"domain": "uhi.ac.uk", "status": "http_404"}
+{"domain": "kemenhub.go.id", "status": "found", "registered_at": "2021-08-19T06:16:07+00:00", "age_days": 1899, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "fec.gov", "status": "found", "registered_at": "1997-10-02T01:29:23+00:00", "age_days": 10621, "provider": "https://rdap.nic.gov/rdap/"}
+{"domain": "uinkhas.ac.id", "status": "found", "registered_at": "2021-06-07T03:10:50+00:00", "age_days": 1972, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "sjeccd.edu", "status": "no_rdap_server"}
+{"domain": "kyushu-u.ac.jp", "status": "no_rdap_server"}
+{"domain": "arm.gov", "status": "found", "registered_at": "1997-10-02T01:29:20+00:00", "age_days": 10621, "provider": "https://rdap.nic.gov/rdap/"}
+{"domain": "avila.edu", "status": "no_rdap_server"}
+{"domain": "kznhealth.gov.za", "status": "no_rdap_server"}
+{"domain": "op.ac.nz", "status": "no_rdap_server"}
+{"domain": "unja.ac.id", "status": "found", "registered_at": "2003-11-11T13:20:59+00:00", "age_days": 8390, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "uinbanten.ac.id", "status": "found", "registered_at": "2017-04-21T09:59:37+00:00", "age_days": 3480, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "peru.edu", "status": "no_rdap_server"}
+{"domain": "nycenet.edu", "status": "no_rdap_server"}
+{"domain": "vut.ac.za", "status": "no_rdap_server"}
+{"domain": "etsu.edu", "status": "no_rdap_server"}
+{"domain": "snhu.edu", "status": "no_rdap_server"}
+{"domain": "repec.org", "status": "found", "registered_at": "2000-02-27T15:05:13.568000+00:00", "age_days": 9743, "provider": "https://rdap.publicinterestregistry.org/rdap/"}
+{"domain": "illinois.edu", "status": "no_rdap_server"}
+{"domain": "dbuniversity.ac.in", "status": "found", "registered_at": "2009-03-27T04:27:40.587000+00:00", "age_days": 6427, "provider": "https://rdap.nixiregistry.in/rdap/"}
+{"domain": "louisiana.edu", "status": "no_rdap_server"}
+{"domain": "yuntech.edu.tw", "status": "http_404"}
+{"domain": "uqu.edu.sa", "status": "no_rdap_server"}
+{"domain": "accesscomm.ca", "status": "found", "registered_at": "2000-10-19T17:23:18+00:00", "age_days": 9508, "provider": "https://rdap.ca.fury.ca/rdap/"}
+{"domain": "unbi.ac.id", "status": "found", "registered_at": "2019-10-24T05:29:13+00:00", "age_days": 2564, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "arizona.edu", "status": "no_rdap_server"}
+{"domain": "atim.ac.id", "status": "found", "registered_at": "2012-07-18T13:26:55+00:00", "age_days": 5218, "provider": "https://rdap.pandi.id/rdap/"}
+{"domain": "zoom.com", "status": "found", "registered_at": "1999-04-22T04:00:00+00:00", "age_days": 10054, "provider": "https://rdap.verisign.com/com/v1/"}
+{"domain": "uner.edu.ar", "status": "ReadTimeout"}
+{"domain": "uwyo.edu", "status": "found", "attempts": {"whodat": 200}, "registered_at": "1988-06-21T00:00:00+00:00", "age_days": 14011, "provider": "whodat"}
+{"domain": "essex.ac.uk", "status": "fallback_unavailable", "attempts": {"whodat": 200, "beryl": 502, "dun": 404}}
+{"domain": "nvcc.edu", "status": "found", "attempts": {"whodat": 200}, "registered_at": "2002-02-04T00:00:00+00:00", "age_days": 9035, "provider": "whodat"}
+{"domain": "kiu.ac.ug", "status": "fallback_unavailable", "attempts": {"whodat": 200, "beryl": 502, "dun": 404}}
+{"domain": "curtin.edu.au", "status": "fallback_unavailable", "attempts": {"whodat": 429, "beryl": 200, "dun": 404}}
+{"domain": "tamu.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "uillinois.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "mnstate.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "tc.vic.edu.au", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 200, "dun": 404}}
+{"domain": "cuhk.edu.hk", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "mccnh.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "le.ac.uk", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "smumn.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "methodistcollege.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "uidaho.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "prc.gov.ph", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "stu.edu.tw", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "nwu.ac.za", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "kit.ac.jp", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "ids.ac.uk", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "utah.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "umu.ac.ug", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "missouri.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "iu.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "unishams.edu.my", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "howard.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "up.edu.mx", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "illinoisstate.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "und.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "institutointep.edu.co", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "uthscsa.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "montclair.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "icom.edu", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "enac.gov.it", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "sun.ac.za", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "cau.edu.tr", "status": "fallback_unavailable", "attempts": {"whodat": "cooldown", "beryl": 502, "dun": 404}}
+{"domain": "adhe.edu", "status": "found", "registered_at": "2006-08-30T16:30:37+00:00", "age_days": 7367, "provider": "verisign_whois_edu"}
+{"domain": "ahu.edu", "status": "found", "registered_at": "2018-08-02T18:52:23+00:00", "age_days": 3012, "provider": "verisign_whois_edu"}
+{"domain": "arizona.edu", "status": "found", "registered_at": "1986-01-23T05:00:00+00:00", "age_days": 14891, "provider": "verisign_whois_edu"}
+{"domain": "avila.edu", "status": "found", "registered_at": "1994-08-16T04:00:00+00:00", "age_days": 11764, "provider": "verisign_whois_edu"}
+{"domain": "calcoast.edu", "status": "found", "registered_at": "1998-07-17T04:00:00+00:00", "age_days": 10333, "provider": "verisign_whois_edu"}
+{"domain": "drew.edu", "status": "found", "registered_at": "1989-12-15T05:00:00+00:00", "age_days": 13469, "provider": "verisign_whois_edu"}
+{"domain": "eku.edu", "status": "found", "registered_at": "1993-03-22T05:00:00+00:00", "age_days": 12276, "provider": "verisign_whois_edu"}
+{"domain": "etsu.edu", "status": "found", "registered_at": "1997-09-12T04:00:00+00:00", "age_days": 10641, "provider": "verisign_whois_edu"}
+{"domain": "hawaii.edu", "status": "found", "registered_at": "1986-10-27T05:00:00+00:00", "age_days": 14614, "provider": "verisign_whois_edu"}
+{"domain": "howard.edu", "status": "found", "registered_at": "1990-07-06T04:00:00+00:00", "age_days": 13266, "provider": "verisign_whois_edu"}
+{"domain": "iastate.edu", "status": "found", "registered_at": "1987-06-22T04:00:00+00:00", "age_days": 14376, "provider": "verisign_whois_edu"}
+{"domain": "icom.edu", "status": "found", "registered_at": "2022-06-16T15:24:46+00:00", "age_days": 1598, "provider": "verisign_whois_edu"}
+{"domain": "illinois.edu", "status": "found", "registered_at": "1997-01-13T05:00:00+00:00", "age_days": 10883, "provider": "verisign_whois_edu"}
+{"domain": "illinoisstate.edu", "status": "found", "registered_at": "2000-06-22T20:45:52+00:00", "age_days": 9627, "provider": "verisign_whois_edu"}
+{"domain": "iu.edu", "status": "found", "registered_at": "1997-02-21T05:00:00+00:00", "age_days": 10844, "provider": "verisign_whois_edu"}
+{"domain": "ku.edu", "status": "found", "registered_at": "1996-12-23T05:00:00+00:00", "age_days": 10904, "provider": "verisign_whois_edu"}
+{"domain": "louisiana.edu", "status": "found", "registered_at": "1999-09-21T20:42:27+00:00", "age_days": 9902, "provider": "verisign_whois_edu"}
+{"domain": "maine.edu", "status": "found", "registered_at": "1988-12-02T05:00:00+00:00", "age_days": 13847, "provider": "verisign_whois_edu"}
+{"domain": "massbay.edu", "status": "found", "registered_at": "2002-01-09T20:35:30+00:00", "age_days": 9061, "provider": "verisign_whois_edu"}
+{"domain": "mccnh.edu", "status": "found", "registered_at": "2011-11-29T17:06:40+00:00", "age_days": 5450, "provider": "verisign_whois_edu"}
+{"domain": "methodistcollege.edu", "status": "found", "registered_at": "1998-09-08T04:00:00+00:00", "age_days": 10280, "provider": "verisign_whois_edu"}
+{"domain": "metrostate.edu", "status": "found", "registered_at": "1998-12-09T05:00:00+00:00", "age_days": 10188, "provider": "verisign_whois_edu"}
+{"domain": "minnstate.edu", "status": "found", "registered_at": "2016-09-06T21:34:06+00:00", "age_days": 3707, "provider": "verisign_whois_edu"}
+{"domain": "missouri.edu", "status": "found", "registered_at": "1987-12-22T05:00:00+00:00", "age_days": 14193, "provider": "verisign_whois_edu"}
+{"domain": "mnstate.edu", "status": "found", "registered_at": "1999-02-16T05:00:00+00:00", "age_days": 10119, "provider": "verisign_whois_edu"}
+{"domain": "montana.edu", "status": "found", "registered_at": "1988-09-28T04:00:00+00:00", "age_days": 13912, "provider": "verisign_whois_edu"}
+{"domain": "montclair.edu", "status": "found", "registered_at": "1989-01-18T05:00:00+00:00", "age_days": 13800, "provider": "verisign_whois_edu"}
+{"domain": "montgomerycollege.edu", "status": "found", "registered_at": "1996-08-28T04:00:00+00:00", "age_days": 11021, "provider": "verisign_whois_edu"}
+{"domain": "mscok.edu", "status": "found", "registered_at": "2002-01-25T21:20:08+00:00", "age_days": 9045, "provider": "verisign_whois_edu"}
+{"domain": "msu.edu", "status": "found", "registered_at": "1987-05-06T04:00:00+00:00", "age_days": 14423, "provider": "verisign_whois_edu"}
+{"domain": "ndsu.edu", "status": "found", "registered_at": "1999-09-20T15:41:53+00:00", "age_days": 9903, "provider": "verisign_whois_edu"}
+{"domain": "nebraska.edu", "status": "found", "registered_at": "2002-07-01T15:09:19+00:00", "age_days": 8888, "provider": "verisign_whois_edu"}
+{"domain": "newschool.edu", "status": "found", "registered_at": "1991-07-11T04:00:00+00:00", "age_days": 12896, "provider": "verisign_whois_edu"}
+{"domain": "nmsu.edu", "status": "found", "registered_at": "1987-05-27T04:00:00+00:00", "age_days": 14402, "provider": "verisign_whois_edu"}
+{"domain": "nnmc.edu", "status": "found", "registered_at": "2005-10-28T15:54:45+00:00", "age_days": 7673, "provider": "verisign_whois_edu"}
+{"domain": "nycenet.edu", "status": "found", "registered_at": "1989-07-06T04:00:00+00:00", "age_days": 13631, "provider": "verisign_whois_edu"}
+{"domain": "ohio.edu", "status": "found", "registered_at": "1998-02-03T05:00:00+00:00", "age_days": 10497, "provider": "verisign_whois_edu"}
+{"domain": "oregoncoast.edu", "status": "found", "registered_at": "2020-03-17T19:24:11+00:00", "age_days": 2419, "provider": "verisign_whois_edu"}
+{"domain": "oregonstate.edu", "status": "found", "registered_at": "1999-02-09T05:00:00+00:00", "age_days": 10126, "provider": "verisign_whois_edu"}
+{"domain": "osu.edu", "status": "found", "registered_at": "1989-10-06T04:00:00+00:00", "age_days": 13539, "provider": "verisign_whois_edu"}
+{"domain": "ouhsc.edu", "status": "found", "registered_at": "1996-11-01T05:00:00+00:00", "age_days": 10956, "provider": "verisign_whois_edu"}
+{"domain": "peru.edu", "status": "found", "registered_at": "1993-05-25T04:00:00+00:00", "age_days": 12212, "provider": "verisign_whois_edu"}
+{"domain": "potomacstatecollege.edu", "status": "found", "registered_at": "2002-09-18T21:00:28+00:00", "age_days": 8809, "provider": "verisign_whois_edu"}
+{"domain": "princeton.edu", "status": "found", "registered_at": "1987-04-03T05:00:00+00:00", "age_days": 14456, "provider": "verisign_whois_edu"}
+{"domain": "sdstate.edu", "status": "found", "registered_at": "1991-12-12T05:00:00+00:00", "age_days": 12742, "provider": "verisign_whois_edu"}
+{"domain": "sjeccd.edu", "status": "found", "registered_at": "2006-07-12T17:16:29+00:00", "age_days": 7416, "provider": "verisign_whois_edu"}
+{"domain": "smumn.edu", "status": "found", "registered_at": "1995-04-19T04:00:00+00:00", "age_days": 11518, "provider": "verisign_whois_edu"}
+{"domain": "snhu.edu", "status": "found", "registered_at": "2000-07-19T20:43:29+00:00", "age_days": 9600, "provider": "verisign_whois_edu"}
+{"domain": "sonoran.edu", "status": "found", "registered_at": "2022-07-18T16:30:30+00:00", "age_days": 1566, "provider": "verisign_whois_edu"}
+{"domain": "southark.edu", "status": "found", "registered_at": "2002-01-09T20:35:33+00:00", "age_days": 9061, "provider": "verisign_whois_edu"}
+{"domain": "southernct.edu", "status": "found", "registered_at": "1997-09-11T04:00:00+00:00", "age_days": 10642, "provider": "verisign_whois_edu"}
+{"domain": "sus.edu", "status": "found", "registered_at": "1997-03-05T05:00:00+00:00", "age_days": 10832, "provider": "verisign_whois_edu"}
+{"domain": "swosu.edu", "status": "found", "registered_at": "1994-03-09T05:00:00+00:00", "age_days": 11924, "provider": "verisign_whois_edu"}
+{"domain": "tamu.edu", "status": "found", "registered_at": "1987-12-14T05:00:00+00:00", "age_days": 14201, "provider": "verisign_whois_edu"}
+{"domain": "tamus.edu", "status": "found", "registered_at": "1997-09-04T04:00:00+00:00", "age_days": 10649, "provider": "verisign_whois_edu"}
+{"domain": "tn.edu", "status": "found", "registered_at": "2002-01-09T20:35:34+00:00", "age_days": 9061, "provider": "verisign_whois_edu"}
+{"domain": "uams.edu", "status": "found", "registered_at": "1991-06-24T04:00:00+00:00", "age_days": 12913, "provider": "verisign_whois_edu"}
+{"domain": "uark.edu", "status": "found", "registered_at": "1989-08-31T04:00:00+00:00", "age_days": 13575, "provider": "verisign_whois_edu"}
+{"domain": "uconn.edu", "status": "found", "registered_at": "1987-08-18T04:00:00+00:00", "age_days": 14319, "provider": "verisign_whois_edu"}
+{"domain": "uidaho.edu", "status": "found", "registered_at": "1988-06-12T04:00:00+00:00", "age_days": 14020, "provider": "verisign_whois_edu"}
+{"domain": "uillinois.edu", "status": "found", "registered_at": "1996-11-08T05:00:00+00:00", "age_days": 10949, "provider": "verisign_whois_edu"}
+{"domain": "uiowa.edu", "status": "found", "registered_at": "1988-03-30T05:00:00+00:00", "age_days": 14094, "provider": "verisign_whois_edu"}
+{"domain": "uky.edu", "status": "found", "registered_at": "1987-05-27T04:00:00+00:00", "age_days": 14402, "provider": "verisign_whois_edu"}
+{"domain": "umaine.edu", "status": "found", "registered_at": "1997-09-12T04:00:00+00:00", "age_days": 10641, "provider": "verisign_whois_edu"}
+{"domain": "umaryland.edu", "status": "found", "registered_at": "1997-07-08T04:00:00+00:00", "age_days": 10707, "provider": "verisign_whois_edu"}
+{"domain": "umgc.edu", "status": "found", "registered_at": "2019-06-27T19:36:01+00:00", "age_days": 2683, "provider": "verisign_whois_edu"}
+{"domain": "umich.edu", "status": "found", "registered_at": "1985-10-07T04:00:00+00:00", "age_days": 14999, "provider": "verisign_whois_edu"}
+{"domain": "und.edu", "status": "found", "registered_at": "1996-06-08T04:00:00+00:00", "age_days": 11102, "provider": "verisign_whois_edu"}
+{"domain": "unl.edu", "status": "found", "registered_at": "1987-07-28T04:00:00+00:00", "age_days": 14340, "provider": "verisign_whois_edu"}
+{"domain": "unm.edu", "status": "found", "registered_at": "1986-08-27T04:00:00+00:00", "age_days": 14675, "provider": "verisign_whois_edu"}
+{"domain": "uoregon.edu", "status": "found", "registered_at": "1988-02-23T05:00:00+00:00", "age_days": 14130, "provider": "verisign_whois_edu"}
+{"domain": "upenn.edu", "status": "found", "registered_at": "1986-06-02T04:00:00+00:00", "age_days": 14761, "provider": "verisign_whois_edu"}
+{"domain": "uri.edu", "status": "found", "registered_at": "1989-02-02T05:00:00+00:00", "age_days": 13785, "provider": "verisign_whois_edu"}
+{"domain": "usnh.edu", "status": "found", "registered_at": "2006-08-21T21:25:20+00:00", "age_days": 7376, "provider": "verisign_whois_edu"}
+{"domain": "utah.edu", "status": "found", "registered_at": "1986-12-16T05:00:00+00:00", "age_days": 14564, "provider": "verisign_whois_edu"}
+{"domain": "utahtech.edu", "status": "found", "registered_at": "2022-01-04T16:05:35+00:00", "age_days": 1761, "provider": "verisign_whois_edu"}
+{"domain": "uthscsa.edu", "status": "found", "registered_at": "1990-08-03T04:00:00+00:00", "age_days": 13238, "provider": "verisign_whois_edu"}
+{"domain": "utm.edu", "status": "found", "registered_at": "1993-11-01T05:00:00+00:00", "age_days": 12052, "provider": "verisign_whois_edu"}
+{"domain": "uwm.edu", "status": "found", "registered_at": "1989-06-21T04:00:00+00:00", "age_days": 13646, "provider": "verisign_whois_edu"}
+{"domain": "wednet.edu", "status": "found", "registered_at": "1992-08-25T04:00:00+00:00", "age_days": 12485, "provider": "verisign_whois_edu"}
+{"domain": "westernu.edu", "status": "found", "registered_at": "1996-11-22T05:00:00+00:00", "age_days": 10935, "provider": "verisign_whois_edu"}
+{"domain": "wisc.edu", "status": "found", "registered_at": "1985-09-30T04:00:00+00:00", "age_days": 15006, "provider": "verisign_whois_edu"}
+{"domain": "wvm.edu", "status": "found", "registered_at": "2002-01-09T20:35:35+00:00", "age_days": 9061, "provider": "verisign_whois_edu"}
+{"domain": "wvu.edu", "status": "found", "registered_at": "1992-05-28T04:00:00+00:00", "age_days": 12574, "provider": "verisign_whois_edu"}

@@ -1,0 +1,432 @@
+{
+  "counts": {
+    "unique_urls": 614818,
+    "legitimate": 275454,
+    "without_age": 580669,
+    "from_external_dataset": 568004,
+    "phishing": 339364,
+    "from_training_corpus": 43972,
+    "with_age": 34149,
+    "also_in_live_history": 9447,
+    "conflict_urls": 7
+  },
+  "source_stats": {
+    "master_lama": {
+      "read": 17752,
+      "accepted_rows": 17752,
+      "rows_with_age": 9702
+    },
+    "sumber_118_berurl": {
+      "read": 9314,
+      "invalid_or_unlabeled": 7783,
+      "accepted_rows": 1531,
+      "rows_with_age": 1120
+    },
+    "crawl_legitimate_baru": {
+      "read": 2228,
+      "accepted_rows": 2228,
+      "rows_with_age": 1050
+    },
+    "live_retrain_60": {
+      "read": 467,
+      "accepted_rows": 467,
+      "rows_with_age": 296
+    },
+    "live_train_60": {
+      "read": 467,
+      "accepted_rows": 467,
+      "rows_with_age": 296
+    },
+    "eksperimen_32_observed": {
+      "read": 25413,
+      "accepted_rows": 25413,
+      "rows_with_age": 18361
+    },
+    "PhiUSIIL": {
+      "read": 235795,
+      "accepted_rows": 235795
+    },
+    "PhishBD_2026": {
+      "read": 131167,
+      "accepted_rows": 131100,
+      "invalid_or_unlabeled": 67
+    },
+    "dataset2": {
+      "read": 149726,
+      "accepted_rows": 149723,
+      "invalid_or_unlabeled": 3
+    },
+    "phishDB": {
+      "read": 131167,
+      "accepted_rows": 131100,
+      "invalid_or_unlabeled": 67
+    },
+    "dataset_B_2020": {
+      "read": 11430,
+      "accepted_rows": 11430
+    },
+    "verified_online (1)": {
+      "read": 77324,
+      "accepted_rows": 77324
+    },
+    "verified_online (2)": {
+      "read": 74135,
+      "accepted_rows": 74135
+    },
+    "verified_online (3)": {
+      "read": 72124,
+      "accepted_rows": 72124
+    },
+    "verified_online (4)": {
+      "read": 70916,
+      "accepted_rows": 70916
+    },
+    "verified_online (5)": {
+      "read": 66093,
+      "accepted_rows": 66093
+    },
+    "verified_online": {
+      "read": 77324,
+      "accepted_rows": 77324
+    },
+    "uji_live:rulefit60-t080-liveretrain-legitimate-phishing-like-new-300\\browser_live_rows.csv": {
+      "read": 600,
+      "accepted_rows": 600,
+      "rows_with_age": 530
+    },
+    "uji_live:rulefit60-t080-liveretrain-phishing-testing-test\\browser_live_rows.csv": {
+      "read": 600,
+      "accepted_rows": 600,
+      "rows_with_age": 252
+    },
+    "uji_live:live_20261031_130054_413\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 82
+    },
+    "uji_live:live_20261031_010551_638\\legitimate\\browser_live_rows.csv": {
+      "read": 500,
+      "accepted_rows": 500,
+      "rows_with_age": 203
+    },
+    "uji_live:live_20261030_195358_012\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 50
+    },
+    "uji_live:live_20261030_114554_932\\legitimate\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 261
+    },
+    "uji_live:live_20261030_114554_932\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 33
+    },
+    "uji_live:live_20261028_183223_459\\legitimate\\browser_live_rows.csv": {
+      "read": 500,
+      "accepted_rows": 500,
+      "rows_with_age": 480
+    },
+    "uji_live:live_20261025_232145_386\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 87
+    },
+    "uji_live:live_20261025_183556_931\\legitimate\\browser_live_rows.csv": {
+      "read": 500,
+      "accepted_rows": 500,
+      "rows_with_age": 372
+    },
+    "uji_live:live_20261025_183556_931\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 64
+    },
+    "uji_live:live_20261025_171451_951\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 65
+    },
+    "uji_live:live_20261025_155741_912\\legitimate\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 286
+    },
+    "uji_live:live_20261025_141722_839\\legitimate\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 288
+    },
+    "uji_live:live_20261025_141722_839\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 97
+    },
+    "uji_live:live_20261017_231341_799\\legitimate\\browser_live_rows.csv": {
+      "read": 500,
+      "accepted_rows": 500,
+      "rows_with_age": 481
+    },
+    "uji_live:live_20261016_203041_601\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 58
+    },
+    "uji_live:live_20261015_233834_432\\legitimate\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 289
+    },
+    "uji_live:live_20261015_233834_432\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 33
+    },
+    "uji_live:live_20261015_220551_300\\legitimate\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 291
+    },
+    "uji_live:live_20261015_202333_982\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 55
+    },
+    "uji_live:live_20261015_001458_009\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 48
+    },
+    "uji_live:live_20261014_230536_964\\legitimate\\browser_live_rows.csv": {
+      "read": 250,
+      "accepted_rows": 250,
+      "rows_with_age": 238
+    },
+    "uji_live:live_20261014_040851_692\\phishing\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 108
+    },
+    "uji_live:perbandingan_live_30okt_32_vs_60\\hasil_rulefit32_lanjutan\\browser_live_rows.csv": {
+      "read": 125,
+      "accepted_rows": 125,
+      "rows_with_age": 122
+    },
+    "uji_live:perbandingan_live_30okt_32_vs_60\\hasil_rulefit60_lanjutan\\browser_live_rows.csv": {
+      "read": 125,
+      "accepted_rows": 125,
+      "rows_with_age": 123
+    },
+    "uji_live:perbandingan_live_29okt_32_vs_60\\hasil_rulefit32_t080\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 99
+    },
+    "uji_live:perbandingan_live_29okt_32_vs_60\\hasil_rulefit60_t080\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 72
+    },
+    "uji_live:hasil_uji_live\\legitimate_29okt_rulefit32_v033\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 278
+    },
+    "uji_live:hasil_uji_live\\legitimate_29okt_rulefit60_v5019\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 287
+    },
+    "uji_live:hasil_uji_live\\legitimate_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300
+    },
+    "uji_live:hasil_uji_live\\legitimate_rulefit32_v022_300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 285
+    },
+    "uji_live:hasil_uji_live\\phishing_fresh_300_rulefit32_ageclean_t080_29okt\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300
+    },
+    "uji_live:hasil_uji_live\\phishing_rulefit32_v022_300_28okt\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 53
+    },
+    "uji_live:data-uji-12-oktober-phishing-30-active\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 142
+    },
+    "uji_live:data-uji-12-oktober-phishing-30-active-brandfix-warningfix\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 131
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 68
+    },
+    "uji_live:rulefit45-legitimate-300-isolated\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 178
+    },
+    "uji_live:rulefit45-phishing-testing-isolated\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 58
+    },
+    "uji_live:rulefit45-t045-legitimate-300-isolated\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 222
+    },
+    "uji_live:rulefit45-t045-legitimate-path-subdomain-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 218
+    },
+    "uji_live:rulefit45-t045-legitimate-stress-path-subdomain-query-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 143
+    },
+    "uji_live:rulefit45-t045-phishing-300-isolated\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 58
+    },
+    "uji_live:rulefit45-t050-legitimate-600-path-subdomain-plus-query\\browser_live_rows.csv": {
+      "read": 599,
+      "accepted_rows": 599,
+      "rows_with_age": 273
+    },
+    "uji_live:rulefit45-t050-legitimate-path-subdomain-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 187
+    },
+    "uji_live:rulefit45-t050-legitimate-stress-path-subdomain-query-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 120
+    },
+    "uji_live:rulefit45-t050-phishing-13oktober-all-1070\\browser_live_rows.csv": {
+      "read": 1070,
+      "accepted_rows": 1070,
+      "rows_with_age": 384
+    },
+    "uji_live:rulefit60-t050-legitimate-phishing-like-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 218
+    },
+    "uji_live:rulefit60-t050-phishing-feed-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 123
+    },
+    "uji_live:rulefit60-t080-guards-legitimate-phishing-like-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 169
+    },
+    "uji_live:rulefit60-t080-guards-phishing-feed-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 117
+    },
+    "uji_live:rulefit60-t080-legitimate-phishing-like-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 161
+    },
+    "uji_live:rulefit60-t080-phishing-feed-300\\browser_live_rows.csv": {
+      "read": 300,
+      "accepted_rows": 300,
+      "rows_with_age": 112
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-no-analysis-single\\url_297\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_138\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1,
+      "rows_with_age": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_139\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1,
+      "rows_with_age": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_149\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_150\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1,
+      "rows_with_age": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_159\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_160\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_183\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_184\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_219\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1,
+      "rows_with_age": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_246\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_296\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_55\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_62\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1,
+      "rows_with_age": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_96\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    },
+    "uji_live:legitimate-no-login-curated-300-current-engine-rerun-incorrect-single\\url_99\\browser_live_rows.csv": {
+      "read": 1,
+      "accepted_rows": 1
+    }
+  },
+  "notes": [
+    "Output menggabungkan korpus lama, eksperimen, pengujian live, dan kumpulan eksternal yang labelnya dapat dipetakan.",
+    "Konflik label URL yang sama dikeluarkan dari CSV utama.",
+    "Umur domain tidak selalu mengacu pada tanggal yang sama dan bukan data latih siap pakai.",
+    "Riwayat ekstraksi extension tidak menjadi sumber label aktual.",
+    "Sumber eksternal dan URL tanpa analisis live memerlukan verifikasi label/status sebelum menjadi data latih."
+  ]
+}

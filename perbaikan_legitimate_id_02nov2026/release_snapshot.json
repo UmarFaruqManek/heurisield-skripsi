@@ -1,0 +1,134 @@
+{
+  "extension_version": "0.2.14",
+  "status": "experimental_pending_fresh_live_test",
+  "extension_dir": "D:\\experimen\\ide bagus\\HeuriShield-URL18-XGBoost",
+  "model_file": "D:\\experimen\\ide bagus\\HeuriShield-URL18-XGBoost\\src\\model\\xgboost-url18.json",
+  "model_sha256": "3133d74d88b79305cdcd27ecc27d5b02f6c2da5b0b6c83dfc55049ba07ef28ee",
+  "manifest_sha256": "f8f55952a370e035157e3a27ba0d410c8b382b8336f9584e070c3de0935863c2",
+  "baseline_version": "0.2.13",
+  "baseline_model_backup": "D:\\experimen\\ide bagus\\perbaikan_legitimate_id_02nov2026\\baseline_v0213_xgboost-url18.json",
+  "baseline_model_sha256": "9eda2773d74c7b9ed72061c0612bf634fca086bd93b0b674cdab5bd125ba1b78",
+  "threshold": 0.35,
+  "audit_file": "D:\\experimen\\ide bagus\\perbaikan_legitimate_id_02nov2026\\audit_300.csv",
+  "audit_counts": {
+    "supported_archive": 233,
+    "manual_review": 67
+  },
+  "development_holdout": {
+    "baseline": {
+      "threshold": 0.38,
+      "legitimate": 70,
+      "legitimate_correct": 42,
+      "legitimate_specificity_percent": 60.0,
+      "phishing": 0,
+      "phishing_correct": 0,
+      "phishing_recall_percent": null
+    },
+    "candidate": {
+      "threshold": 0.35,
+      "legitimate": 70,
+      "legitimate_correct": 61,
+      "legitimate_specificity_percent": 87.14,
+      "phishing": 0,
+      "phishing_correct": 0,
+      "phishing_recall_percent": null
+    }
+  },
+  "original_test": {
+    "baseline": {
+      "threshold": 0.38,
+      "legitimate": 1463,
+      "legitimate_correct": 1329,
+      "legitimate_specificity_percent": 90.84,
+      "phishing": 1521,
+      "phishing_correct": 1416,
+      "phishing_recall_percent": 93.1
+    },
+    "candidate": {
+      "threshold": 0.35,
+      "legitimate": 1463,
+      "legitimate_correct": 1326,
+      "legitimate_specificity_percent": 90.64,
+      "phishing": 1521,
+      "phishing_correct": 1401,
+      "phishing_recall_percent": 92.11
+    }
+  },
+  "archive_replay_runs": {
+    "hasil_live_phishunt_baru_02nov2026": {
+      "replayable": 121,
+      "baseline_correct": 119,
+      "candidate_correct": 118,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 1,
+      "phishing_to_dangerous": 0
+    },
+    "phishing_xgboost18": {
+      "replayable": 183,
+      "baseline_correct": 153,
+      "candidate_correct": 156,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 3
+    },
+    "url18_v028_legitimate_20261102_210320": {
+      "replayable": 290,
+      "baseline_correct": 261,
+      "candidate_correct": 255,
+      "legitimate_to_safe": 20,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "phishing_xgboost18_v026_01nov2026": {
+      "replayable": 164,
+      "baseline_correct": 152,
+      "candidate_correct": 151,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 1,
+      "phishing_to_dangerous": 0
+    },
+    "legitimate_xgboost18_v026": {
+      "replayable": 195,
+      "baseline_correct": 195,
+      "candidate_correct": 193,
+      "legitimate_to_safe": 2,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "url18_legitimate_id_20261102_222018": {
+      "replayable": 281,
+      "baseline_correct": 175,
+      "candidate_correct": 259,
+      "legitimate_to_safe": 86,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "hasil_live_legitimate_fresh_500_02nov2026": {
+      "replayable": 491,
+      "baseline_correct": 476,
+      "candidate_correct": 481,
+      "legitimate_to_safe": 11,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    }
+  },
+  "limits": [
+    "The prior 300 Indonesian URLs are development data, not independent final test.",
+    "One of five domain holdout splits scored 81.43% legitimate; fresh evaluation is required.",
+    "The historical phishing archive is development evidence and some snapshots are partial."
+  ],
+  "fresh_test_lists": [
+    {
+      "label": "legitimate",
+      "path": "C:\\Users\\USER\\Downloads\\legitimate_fresh_independent_300_02nov2026.txt",
+      "rows": 300,
+      "sha256": "c456951e3f81d46bdfce546429c3c721ef5ab8265e58ac208807f0e17c3087ec"
+    },
+    {
+      "label": "legitimate",
+      "path": "C:\\Users\\USER\\Downloads\\legitimate_indonesia_fresh_independent_200_02nov2026.txt",
+      "rows": 200,
+      "sha256": "9fad4e445aefe51ec5755045d5a880cf47d01a276081ab0806e12d025ac1edf9"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\USER\\.codex\\attachments\\bde5fd02-08f9-4a48-8980-7175abf833c9\\Pasted text.txt",
+  "total_urls": 300,
+  "unique_urls": 300,
+  "unique_sites": 300,
+  "exact_url_overlap": 53,
+  "domain_overlap_train": 148,
+  "domain_overlap_validation": 23,
+  "domain_overlap_test": 18,
+  "fresh_domain_urls": 111,
+  "root_path_urls": 213,
+  "note": "Format and overlap audit only; no browser/page verification or model predictions."
+}

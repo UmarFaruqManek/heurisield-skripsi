@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\USER\\Downloads\\phishing-army-domains.txt",
+  "source_sha256": "2bef018dd161ece20f0c7135c0b4d8fa2180eb8cf2e1f0181f4fce7f08832f31",
+  "selection_seed": 20261031,
+  "source_entries": 152837,
+  "unique_hostnames": 152837,
+  "eligible_unique_sites": 102147,
+  "selected_hostnames": 300,
+  "selected_unique_sites": 300,
+  "excluded": {
+    "historical_site_overlap_excluded": 36528,
+    "harmless_test_excluded": 2
+  },
+  "feed_generated": "# Generated: 2026-10-31T14:00:29Z",
+  "feed_expiry": "# Expires: 4 hours",
+  "prepared_at_utc": "2026-10-31T15:13:31.685131+00:00",
+  "limitation": "Source is domain-only blocklist; no scheme/path or live page label. Do not calculate XGBoost accuracy from fabricated root URLs."
+}

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-11-02T16:08:36.120342+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_independent_300_02nov2026.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 300,
+  "evaluated": 291,
+  "correct": 284,
+  "incorrect": 7,
+  "no_analysis": 9,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 291,
+    "http_error": 5,
+    "no_valid_analysis": 4
+  },
+  "response_category_counts": {
+    "http_403_denied": 4,
+    "http_520_error": 1,
+    "http_status_unobserved": 3,
+    "page_loaded": 292
+  },
+  "no_analysis_reason_counts": {
+    "http_403_denied": 4,
+    "http_520_error": 1,
+    "http_status_unobserved": 3,
+    "model_analysis_missing_after_page_load": 1
+  },
+  "redirect_category_counts": {
+    "cross_host": 4,
+    "none": 276,
+    "same_host": 20
+  },
+  "http_error_codes": {
+    "403": 4,
+    "520": 1
+  },
+  "model_analysis_count": 291,
+  "brand_identity_status_counts": {
+    "ambiguous": 10,
+    "identified": 181,
+    "unknown": 100
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 97.59,
+  "coverage_percent": 97.0
+}

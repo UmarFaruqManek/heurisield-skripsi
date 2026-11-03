@@ -1,0 +1,28 @@
+{
+  "requested": 300,
+  "prepared": 300,
+  "unique_domains": 300,
+  "sector_counts": {
+    "government": 38,
+    "healthcare": 27,
+    "education": 58,
+    "nonprofit": 48,
+    "company": 34,
+    "funder": 54,
+    "other": 41
+  },
+  "continent_counts": {
+    "AS": 65,
+    "AF": 18,
+    "NA": 77,
+    "SA": 9,
+    "EU": 122,
+    "OC": 9
+  },
+  "country_count": 70,
+  "auth_in_url": 284,
+  "strong_login_form_or_title": 300,
+  "password_input_in_html": 202,
+  "prepared_at_utc": "2026-11-01T15:46:45.077962+00:00",
+  "scope": "HTTP preflight only; full browser-extension analysis is not guaranteed"
+}

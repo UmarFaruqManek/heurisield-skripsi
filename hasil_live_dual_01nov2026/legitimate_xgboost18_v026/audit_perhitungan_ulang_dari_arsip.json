@@ -1,0 +1,65 @@
+{
+  "source": "Archived raw analysis from two live runs; original CSV and summaries preserved",
+  "same_300_urls_and_order": true,
+  "new_xgboost18": {
+    "evaluated_from_raw": 282,
+    "safe": 282,
+    "dangerous": 0,
+    "correct_on_evaluated_percent": 100.0,
+    "coverage_percent": 94.0,
+    "without_verified_analysis": 18,
+    "csv_row_errors": {
+      "'NoneType' object has no attribute 'get'": 87,
+      "cannot access local variable 'warning_context' where it is not associated with a value": 7,
+      "Page.goto: Timeout 25000ms exceeded.": 1
+    },
+    "raw_status_counts": {
+      "completed": 282,
+      "unverified_http_status": 6,
+      "no_valid_analysis": 9,
+      "http_error": 3
+    },
+    "warning_exception_indices": [
+      29,
+      66,
+      109,
+      116,
+      154,
+      173,
+      218
+    ]
+  },
+  "old_rulefit60": {
+    "evaluated_from_raw": 290,
+    "safe": 287,
+    "dangerous": 3,
+    "correct_on_evaluated_percent": 98.97,
+    "coverage_percent": 96.67,
+    "without_verified_analysis": 10,
+    "csv_row_errors": {
+      "cannot access local variable 'warning_context' where it is not associated with a value": 5,
+      "Page.goto: Timeout 25000ms exceeded.": 2
+    },
+    "raw_status_counts": {
+      "completed": 290,
+      "no_valid_analysis": 9,
+      "http_error": 1
+    },
+    "warning_exception_indices": [
+      2,
+      3,
+      54,
+      217,
+      244
+    ]
+  },
+  "paired_completed": 277,
+  "new_wrong_on_paired": 0,
+  "old_wrong_on_paired": 3,
+  "old_wrong_indices": [
+    101,
+    142,
+    232
+  ],
+  "limitation": "Rows with warning_context exception cannot be classified from the stored raw analysis; they remain unverified."
+}

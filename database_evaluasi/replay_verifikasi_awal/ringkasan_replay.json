@@ -1,0 +1,54 @@
+{
+  "mode": "offline_decision_replay_no_network",
+  "generated_at": "2026-11-01T11:29:16.586947+00:00",
+  "database": "D:\\experimen\\ide bagus\\database_evaluasi\\riwayat_analisis.sqlite",
+  "extension": "D:\\experimen\\ide bagus\\HeuriShield-URL18-XGBoost",
+  "run_ids": [
+    "5d7baea622f504a601df"
+  ],
+  "total_urls": 300,
+  "replay_levels": {
+    "decision_only": 183,
+    "not_replayable": 117
+  },
+  "no_analysis": 117,
+  "excluded_partial_api_snapshot": 0,
+  "changed_decisions": 0,
+  "different_model_snapshots": [],
+  "by_label": {
+    "legitimate": {
+      "old": {
+        "evaluated": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "correct_percent": null
+      },
+      "replay": {
+        "evaluated": 0,
+        "correct": 0,
+        "incorrect": 0,
+        "correct_percent": null
+      }
+    },
+    "phishing": {
+      "old": {
+        "evaluated": 183,
+        "correct": 153,
+        "incorrect": 30,
+        "correct_percent": 83.61
+      },
+      "replay": {
+        "evaluated": 183,
+        "correct": 153,
+        "incorrect": 30,
+        "correct_percent": 83.61
+      }
+    }
+  },
+  "limits": [
+    "Hanya keputusan DOM/brand/rule yang diputar ulang; prediksi model URL memakai hasil saat uji live.",
+    "decision_only berarti arsip lama tidak menyimpan snapshot DOM dan hasil API untuk menghitung ulang ekstraksi.",
+    "partial_api_snapshot berarti aturan baru meminta informasi API yang tidak ada dalam arsip; hasil perlu ditinjau.",
+    "Data yang telah dipakai untuk perbaikan merupakan data pengembangan, bukan uji eksternal independen."
+  ]
+}

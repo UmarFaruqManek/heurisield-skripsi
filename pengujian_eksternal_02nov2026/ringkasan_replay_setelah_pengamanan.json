@@ -1,0 +1,36 @@
+{
+  "latest_33": {
+    "records": 33,
+    "completed": 26,
+    "changed": [
+      {
+        "url": "https://simak.un-sultra.ac.id/login",
+        "label": "legitimate",
+        "before": "SAFE",
+        "after": "DANGEROUS",
+        "source_before": "corroborated_local_login_review",
+        "source_after": "url_model"
+      }
+    ],
+    "replay_levels": {
+      "full_snapshot": 15,
+      "partial_api_snapshot": 11,
+      "not_replayable": 7
+    }
+  },
+  "archive": {
+    "records": 1583,
+    "completed": 1154,
+    "changed": [],
+    "replay_levels": {
+      "not_replayable": 429,
+      "partial_api_snapshot": 584,
+      "full_snapshot": 386,
+      "decision_only": 184
+    }
+  },
+  "policy_sha256": "4050ee06668d1d91161cff57ca4f8f840a18ff40b72e44311c4d2ebd61b81827",
+  "extension_version_after": "0.2.7",
+  "model_sha256": "9eda2773d74c7b9ed72061c0612bf634fca086bd93b0b674cdab5bd125ba1b78",
+  "extension_manifest_sha256": "6568ee3e52754b8450c59d9b178b1ef804f6748f739fc17363332721f66d3ed2"
+}

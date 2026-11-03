@@ -1,0 +1,32 @@
+{
+  "target": 300,
+  "selected": 300,
+  "checked_at_utc": "2026-10-31T14:37:14.662296+00:00",
+  "ror_candidate_sites": 3342,
+  "html_200_sites": 560,
+  "age_available_sites": 453,
+  "unique_sites": 300,
+  "https": 274,
+  "http": 26,
+  "path_urls": 27,
+  "tlds": {
+    "si": 3,
+    "com": 157,
+    "ca": 13,
+    "info": 4,
+    "cz": 2,
+    "ac.in": 5,
+    "org": 92,
+    "nl": 2,
+    "co.uk": 6,
+    "net": 8,
+    "org.uk": 2,
+    "fr": 1,
+    "qc.ca": 1,
+    "go.tz": 1,
+    "edu.lb": 1,
+    "ac.kr": 1,
+    "pro": 1
+  },
+  "status": "HTTP 200 HTML and RDAP age available at preparation time; browser live status not guaranteed"
+}

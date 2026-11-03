@@ -1,0 +1,301 @@
+run_id,index,url,expected_label,analysis_status,url_model_verdict,old_verdict,new_verdict,old_correct,new_correct,changed,replay_level,missing_saved_lookups,old_source,new_source,matched_rules,review_candidate,brand_status,official_domain_match,dom_sensitive,reason
+5d7baea622f504a601df,1,http://ta.gdffuy.xyz/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,2,https://sharemyhtml.com/p/M1yBCNzLRG,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,3,https://cl.realizarconsultaco.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,4,https://jisooooo0201.github.io/Instagram.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,5,https://start-re-trresezer.gitbook.io/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,ambiguous,unknown,False,
+5d7baea622f504a601df,6,https://knkddkmlmeaedd.weebly.com/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,7,https://elaf.com.eg/adobe-document.co/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,8,http://gopayy-indonesiaz.resmi-wsl2.my.id/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,9,https://s.team-yr.com/admin,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,10,https://s.team-yr.com/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,11,http://oosoftlms.weebly.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,12,https://www.roblox.com.ss/users/8795648614/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,13,https://apenasate-hoje2026.lol/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,14,https://mydpd.cyobn.help/track-ch,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,15,https://fighterzone.github.io/Fb/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,16,https://8s1q2g-qw999agreg-mbtz1m8p9z2-fsgc12.pages.dev/welcome_aboard?welcome=10009568686956300,phishing,warning_page_observed,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,17,https://account-verify-system.netlify.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,18,https://store.communityartsection.com/workshop/AWP-AncientHeritage/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,19,https://uv-bitli-compo.pages.dev/help/contact/477657948684314,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,20,https://uv-bitli-compo.pages.dev/help/contact/201235025373238appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,21,https://uv-bitli-compo.pages.dev/help/contact/763948189283472appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,22,https://uv-bitli-compo.pages.dev/help/contact/283527628237064appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,23,https://uv-bitli-compo.pages.dev/help/contact/593346199379707appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,24,https://uv-bitli-compo.pages.dev/help/contact/469036908269806appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,25,https://uv-bitli-compo.pages.dev/help/contact/706670434133645,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,26,https://uv-bitli-compo.pages.dev/help/contact/671526179907524appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,27,https://uv-bitli-compo.pages.dev/help/contact/44099918001119appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,28,https://uv-bitli-compo.pages.dev/help/contact/184311166480056,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,29,https://uv-bitli-compo.pages.dev/help/contact/755644482917816appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,30,https://uv-bitli-compo.pages.dev/help/contact/52918222327967appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,31,https://uv-bitli-compo.pages.dev/help/contact/201235025373238,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,32,https://uv-bitli-compo.pages.dev/help/contact/762343697144529,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,33,https://uv-bitli-compo.pages.dev/help/contact/149424460167013appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,34,https://uv-bitli-compo.pages.dev/help/contact/816493547615886appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,35,https://uv-bitli-compo.pages.dev/help/contact/448924409643124appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,36,https://uv-bitli-compo.pages.dev/help/contact/415435867069602appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,37,https://uv-bitli-compo.pages.dev/help/contact/271469591486909,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,38,https://uv-bitli-compo.pages.dev/help/contact/57380140823856appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,39,https://uv-bitli-compo.pages.dev/help/contact/495963721910608,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,40,https://uv-bitli-compo.pages.dev/help/contact/495963721910608appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,41,https://uv-bitli-compo.pages.dev/help/contact/66436456730638,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,42,https://acrobat-pdf-download.vercel.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,43,https://www.roblox.com.ss/communities/7901982152/kitten-fans,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,44,https://www.roblox.com.ss/users/6365240554/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,45,https://kxv81-364m-pjq49-896k-1v3x-zmb73-704p.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,46,https://sp30ct-zemok-biz-varek-qunad.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,47,https://fpylh-dj807-ull-w3ms-ks3f.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,48,https://sp30ct-zonik-biz-mural-tavek.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,49,https://sp30ct10-davreko-biz-zurelo.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,50,http://ydktr2bpzgo-rvljhlsi-0u9s3b-ydkq90c.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,51,https://dzkpm428mjw-rtvqwrel-8l3k0g-my899a.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,52,https://wptjn3jfdran-yrpkwlpw-9v2t4d-yr733a.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,53,https://sp30ct-kunor-biz-mexal-zurik.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,54,https://ranqula-kxt-belfora-c3x9dp84-6ut.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,55,https://sp28ct-junem-biz-zorim-qitek.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,56,https://hwn64-1fhpxo-zmb73-mja-5z6x8c-hwn64-16c.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,57,https://sp30ct10-kavreko-biz-zunaro.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,58,https://sp30ct-qurel-biz-vonik-zadom.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,59,https://fypmups.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,60,https://opercol94.vercel.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,61,https://s4w.in/www-roblox-com-users-96631787280-profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,62,https://www.roblox.com.et/users/9631787280/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,63,https://pub-c8b34710da3c429486585fa6c08ee745.r2.dev/index.html,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,64,http://shortpals.online/link.php?link=aHR0cHM6Ly9wdWItYzhiMzQ3MTBkYTNjNDI5NDg2NTg1ZmE2YzA4ZWU3NDUucjIuZGV2L2luZGV4Lmh0bWw%3D,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,65,http://viewpackagetracking.com/usps,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,66,https://roblox.et/communities/8751134768/Misty-Army/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,67,http://uspss.pages.dev/entreg/LoginAction_input%2CN/A%2Chttps%3A/manage/manage/index.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,68,http://wechathkd.org/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,69,https://stjggn.eventzones.de/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,70,https://s.team-wh.com/p/dms-kdc/lctwghft/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,71,https://paste.page/israelnetflex,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,72,http://r.oblox.com.et/users/6541002943/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,73,https://r.oblox.com.et/communities/769052881/entile-tile/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,74,https://smartaitrust.com/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,75,https://crackaf-bubbles-frontend.vercel.app/farms/history/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,76,https://crackaf-bubbles-frontend.vercel.app/farms/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,77,https://crackaf-bubbles-frontend.vercel.app/info/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,78,https://www.vergidairesi.org/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,79,https://mydpd.xoexz.cc/track-ch,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,80,https://ern.dca-eg.com/granet/login.php,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,81,https://www.roblox.et/users/3414367189/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,82,https://www.roblox.com.et/users/3230649888/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,83,https://www.365bet866.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,84,https://diskop-ukmriau.com/?jigbqvhwjo2f4eyoluv2wdmvqsgbycbf=,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,85,https://open-vault-a14u.p-qhgta9an.workers.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,86,https://startt-ledger-help-en.typedream.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,87,https://sharepoint-notification.vercel.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,88,https://roblox.ly/communities/5274516996/alpha-bri-studio,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,89,https://uv-bitli-compo.pages.dev/help/contact/549284726021555appeals/submit-appeal-form/return/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,90,https://netflix-trial.vercel.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,91,https://ibluetickkone.vercel.app/index1.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,92,http://www.roblox.com.et/users/4451402746/profile/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,93,https://adobe.parterro.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,True,
+5d7baea622f504a601df,94,http://sp28ct-munav-biz-qezel-zotik.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,95,http://sp3ct10-davreko-biz-zulvani.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,96,http://1ofj-i4ruu-8yr4nc-xj7rt-42j.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,97,http://wjlnf52vstr-ghscy38mja-4r8q2g-tr918n.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,98,http://sp29ct-favun-biz-melra-zetki.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,99,https://sp24ct-navi-biz-rumek-talo.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,100,http://7s2q1g-qw888c84y-mbtz1m9p8z2-fsgc.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,101,http://mervazo-kxt-qorqumi-c2x5hp86.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,102,https://nbrthende.site/case/?b=YTo0OntzOjU6ImxhYmVsIjtzOjU6IlNIQVJFIjtzOjM6InVzciI7aToxNTY7czo0OiJub3BkIjtzOjE0OiJyc3MyLnNheWxlci5hdCI7czoxOiJvIjtpOjIxNDU7fQ%3D%3D,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,103,https://2m1z9k-8p2s1a4k-3r9p1e88-z44x11a.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,104,http://sp3ct10-zulvemi-biz-narkavo.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,105,https://sp30ct-novar-biz-kemix-zulad.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,106,https://sp1ct10-lavzaro-biz-melreko.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,107,https://1m8p9k-qw177a-6z1p8k-1v9m8p1a3.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,108,https://yrpkw97bfrn-msvskr-5y8t2g-yrpks66c.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,109,https://7m1p8s9k-qw111c84y-mbtz2x8p1m9-fsgc.pages.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,110,https://alert-papaya-893836.framer.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,111,http://www.borderclick.com/BC/media/Borderclick/robluxhero.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,112,https://s4w.in/roblox-com-users-1081301329-profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,113,https://www.roblox.ly/users/8325464885/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,114,https://im-token.io/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,115,https://foaecet.top/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,116,http://wkm.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,117,http://tqmo.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,118,https://www.roblox.com.ss/users/7924832577/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,119,http://wte.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,120,http://twi.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,121,http://surfmorocco.hostel.town/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,122,http://xf.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,123,https://ledger---live--run.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,124,http://airbnb.frngrgqb46.workers.dev/aircover,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,125,https://form-survey-i51v.vercel.app/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,126,https://digitalverificationsubmission.com/index.php/campaigns/gy240fjoqo6df/track-url/ta732ttgg3f5a/f71da88a6d37d900862df55f7233946ebfb3a14f/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,127,https://cancel-tickets-apple.com/icloud/signin,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,128,http://qapyc.sslhe.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,129,http://rangoboutique.hostel.town/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,130,https://ledger-live-app--info.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,131,https://argyleisd.s3.us-east-2.amazonaws.com/follow/argyleisd.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,132,https://cerrpaoi.help/hk,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,133,http://oaen.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,134,http://www.roblox.ly/users/5936977656/profile/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,135,http://rss2.sayler.at/go/y2d4u234/z274x264,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,136,https://roblox.et/users/8047086595/profilemalwarenetworkstealer,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,137,https://vmi3708922.contaboserver.net/sd/en/frt/msg.php/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,138,http://lkz.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,139,https://rss2.sayler.at/go/y2c4y254/z274x264/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,140,https://roblox.et/users/5366341830/profile/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,141,https://roblox.et/communities/8257260132/I,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,142,https://roblox.et/users/3451837749/profilenetworkurl,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,143,https://roblox.et/communities/3699382277/pinkyyfamily/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,144,http://roblox.et/users/8047086595/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,145,https://roblox.et/communities/5579182714/the-legend-vvvvvvvvvv,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,146,https://roblox.et/users/908911690/profilemalwarenetworkstealer,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,147,http://t4ajizoh.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,148,http://www.4aoep89w.sanpinjia.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,149,http://tapw2ohj.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,150,https://nn19hm3itnsjeovv.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,151,https://mmqhjn1mqvwgib5z.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,152,https://7j7zr2k43tdb4tah.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,153,https://www.t4ajizoh.sanpinjia.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,154,https://www.tapw2ohj.sanpinjia.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,155,https://txbvmsa3.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,156,https://dvmpayox.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,157,https://lgh2iauglr4qn36n.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,158,https://4aoep89w.sanpinjia.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,159,https://tokinix-cdn42-hk91.click/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,160,http://tokemim-cdn35-hk20.xyz/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,161,https://notifyhubss.net/0191f6e8cebf734f8869c17fceebe2aab882.html/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,162,https://r.oblox.com.et/users/1085927564/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,163,https://notifyhubss.net/02dd43b21eadcc4e37689abc137b10a79a6c.html/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,164,https://notifyhubss.net/003f65401eee1c41a5684dc1229b5a86003f.html/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,165,http://tokemim-cdn68-hk25.lol/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,166,http://tokennim-cdn57-hk16.click/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,167,https://tokemim-cdn49-hk60.lol/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,168,http://notifyhubss.net/02dd43b21eadcc4e37689abc137b10a79a6c.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,169,http://iuq.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,170,https://r.oblox.com.et/users/548531114/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,171,http://r.oblox.com.et/users/8177702111/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,172,http://hyrcb.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,173,http://guexb.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,174,http://jcpad.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,175,https://trezor-hardware-login.square.site/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,176,https://mineralbotani.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,177,https://3khn0gve.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,178,https://11862.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,179,https://56967.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,180,https://55325.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,181,https://bganmthrw.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,182,https://vinted.821382.shop/195694124,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,183,https://ukxil.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,184,https://tikdim.com/,phishing,unverified_http_status,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,185,https://global-project-documents.b4509943.workers.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,186,http://gpmu.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,187,https://ladotnt.gitbook.io/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,ambiguous,unknown,False,
+5d7baea622f504a601df,188,https://1235772.spheremama.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,189,http://www.applegiftreward.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,190,https://service-center-generic.vercel.app/required.html/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,191,https://www.roblox.com.ml/games/123974602339071/UP-Just-a-baseplate,phishing,warning_page_observed,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,192,http://roblox.com.pt/communities/872732586781/Lyzin-Paradise,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,193,http://stmalachychicago.mohsenmeysami.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,194,https://g5.lu/z58x5,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,195,https://www.roblox.rw/users/799224384873/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,196,https://robiox.com.gr/users/5466483470/profile,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,197,https://sp33ct-pelaro-biz-dunavi-kumeki.pages.dev/appeals/submit-appeal-form/return/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,198,https://ewc2r23cr3x.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,199,https://ertero.github.io/instagram/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,True,
+5d7baea622f504a601df,200,http://en-live-ledger-docs_support.typedream.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,201,https://www.trusty365.com/AccountSelectionPage/c?c=00000000-0000-0000-0000-000000000000-db6a979d-1205-4791-9a88-046efb575f65,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,202,https://www.roblox.ly/users/9500934331/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,203,http://ae.gdmaoka.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,204,https://elaborate-medovik-506f14.netlify.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,True,
+5d7baea622f504a601df,205,https://couriersplease.addliiq.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,206,http://8u2m1c-qw888a-mbtz1m8p9z2-qwxknnnx.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,207,http://9u1m8c-qw177a-mbtz8p1k9m2-qwxknnnx.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,208,https://2s1q9g-qw444a-1p8z2k9m4s-fsgcyyhy.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,209,https://2r9p1e-qw444c14y-8k1z9p2m4s-1s8m.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,210,http://bigbuxshop-dpsbmzniwema.edgeone.dev/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,211,https://norzela-kxt-belmavi-c6x1hk83-7qs.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,212,http://sp3ct10-varkaro-biz-kelvuni.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,213,https://sp30ct10-nalvilo-biz-zunaro.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,214,https://sp20ct10-mavvako-biz-zuneri.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,215,http://xernavo-kxt-qorqumi-r4t7fc18.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,216,https://rabenhuidloign.gitbook.io/us,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,217,http://rabenhuidloign.gitbook.io/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,218,http://ledger-us-live-app.typedream.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,219,https://geoperilfestbercktyilo.s3.us-central-1.ionoscloud.com/pure.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,220,https://https-wwwv-roblox.co/games/13621938427/AKUMA-untitled-boxing-game,phishing,warning_page_observed,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,221,https://https-wwwv-roblox.co/share?type=Server,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,222,http://weixinhkd.org/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,223,http://www.spectrum-revenve-team.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,224,http://www.ywvfywcw.weebly.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,225,http://www.xxfintyycomcaat.weebly.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,226,http://www.immobilier-documentaire.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,227,http://www.fix-puce.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,228,https://www.colla-six.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,229,http://amyys.cc/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,230,https://s.team-yw.com/admin,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,231,http://s.team-yw.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,232,http://novapy777.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,233,http://n3x9h.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,234,http://2hgu1.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,235,https://www.roblox.ss/users/616286229/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,236,http://dab-send.live/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,False,
+5d7baea622f504a601df,237,http://weixinhkd.vip/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,238,https://akbayonets.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,239,http://www.facebook.webmau.vn/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,240,https://apple-casereport.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,241,http://bepado.shortcuturl.ai/2ZOSHVH/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,242,http://www.packprimefamily.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,243,https://tckan.org/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,244,https://info-update6824.com/888207876,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,245,https://convex-porcupine-739838.framer.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,246,https://apple-casereport.com/icloud/signin,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,247,https://himanshisaraf9.github.io/spotify-ui-clone/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,248,https://www.roblox.com.ss/users/4816984165/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,249,https://immobilier-documentaire.vercel.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,ambiguous,unknown,True,
+5d7baea622f504a601df,250,https://update-your-payment.com/pages/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,251,https://spfy987.com.mx/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,252,http://sp30ct10-zelzako-biz-kuneti.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,253,http://sp22ct-davel-biz-raku-zepi.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,254,http://sp1ct10-davzaro-biz-kelrevo.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,255,http://4u8m1c-qw999a-mbtz2m8p1z9-qwxknnnx.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,256,http://6u1m9c-qw333a-mbtz2z1p8m9-qwxknnnx.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,257,https://sp30ct-zunik-biz-mavor-qelix.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,258,http://8k9p1s2m4a-2u8m1c-qw444a-mbtzp18m.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,259,http://3u9m8c-qw888a-mbtz1m8p9z2-qwxknnnx.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,260,https://sp30ct10-dorvako-biz-zunaro.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,261,http://sp29ct-kemra-biz-vulun-zorti.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,262,http://bgrfd62lkwg-zxcnhpli-3rv29d-bgr88c.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,263,https://bgrfd456nh-zxcnhlpw-3s0n8e-bgr51c.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,264,http://nhf8z.com/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,True,
+5d7baea622f504a601df,265,http://playmm2testing.com/,phishing,unverified_http_status,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,266,https://auditormadrid.es/wp-content/mu-plugins/iklqzct/iuo/alibaba/?naps=,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,identified,unknown,True,
+5d7baea622f504a601df,267,http://www.zo07ze.top/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,268,http://wechathkd.vip/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,269,https://mydpd.uzfxc.top/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,270,https://mydpd.vozcf.xyz/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,271,https://mydpd.ruihc.help/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,272,https://mydpd.yuxha.cc/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,273,https://mydpd.ajcxw.cc/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,274,https://mydpd.tjyrx.top/track-ch/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,275,https://mydpd.itamy.xyz/track-ch,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,276,http://aampjaring08.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,277,https://www.roblox.com.ss/users/3869181852/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,278,http://facebook.webmau.vn/,phishing,completed,SAFE,SAFE,SAFE,False,False,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,279,https://www.roblox.com.kz/users/137614935/profile,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,"R01,R08",False,identified,False,False,
+5d7baea622f504a601df,280,http://xmqrb724nhw-zdcynfyn-2d9e0f-pj388a.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,281,http://8s1q2g-qw999agreg-mbtz1m8p9z2-fsgc12.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,282,https://2u8m1c-qw144c84y-mbtz8m9p1z2-qwxk.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,283,https://fylrk4c01pl-bxzgcyhy-1l8j2g-sw511a.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,284,http://divace-coinsquare.zapier.app/,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,285,http://track.map-app.my.id/gZh,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,286,https://hklogin.uat.mizuhoscfglobal.com/oauth2/authorize?response_type=code&scope=openid+email+profile,phishing,warning_page_observed,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,287,https://hk.uat.mizuhoscfglobal.com/scf/login/oauth2/code/fusionauth,phishing,unverified_http_status,SAFE,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,288,https://secureprofiles2026-indol.vercel.app/careers.html,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,unknown,unknown,False,
+5d7baea622f504a601df,289,http://www.a.colombiascol.com/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,290,https://www.fuzzy-giggle-eta.vercel.app/,phishing,no_valid_analysis,,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,291,https://ashi130-cell.github.io/INSTAGRAM-LOGIN-DEMO,phishing,completed,DANGEROUS,DANGEROUS,DANGEROUS,True,True,False,decision_only,,url_model,url_model,R08,False,identified,unknown,True,
+5d7baea622f504a601df,292,https://sp1ct10-lavviro-biz-zanleko.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,293,http://sp1ct10-zelmiko-biz-vemleko.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,294,http://sp30ct-qurik-biz-vemol-nadex.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,295,http://vormora-gld-lartemi-p3t7kh25.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,296,https://sp1ct10-zorvilo-biz-kavreko.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,297,http://sp1ct10-lavzaro-biz-korvuni.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,298,https://9u8m1c-qw333agreg-mbtz1m8p9z2-qwxk.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,299,http://8s1q9g-1v2m8p9a-mbtz1p8m9z2-fsgc.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis
+5d7baea622f504a601df,300,https://nypkt64bfrn-sdrskr-2v5q9g-nypks33c31g.pages.dev/,phishing,http_error,DANGEROUS,,,False,False,,not_replayable,,,,,,,,,No completed URL model analysis

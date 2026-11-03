@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-11-02T07:13:03.843482+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "D:\\experimen\\ide bagus\\pengujian_eksternal_02nov2026\\targeted_legitimate.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 3,
+  "evaluated": 2,
+  "correct": 2,
+  "incorrect": 0,
+  "no_analysis": 1,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 2,
+    "no_valid_analysis": 1
+  },
+  "response_category_counts": {
+    "page_loaded": 3
+  },
+  "no_analysis_reason_counts": {
+    "model_analysis_missing_after_page_load": 1
+  },
+  "redirect_category_counts": {
+    "none": 2,
+    "same_host": 1
+  },
+  "http_error_codes": {},
+  "model_analysis_count": 2,
+  "brand_identity_status_counts": {
+    "identified": 1,
+    "unknown": 1
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 100.0,
+  "coverage_percent": 66.67
+}

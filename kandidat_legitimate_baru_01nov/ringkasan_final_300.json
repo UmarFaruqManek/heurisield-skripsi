@@ -1,0 +1,18 @@
+{
+  "total": 300,
+  "unique_urls": 300,
+  "unique_sites": 300,
+  "verified_http_200_same_site_html": 300,
+  "with_login_like_text": 151,
+  "with_two_or_more_subdomains": 14,
+  "with_path_depth_two_or_more": 178,
+  "sources": {
+    "web_search": 277,
+    "curated_2000": 23
+  },
+  "limitations": [
+    "HTTP 200 and same site were checked when preparing the list; this does not prove page content or identity.",
+    "Selected domains were excluded from the model corpus and named earlier test files available locally.",
+    "This is a candidate list for a URL-only test; no model scoring or browser test has been run."
+  ]
+}

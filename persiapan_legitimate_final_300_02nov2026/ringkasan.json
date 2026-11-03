@@ -1,0 +1,32 @@
+{
+  "prepared": 300,
+  "reserve": 30,
+  "unique_sites": 300,
+  "sectors": {
+    "government": 35,
+    "healthcare": 38,
+    "education": 48,
+    "nonprofit": 50,
+    "company": 38,
+    "funder": 51,
+    "other": 40
+  },
+  "countries": 62,
+  "auth_paths": 120,
+  "password_inputs": 43,
+  "source": "ROR official website links; account pages linked from those sites",
+  "preflight": "HTTP 200 HTML, non-error title, same registrable site; extension analysis not guaranteed",
+  "exclusions": {
+    "existing_lists_and_main_training": 463715,
+    "csv_files_with_url_scanned": 293,
+    "excluded_site_keys": 464847
+  },
+  "extension_version": "0.2.8",
+  "extension_file_sha256": {
+    "manifest.json": "4b44c9cf524cfb371582ab4c5bebd4803be3f5f69ebecca4d6b404661d79b3f0",
+    "src/model/xgboost-url18.json": "9eda2773d74c7b9ed72061c0612bf634fca086bd93b0b674cdab5bd125ba1b78",
+    "src/analyzer/correlation/evidence-rules.js": "bba3b6a3f8cdab35b29308cdbace00a444d6860281eddd6c63e8ecaba94cfdc6",
+    "src/analyzer/correlation/decision-policy.js": "4050ee06668d1d91161cff57ca4f8f840a18ff40b72e44311c4d2ebd61b81827"
+  },
+  "checked_at_utc": "2026-11-02T13:00:30.456052+00:00"
+}

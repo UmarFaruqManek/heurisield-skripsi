@@ -1,0 +1,114 @@
+{
+  "feature_count": 17,
+  "excluded": "domain_age_days",
+  "models": {
+    "HistGradientBoosting": {
+      "validation": {
+        "rows": 3105,
+        "threshold": 0.49,
+        "tn": 1369,
+        "fp": 209,
+        "fn": 200,
+        "tp": 1327,
+        "accuracy_percent": 86.83,
+        "balanced_accuracy_percent": 86.83,
+        "legitimate_specificity_percent": 86.76,
+        "phishing_recall_percent": 86.9,
+        "false_positive_rate_percent": 13.24,
+        "phishing_precision_percent": 86.39,
+        "phishing_f1_percent": 86.65,
+        "roc_auc_percent": 94.61,
+        "average_precision_percent": 95.07
+      },
+      "test": {
+        "rows": 2984,
+        "threshold": 0.49,
+        "tn": 1276,
+        "fp": 187,
+        "fn": 214,
+        "tp": 1307,
+        "accuracy_percent": 86.56,
+        "balanced_accuracy_percent": 86.57,
+        "legitimate_specificity_percent": 87.22,
+        "phishing_recall_percent": 85.93,
+        "false_positive_rate_percent": 12.78,
+        "phishing_precision_percent": 87.48,
+        "phishing_f1_percent": 86.7,
+        "roc_auc_percent": 94.04,
+        "average_precision_percent": 95.04
+      }
+    },
+    "XGBoost": {
+      "validation": {
+        "rows": 3105,
+        "threshold": 0.5,
+        "tn": 1368,
+        "fp": 210,
+        "fn": 206,
+        "tp": 1321,
+        "accuracy_percent": 86.6,
+        "balanced_accuracy_percent": 86.6,
+        "legitimate_specificity_percent": 86.69,
+        "phishing_recall_percent": 86.51,
+        "false_positive_rate_percent": 13.31,
+        "phishing_precision_percent": 86.28,
+        "phishing_f1_percent": 86.4,
+        "roc_auc_percent": 94.67,
+        "average_precision_percent": 95.07
+      },
+      "test": {
+        "rows": 2984,
+        "threshold": 0.5,
+        "tn": 1279,
+        "fp": 184,
+        "fn": 216,
+        "tp": 1305,
+        "accuracy_percent": 86.6,
+        "balanced_accuracy_percent": 86.61,
+        "legitimate_specificity_percent": 87.42,
+        "phishing_recall_percent": 85.8,
+        "false_positive_rate_percent": 12.58,
+        "phishing_precision_percent": 87.64,
+        "phishing_f1_percent": 86.71,
+        "roc_auc_percent": 94.0,
+        "average_precision_percent": 94.98
+      }
+    },
+    "ExtraTrees": {
+      "validation": {
+        "rows": 3105,
+        "threshold": 0.47,
+        "tn": 1373,
+        "fp": 205,
+        "fn": 201,
+        "tp": 1326,
+        "accuracy_percent": 86.92,
+        "balanced_accuracy_percent": 86.92,
+        "legitimate_specificity_percent": 87.01,
+        "phishing_recall_percent": 86.84,
+        "false_positive_rate_percent": 12.99,
+        "phishing_precision_percent": 86.61,
+        "phishing_f1_percent": 86.72,
+        "roc_auc_percent": 94.77,
+        "average_precision_percent": 95.09
+      },
+      "test": {
+        "rows": 2984,
+        "threshold": 0.47,
+        "tn": 1271,
+        "fp": 192,
+        "fn": 200,
+        "tp": 1321,
+        "accuracy_percent": 86.86,
+        "balanced_accuracy_percent": 86.86,
+        "legitimate_specificity_percent": 86.88,
+        "phishing_recall_percent": 86.85,
+        "false_positive_rate_percent": 13.12,
+        "phishing_precision_percent": 87.31,
+        "phishing_f1_percent": 87.08,
+        "roc_auc_percent": 94.45,
+        "average_precision_percent": 95.21
+      }
+    }
+  }
+}

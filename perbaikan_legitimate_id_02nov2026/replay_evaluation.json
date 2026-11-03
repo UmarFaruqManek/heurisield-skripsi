@@ -1,0 +1,1057 @@
+{
+  "candidate_threshold": 0.35,
+  "model_score_max_difference": 2.73068840067614e-07,
+  "runs": {
+    "hasil_live_phishunt_baru_02nov2026": {
+      "replayable": 121,
+      "baseline_correct": 119,
+      "candidate_correct": 118,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 1,
+      "phishing_to_dangerous": 0
+    },
+    "phishing_xgboost18": {
+      "replayable": 183,
+      "baseline_correct": 153,
+      "candidate_correct": 156,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 3
+    },
+    "url18_v028_legitimate_20261102_210320": {
+      "replayable": 290,
+      "baseline_correct": 261,
+      "candidate_correct": 255,
+      "legitimate_to_safe": 20,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "phishing_xgboost18_v026_01nov2026": {
+      "replayable": 164,
+      "baseline_correct": 152,
+      "candidate_correct": 151,
+      "legitimate_to_safe": 0,
+      "phishing_to_safe": 1,
+      "phishing_to_dangerous": 0
+    },
+    "legitimate_xgboost18_v026": {
+      "replayable": 195,
+      "baseline_correct": 195,
+      "candidate_correct": 193,
+      "legitimate_to_safe": 2,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "url18_legitimate_id_20261102_222018": {
+      "replayable": 281,
+      "baseline_correct": 175,
+      "candidate_correct": 259,
+      "legitimate_to_safe": 86,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    },
+    "hasil_live_legitimate_fresh_500_02nov2026": {
+      "replayable": 491,
+      "baseline_correct": 476,
+      "candidate_correct": 481,
+      "legitimate_to_safe": 11,
+      "phishing_to_safe": 0,
+      "phishing_to_dangerous": 0
+    }
+  },
+  "changes": [
+    {
+      "run": "hasil_live_phishunt_baru_02nov2026",
+      "url": "https://alibabasauce.com",
+      "label": "phishing",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "phishing_xgboost18",
+      "url": "http://rabenhuidloign.gitbook.io/",
+      "label": "phishing",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "decision_only"
+    },
+    {
+      "run": "phishing_xgboost18",
+      "url": "https://himanshisaraf9.github.io/spotify-ui-clone/",
+      "label": "phishing",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "decision_only"
+    },
+    {
+      "run": "phishing_xgboost18",
+      "url": "http://facebook.webmau.vn/",
+      "label": "phishing",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "decision_only"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://sms.maulanaazadcollegekolkata.ac.in/student_area/student_login.php",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://associationofbreastsurgery.org.uk/my-abs/login",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.asiacorneasociety.org/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://biotalys.com/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.clarte-lab.fr/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.education.go.ug/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.blindeforbundet.no/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.ifarhu.gob.pa/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://fmcabuja.gov.ng/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://institut-zerna.com/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.idos-research.de/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.sapharmacol.co.za/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://mdandersonhospiten.es/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.medias-klinikum.de/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.stiftung-mercator.de/en/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.mission-hospital.org/en/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.prinsesmaximacentrum.nl/nl",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://stikesgunungsari.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.yongin.re.kr/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_v028_legitimate_20261102_210320",
+      "url": "https://www.energy-concepts.com/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "phishing_xgboost18_v026_01nov2026",
+      "url": "https://kairos.seg.br/sp",
+      "label": "phishing",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "legitimate_xgboost18_v026",
+      "url": "https://childrenstreehousefdn.org/login/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "legitimate_xgboost18_v026",
+      "url": "https://medicalresearchscotland.org.uk/research-associated-policies/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://aapbk.org/login",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://brida.bulelengkab.go.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://prenatal.or.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://bskdn.kemendagri.go.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://bsk.kemenkum.go.id/category/dipa/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://rsupkandou.go.id/register-pasien",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://iaknambon.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.scadindependent.org/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://theimr.org/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.puslitkaret.co.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.ahmaddahlan.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.akamigaspalembang.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://akbil.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://pdmbengkulu.org/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.akfarimambonjol.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.akfarprayoga.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://wahidinstitute.org/wi-eng/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://alifah.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.amikmahaputra.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://amikwidyaloka.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://an-nadwah.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://anugrah.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://apikesiris.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://atemandakara.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://ejournal.bentaracampus.ac.id/index.php/vidyapragati/login",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://universitas.dharmawacana.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://institut.elkatarie.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://emtekedu.ac.id/id",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stkip.habi.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://iai-alzaytun.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://iaidafa.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://iaiddimangkoso.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://iain-bone.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.ibi-k57.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://icpa-banyuwangi.ac.id/akademik/seleksi",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.idbbali.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://indonesiastt.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://inkadha.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://inkesyarsimataram.ac.id/portal_mahasiswa/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://insipemalang.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://instituthidayatullahbatam.ac.id/portal-alumni/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://ipbcirebon.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://itbwigalumajang.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.itsbm.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://kallainstitute.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://kampusmelayu.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://karyakesehatan.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://maitreyawira.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.matanauniversity.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.mc.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://mercubaktijaya.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://moriah.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://mpukuturan.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://pcn.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://berita.polbitrada.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://polinsada.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://politeknikmurakata.ac.id/pmb",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.politeknikyakpermas.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://polraf.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://web.poltekbangsby.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://poltekindonusa.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://etops.poltekkes-manado.ac.id/login",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://website.poltekmi.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://poltekmu.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://polteknuklir.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.poltekpelaceh.ac.id/announcements/pengumuman-masuk-asrama-taruna-taruni-gelombang-i-and-ii-angkatan-14-tahun-2026_e520ae11-7442-4f4c-8ea5-23eead7ab02b",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://poltekssn.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.prasetiyamulya.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://radenwijaya.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://saintekmu.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stai-madiun.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stai-muafi.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stai-siliwangi.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staialakbarsurabaya.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.staialamin.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staiat-tahdzib.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staibsllg.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staidarulkamal.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staimta.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://www.staisni.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staisyekhjangkung.info/pendaftaran",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staitaruna.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://staiyogyakarta.ac.id/dosen/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stajember.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stakanakbangsa.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "url18_legitimate_id_20261102_222018",
+      "url": "https://stakmarturia.ac.id/",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://asiakinesiology.net/bbs/login.php",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://www.bifold.berlin/login",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://www.kces1968.org/html/member/login.php",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://irel.ie/wp-login.php",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://isdbinstitute.org/login",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://tarabaschttakum.edu.ng/portal/application/",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://gesda.global/portal",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://mecc.co/wp-login.php",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://communitypharmacyfoundation.org/mycpf",
+      "label": "legitimate",
+      "baseline": "SAFE",
+      "candidate": "DANGEROUS",
+      "replay_level": "full_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://sensore.health/register",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    },
+    {
+      "run": "hasil_live_legitimate_fresh_500_02nov2026",
+      "url": "https://indobarunasional.ac.id/registration/student_transfer",
+      "label": "legitimate",
+      "baseline": "DANGEROUS",
+      "candidate": "SAFE",
+      "replay_level": "partial_api_snapshot"
+    }
+  ],
+  "replay_limit": "Saved DOM and API responses only; partial snapshots can lack lookups."
+}

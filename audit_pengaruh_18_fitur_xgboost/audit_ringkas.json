@@ -1,0 +1,25 @@
+{
+  "dataset_rows": 29868,
+  "test_rows": 2984,
+  "test_legitimate": 1463,
+  "test_phishing": 1521,
+  "age_missing": 0,
+  "http_by_label": {
+    "legitimate": 348,
+    "phishing": 3471
+  },
+  "has_ip_host_by_label": {
+    "legitimate": 0,
+    "phishing": 0
+  },
+  "age_median_by_label": {
+    "legitimate": 8805.0,
+    "phishing": 2246.0
+  },
+  "pages_dev_by_label": {
+    "phishing": 2657
+  },
+  "gain_sum": 100.000004,
+  "legitimate_support_sum": 100.0,
+  "phishing_support_sum": 100.0
+}

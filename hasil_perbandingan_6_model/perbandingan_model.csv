@@ -1,0 +1,7 @@
+model,rows,threshold,tn,fp,fn,tp,accuracy_percent,balanced_accuracy_percent,legitimate_specificity_percent,phishing_recall_percent,false_positive_rate_percent,phishing_precision_percent,phishing_f1_percent,roc_auc_percent,average_precision_percent,fit_seconds
+ExtraTrees,2984,0.42,1339,124,112,1409,92.09,92.08,91.52,92.64,8.48,91.91,92.27,97.12,97.77,1.38
+XGBoost,2984,0.38,1329,134,105,1416,91.99,91.97,90.84,93.1,9.16,91.35,92.22,97.12,97.78,1.06
+RandomForest,2984,0.4,1326,137,113,1408,91.62,91.6,90.64,92.57,9.36,91.13,91.85,97.01,97.71,2.18
+HistGradientBoosting,2984,0.35,1320,143,109,1412,91.55,91.53,90.23,92.83,9.77,90.8,91.81,97.04,97.75,3.15
+RuleFit,2984,0.15,1321,142,130,1391,90.88,90.87,90.29,91.45,9.71,90.74,91.09,95.97,96.18,52.68
+LogisticRegression,2984,0.48,1262,201,119,1402,89.28,89.22,86.26,92.18,13.74,87.46,89.76,94.71,95.42,0.61

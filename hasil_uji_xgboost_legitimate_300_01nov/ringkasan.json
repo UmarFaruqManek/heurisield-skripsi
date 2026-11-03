@@ -1,0 +1,26 @@
+{
+  "mode": "offline_url_only",
+  "model": "XGBoost_18",
+  "threshold": 0.38,
+  "total": 300,
+  "evaluated": 202,
+  "correct": 195,
+  "incorrect": 7,
+  "no_analysis": 98,
+  "coverage_percent": 67.33,
+  "accuracy_on_evaluated_percent": 96.53,
+  "age_status": {
+    "found": 202,
+    "no_rdap_server": 53,
+    "fallback_unavailable": 18,
+    "no_registration_event": 6,
+    "ReadTimeout": 5,
+    "http_404": 13,
+    "http_502": 2,
+    "ConnectionError": 1
+  },
+  "source_sha256": "be3f439f0a1e981b21e869d2f236f573cdfd6f6c1c1ad6b65cb86d0c99f78dcb",
+  "model_sha256": "b811a58f409de077a5394d43b8a3014179c0a4694dceba4d712a812d4af9abbc",
+  "generated_at_utc": "2026-10-31T17:03:55.646190+00:00",
+  "note": "Prediksi menggunakan teks URL awal dan umur domain dari RDAP, API cadangan, atau WHOIS registri. Tidak membuka halaman untuk DOM/brand dan tidak memverifikasi label halaman saat prediksi."
+}

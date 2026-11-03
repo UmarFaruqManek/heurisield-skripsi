@@ -1,0 +1,10 @@
+{
+  "target": 300,
+  "selected": 300,
+  "unique_domains": 300,
+  "login_like": 300,
+  "auth_url_pattern": 118,
+  "checked_at_utc": "2026-11-01T13:53:44.359492+00:00",
+  "candidate_source": "ROR website record",
+  "note": "HTTP 200 HTML at preparation time; browser analysis and current label must be checked during live test."
+}

@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-11-02T07:09:01.314164+00:00",
+  "extension": "D:\\experimen\\ide bagus\\HeuriShield-URL18-XGBoost",
+  "train_source": "D:\\experimen\\ide bagus\\DATA_URL_18_FITUR.csv",
+  "prior_live_analysis_files_checked": 6,
+  "source_legitimate": "Official organization pages found by web search, 2026-11-02; each label requires live verification",
+  "source_phishing": "https://openphish.com/feed.txt",
+  "feed_rows": 300,
+  "legitimate_count": 15,
+  "phishing_count": 15,
+  "domain_disjoint_from_train_and_prior": true,
+  "frozen_files_sha256": {
+    "manifest.json": "26307808b6bea02ea8c40051cda45c2f5b0fb9165c2b4e2575dcbd11c509c00d",
+    "src/model/xgboost-url18.json": "9eda2773d74c7b9ed72061c0612bf634fca086bd93b0b674cdab5bd125ba1b78",
+    "src/analyzer/correlation/decision-policy.js": "5ed63ad9a295f85a04e51d1b324a7722559b677a735d2eea6fc40b26e3250bb6",
+    "src/content/dom-brand-observer.js": "d1816c5e8a19f07643ef7eef1e305fed7a9b0d91cb894e4801fba8cc9141fb6d"
+  },
+  "evaluated_rows": 33
+}

@@ -1,0 +1,8 @@
+url,labels,groups,sources,source_rows
+https://kakaku.com/,legitimate|phishing,crawl_terdahulu|dataset_eksternal|pelatihan_lama,crawl_legitimate_baru|sumber_118_berurl|verified_online|verified_online (1)|verified_online (2)|verified_online (3)|verified_online (4)|verified_online (5),8
+https://www.bk.mufg.jp/,legitimate|phishing,dataset_eksternal,PhiUSIIL|verified_online|verified_online (1)|verified_online (2)|verified_online (3)|verified_online (4)|verified_online (5),7
+https://www.dishaeye.org/,legitimate|phishing,dataset_eksternal,PhiUSIIL|dataset2,2
+https://www.education.gouv.fr/,legitimate|phishing,dataset_eksternal,PhiUSIIL,2
+https://www.los40.com.gt/,legitimate|phishing,dataset_eksternal,PhiUSIIL|dataset2|verified_online|verified_online (1)|verified_online (2)|verified_online (3)|verified_online (4)|verified_online (5),8
+https://www.poncevacay.com/,legitimate|phishing,dataset_eksternal|pelatihan_eksperimen,PhiUSIIL|eksperimen_32_observed,2
+https://www.setupyouraccounts.com/,legitimate|phishing,dataset_eksternal,PhiUSIIL|dataset2|verified_online|verified_online (1)|verified_online (2)|verified_online (3)|verified_online (4)|verified_online (5),8
