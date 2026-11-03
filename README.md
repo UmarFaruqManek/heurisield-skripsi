@@ -23,6 +23,8 @@ Alurnya: URL dan umur domain → skor XGBoost → pemeriksaan DOM dan brand → 
 | `arsip/pembanding_rulefit60/` | Extension RuleFit60 lama beserta riwayat pengujiannya. |
 | `docs/` | Catatan metode, penggabungan data, dan tinjauan referensi. |
 
+Untuk memahami cara kerja versi aktif sebelum menelaah kode, baca [Panduan proyek untuk AI lain](docs/PANDUAN_PROYEK_UNTUK_AI.md).
+
 Arsip `browser_live_analysis.json` adalah sumber riwayat per URL. Database SQLite lokal tidak disertakan karena merupakan indeks turunan berukuran lebih dari 100 MiB; indeks dapat dibuat kembali dari laporan dengan:
 
 ```powershell
