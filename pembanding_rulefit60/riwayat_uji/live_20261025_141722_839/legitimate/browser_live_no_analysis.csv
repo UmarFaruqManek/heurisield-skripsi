@@ -1,0 +1,5 @@
+index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,source_domain_age_days,page_domain_age_days,feature_coverage_percent,reasons,error
+180,https://texarkanatexas.gov/365/Fine-Payment-Options,texarkanatexas.gov,legitimate,SAFE,,0,https://texarkanatexas.gov/365/Fine-Payment-Options,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+200,https://plainvillema.gov/318/Licenses-Certificates-Permits,plainvillema.gov,legitimate,SAFE,,0,https://plainvillema.gov/318/Licenses-Certificates-Permits,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+286,https://sahuaritaaz.gov/705/Payments,sahuaritaaz.gov,legitimate,SAFE,,0,about:blank,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+288,https://cityofinkstermi.gov/376/Forms-Permits-Applications,cityofinkstermi.gov,legitimate,SAFE,,0,about:blank,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.

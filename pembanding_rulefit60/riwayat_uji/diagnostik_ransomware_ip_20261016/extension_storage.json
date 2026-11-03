@@ -1,0 +1,2439 @@
+{
+  "analysisByTab": {
+    "1699518980": {
+      "analyzed_at": "2026-10-15T16:43:18.452Z",
+      "analyzer_version": "v5-rulefit60-explanation-v6",
+      "brand_features": {
+        "brand_candidate_final_domain_similarity": 0,
+        "brand_candidate_found": false,
+        "brand_candidate_in_original_path": false,
+        "brand_candidate_in_original_query": false,
+        "brand_candidate_in_original_subdomain": false,
+        "brand_candidate_matches_final_domain": false,
+        "brand_candidate_matches_original_domain": false,
+        "brand_candidate_original_domain_similarity": 0,
+        "brand_lookup_failed_queries": 0,
+        "brand_lookup_status": true,
+        "brand_top_candidate_domain": null,
+        "brand_top_candidate_name": null,
+        "brand_top_candidate_quality_score": null,
+        "brand_top_candidate_query": null,
+        "brand_top_candidate_query_priority": null,
+        "brand_top_candidate_score_source": null,
+        "brand_top_candidate_search_score": null,
+        "brand_top_candidate_source": null
+      },
+      "decision_checklist": {
+        "compatibilityScore": 100,
+        "mode": "rulefit_model"
+      },
+      "document_id": "1792082597268-b42e8153407a98",
+      "dom_analysis": {
+        "feature_version": "crawler-dom-parity-v1",
+        "forms": [
+          {
+            "credential_form_count": 0,
+            "hasOtpOrPinInput": false,
+            "hasPasswordInput": false,
+            "hasPaymentInput": false,
+            "hasSensitiveInput": false,
+            "sensitive_form_count": 0
+          }
+        ],
+        "resources": {
+          "anchor_count": 32,
+          "external_anchor_count": 32,
+          "external_resource_count": 4,
+          "unique_external_domain_count": 9
+        },
+        "scripts": {
+          "document_write_count": 0,
+          "eval_count": 0,
+          "inline_script_count": 1,
+          "script_count": 4,
+          "window_open_count": 0
+        },
+        "text": {
+          "dom_node_count": 386,
+          "html_length": 17822,
+          "visible_text_length": 4118
+        }
+      },
+      "dom_error": null,
+      "dom_features": {
+        "analyzer_version": "crawler-dom-parity-v1",
+        "anchor_count": 32,
+        "anchor_domains": [
+          "185.100.85.146",
+          "37.77.150.177",
+          "canva.com",
+          "cradlewise.com",
+          "globeia.com",
+          "harness.io",
+          "hsl.org.br",
+          "iheartjane.com",
+          "verano.com"
+        ],
+        "base_href": null,
+        "base_href_domain": null,
+        "base_href_external": false,
+        "base_tag_present": false,
+        "credential_form_count": 0,
+        "document_write_count": 0,
+        "dom_node_count": 386,
+        "email_credential_field_count": 0,
+        "email_input_count": 0,
+        "empty_anchor_count": 0,
+        "eval_count": 0,
+        "external_anchor_count": 32,
+        "external_anchor_ratio": 1,
+        "external_credential_form_count": 0,
+        "external_image_count": 0,
+        "external_image_ratio": 0,
+        "external_resource_count": 4,
+        "external_resource_ratio": 0.8,
+        "external_script_count": 3,
+        "external_script_ratio": 0.75,
+        "external_stylesheet_count": 1,
+        "external_stylesheet_ratio": 1,
+        "form_action_empty_count": 0,
+        "form_action_external_domain_count": 0,
+        "form_action_http_count": 0,
+        "form_action_https_count": 0,
+        "form_action_ip_count": 0,
+        "form_action_relative_count": 0,
+        "form_action_same_domain_count": 0,
+        "form_count": 0,
+        "form_get_count": 0,
+        "form_post_count": 0,
+        "hidden_input_count": 0,
+        "html_length": 17822,
+        "identity_personal_field_count": 0,
+        "iframe_count": 0,
+        "iframe_empty_src_count": 0,
+        "iframe_external_domain_count": 0,
+        "iframe_ip_count": 0,
+        "iframe_same_domain_count": 0,
+        "image_count": 0,
+        "inline_script_count": 1,
+        "input_count": 0,
+        "internal_anchor_count": 0,
+        "internal_image_count": 0,
+        "ip_credential_form_count": 0,
+        "javascript_anchor_count": 0,
+        "meta_description": null,
+        "meta_refresh_domain": null,
+        "meta_refresh_external": false,
+        "meta_refresh_present": false,
+        "meta_refresh_url": null,
+        "number_input_count": 0,
+        "otp_mfa_field_count": 0,
+        "page_title": "The Seven Deadly Sins | DLS",
+        "password_credential_field_count": 0,
+        "password_input_count": 0,
+        "payment_card_field_count": 0,
+        "pin_field_count": 0,
+        "resource_count": 5,
+        "script_count": 4,
+        "stylesheet_count": 1,
+        "tel_input_count": 0,
+        "text_input_count": 0,
+        "unique_external_domain_count": 9,
+        "username_field_count": 0,
+        "visible_text_length": 4118,
+        "window_open_count": 0
+      },
+      "dom_score": 16,
+      "evidence": [
+        {
+          "dependency_group": "dom",
+          "evidence_id": "D16",
+          "explanation": "Input kredensial dan label sensitif dibaca langsung dari DOM halaman.",
+          "observation_id": "dom_credential_labels",
+          "raw_value": {
+            "credential_form_count": 0,
+            "identity_like_label_count": 0,
+            "password_like_label_count": 0,
+            "sensitive_form_count": 0
+          },
+          "source": "DOM credential fields",
+          "status": "observed"
+        },
+        {
+          "dependency_group": "dom",
+          "evidence_id": "D18",
+          "explanation": "Jumlah form kredensial dihitung dari input password, email, OTP, PIN, payment, dan identitas.",
+          "observation_id": "dom_credential_forms",
+          "raw_value": {
+            "credential_form_count": 0,
+            "no_clear_page_identity": false,
+            "sensitive_form_count": 0,
+            "visible_brand_hints": []
+          },
+          "source": "DOM forms",
+          "status": "observed"
+        },
+        {
+          "dependency_group": "domain_metadata",
+          "evidence_id": "U18",
+          "explanation": "Umur domain dan metadata registrasi dibaca melalui RDAP/WHOIS seperti pipeline crawler.",
+          "observation_id": "domain_age_rdap",
+          "raw_value": {
+            "final_domain_age_days": null,
+            "final_rdap_available": false,
+            "original_domain_age_days": null,
+            "original_rdap_available": false
+          },
+          "source": "RDAP/WHOIS",
+          "status": "unavailable"
+        },
+        {
+          "dependency_group": "brand",
+          "evidence_id": "B01",
+          "explanation": "Kandidat brand dicari melalui Clearbit terlebih dahulu, lalu Brandfetch untuk skor domain yang sama atau fallback.",
+          "observation_id": "brand_candidate",
+          "raw_value": {
+            "brand_candidate_found": false,
+            "brand_top_candidate_domain": null,
+            "brand_top_candidate_quality_score": null,
+            "brand_top_candidate_search_score": null
+          },
+          "source": "Brand lookup",
+          "status": "unavailable"
+        }
+      ],
+      "evidence_trace": [],
+      "explanation": {
+        "action": "Tetap periksa alamat situs sebelum memasukkan data pribadi.",
+        "domain": "185.100.85.146",
+        "limitation": "",
+        "reasons": [
+          "Tidak terdeteksi form data akun yang mengarah ke domain lain atau alamat IP pada saat pemeriksaan.",
+          "Hasil pemeriksaan berada di bawah batas risiko. Ini bukan jaminan bahwa situs sepenuhnya aman."
+        ],
+        "summary": "Tidak ditemukan indikasi phishing kuat pada pemeriksaan ini.",
+        "title": "Tidak ditemukan indikasi phishing kuat"
+      },
+      "feature_vector": {
+        "feature_count": 60,
+        "missing_features": [],
+        "provided_features": 60,
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          0,
+          1,
+          0,
+          5,
+          32,
+          4,
+          0,
+          0,
+          0,
+          32,
+          5,
+          0.3181818181818182,
+          0,
+          1,
+          0,
+          3,
+          3,
+          14,
+          14,
+          14,
+          3.4474015047059154,
+          4118,
+          0,
+          0,
+          0,
+          0,
+          386,
+          17822,
+          1,
+          7,
+          5,
+          0.75,
+          3.4474015047059154,
+          4,
+          0.8,
+          1,
+          3,
+          9,
+          0,
+          0,
+          22,
+          0,
+          22,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "vector": {
+          "anchor_count": 32,
+          "brand_candidate_final_domain_similarity": 0,
+          "brand_candidate_found": 0,
+          "brand_candidate_in_original_path": 0,
+          "brand_candidate_in_original_query": 0,
+          "brand_candidate_in_original_subdomain": 0,
+          "brand_candidate_matches_final_domain": 0,
+          "brand_candidate_matches_original_domain": 0,
+          "brand_candidate_original_domain_similarity": 0,
+          "brand_lookup_status": 1,
+          "brand_top_candidate_quality_score": null,
+          "brand_top_candidate_search_score": null,
+          "credential_form_count": 0,
+          "dom_node_count": 386,
+          "dot_count": 3,
+          "email_input_count": 0,
+          "external_anchor_count": 32,
+          "external_anchor_ratio": 1,
+          "external_image_ratio": 0,
+          "external_resource_count": 4,
+          "external_resource_ratio": 0.8,
+          "external_script_count": 3,
+          "external_script_ratio": 0.75,
+          "final_domain_age_days": null,
+          "final_dot_count": 3,
+          "final_hostname_length": 14,
+          "final_path_length": 1,
+          "final_subdomain_count": 0,
+          "final_url_entropy": 3.4474015047059154,
+          "final_url_length": 22,
+          "final_url_token_count": 5,
+          "form_action_https_count": 0,
+          "form_action_same_domain_count": 0,
+          "hostname_length": 14,
+          "html_length": 17822,
+          "image_count": 0,
+          "inline_script_count": 1,
+          "input_count": 0,
+          "internal_anchor_count": 0,
+          "original_domain_age_days": null,
+          "original_embedded_domain_count": 0,
+          "original_hostname_length": 14,
+          "original_path_length": 1,
+          "original_query_length": 0,
+          "original_skip_domain_age_lookup": 0,
+          "original_special_char_count": 7,
+          "original_special_char_ratio": 0.3181818181818182,
+          "original_subdomain_count": 0,
+          "original_url_entropy": 3.4474015047059154,
+          "original_url_length": 22,
+          "original_url_token_count": 5,
+          "original_uses_shared_hosting_domain": 0,
+          "otp_mfa_field_count": 0,
+          "password_input_count": 0,
+          "raw_redirect_count": 0,
+          "resource_count": 5,
+          "script_count": 4,
+          "sensitive_word_count": 0,
+          "unique_external_domain_count": 9,
+          "visible_text_length": 4118
+        }
+      },
+      "feature_vector_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "final_url": "http://185.100.85.146/",
+      "hostname": "185.100.85.146",
+      "matched_rules": [
+        {
+          "coefficient": 3.763359474656054,
+          "direction": "phishing",
+          "feature": "original_domain_age_days",
+          "id": "RULEFIT_R089",
+          "reason": "RuleFit risiko: original_domain_age_days <= 5929; internal_anchor_count <= 56.5; original_url_token_count > 3.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": 3.2860345146652588,
+          "direction": "phishing",
+          "feature": "internal_anchor_count",
+          "id": "RULEFIT_R082",
+          "reason": "RuleFit risiko: internal_anchor_count <= 6.5; final_hostname_length <= 18.5; original_path_length > 0.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -2.887939592052742,
+          "direction": "legitimate",
+          "feature": "original_url_entropy",
+          "id": "RULEFIT_R005",
+          "reason": "RuleFit aman: original_url_entropy <= 3.7649; original_path_length > 0.5; resource_count <= 9.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -1.9545910057528386,
+          "direction": "legitimate",
+          "feature": "original_hostname_length",
+          "id": "RULEFIT_R008",
+          "reason": "RuleFit aman: original_hostname_length <= 19.5; visible_text_length > 1289; brand_top_candidate_quality_score > 0.2179",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -1.9444461763017606,
+          "direction": "legitimate",
+          "feature": "original_domain_age_days",
+          "id": "RULEFIT_R050",
+          "reason": "RuleFit aman: original_domain_age_days <= 5400.5; original_special_char_ratio > 0.2367",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -1.5671403376969406,
+          "direction": "legitimate",
+          "feature": "original_path_length",
+          "id": "RULEFIT_R080",
+          "reason": "RuleFit aman: original_path_length > 0.5; resource_count <= 11.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        }
+      ],
+      "model_result": {
+        "feature_coverage": {
+          "coverage_percent": 100,
+          "feature_count": 60,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "features": {
+          "coverage_percent": 100,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "fired_rule_count": 38,
+        "fired_rules": [
+          {
+            "coefficient": 3.763359474656054,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5929,
+                "value": null
+              },
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 56.5,
+                "value": 0
+              },
+              {
+                "feature": "original_url_token_count",
+                "imputed_value": 5,
+                "operator": ">",
+                "passed": true,
+                "threshold": 3.5,
+                "value": 5
+              },
+              {
+                "feature": "original_special_char_ratio",
+                "imputed_value": 0.3181818181818182,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.236695,
+                "value": 0.3181818181818182
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 <= 5929.0 and X12 <= 56.5 and X14 > 3.5 and X15 > 0.236695",
+            "id": "R089"
+          },
+          {
+            "coefficient": 3.2860345146652588,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 6.5,
+                "value": 0
+              },
+              {
+                "feature": "final_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 18.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "brand_candidate_final_domain_similarity",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.177866,
+                "value": 0
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X12 <= 6.5 and X23 <= 18.5 and X5 > 0.5 and X6 <= 0.177866",
+            "id": "R082"
+          },
+          {
+            "coefficient": -2.887939592052742,
+            "conditions": [
+              {
+                "feature": "original_url_entropy",
+                "imputed_value": 3.4474015047059154,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 3.76495,
+                "value": 3.4474015047059154
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 9.5,
+                "value": 5
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X36 <= 3.76495 and X5 > 0.5 and X7 <= 9.5",
+            "id": "R005"
+          },
+          {
+            "coefficient": -1.9545910057528386,
+            "conditions": [
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 19.5,
+                "value": 14
+              },
+              {
+                "feature": "visible_text_length",
+                "imputed_value": 4118,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1289,
+                "value": 4118
+              },
+              {
+                "feature": "brand_top_candidate_quality_score",
+                "imputed_value": 0.729692374730786,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.217949,
+                "value": null
+              },
+              {
+                "feature": "external_resource_ratio",
+                "imputed_value": 0.8,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.366667,
+                "value": 0.8
+              },
+              {
+                "feature": "external_script_count",
+                "imputed_value": 3,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 85,
+                "value": 3
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 10.5,
+                "value": 5
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X22 <= 19.5 and X25 > 1289.0 and X3 > 0.217949 and X38 > 0.366667 and X40 <= 85.0 and X5 > 0.5 and X7 <= 10.5",
+            "id": "R008"
+          },
+          {
+            "coefficient": -1.9444461763017606,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5400.5,
+                "value": null
+              },
+              {
+                "feature": "original_special_char_ratio",
+                "imputed_value": 0.3181818181818182,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.236695,
+                "value": 0.3181818181818182
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 <= 5400.5 and X15 > 0.236695",
+            "id": "R050"
+          },
+          {
+            "coefficient": -1.5671403376969406,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 11.5,
+                "value": 5
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 <= 11.5",
+            "id": "R080"
+          },
+          {
+            "coefficient": 1.5299809461756069,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": ">",
+                "passed": true,
+                "threshold": 13.5,
+                "value": 32
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X8 > 13.5",
+            "id": "R010"
+          },
+          {
+            "coefficient": -1.3228828460422237,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1150,
+                "value": null
+              },
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 15.5,
+                "value": 14
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 63.5,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 > 1150.0 and X22 <= 15.5 and X8 <= 63.5",
+            "id": "R048"
+          },
+          {
+            "coefficient": 1.1437869418937523,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 10870,
+                "value": null
+              },
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 10.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 <= 10870.0 and X12 <= 10.5 and X5 > 0.5",
+            "id": "R097"
+          },
+          {
+            "coefficient": 1.1133520236958396,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5368.5,
+                "value": null
+              },
+              {
+                "feature": "original_special_char_ratio",
+                "imputed_value": 0.3181818181818182,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.236695,
+                "value": 0.3181818181818182
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 57.5,
+                "value": 32
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X1 <= 5368.5 and X15 > 0.236695 and X8 <= 57.5",
+            "id": "R062"
+          },
+          {
+            "coefficient": -0.9537069399700115,
+            "conditions": [
+              {
+                "feature": "visible_text_length",
+                "imputed_value": 4118,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1560,
+                "value": 4118
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X25 > 1560.0 and X5 > 0.5",
+            "id": "R041"
+          },
+          {
+            "coefficient": -0.9353878722240571,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 35.5,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X8 <= 35.5",
+            "id": "R072"
+          },
+          {
+            "coefficient": 0.9274051573639187,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 7711.5,
+                "value": null
+              },
+              {
+                "feature": "brand_candidate_matches_final_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "brand_top_candidate_quality_score",
+                "imputed_value": 0.729692374730786,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.350563,
+                "value": null
+              },
+              {
+                "feature": "inline_script_count",
+                "imputed_value": 1,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 3.5,
+                "value": 1
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 <= 7711.5 and X10 <= 0.5 and X28 <= 0.5 and X3 > 0.350563 and X39 <= 3.5 and X5 > 0.5",
+            "id": "R081"
+          },
+          {
+            "coefficient": -0.9104399002827052,
+            "conditions": [
+              {
+                "feature": "brand_top_candidate_search_score",
+                "imputed_value": 72.453835,
+                "operator": ">",
+                "passed": true,
+                "threshold": 22.47024,
+                "value": null
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X2 > 22.47024 and X28 <= 0.5 and X5 > 0.5",
+            "id": "R060"
+          },
+          {
+            "coefficient": 0.8183936216020934,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 7627,
+                "value": null
+              },
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 1.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X1 <= 7627.0 and X12 <= 1.5 and X5 > 0.5",
+            "id": "R118"
+          },
+          {
+            "coefficient": 0.6120091626401974,
+            "conditions": [
+              {
+                "feature": "external_anchor_ratio",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.00138122,
+                "value": 1
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X17 > 0.00138122 and X5 > 0.5",
+            "id": "R034"
+          },
+          {
+            "coefficient": -0.5327071622151188,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 5
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 > 0.5",
+            "id": "R058"
+          },
+          {
+            "coefficient": -0.449974546155356,
+            "conditions": [
+              {
+                "feature": "dom_node_count",
+                "imputed_value": 386,
+                "operator": ">",
+                "passed": true,
+                "threshold": 195.5,
+                "value": 386
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X30 > 195.5 and X5 > 0.5",
+            "id": "R022"
+          },
+          {
+            "coefficient": -0.39868075146517473,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5538.5,
+                "value": null
+              },
+              {
+                "feature": "external_anchor_count",
+                "imputed_value": 32,
+                "operator": ">",
+                "passed": true,
+                "threshold": 3.5,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 <= 5538.5 and X13 > 3.5",
+            "id": "R066"
+          },
+          {
+            "coefficient": -0.37791985198789696,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 10.5,
+                "value": 5
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 <= 10.5",
+            "id": "R084"
+          },
+          {
+            "coefficient": 0.325339912422566,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 2.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X12 <= 2.5 and X5 > 0.5",
+            "id": "R085"
+          },
+          {
+            "coefficient": -0.32254310152984655,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": ">",
+                "passed": true,
+                "threshold": 7.5,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X8 > 7.5",
+            "id": "R016"
+          },
+          {
+            "coefficient": -0.2889769650010213,
+            "conditions": [
+              {
+                "feature": "external_anchor_count",
+                "imputed_value": 32,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1.5,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X13 > 1.5",
+            "id": "R057"
+          },
+          {
+            "coefficient": -0.2824501891850474,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5430.5,
+                "value": null
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 58,
+                "value": 32
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 <= 5430.5 and X8 <= 58.0",
+            "id": "R111"
+          },
+          {
+            "coefficient": -0.26179178397238745,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": ">",
+                "passed": true,
+                "threshold": 2790,
+                "value": null
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 > 2790.0",
+            "id": "R070"
+          },
+          {
+            "coefficient": 0.2518755396025179,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 7.5,
+                "value": 0
+              },
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": ">",
+                "passed": true,
+                "threshold": 12.5,
+                "value": 14
+              },
+              {
+                "feature": "original_query_length",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 11,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X12 <= 7.5 and X22 > 12.5 and X26 <= 11.0 and X5 > 0.5",
+            "id": "R110"
+          },
+          {
+            "coefficient": 0.1975049186472536,
+            "conditions": [
+              {
+                "feature": "anchor_count",
+                "imputed_value": 32,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 62.5,
+                "value": 32
+              },
+              {
+                "feature": "script_count",
+                "imputed_value": 4,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 15.5,
+                "value": 4
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X8 <= 62.5 and X9 <= 15.5",
+            "id": "R094"
+          },
+          {
+            "coefficient": 0.16326508519618763,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 12.5,
+                "value": 5
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X7 <= 12.5",
+            "id": "R091"
+          },
+          {
+            "coefficient": -0.13906221956202017,
+            "conditions": [
+              {
+                "feature": "script_count",
+                "imputed_value": 4,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 11.5,
+                "value": 4
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X9 <= 11.5",
+            "id": "R086"
+          },
+          {
+            "coefficient": -0.12959730754593238,
+            "conditions": [
+              {
+                "feature": "visible_text_length",
+                "imputed_value": 4118,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1491,
+                "value": 4118
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X25 > 1491.0 and X5 > 0.5",
+            "id": "R028"
+          },
+          {
+            "coefficient": 0.11502705843111126,
+            "conditions": [
+              {
+                "feature": "final_url_length",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 32.5,
+                "value": 22
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 12.5,
+                "value": 5
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X46 <= 32.5 and X5 > 0.5 and X7 <= 12.5",
+            "id": "R051"
+          },
+          {
+            "coefficient": 0.1137678667301591,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5370.5,
+                "value": null
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 <= 5370.5",
+            "id": "R090"
+          },
+          {
+            "coefficient": 0.08538515493055515,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 5464.5,
+                "value": null
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 5,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 25.5,
+                "value": 5
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 <= 5464.5 and X7 <= 25.5",
+            "id": "R114"
+          },
+          {
+            "coefficient": -0.05752759843469654,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 7,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 <= 7.0 and X5 > 0.5",
+            "id": "R088"
+          },
+          {
+            "coefficient": -0.05609999410759052,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 16.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 <= 16.5 and X5 > 0.5",
+            "id": "R075"
+          },
+          {
+            "coefficient": -0.050617124180693196,
+            "conditions": [
+              {
+                "feature": "dom_node_count",
+                "imputed_value": 386,
+                "operator": ">",
+                "passed": true,
+                "threshold": 211,
+                "value": 386
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X30 > 211.0 and X5 > 0.5",
+            "id": "R030"
+          },
+          {
+            "coefficient": 0.0299524137801904,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 5368,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 6724,
+                "value": null
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X1 <= 6724.0",
+            "id": "R083"
+          },
+          {
+            "coefficient": 0.028653444676200956,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 8.5,
+                "value": 0
+              },
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 15.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X12 <= 8.5 and X22 <= 15.5 and X5 > 0.5",
+            "id": "R065"
+          }
+        ],
+        "intercept": -1,
+        "logit": -2.3193900285565983,
+        "model_family": "RuleFit",
+        "model_name": "RuleFitCompact60V2",
+        "predicted_label": "legitimate",
+        "probability_phishing": 0.08952976821356394,
+        "ready": true,
+        "rule_count": 150,
+        "targetLabel": "legitimate",
+        "threshold": 0.8,
+        "verdict": "SAFE"
+      },
+      "normalized_url": "http://185.100.85.146/",
+      "original_url": "http://185.100.85.146/",
+      "page_status_features": {
+        "http_status_code": 200
+      },
+      "rdap_features": {
+        "final_days_since_domain_update": null,
+        "final_days_until_expiration": null,
+        "final_domain_age_days": null,
+        "final_nameserver_count": null,
+        "final_rdap_available": false,
+        "final_registration_lifetime_days": null,
+        "original_days_since_domain_update": null,
+        "original_days_until_expiration": null,
+        "original_domain_age_days": null,
+        "original_nameserver_count": null,
+        "original_rdap_available": false,
+        "original_registration_lifetime_days": null
+      },
+      "registrable_domain": "185.100.85.146",
+      "score": 9,
+      "tab_id": 1699518980,
+      "url": "http://185.100.85.146/",
+      "url_features": {
+        "at_count": 0,
+        "cross_domain_redirect_count": 0,
+        "digit_count": 11,
+        "digit_ratio": 0.5,
+        "dot_count": 3,
+        "embedded_domain_count": 0,
+        "encoded_char_count": 0,
+        "final_at_count": 0,
+        "final_digit_count": 11,
+        "final_digit_ratio": 0.5,
+        "final_domain_changed": false,
+        "final_dot_count": 3,
+        "final_embedded_domain_count": 0,
+        "final_encoded_char_count": 0,
+        "final_host_is_ip": true,
+        "final_hostname": "185.100.85.146",
+        "final_hostname_length": 14,
+        "final_hyphen_count": 0,
+        "final_path": "/",
+        "final_path_length": 1,
+        "final_percent_count": 0,
+        "final_public_suffix": "",
+        "final_punycode_present": false,
+        "final_query": "",
+        "final_query_length": 0,
+        "final_query_parameter_count": 0,
+        "final_registrable_domain": "185.100.85.146",
+        "final_scheme": "http",
+        "final_sensitive_word_count": 0,
+        "final_sensitive_words_found": [],
+        "final_skip_domain_age_lookup": false,
+        "final_special_char_count": 7,
+        "final_special_char_ratio": 0.3181818181818182,
+        "final_subdomain": "",
+        "final_subdomain_count": 0,
+        "final_underscore_count": 0,
+        "final_url": "http://185.100.85.146/",
+        "final_url_entropy": 3.4474015047059154,
+        "final_url_length": 22,
+        "final_url_token_count": 5,
+        "final_uses_shared_hosting_domain": false,
+        "host_is_ip": true,
+        "hostname": "185.100.85.146",
+        "hostname_length": 14,
+        "hyphen_count": 0,
+        "original_at_count": 0,
+        "original_digit_count": 11,
+        "original_digit_ratio": 0.5,
+        "original_dot_count": 3,
+        "original_embedded_domain_count": 0,
+        "original_encoded_char_count": 0,
+        "original_host_is_ip": true,
+        "original_hostname": "185.100.85.146",
+        "original_hostname_length": 14,
+        "original_hyphen_count": 0,
+        "original_path": "/",
+        "original_path_length": 1,
+        "original_percent_count": 0,
+        "original_public_suffix": "",
+        "original_punycode_present": false,
+        "original_query": "",
+        "original_query_length": 0,
+        "original_query_parameter_count": 0,
+        "original_registrable_domain": "185.100.85.146",
+        "original_scheme": "http",
+        "original_sensitive_word_count": 0,
+        "original_sensitive_words_found": [],
+        "original_skip_domain_age_lookup": false,
+        "original_special_char_count": 7,
+        "original_special_char_ratio": 0.3181818181818182,
+        "original_subdomain": "",
+        "original_subdomain_count": 0,
+        "original_underscore_count": 0,
+        "original_url": "http://185.100.85.146/",
+        "original_url_entropy": 3.4474015047059154,
+        "original_url_length": 22,
+        "original_url_token_count": 5,
+        "original_uses_shared_hosting_domain": false,
+        "path": "/",
+        "path_length": 1,
+        "percent_count": 0,
+        "public_suffix": "",
+        "punycode_present": false,
+        "query": "",
+        "query_length": 0,
+        "query_parameter_count": 0,
+        "raw_redirect_count": 0,
+        "redirect_chain": [
+          "http://185.100.85.146/"
+        ],
+        "registrable_domain": "185.100.85.146",
+        "scheme": "http",
+        "sensitive_word_count": 0,
+        "sensitive_words_found": [],
+        "special_char_count": 7,
+        "special_char_ratio": 0.3181818181818182,
+        "subdomain": "",
+        "subdomain_count": 0,
+        "underscore_count": 0,
+        "url_entropy": 3.4474015047059154,
+        "url_length": 22,
+        "url_token_count": 5,
+        "uses_shared_hosting_domain": false
+      },
+      "url_score": 9,
+      "verdict": "SAFE"
+    }
+  },
+  "domainMetadataCache": {
+    "brand:clearbit-first:v5:deadly": {
+      "cached_at": "2026-10-15T16:43:17.870Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": null,
+            "domain": "deadlystream.com",
+            "name": "Deadly Stream",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "deadlyfemalefighters.com",
+            "name": "Deadly Female Fighters",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "deadlyprintstudio.com",
+            "name": "Deadly Print Studio",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 30.19227,
+            "domain": "deadly.ie",
+            "name": "Sean Conroy",
+            "qualityScore": 0.2692307692307692,
+            "score_source": "brandfetch",
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "deadlycrimson.com",
+            "name": "#deadlycrimson",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 31.426136,
+            "domain": "deadlycustoms.co.uk",
+            "name": "Deadly",
+            "qualityScore": 0.6074223537786654,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 30.902773,
+            "domain": "deadly.sa",
+            "name": "Deadly",
+            "qualityScore": 0.28205128205128205,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 28.07042,
+            "domain": "deadlyponies.com",
+            "name": "Deadly Ponies",
+            "qualityScore": 0.6743377455075132,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 25.983326,
+            "domain": "deadlyhits.io",
+            "name": "DEADLY",
+            "qualityScore": 0.46153846153846156,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "deadly"
+      }
+    },
+    "brand:clearbit-first:v5:dls": {
+      "cached_at": "2026-10-15T16:43:17.865Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": 12.681232,
+            "domain": "dlsite.com",
+            "name": "DLsite",
+            "qualityScore": 0.7691594038283125,
+            "score_source": "brandfetch",
+            "source": "clearbit"
+          },
+          {
+            "_score": 10.3468075,
+            "domain": "dlsu.edu.ph",
+            "name": "De La Salle University",
+            "qualityScore": 0.7497290816630395,
+            "score_source": "brandfetch",
+            "source": "clearbit"
+          },
+          {
+            "_score": 9.847466,
+            "domain": "dlsud.edu.ph",
+            "name": "DLSU-Dasmari\u00f1as",
+            "qualityScore": 0.7137355726646624,
+            "score_source": "brandfetch",
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "dlslab.com",
+            "name": "Diagnostic Laboratory Services",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "dlshsi.edu.ph",
+            "name": "De La Salle Health Sciences Institute - Office of the Continuing Education",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 22.943378,
+            "domain": "dls.net",
+            "name": "DLS Internet Service",
+            "qualityScore": 0.6861507099992159,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 12.983297,
+            "domain": "wisdomtree.com",
+            "name": "WisdomTree",
+            "qualityScore": 0.7504678895400493,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "dls"
+      }
+    },
+    "brand:clearbit-first:v5:seven": {
+      "cached_at": "2026-10-15T16:43:17.863Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": null,
+            "domain": "sevenrooms.com",
+            "name": "SevenRooms",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "seventeen.com",
+            "name": "Seventeen",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sevenfifty.com",
+            "name": "SevenFifty",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sevenseasentertainment.com",
+            "name": "Seven Seas Entertainment",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sevendaysvt.com",
+            "name": "Seven Days",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 44.54052,
+            "domain": "seven.io",
+            "name": "Seven",
+            "qualityScore": 0.7001960500490125,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 35.5062,
+            "domain": "sevensenders.com",
+            "name": "Seven Senders",
+            "qualityScore": 0.9421151874518737,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 30.857597,
+            "domain": "sevenseven.com",
+            "name": "SEVEN SEVEN",
+            "qualityScore": 0.7220477670504034,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 29.462189,
+            "domain": "sevenfeathers.com",
+            "name": "Seven Feathers Casino Resort",
+            "qualityScore": 0.9411693795231142,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 29.021175,
+            "domain": "rubyseven.com",
+            "name": "Ruby Seven Studios",
+            "qualityScore": 0.9512140743419801,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "seven"
+      }
+    },
+    "brand:clearbit-first:v5:sins": {
+      "cached_at": "2026-10-15T16:43:17.869Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": null,
+            "domain": "sin-space.com",
+            "name": "\u30b7\u30f3\u30b9\u30da\u30fc\u30b9",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "parcayedek.com",
+            "name": "Sinsed Oto",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sinsa.com.ni",
+            "name": "Sinsa Nicaragua",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sin-surobi.com",
+            "name": "\u771f\u30d1\u30c1\u30b9\u30ed\u5099\u5fd8\u9332",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "sinsa.ir",
+            "name": "SINSA",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 37.817356,
+            "domain": "sins.ch",
+            "name": "Sins",
+            "qualityScore": 0.39743589743589747,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 37.630344,
+            "domain": "sins.it",
+            "name": "Sins",
+            "qualityScore": 0.4230769230769231,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 25.583546,
+            "domain": "lovelysins.com",
+            "name": "Lovely Sins",
+            "qualityScore": 0.6189060393418944,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 23.931223,
+            "domain": "sinsinvalid.org",
+            "name": "Sins Invalid",
+            "qualityScore": 0.4318991560517121,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 23.24378,
+            "domain": "sinsofasolarempire.com",
+            "name": "Sins of a Solar Empire",
+            "qualityScore": 0.7163681310151097,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "sins"
+      }
+    },
+    "brand:clearbit-first:v5:the": {
+      "cached_at": "2026-10-15T16:43:17.868Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": null,
+            "domain": "nytimes.com",
+            "name": "The New York Times",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "homedepot.com",
+            "name": "The Home Depot",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "washingtonpost.com",
+            "name": "The Washington Post",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 20.30686,
+            "domain": "theguardian.com",
+            "name": "The Guardian",
+            "qualityScore": 0.9615266346124278,
+            "score_source": "brandfetch",
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "wsj.com",
+            "name": "The Wall Street Journal",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 31.152658,
+            "domain": "the.team",
+            "name": "The Team",
+            "qualityScore": 0.8547894252358178,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 23.221588,
+            "domain": "the.hosting",
+            "name": "The.Hosting",
+            "qualityScore": 0.6994704344829932,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 18.154943,
+            "domain": "theverge.com",
+            "name": "The Verge",
+            "qualityScore": 0.9614893076800192,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 17.837238,
+            "domain": "thermos.com",
+            "name": "Thermos",
+            "qualityScore": 0.9480238043136434,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "the"
+      }
+    }
+  },
+  "featureArchive": [
+    {
+      "analyzer_version": "v5-rulefit60-explanation-v6",
+      "archive_version": "heurishield-v5-feature-json-v1",
+      "document_id": "1792082597268-b42e8153407a98",
+      "feature_sources": {
+        "brand": {
+          "brand_candidate_final_domain_similarity": 0,
+          "brand_candidate_found": false,
+          "brand_candidate_in_original_path": false,
+          "brand_candidate_in_original_query": false,
+          "brand_candidate_in_original_subdomain": false,
+          "brand_candidate_matches_final_domain": false,
+          "brand_candidate_matches_original_domain": false,
+          "brand_candidate_original_domain_similarity": 0,
+          "brand_lookup_failed_queries": 0,
+          "brand_lookup_status": true,
+          "brand_top_candidate_domain": null,
+          "brand_top_candidate_name": null,
+          "brand_top_candidate_quality_score": null,
+          "brand_top_candidate_query": null,
+          "brand_top_candidate_query_priority": null,
+          "brand_top_candidate_score_source": null,
+          "brand_top_candidate_search_score": null,
+          "brand_top_candidate_source": null
+        },
+        "dom": {
+          "analyzer_version": "crawler-dom-parity-v1",
+          "anchor_count": 32,
+          "anchor_domains": [
+            "185.100.85.146",
+            "37.77.150.177",
+            "canva.com",
+            "cradlewise.com",
+            "globeia.com",
+            "harness.io",
+            "hsl.org.br",
+            "iheartjane.com",
+            "verano.com"
+          ],
+          "base_href": null,
+          "base_href_domain": null,
+          "base_href_external": false,
+          "base_tag_present": false,
+          "credential_form_count": 0,
+          "document_write_count": 0,
+          "dom_node_count": 386,
+          "email_credential_field_count": 0,
+          "email_input_count": 0,
+          "empty_anchor_count": 0,
+          "eval_count": 0,
+          "external_anchor_count": 32,
+          "external_anchor_ratio": 1,
+          "external_credential_form_count": 0,
+          "external_image_count": 0,
+          "external_image_ratio": 0,
+          "external_resource_count": 4,
+          "external_resource_ratio": 0.8,
+          "external_script_count": 3,
+          "external_script_ratio": 0.75,
+          "external_stylesheet_count": 1,
+          "external_stylesheet_ratio": 1,
+          "form_action_empty_count": 0,
+          "form_action_external_domain_count": 0,
+          "form_action_http_count": 0,
+          "form_action_https_count": 0,
+          "form_action_ip_count": 0,
+          "form_action_relative_count": 0,
+          "form_action_same_domain_count": 0,
+          "form_count": 0,
+          "form_get_count": 0,
+          "form_post_count": 0,
+          "hidden_input_count": 0,
+          "html_length": 17822,
+          "identity_personal_field_count": 0,
+          "iframe_count": 0,
+          "iframe_empty_src_count": 0,
+          "iframe_external_domain_count": 0,
+          "iframe_ip_count": 0,
+          "iframe_same_domain_count": 0,
+          "image_count": 0,
+          "inline_script_count": 1,
+          "input_count": 0,
+          "internal_anchor_count": 0,
+          "internal_image_count": 0,
+          "ip_credential_form_count": 0,
+          "javascript_anchor_count": 0,
+          "meta_description": null,
+          "meta_refresh_domain": null,
+          "meta_refresh_external": false,
+          "meta_refresh_present": false,
+          "meta_refresh_url": null,
+          "number_input_count": 0,
+          "otp_mfa_field_count": 0,
+          "page_title": "The Seven Deadly Sins | DLS",
+          "password_credential_field_count": 0,
+          "password_input_count": 0,
+          "payment_card_field_count": 0,
+          "pin_field_count": 0,
+          "resource_count": 5,
+          "script_count": 4,
+          "stylesheet_count": 1,
+          "tel_input_count": 0,
+          "text_input_count": 0,
+          "unique_external_domain_count": 9,
+          "username_field_count": 0,
+          "visible_text_length": 4118,
+          "window_open_count": 0
+        },
+        "rdap": {
+          "final_days_since_domain_update": null,
+          "final_days_until_expiration": null,
+          "final_domain_age_days": null,
+          "final_nameserver_count": null,
+          "final_rdap_available": false,
+          "final_registration_lifetime_days": null,
+          "original_days_since_domain_update": null,
+          "original_days_until_expiration": null,
+          "original_domain_age_days": null,
+          "original_nameserver_count": null,
+          "original_rdap_available": false,
+          "original_registration_lifetime_days": null
+        },
+        "status": {
+          "http_status_code": 200
+        },
+        "url": {
+          "at_count": 0,
+          "cross_domain_redirect_count": 0,
+          "digit_count": 11,
+          "digit_ratio": 0.5,
+          "dot_count": 3,
+          "embedded_domain_count": 0,
+          "encoded_char_count": 0,
+          "final_at_count": 0,
+          "final_digit_count": 11,
+          "final_digit_ratio": 0.5,
+          "final_domain_changed": false,
+          "final_dot_count": 3,
+          "final_embedded_domain_count": 0,
+          "final_encoded_char_count": 0,
+          "final_host_is_ip": true,
+          "final_hostname": "185.100.85.146",
+          "final_hostname_length": 14,
+          "final_hyphen_count": 0,
+          "final_path": "/",
+          "final_path_length": 1,
+          "final_percent_count": 0,
+          "final_public_suffix": "",
+          "final_punycode_present": false,
+          "final_query": "",
+          "final_query_length": 0,
+          "final_query_parameter_count": 0,
+          "final_registrable_domain": "185.100.85.146",
+          "final_scheme": "http",
+          "final_sensitive_word_count": 0,
+          "final_sensitive_words_found": [],
+          "final_skip_domain_age_lookup": false,
+          "final_special_char_count": 7,
+          "final_special_char_ratio": 0.3181818181818182,
+          "final_subdomain": "",
+          "final_subdomain_count": 0,
+          "final_underscore_count": 0,
+          "final_url": "http://185.100.85.146/",
+          "final_url_entropy": 3.4474015047059154,
+          "final_url_length": 22,
+          "final_url_token_count": 5,
+          "final_uses_shared_hosting_domain": false,
+          "host_is_ip": true,
+          "hostname": "185.100.85.146",
+          "hostname_length": 14,
+          "hyphen_count": 0,
+          "original_at_count": 0,
+          "original_digit_count": 11,
+          "original_digit_ratio": 0.5,
+          "original_dot_count": 3,
+          "original_embedded_domain_count": 0,
+          "original_encoded_char_count": 0,
+          "original_host_is_ip": true,
+          "original_hostname": "185.100.85.146",
+          "original_hostname_length": 14,
+          "original_hyphen_count": 0,
+          "original_path": "/",
+          "original_path_length": 1,
+          "original_percent_count": 0,
+          "original_public_suffix": "",
+          "original_punycode_present": false,
+          "original_query": "",
+          "original_query_length": 0,
+          "original_query_parameter_count": 0,
+          "original_registrable_domain": "185.100.85.146",
+          "original_scheme": "http",
+          "original_sensitive_word_count": 0,
+          "original_sensitive_words_found": [],
+          "original_skip_domain_age_lookup": false,
+          "original_special_char_count": 7,
+          "original_special_char_ratio": 0.3181818181818182,
+          "original_subdomain": "",
+          "original_subdomain_count": 0,
+          "original_underscore_count": 0,
+          "original_url": "http://185.100.85.146/",
+          "original_url_entropy": 3.4474015047059154,
+          "original_url_length": 22,
+          "original_url_token_count": 5,
+          "original_uses_shared_hosting_domain": false,
+          "path": "/",
+          "path_length": 1,
+          "percent_count": 0,
+          "public_suffix": "",
+          "punycode_present": false,
+          "query": "",
+          "query_length": 0,
+          "query_parameter_count": 0,
+          "raw_redirect_count": 0,
+          "redirect_chain": [
+            "http://185.100.85.146/"
+          ],
+          "registrable_domain": "185.100.85.146",
+          "scheme": "http",
+          "sensitive_word_count": 0,
+          "sensitive_words_found": [],
+          "special_char_count": 7,
+          "special_char_ratio": 0.3181818181818182,
+          "subdomain": "",
+          "subdomain_count": 0,
+          "underscore_count": 0,
+          "url_entropy": 3.4474015047059154,
+          "url_length": 22,
+          "url_token_count": 5,
+          "uses_shared_hosting_domain": false
+        }
+      },
+      "feature_vector_30": {
+        "anchor_count": 32,
+        "brand_candidate_final_domain_similarity": 0,
+        "brand_candidate_found": 0,
+        "brand_candidate_in_original_path": 0,
+        "brand_candidate_in_original_query": 0,
+        "brand_candidate_in_original_subdomain": 0,
+        "brand_candidate_matches_final_domain": 0,
+        "brand_candidate_matches_original_domain": 0,
+        "brand_candidate_original_domain_similarity": 0,
+        "brand_lookup_status": 1,
+        "brand_top_candidate_quality_score": null,
+        "brand_top_candidate_search_score": null,
+        "credential_form_count": 0,
+        "dom_node_count": 386,
+        "dot_count": 3,
+        "email_input_count": 0,
+        "external_anchor_count": 32,
+        "external_anchor_ratio": 1,
+        "external_image_ratio": 0,
+        "external_resource_count": 4,
+        "external_resource_ratio": 0.8,
+        "external_script_count": 3,
+        "external_script_ratio": 0.75,
+        "final_domain_age_days": null,
+        "final_dot_count": 3,
+        "final_hostname_length": 14,
+        "final_path_length": 1,
+        "final_subdomain_count": 0,
+        "final_url_entropy": 3.4474015047059154,
+        "final_url_length": 22,
+        "final_url_token_count": 5,
+        "form_action_https_count": 0,
+        "form_action_same_domain_count": 0,
+        "hostname_length": 14,
+        "html_length": 17822,
+        "image_count": 0,
+        "inline_script_count": 1,
+        "input_count": 0,
+        "internal_anchor_count": 0,
+        "original_domain_age_days": null,
+        "original_embedded_domain_count": 0,
+        "original_hostname_length": 14,
+        "original_path_length": 1,
+        "original_query_length": 0,
+        "original_skip_domain_age_lookup": 0,
+        "original_special_char_count": 7,
+        "original_special_char_ratio": 0.3181818181818182,
+        "original_subdomain_count": 0,
+        "original_url_entropy": 3.4474015047059154,
+        "original_url_length": 22,
+        "original_url_token_count": 5,
+        "original_uses_shared_hosting_domain": 0,
+        "otp_mfa_field_count": 0,
+        "password_input_count": 0,
+        "raw_redirect_count": 0,
+        "resource_count": 5,
+        "script_count": 4,
+        "sensitive_word_count": 0,
+        "unique_external_domain_count": 9,
+        "visible_text_length": 4118
+      },
+      "feature_vector_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "feature_vector_values": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        1,
+        0,
+        5,
+        32,
+        4,
+        0,
+        0,
+        0,
+        32,
+        5,
+        0.3181818181818182,
+        0,
+        1,
+        0,
+        3,
+        3,
+        14,
+        14,
+        14,
+        3.4474015047059154,
+        4118,
+        0,
+        0,
+        0,
+        0,
+        386,
+        17822,
+        1,
+        7,
+        5,
+        0.75,
+        3.4474015047059154,
+        4,
+        0.8,
+        1,
+        3,
+        9,
+        0,
+        0,
+        22,
+        0,
+        22,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_url": "http://185.100.85.146/",
+      "hostname": "185.100.85.146",
+      "id": "2026-10-15T16-43-18-456Z_185.100.85.146_1792082597268-b42e8153407a98",
+      "model_result": {
+        "feature_coverage": {
+          "coverage_percent": 100,
+          "feature_count": 60,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "fired_rule_count": 38,
+        "predicted_label": "legitimate",
+        "probability_phishing": 0.08952976821356394,
+        "top_fired_rules": [
+          {
+            "coefficient": 3.763359474656054,
+            "direction": "phishing",
+            "expression": "X0 <= 5929.0 and X12 <= 56.5 and X14 > 3.5 and X15 > 0.236695",
+            "id": "R089"
+          },
+          {
+            "coefficient": 3.2860345146652588,
+            "direction": "phishing",
+            "expression": "X12 <= 6.5 and X23 <= 18.5 and X5 > 0.5 and X6 <= 0.177866",
+            "id": "R082"
+          },
+          {
+            "coefficient": -2.887939592052742,
+            "direction": "legitimate",
+            "expression": "X36 <= 3.76495 and X5 > 0.5 and X7 <= 9.5",
+            "id": "R005"
+          },
+          {
+            "coefficient": -1.9545910057528386,
+            "direction": "legitimate",
+            "expression": "X22 <= 19.5 and X25 > 1289.0 and X3 > 0.217949 and X38 > 0.366667 and X40 <= 85.0 and X5 > 0.5 and X7 <= 10.5",
+            "id": "R008"
+          },
+          {
+            "coefficient": -1.9444461763017606,
+            "direction": "legitimate",
+            "expression": "X0 <= 5400.5 and X15 > 0.236695",
+            "id": "R050"
+          },
+          {
+            "coefficient": -1.5671403376969406,
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 <= 11.5",
+            "id": "R080"
+          }
+        ],
+        "verdict": "SAFE"
+      },
+      "normalized_url": "http://185.100.85.146/",
+      "observed_at": "2026-10-15T16:43:18.456Z",
+      "original_url": "http://185.100.85.146/",
+      "path_hint": "riwayat/json/2026-10-15T16-43-18-456Z_185.100.85.146_1792082597268-b42e8153407a98.json",
+      "registrable_domain": "185.100.85.146",
+      "score": 9,
+      "tab_id": 1699518980,
+      "url": "http://185.100.85.146/",
+      "verdict": "SAFE"
+    }
+  ],
+  "warningContexts": {}
+}

@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-10-25T11:55:07.445034+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_unique_domains_500_25_oktober.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 500,
+  "evaluated": 494,
+  "correct": 460,
+  "incorrect": 34,
+  "no_analysis": 6,
+  "warning_page_observed": 0,
+  "model_analysis_count": 494,
+  "evaluation_definition": "Observed extension verdict on an HTTP 200 page; warning_page_observed has no verified complete model analysis.",
+  "accuracy_on_evaluated_percent": 93.12,
+  "coverage_percent": 98.8
+}

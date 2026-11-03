@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-25T07:04:05.829538+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_unique_domains_300_25_oktober.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 300,
+  "evaluated": 296,
+  "correct": 193,
+  "incorrect": 103,
+  "no_analysis": 4,
+  "accuracy_on_evaluated_percent": 65.2,
+  "accuracy_on_total_percent": 64.33
+}

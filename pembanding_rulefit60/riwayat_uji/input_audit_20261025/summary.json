@@ -1,0 +1,51 @@
+{
+  "legitimate_file": "C:\\Users\\USER\\Downloads\\legitimate_fresh_unique_domains_300_25_oktober.txt",
+  "urls": 300,
+  "unique_registrable_domains": 300,
+  "historical_host_path_overlap": 0,
+  "unseen_domains": 227,
+  "categories": {
+    "government": 122,
+    "account_support": 19,
+    "gaming": 1,
+    "finance": 7,
+    "travel": 5,
+    "shipping": 4,
+    "consumer_support": 2,
+    "developer": 8,
+    "security": 1,
+    "shopping": 3,
+    "health": 1,
+    "education": 127
+  },
+  "with_query": 4,
+  "with_path": 300,
+  "phishing_file": "C:\\Users\\USER\\Downloads\\phishing_openphis_25_oktober.txt",
+  "phishing_supplied": 300,
+  "phishing_unique": 300,
+  "exclusion_scan": {
+    "text_files": 173,
+    "csv_with_url_columns": 409,
+    "json_url_files": 30,
+    "unique_host_path_keys": 1277107
+  },
+  "exclusion_keys": 1276102,
+  "limitations": [
+    "HTTP validation only, not browser-live validation.",
+    "Public institutional pages linked by their own sites; labels not determined by model predictions.",
+    "Freshness covers accessible local URL archives, ignoring query/fragment/locale-only differences.",
+    "Domain uniqueness applies within this batch; some domains may have appeared previously.",
+    "Phishing labels are user-supplied from claimed OpenPhish source; activity not checked.",
+    "Security, account, payment, admissions and service URLs are structural hard-negative candidates, not guaranteed visually phishing-like."
+  ],
+  "excel_history_file": "D:\\Deployment Extension\\testing live extension\\Riwayat_Testing_Live.xlsx",
+  "excel_history_host_paths": 2509,
+  "excel_history_overlap": 0,
+  "runner_parser_verified": true,
+  "quality_rejections": [
+    {
+      "url": "https://support.mozilla.org/en-US/products/mozilla-account",
+      "reason": "challenge/error title"
+    }
+  ]
+}

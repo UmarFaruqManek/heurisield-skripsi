@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-16T12:51:58.113917+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_testing_16_oktober_batch_baru_urls.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 295,
+  "correct": 284,
+  "incorrect": 11,
+  "no_analysis": 5,
+  "accuracy_on_evaluated_percent": 96.27,
+  "accuracy_on_total_percent": 94.67
+}

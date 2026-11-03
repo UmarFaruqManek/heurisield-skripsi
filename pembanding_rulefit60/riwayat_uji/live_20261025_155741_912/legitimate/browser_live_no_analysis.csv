@@ -1,0 +1,7 @@
+analysis_status,raw_probability_phishing,raw_verdict,index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,source_domain_age_days,page_domain_age_days,feature_coverage_percent,reasons,error
+no_valid_analysis,,,23,https://support.google.com/accounts/answer/9412469?hl=en&ref_topic=3382255,support.google.com,legitimate,SAFE,,0,https://support.google.com/accounts/answer/9412469?hl=en&ref_topic=3382255&ai1hc=1,,,,,,,,,,,,,,,
+no_valid_analysis,,,56,https://www.geneva.edu/admissions/,www.geneva.edu,legitimate,SAFE,,0,https://apply.geneva.edu/portal/applynow,,,,,,,,,,,,,,,
+no_valid_analysis,,,78,https://leema.gov/site/privacy,leema.gov,legitimate,SAFE,,0,chrome-error://chromewebdata/,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://leema.gov/site/privacy
+no_valid_analysis,,,138,https://hopedale-ma.gov/site/privacy,hopedale-ma.gov,legitimate,SAFE,,0,https://hopedale-ma.gov/Error.aspx?aspxerrorpath=/site/privacy,,,,,,,,,,,,,,,
+http_error,,,172,https://newportbeachca.gov/how-do-i-/apply-for/permits,newportbeachca.gov,legitimate,SAFE,,0,https://newportbeachca.gov/how-do-i-/apply-for/permits,,,,,,,,,,,,,,,
+no_valid_analysis,,,200,https://plainvillema.gov/318/Licenses-Certificates-Permits,plainvillema.gov,legitimate,SAFE,,0,https://plainvillema.gov/318/Licenses-Certificates-Permits,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.

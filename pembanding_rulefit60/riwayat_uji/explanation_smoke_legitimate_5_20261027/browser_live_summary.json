@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-10-26T16:58:01.849207+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "D:\\Deployment Extension\\data\\evaluasi_live\\explanation_smoke_legitimate_5_20261027\\urls.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 5,
+  "evaluated": 5,
+  "correct": 5,
+  "incorrect": 0,
+  "no_analysis": 0,
+  "warning_page_observed": 0,
+  "model_analysis_count": 5,
+  "evaluation_definition": "Observed extension verdict on an HTTP 200 page; warning_page_observed has no verified complete model analysis.",
+  "accuracy_on_evaluated_percent": 100.0,
+  "coverage_percent": 100.0
+}

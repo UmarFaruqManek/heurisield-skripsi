@@ -1,0 +1,1 @@
+{"run_id":"qa_format_append","config":"Formatting regression fixture","rows":[["https://example.org/a","legitimate","legitimate"],["https://example.net/b","phishing","legitimate"],["https://example.com/c","phishing","no_analysis"]]}

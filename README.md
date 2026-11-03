@@ -21,6 +21,8 @@ Alurnya: URL dan umur domain → skor XGBoost → pemeriksaan DOM dan brand → 
 | `hasil_live_*/`, `pengujian_eksternal_02nov2026/` | Laporan pengujian live per URL, status HTTP, fitur, skor, temuan DOM/brand, serta ringkasan. |
 | `input_uji/` | Daftar uji terbaru yang sudah disamarkan bila mengandung parameter autentikasi. |
 | `Skrip/` | Evaluator live, penyatuan laporan, dan pembentukan kembali indeks SQLite lokal. |
+| `pembanding_rulefit60/extension/` | Snapshot extension RuleFit60 lama sebagai pembanding, lengkap dengan model dan uji kodenya. |
+| `pembanding_rulefit60/riwayat_uji/` | Laporan pengujian RuleFit60: hasil per URL, ringkasan, serta audit kasus. |
 
 Arsip `browser_live_analysis.json` adalah sumber riwayat per URL. Database SQLite lokal tidak disertakan karena merupakan indeks turunan berukuran lebih dari 100 MiB; indeks dapat dibuat kembali dari laporan dengan:
 
@@ -40,4 +42,4 @@ Laporkan **akurasi pada URL yang berhasil dianalisis** bersama **cakupan analisi
 
 ## Data dan privasi
 
-Salinan publik mempertahankan label, fitur, skor, keputusan, dan status pengujian. Nilai parameter autentikasi dalam URL serta alamat email telah disamarkan. Karena itu, beberapa URL pada salinan publik tidak identik dengan URL mentah saat pengujian; gunakan fitur dan snapshot model yang tersimpan untuk menelaah keputusan historis. Workbook `.xlsx` duplikat, berkas inspeksi sementara, arsip ROR pihak ketiga, cache, dan indeks SQLite turunan tidak disertakan. Simpan data mentah asli secara privat.
+Salinan publik mempertahankan label, fitur, skor, keputusan, dan status pengujian. Nilai parameter autentikasi dalam URL serta alamat email telah disamarkan. Karena itu, beberapa URL pada salinan publik tidak identik dengan URL mentah saat pengujian; gunakan fitur dan snapshot model yang tersimpan untuk menelaah keputusan historis. Pada arsip RuleFit60, berkas `browser_live_raw_analysis.jsonl` dan checkpoint sementara tidak disertakan karena isi per URL sudah ada pada `browser_live_analysis.json` atau `browser_live_rows.csv`. Workbook `.xlsx` duplikat, berkas inspeksi sementara, arsip ROR pihak ketiga, cache, dan indeks SQLite turunan tidak disertakan. Simpan data mentah asli secara privat.

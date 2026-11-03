@@ -1,0 +1,11 @@
+index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,source_domain_age_days,page_domain_age_days,feature_coverage_percent,reasons,error
+40,https://eg1xbet.com/en/block,eg1xbet.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://eg1xbet.com/en/block
+41,https://eg1xbet.com/en/live/football/2590430-mls,eg1xbet.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://eg1xbet.com/en/live/football/2590430-mls
+82,https://ca.kmfaacx.net/og/cent/reon/3airlo.html,ca.kmfaacx.net,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ca.kmfaacx.net/og/cent/reon/3airlo.html
+93,https://assistant-lcloud.help/help?Fq2,assistant-lcloud.help,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://assistant-lcloud.help/help?Fq2
+94,http://assistant-lcloud.help/Fq2,assistant-lcloud.help,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://assistant-lcloud.help/Fq2
+163,http://main.d2i2voxato2lwa.amplifyapp.com/,main.d2i2voxato2lwa.amplifyapp.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at http://main.d2i2voxato2lwa.amplifyapp.com/
+166,https://vmi3687348.contaboserver.net/Entrega/Entrega/entrega/msg.php,vmi3687348.contaboserver.net,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://vmi3687348.contaboserver.net/Entrega/Entrega/entrega/msg.php
+195,https://mydpd.hrgoa.xyz/track-ch,mydpd.hrgoa.xyz,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://mydpd.hrgoa.xyz/track-ch
+256,https://easylowcost.eu/wp-content/xserv/?uid=REDACTED_EMAIL,easylowcost.eu,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://easylowcost.eu/wp-content/xserv/?uid=REDACTED_EMAIL
+257,http://gagnegainbel.pro/,gagnegainbel.pro,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at http://gagnegainbel.pro/

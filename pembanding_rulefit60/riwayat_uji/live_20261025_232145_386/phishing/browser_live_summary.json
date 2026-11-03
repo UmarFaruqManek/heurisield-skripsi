@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-10-25T16:14:38.268539+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_testing_baru_25_oktober.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 205,
+  "correct": 176,
+  "incorrect": 29,
+  "no_analysis": 95,
+  "warning_page_observed": 33,
+  "model_analysis_count": 172,
+  "evaluation_definition": "Observed extension verdict on an HTTP 200 page; warning_page_observed has no verified complete model analysis.",
+  "accuracy_on_evaluated_percent": 85.85,
+  "coverage_percent": 68.33
+}

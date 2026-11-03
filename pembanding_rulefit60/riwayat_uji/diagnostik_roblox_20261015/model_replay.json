@@ -1,0 +1,431 @@
+{
+  "note": "Counterfactual replay on one observed feature vector; only actual_observed_features was captured live. These model probabilities exclude post-model guards.",
+  "results": {
+    "actual_observed_features": {
+      "verdict": "SAFE",
+      "probability_phishing": 0.05639108224407466,
+      "logit": -2.8174007685062623,
+      "positive_rules": [
+        {
+          "id": "R150",
+          "coefficient": 2.430953421614121,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.0721195
+            },
+            {
+              "feature": "brand_top_candidate_search_score",
+              "value": 120.714584,
+              "imputed_value": 120.714584,
+              "operator": ">",
+              "threshold": 20.95503
+            },
+            {
+              "feature": "original_uses_shared_hosting_domain",
+              "value": 0,
+              "imputed_value": 0,
+              "operator": "<=",
+              "threshold": 0.5
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "script_count",
+              "value": 127,
+              "imputed_value": 127,
+              "operator": ">",
+              "threshold": 123.5
+            }
+          ]
+        },
+        {
+          "id": "R055",
+          "coefficient": 2.0983388492227046,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 25.5
+            }
+          ]
+        },
+        {
+          "id": "R149",
+          "coefficient": 1.624058175705269,
+          "conditions": [
+            {
+              "feature": "original_hostname_length",
+              "value": 14,
+              "imputed_value": 14,
+              "operator": "<=",
+              "threshold": 19.5
+            },
+            {
+              "feature": "external_script_count",
+              "value": 111,
+              "imputed_value": 111,
+              "operator": ">",
+              "threshold": 85
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "coefficient": 1.5299809461756069,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "anchor_count",
+              "value": 22,
+              "imputed_value": 22,
+              "operator": ">",
+              "threshold": 13.5
+            }
+          ]
+        },
+        {
+          "id": "R034",
+          "coefficient": 0.6120091626401974,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.00138122
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "brand_scores_unavailable": {
+      "verdict": "SAFE",
+      "probability_phishing": 0.05639108224407466,
+      "logit": -2.8174007685062623,
+      "positive_rules": [
+        {
+          "id": "R150",
+          "coefficient": 2.430953421614121,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.0721195
+            },
+            {
+              "feature": "brand_top_candidate_search_score",
+              "value": null,
+              "imputed_value": 72.453835,
+              "operator": ">",
+              "threshold": 20.95503
+            },
+            {
+              "feature": "original_uses_shared_hosting_domain",
+              "value": 0,
+              "imputed_value": 0,
+              "operator": "<=",
+              "threshold": 0.5
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "script_count",
+              "value": 127,
+              "imputed_value": 127,
+              "operator": ">",
+              "threshold": 123.5
+            }
+          ]
+        },
+        {
+          "id": "R055",
+          "coefficient": 2.0983388492227046,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 25.5
+            }
+          ]
+        },
+        {
+          "id": "R149",
+          "coefficient": 1.624058175705269,
+          "conditions": [
+            {
+              "feature": "original_hostname_length",
+              "value": 14,
+              "imputed_value": 14,
+              "operator": "<=",
+              "threshold": 19.5
+            },
+            {
+              "feature": "external_script_count",
+              "value": 111,
+              "imputed_value": 111,
+              "operator": ">",
+              "threshold": 85
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "coefficient": 1.5299809461756069,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "anchor_count",
+              "value": 22,
+              "imputed_value": 22,
+              "operator": ">",
+              "threshold": 13.5
+            }
+          ]
+        },
+        {
+          "id": "R034",
+          "coefficient": 0.6120091626401974,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.00138122
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "brand_and_scores_unavailable": {
+      "verdict": "SAFE",
+      "probability_phishing": 0.26352176279772754,
+      "logit": -1.0277437306877966,
+      "positive_rules": [
+        {
+          "id": "R150",
+          "coefficient": 2.430953421614121,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.0721195
+            },
+            {
+              "feature": "brand_top_candidate_search_score",
+              "value": null,
+              "imputed_value": 72.453835,
+              "operator": ">",
+              "threshold": 20.95503
+            },
+            {
+              "feature": "original_uses_shared_hosting_domain",
+              "value": 0,
+              "imputed_value": 0,
+              "operator": "<=",
+              "threshold": 0.5
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "script_count",
+              "value": 127,
+              "imputed_value": 127,
+              "operator": ">",
+              "threshold": 123.5
+            }
+          ]
+        },
+        {
+          "id": "R055",
+          "coefficient": 2.0983388492227046,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "resource_count",
+              "value": 162,
+              "imputed_value": 162,
+              "operator": ">",
+              "threshold": 25.5
+            }
+          ]
+        },
+        {
+          "id": "R149",
+          "coefficient": 1.624058175705269,
+          "conditions": [
+            {
+              "feature": "original_hostname_length",
+              "value": 14,
+              "imputed_value": 14,
+              "operator": "<=",
+              "threshold": 19.5
+            },
+            {
+              "feature": "external_script_count",
+              "value": 111,
+              "imputed_value": 111,
+              "operator": ">",
+              "threshold": 85
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        },
+        {
+          "id": "R010",
+          "coefficient": 1.5299809461756069,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            },
+            {
+              "feature": "anchor_count",
+              "value": 22,
+              "imputed_value": 22,
+              "operator": ">",
+              "threshold": 13.5
+            }
+          ]
+        },
+        {
+          "id": "R034",
+          "coefficient": 0.6120091626401974,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "value": 0.36363636363636365,
+              "imputed_value": 0.36363636363636365,
+              "operator": ">",
+              "threshold": 0.00138122
+            },
+            {
+              "feature": "original_path_length",
+              "value": 1,
+              "imputed_value": 1,
+              "operator": ">",
+              "threshold": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

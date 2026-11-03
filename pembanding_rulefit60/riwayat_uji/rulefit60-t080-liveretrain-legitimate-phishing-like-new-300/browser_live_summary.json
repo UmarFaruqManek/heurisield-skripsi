@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-13T14:28:12.722158+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "D:\\mesin crawl\\Heurishield-V5\\reports\\legitimate-seed-list\\legitimate_phishing_like_new_300_urls.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 300,
+  "evaluated": 300,
+  "correct": 277,
+  "incorrect": 23,
+  "no_analysis": 0,
+  "accuracy_on_evaluated_percent": 92.33,
+  "accuracy_on_total_percent": 92.33
+}

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-15T12:43:30.241034+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\.codex\\attachments\\b854c63f-0865-4ceb-8037-994bf61f215a\\Pasted text.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 297,
+  "correct": 269,
+  "incorrect": 28,
+  "no_analysis": 3,
+  "accuracy_on_evaluated_percent": 90.57,
+  "accuracy_on_total_percent": 89.67
+}

@@ -1,0 +1,7 @@
+analysis_status,raw_probability_phishing,raw_verdict,index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,source_domain_age_days,page_domain_age_days,feature_coverage_percent,reasons,error
+no_valid_analysis,,,13,https://hampdenma.gov/179/Permit-Applications,hampdenma.gov,legitimate,SAFE,,0,https://hampdenma.gov/179/Permit-Applications,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+error_or_challenge_page,,,75,https://support.mozilla.org/en-US/products/mozilla-account,support.mozilla.org,legitimate,SAFE,,0,https://support.mozilla.org/en-US/products/mozilla-account,,,,,,,,,,,,,,,
+no_valid_analysis,,,97,https://erieco.gov/581/Utility-Billing,erieco.gov,legitimate,SAFE,,0,https://erieco.gov/581/Utility-Billing,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+no_valid_analysis,,,107,https://newbraunfels.gov/register,newbraunfels.gov,legitimate,SAFE,,0,https://newbraunfels.gov/register,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+http_error,,,405,https://tetoncountyidaho.gov/contact_us/index.php,tetoncountyidaho.gov,legitimate,SAFE,,0,https://tetoncountyidaho.gov/contact_us/index.php,,,,,,,,,,,,,,,
+no_valid_analysis,,,455,https://www.cumbria.ac.uk/contact/,www.cumbria.ac.uk,legitimate,SAFE,,0,https://www.cumbria.ac.uk/contact/,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.

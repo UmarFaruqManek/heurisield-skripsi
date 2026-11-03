@@ -1,0 +1,2370 @@
+{
+  "analysisByTab": {
+    "481595796": {
+      "analyzed_at": "2026-10-14T16:40:43.491Z",
+      "analyzer_version": "v5-rulefit60-clearbit-self-brand-v4",
+      "brand_features": {
+        "brand_candidate_final_domain_similarity": 1,
+        "brand_candidate_found": true,
+        "brand_candidate_in_original_path": false,
+        "brand_candidate_in_original_query": false,
+        "brand_candidate_in_original_subdomain": false,
+        "brand_candidate_matches_final_domain": true,
+        "brand_candidate_matches_original_domain": true,
+        "brand_candidate_original_domain_similarity": 1,
+        "brand_lookup_status": true,
+        "brand_top_candidate_domain": "roblox.com",
+        "brand_top_candidate_name": "Roblox",
+        "brand_top_candidate_quality_score": 0.9615349423068125,
+        "brand_top_candidate_query": "roblox",
+        "brand_top_candidate_query_priority": 30,
+        "brand_top_candidate_score_source": "brandfetch",
+        "brand_top_candidate_search_score": 120.714584,
+        "brand_top_candidate_source": "clearbit"
+      },
+      "decision_checklist": {
+        "compatibilityScore": 100,
+        "mode": "rulefit_model"
+      },
+      "document_id": "1791996042062-78a6efc5339fc8",
+      "dom_analysis": {
+        "feature_version": "crawler-dom-parity-v1",
+        "forms": [
+          {
+            "credential_form_count": 0,
+            "hasOtpOrPinInput": false,
+            "hasPasswordInput": true,
+            "hasPaymentInput": false,
+            "hasSensitiveInput": false,
+            "sensitive_form_count": 0
+          }
+        ],
+        "resources": {
+          "anchor_count": 22,
+          "external_anchor_count": 8,
+          "external_resource_count": 145,
+          "unique_external_domain_count": 8
+        },
+        "scripts": {
+          "document_write_count": 0,
+          "eval_count": 0,
+          "inline_script_count": 13,
+          "script_count": 127,
+          "window_open_count": 0
+        },
+        "text": {
+          "dom_node_count": 508,
+          "html_length": 84484,
+          "visible_text_length": 1131
+        }
+      },
+      "dom_error": null,
+      "dom_features": {
+        "analyzer_version": "crawler-dom-parity-v1",
+        "anchor_count": 22,
+        "anchor_domains": [
+          "amazon.com",
+          "apple.com",
+          "google.com",
+          "meta.com",
+          "microsoft.com",
+          "playstation.com",
+          "samsung.com",
+          "xbox.com"
+        ],
+        "base_href": null,
+        "base_href_domain": null,
+        "base_href_external": false,
+        "base_tag_present": false,
+        "credential_form_count": 0,
+        "document_write_count": 0,
+        "dom_node_count": 508,
+        "email_credential_field_count": 0,
+        "email_input_count": 0,
+        "empty_anchor_count": 0,
+        "eval_count": 0,
+        "external_anchor_count": 8,
+        "external_anchor_ratio": 0.36363636363636365,
+        "external_credential_form_count": 0,
+        "external_image_count": 8,
+        "external_image_ratio": 0.8888888888888888,
+        "external_resource_count": 145,
+        "external_resource_ratio": 0.8950617283950617,
+        "external_script_count": 111,
+        "external_script_ratio": 0.8740157480314961,
+        "external_stylesheet_count": 26,
+        "external_stylesheet_ratio": 1,
+        "form_action_empty_count": 0,
+        "form_action_external_domain_count": 0,
+        "form_action_http_count": 0,
+        "form_action_https_count": 0,
+        "form_action_ip_count": 0,
+        "form_action_relative_count": 0,
+        "form_action_same_domain_count": 0,
+        "form_count": 0,
+        "form_get_count": 0,
+        "form_post_count": 0,
+        "hidden_input_count": 0,
+        "html_length": 84484,
+        "identity_personal_field_count": 0,
+        "iframe_count": 0,
+        "iframe_empty_src_count": 0,
+        "iframe_external_domain_count": 0,
+        "iframe_ip_count": 0,
+        "iframe_same_domain_count": 0,
+        "image_count": 9,
+        "inline_script_count": 13,
+        "input_count": 5,
+        "internal_anchor_count": 14,
+        "internal_image_count": 0,
+        "ip_credential_form_count": 0,
+        "javascript_anchor_count": 0,
+        "meta_description": "Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine. Join millions of people and discover an infinite variety of immersive experiences created by a global community!",
+        "meta_refresh_domain": null,
+        "meta_refresh_external": false,
+        "meta_refresh_present": false,
+        "meta_refresh_url": null,
+        "number_input_count": 0,
+        "otp_mfa_field_count": 0,
+        "page_title": "Play Free Online Games on Roblox - Sign Up to Play!",
+        "password_credential_field_count": 1,
+        "password_input_count": 1,
+        "payment_card_field_count": 0,
+        "pin_field_count": 0,
+        "resource_count": 162,
+        "script_count": 127,
+        "stylesheet_count": 26,
+        "tel_input_count": 0,
+        "text_input_count": 4,
+        "unique_external_domain_count": 8,
+        "username_field_count": 1,
+        "visible_text_length": 1131,
+        "window_open_count": 0
+      },
+      "dom_score": 18,
+      "evidence": [
+        {
+          "dependency_group": "dom",
+          "evidence_id": "D16",
+          "explanation": "Input kredensial dan label sensitif dibaca langsung dari DOM halaman.",
+          "observation_id": "dom_credential_labels",
+          "raw_value": {
+            "credential_form_count": 0,
+            "identity_like_label_count": 0,
+            "password_like_label_count": 1,
+            "sensitive_form_count": 0
+          },
+          "source": "DOM credential fields",
+          "status": "observed"
+        },
+        {
+          "dependency_group": "dom",
+          "evidence_id": "D18",
+          "explanation": "Jumlah form kredensial dihitung dari input password, email, OTP, PIN, payment, dan identitas.",
+          "observation_id": "dom_credential_forms",
+          "raw_value": {
+            "credential_form_count": 0,
+            "no_clear_page_identity": false,
+            "sensitive_form_count": 0,
+            "visible_brand_hints": []
+          },
+          "source": "DOM forms",
+          "status": "observed"
+        },
+        {
+          "dependency_group": "domain_metadata",
+          "evidence_id": "U18",
+          "explanation": "Umur domain dan metadata registrasi dibaca melalui RDAP/WHOIS seperti pipeline crawler.",
+          "observation_id": "domain_age_rdap",
+          "raw_value": {
+            "final_domain_age_days": 8293,
+            "final_rdap_available": true,
+            "original_domain_age_days": 8293,
+            "original_rdap_available": true
+          },
+          "source": "RDAP/WHOIS",
+          "status": "observed"
+        },
+        {
+          "dependency_group": "brand",
+          "evidence_id": "B01",
+          "explanation": "Kandidat brand dihitung dari title, hostname, dan Brandfetch dengan relasi domain original/final.",
+          "observation_id": "brand_candidate",
+          "raw_value": {
+            "brand_candidate_found": true,
+            "brand_top_candidate_domain": "roblox.com",
+            "brand_top_candidate_quality_score": 0.9615349423068125,
+            "brand_top_candidate_search_score": 120.714584
+          },
+          "source": "Brand lookup",
+          "status": "observed"
+        }
+      ],
+      "evidence_trace": [],
+      "feature_vector": {
+        "feature_count": 60,
+        "missing_features": [],
+        "provided_features": 60,
+        "values": [
+          8293,
+          8293,
+          120.714584,
+          0.9615349423068125,
+          1,
+          1,
+          1,
+          162,
+          22,
+          127,
+          1,
+          1,
+          14,
+          8,
+          4,
+          0.2608695652173913,
+          1,
+          0.36363636363636365,
+          1,
+          2,
+          2,
+          14,
+          14,
+          14,
+          3.7294461949052566,
+          1131,
+          0,
+          0,
+          0,
+          0,
+          508,
+          84484,
+          1,
+          6,
+          4,
+          0.8740157480314961,
+          3.7294461949052566,
+          145,
+          0.8950617283950617,
+          13,
+          111,
+          8,
+          9,
+          0.8888888888888888,
+          23,
+          0,
+          23,
+          1,
+          1,
+          0,
+          0,
+          0,
+          5,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "vector": {
+          "anchor_count": 22,
+          "brand_candidate_final_domain_similarity": 1,
+          "brand_candidate_found": 1,
+          "brand_candidate_in_original_path": 0,
+          "brand_candidate_in_original_query": 0,
+          "brand_candidate_in_original_subdomain": 0,
+          "brand_candidate_matches_final_domain": 1,
+          "brand_candidate_matches_original_domain": 1,
+          "brand_candidate_original_domain_similarity": 1,
+          "brand_lookup_status": 1,
+          "brand_top_candidate_quality_score": 0.9615349423068125,
+          "brand_top_candidate_search_score": 120.714584,
+          "credential_form_count": 0,
+          "dom_node_count": 508,
+          "dot_count": 2,
+          "email_input_count": 0,
+          "external_anchor_count": 8,
+          "external_anchor_ratio": 0.36363636363636365,
+          "external_image_ratio": 0.8888888888888888,
+          "external_resource_count": 145,
+          "external_resource_ratio": 0.8950617283950617,
+          "external_script_count": 111,
+          "external_script_ratio": 0.8740157480314961,
+          "final_domain_age_days": 8293,
+          "final_dot_count": 2,
+          "final_hostname_length": 14,
+          "final_path_length": 1,
+          "final_subdomain_count": 1,
+          "final_url_entropy": 3.7294461949052566,
+          "final_url_length": 23,
+          "final_url_token_count": 4,
+          "form_action_https_count": 0,
+          "form_action_same_domain_count": 0,
+          "hostname_length": 14,
+          "html_length": 84484,
+          "image_count": 9,
+          "inline_script_count": 13,
+          "input_count": 5,
+          "internal_anchor_count": 14,
+          "original_domain_age_days": 8293,
+          "original_embedded_domain_count": 0,
+          "original_hostname_length": 14,
+          "original_path_length": 1,
+          "original_query_length": 0,
+          "original_skip_domain_age_lookup": 0,
+          "original_special_char_count": 6,
+          "original_special_char_ratio": 0.2608695652173913,
+          "original_subdomain_count": 1,
+          "original_url_entropy": 3.7294461949052566,
+          "original_url_length": 23,
+          "original_url_token_count": 4,
+          "original_uses_shared_hosting_domain": 0,
+          "otp_mfa_field_count": 0,
+          "password_input_count": 1,
+          "raw_redirect_count": 0,
+          "resource_count": 162,
+          "script_count": 127,
+          "sensitive_word_count": 0,
+          "unique_external_domain_count": 8,
+          "visible_text_length": 1131
+        }
+      },
+      "feature_vector_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "final_url": "https://www.roblox.com/",
+      "hostname": "www.roblox.com",
+      "matched_rules": [
+        {
+          "feature": "brand_domain_match",
+          "id": "SELF_BRAND_DOMAIN_GUARD",
+          "reason": "Brand Roblox cocok dengan domain aktif roblox.com, domain memiliki data RDAP, dan form kredensial tidak mengarah ke domain luar.",
+          "severity": "info",
+          "source": "Brand impersonation guard"
+        },
+        {
+          "coefficient": 2.430953421614121,
+          "direction": "phishing",
+          "feature": "external_anchor_ratio",
+          "id": "RULEFIT_R150",
+          "reason": "RuleFit risiko: external_anchor_ratio > 0.0721; brand_top_candidate_search_score > 20.955; original_uses_shared_hosting_domain <= 0.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": 2.0983388492227046,
+          "direction": "phishing",
+          "feature": "original_path_length",
+          "id": "RULEFIT_R055",
+          "reason": "RuleFit risiko: original_path_length > 0.5; resource_count > 25.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -1.7896570378184653,
+          "direction": "legitimate",
+          "feature": "brand_candidate_matches_final_domain",
+          "id": "RULEFIT_R019",
+          "reason": "RuleFit aman: brand_candidate_matches_final_domain > 0.5; original_uses_shared_hosting_domain <= 0.5; brand_top_candidate_quality_score > 0.3506",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": 1.624058175705269,
+          "direction": "phishing",
+          "feature": "original_hostname_length",
+          "id": "RULEFIT_R149",
+          "reason": "RuleFit risiko: original_hostname_length <= 19.5; external_script_count > 85; original_path_length > 0.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": 1.5299809461756069,
+          "direction": "phishing",
+          "feature": "original_path_length",
+          "id": "RULEFIT_R010",
+          "reason": "RuleFit risiko: original_path_length > 0.5; anchor_count > 13.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        },
+        {
+          "coefficient": -1.3228828460422237,
+          "direction": "legitimate",
+          "feature": "original_domain_age_days",
+          "id": "RULEFIT_R048",
+          "reason": "RuleFit aman: original_domain_age_days > 1150; original_hostname_length <= 15.5; anchor_count <= 63.5",
+          "severity": "medium",
+          "source": "RuleFit"
+        }
+      ],
+      "model_result": {
+        "feature_coverage": {
+          "coverage_percent": 100,
+          "feature_count": 60,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "features": {
+          "coverage_percent": 100,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "fired_rule_count": 33,
+        "fired_rules": [
+          {
+            "coefficient": 2.430953421614121,
+            "conditions": [
+              {
+                "feature": "external_anchor_ratio",
+                "imputed_value": 0.36363636363636365,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.0721195,
+                "value": 0.36363636363636365
+              },
+              {
+                "feature": "brand_top_candidate_search_score",
+                "imputed_value": 120.714584,
+                "operator": ">",
+                "passed": true,
+                "threshold": 20.95503,
+                "value": 120.714584
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 162
+              },
+              {
+                "feature": "script_count",
+                "imputed_value": 127,
+                "operator": ">",
+                "passed": true,
+                "threshold": 123.5,
+                "value": 127
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X17 > 0.0721195 and X2 > 20.95503 and X28 <= 0.5 and X5 > 0.5 and X7 > 0.5 and X9 > 123.5",
+            "id": "R150"
+          },
+          {
+            "coefficient": 2.0983388492227046,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 25.5,
+                "value": 162
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X7 > 25.5",
+            "id": "R055"
+          },
+          {
+            "coefficient": -1.7896570378184653,
+            "conditions": [
+              {
+                "feature": "brand_candidate_matches_final_domain",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "brand_top_candidate_quality_score",
+                "imputed_value": 0.9615349423068125,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.350563,
+                "value": 0.9615349423068125
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X10 > 0.5 and X28 <= 0.5 and X3 > 0.350563 and X5 > 0.5",
+            "id": "R019"
+          },
+          {
+            "coefficient": 1.624058175705269,
+            "conditions": [
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 19.5,
+                "value": 14
+              },
+              {
+                "feature": "external_script_count",
+                "imputed_value": 111,
+                "operator": ">",
+                "passed": true,
+                "threshold": 85,
+                "value": 111
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X22 <= 19.5 and X40 > 85.0 and X5 > 0.5",
+            "id": "R149"
+          },
+          {
+            "coefficient": 1.5299809461756069,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": ">",
+                "passed": true,
+                "threshold": 13.5,
+                "value": 22
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X8 > 13.5",
+            "id": "R010"
+          },
+          {
+            "coefficient": -1.3228828460422237,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1150,
+                "value": 8293
+              },
+              {
+                "feature": "original_hostname_length",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 15.5,
+                "value": 14
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 63.5,
+                "value": 22
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 > 1150.0 and X22 <= 15.5 and X8 <= 63.5",
+            "id": "R048"
+          },
+          {
+            "coefficient": -1.1369003049943385,
+            "conditions": [
+              {
+                "feature": "brand_candidate_in_original_subdomain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 17.5,
+                "value": 162
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X27 <= 0.5 and X5 > 0.5 and X7 > 17.5",
+            "id": "R011"
+          },
+          {
+            "coefficient": -0.9353878722240571,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 35.5,
+                "value": 22
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X8 <= 35.5",
+            "id": "R072"
+          },
+          {
+            "coefficient": -0.9104399002827052,
+            "conditions": [
+              {
+                "feature": "brand_top_candidate_search_score",
+                "imputed_value": 120.714584,
+                "operator": ">",
+                "passed": true,
+                "threshold": 22.47024,
+                "value": 120.714584
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X2 > 22.47024 and X28 <= 0.5 and X5 > 0.5",
+            "id": "R060"
+          },
+          {
+            "coefficient": -0.6810442138317644,
+            "conditions": [
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 62.5,
+                "value": 22
+              },
+              {
+                "feature": "script_count",
+                "imputed_value": 127,
+                "operator": ">",
+                "passed": true,
+                "threshold": 15.5,
+                "value": 127
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X8 <= 62.5 and X9 > 15.5",
+            "id": "R067"
+          },
+          {
+            "coefficient": -0.6455957006690406,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 14,
+                "operator": ">",
+                "passed": true,
+                "threshold": 2.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 > 2.5 and X5 > 0.5",
+            "id": "R031"
+          },
+          {
+            "coefficient": 0.6120091626401974,
+            "conditions": [
+              {
+                "feature": "external_anchor_ratio",
+                "imputed_value": 0.36363636363636365,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.00138122,
+                "value": 0.36363636363636365
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X17 > 0.00138122 and X5 > 0.5",
+            "id": "R034"
+          },
+          {
+            "coefficient": -0.6078841711881591,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 12.5,
+                "value": 162
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 > 12.5",
+            "id": "R020"
+          },
+          {
+            "coefficient": 0.5868937419231387,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5430.5,
+                "value": 8293
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 58,
+                "value": 22
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X1 > 5430.5 and X8 <= 58.0",
+            "id": "R068"
+          },
+          {
+            "coefficient": -0.5327071622151188,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 162
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X7 > 0.5",
+            "id": "R058"
+          },
+          {
+            "coefficient": -0.4819495088708477,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5932.5,
+                "value": 8293
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 62,
+                "value": 22
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 > 5932.5 and X28 <= 0.5 and X8 <= 62.0",
+            "id": "R042"
+          },
+          {
+            "coefficient": -0.449974546155356,
+            "conditions": [
+              {
+                "feature": "dom_node_count",
+                "imputed_value": 508,
+                "operator": ">",
+                "passed": true,
+                "threshold": 195.5,
+                "value": 508
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X30 > 195.5 and X5 > 0.5",
+            "id": "R022"
+          },
+          {
+            "coefficient": -0.43379357718283773,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5467,
+                "value": 8293
+              },
+              {
+                "feature": "original_skip_domain_age_lookup",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 > 5467.0 and X29 <= 0.5",
+            "id": "R053"
+          },
+          {
+            "coefficient": -0.32254310152984655,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": ">",
+                "passed": true,
+                "threshold": 7.5,
+                "value": 22
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X5 > 0.5 and X8 > 7.5",
+            "id": "R016"
+          },
+          {
+            "coefficient": 0.32037191172557694,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 6008.5,
+                "value": 8293
+              },
+              {
+                "feature": "anchor_count",
+                "imputed_value": 22,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 61.5,
+                "value": 22
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 > 6008.5 and X8 <= 61.5",
+            "id": "R071"
+          },
+          {
+            "coefficient": -0.2889769650010213,
+            "conditions": [
+              {
+                "feature": "external_anchor_count",
+                "imputed_value": 8,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1.5,
+                "value": 8
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X13 > 1.5",
+            "id": "R057"
+          },
+          {
+            "coefficient": -0.26179178397238745,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 2790,
+                "value": 8293
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 > 2790.0",
+            "id": "R070"
+          },
+          {
+            "coefficient": 0.24337488492855539,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 14,
+                "operator": ">",
+                "passed": true,
+                "threshold": 8.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X12 > 8.5 and X5 > 0.5",
+            "id": "R012"
+          },
+          {
+            "coefficient": 0.23313663535353046,
+            "conditions": [
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 11.5,
+                "value": 162
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X7 > 11.5",
+            "id": "R052"
+          },
+          {
+            "coefficient": 0.21534043944040013,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 2956.5,
+                "value": 8293
+              },
+              {
+                "feature": "resource_count",
+                "imputed_value": 162,
+                "operator": ">",
+                "passed": true,
+                "threshold": 9.5,
+                "value": 162
+              }
+            ],
+            "direction": "phishing",
+            "expression": "X0 > 2956.5 and X7 > 9.5",
+            "id": "R039"
+          },
+          {
+            "coefficient": -0.21369835661202402,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5864,
+                "value": 8293
+              },
+              {
+                "feature": "original_skip_domain_age_lookup",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 > 5864.0 and X29 <= 0.5",
+            "id": "R046"
+          },
+          {
+            "coefficient": -0.19115058792659576,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5864,
+                "value": 8293
+              },
+              {
+                "feature": "brand_top_candidate_search_score",
+                "imputed_value": 120.714584,
+                "operator": ">",
+                "passed": true,
+                "threshold": 21.86567,
+                "value": 120.714584
+              },
+              {
+                "feature": "original_uses_shared_hosting_domain",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 > 5864.0 and X2 > 21.86567 and X28 <= 0.5",
+            "id": "R044"
+          },
+          {
+            "coefficient": -0.19058818885650822,
+            "conditions": [
+              {
+                "feature": "final_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 6724,
+                "value": 8293
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X1 > 6724.0",
+            "id": "R056"
+          },
+          {
+            "coefficient": -0.14675860619227504,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 14,
+                "operator": ">",
+                "passed": true,
+                "threshold": 1.5,
+                "value": 14
+              },
+              {
+                "feature": "original_skip_domain_age_lookup",
+                "imputed_value": 0,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 0
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 > 1.5 and X29 <= 0.5 and X5 > 0.5",
+            "id": "R006"
+          },
+          {
+            "coefficient": -0.0605069512615303,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 14,
+                "operator": ">",
+                "passed": true,
+                "threshold": 10.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 > 10.5 and X5 > 0.5",
+            "id": "R025"
+          },
+          {
+            "coefficient": -0.05609999410759052,
+            "conditions": [
+              {
+                "feature": "internal_anchor_count",
+                "imputed_value": 14,
+                "operator": "<=",
+                "passed": true,
+                "threshold": 16.5,
+                "value": 14
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X12 <= 16.5 and X5 > 0.5",
+            "id": "R075"
+          },
+          {
+            "coefficient": -0.050617124180693196,
+            "conditions": [
+              {
+                "feature": "dom_node_count",
+                "imputed_value": 508,
+                "operator": ">",
+                "passed": true,
+                "threshold": 211,
+                "value": 508
+              },
+              {
+                "feature": "original_path_length",
+                "imputed_value": 1,
+                "operator": ">",
+                "passed": true,
+                "threshold": 0.5,
+                "value": 1
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X30 > 211.0 and X5 > 0.5",
+            "id": "R030"
+          },
+          {
+            "coefficient": -0.0009104361199761996,
+            "conditions": [
+              {
+                "feature": "original_domain_age_days",
+                "imputed_value": 8293,
+                "operator": ">",
+                "passed": true,
+                "threshold": 5370.5,
+                "value": 8293
+              }
+            ],
+            "direction": "legitimate",
+            "expression": "X0 > 5370.5",
+            "id": "R054"
+          }
+        ],
+        "intercept": -1,
+        "logit": -2.8174007685062623,
+        "model_family": "RuleFit",
+        "model_name": "RuleFitCompact60V2",
+        "post_model_guard": {
+          "active_domain": "roblox.com",
+          "brand": "Roblox",
+          "brand_source": "clearbit",
+          "domain_age_days": 8293,
+          "feature": "brand_domain_match",
+          "id": "SELF_BRAND_DOMAIN_GUARD",
+          "reason": "Brand Roblox cocok dengan domain aktif roblox.com, domain memiliki data RDAP, dan form kredensial tidak mengarah ke domain luar.",
+          "severity": "info"
+        },
+        "predicted_label": "legitimate",
+        "probability_phishing": 0.05639108224407466,
+        "ready": true,
+        "rule_count": 150,
+        "targetLabel": "legitimate",
+        "threshold": 0.8,
+        "verdict": "SAFE"
+      },
+      "normalized_url": "https://www.roblox.com/",
+      "original_url": "https://www.roblox.com/",
+      "page_status_features": {
+        "http_status_code": 200
+      },
+      "rdap_features": {
+        "final_days_since_domain_update": 58,
+        "final_days_until_expiration": 107,
+        "final_domain_age_days": 8293,
+        "final_nameserver_count": 4,
+        "final_rdap_available": true,
+        "final_registration_lifetime_days": 8401,
+        "original_days_since_domain_update": 58,
+        "original_days_until_expiration": 107,
+        "original_domain_age_days": 8293,
+        "original_nameserver_count": 4,
+        "original_rdap_available": true,
+        "original_registration_lifetime_days": 8401
+      },
+      "registrable_domain": "roblox.com",
+      "score": 6,
+      "tab_id": 481595796,
+      "url": "https://www.roblox.com/",
+      "url_features": {
+        "at_count": 0,
+        "cross_domain_redirect_count": 0,
+        "digit_count": 0,
+        "digit_ratio": 0,
+        "dot_count": 2,
+        "embedded_domain_count": 0,
+        "encoded_char_count": 0,
+        "final_at_count": 0,
+        "final_digit_count": 0,
+        "final_digit_ratio": 0,
+        "final_domain_changed": false,
+        "final_dot_count": 2,
+        "final_embedded_domain_count": 0,
+        "final_encoded_char_count": 0,
+        "final_host_is_ip": false,
+        "final_hostname": "www.roblox.com",
+        "final_hostname_length": 14,
+        "final_hyphen_count": 0,
+        "final_path": "/",
+        "final_path_length": 1,
+        "final_percent_count": 0,
+        "final_public_suffix": "com",
+        "final_punycode_present": false,
+        "final_query": "",
+        "final_query_length": 0,
+        "final_query_parameter_count": 0,
+        "final_registrable_domain": "roblox.com",
+        "final_scheme": "https",
+        "final_sensitive_word_count": 0,
+        "final_sensitive_words_found": [],
+        "final_skip_domain_age_lookup": false,
+        "final_special_char_count": 6,
+        "final_special_char_ratio": 0.2608695652173913,
+        "final_subdomain": "www",
+        "final_subdomain_count": 1,
+        "final_underscore_count": 0,
+        "final_url": "https://www.roblox.com/",
+        "final_url_entropy": 3.7294461949052566,
+        "final_url_length": 23,
+        "final_url_token_count": 4,
+        "final_uses_shared_hosting_domain": false,
+        "host_is_ip": false,
+        "hostname": "www.roblox.com",
+        "hostname_length": 14,
+        "hyphen_count": 0,
+        "original_at_count": 0,
+        "original_digit_count": 0,
+        "original_digit_ratio": 0,
+        "original_dot_count": 2,
+        "original_embedded_domain_count": 0,
+        "original_encoded_char_count": 0,
+        "original_host_is_ip": false,
+        "original_hostname": "www.roblox.com",
+        "original_hostname_length": 14,
+        "original_hyphen_count": 0,
+        "original_path": "/",
+        "original_path_length": 1,
+        "original_percent_count": 0,
+        "original_public_suffix": "com",
+        "original_punycode_present": false,
+        "original_query": "",
+        "original_query_length": 0,
+        "original_query_parameter_count": 0,
+        "original_registrable_domain": "roblox.com",
+        "original_scheme": "https",
+        "original_sensitive_word_count": 0,
+        "original_sensitive_words_found": [],
+        "original_skip_domain_age_lookup": false,
+        "original_special_char_count": 6,
+        "original_special_char_ratio": 0.2608695652173913,
+        "original_subdomain": "www",
+        "original_subdomain_count": 1,
+        "original_underscore_count": 0,
+        "original_url": "https://www.roblox.com/",
+        "original_url_entropy": 3.7294461949052566,
+        "original_url_length": 23,
+        "original_url_token_count": 4,
+        "original_uses_shared_hosting_domain": false,
+        "path": "/",
+        "path_length": 1,
+        "percent_count": 0,
+        "public_suffix": "com",
+        "punycode_present": false,
+        "query": "",
+        "query_length": 0,
+        "query_parameter_count": 0,
+        "raw_redirect_count": 0,
+        "redirect_chain": [
+          "https://www.roblox.com/"
+        ],
+        "registrable_domain": "roblox.com",
+        "scheme": "https",
+        "sensitive_word_count": 0,
+        "sensitive_words_found": [],
+        "special_char_count": 6,
+        "special_char_ratio": 0.2608695652173913,
+        "subdomain": "www",
+        "subdomain_count": 1,
+        "underscore_count": 0,
+        "url_entropy": 3.7294461949052566,
+        "url_length": 23,
+        "url_token_count": 4,
+        "uses_shared_hosting_domain": false
+      },
+      "url_score": 6,
+      "verdict": "SAFE"
+    }
+  },
+  "domainMetadataCache": {
+    "brand:clearbit-first:v3:online": {
+      "cached_at": "2026-10-14T16:40:43.485Z",
+      "metadata": {
+        "candidates": [
+          {
+            "_score": null,
+            "domain": "onlineclock.net",
+            "name": "OnlineClock",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "onlinecheckwriter.com",
+            "name": "Online Check Writer",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "onlinelabels.com",
+            "name": "OnlineLabels",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "online-tech-tips.com",
+            "name": "Online Tech Tips",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": null,
+            "domain": "etymonline.com",
+            "name": "Online Etymology Dictionary",
+            "qualityScore": null,
+            "score_source": null,
+            "source": "clearbit"
+          },
+          {
+            "_score": 39.092762,
+            "domain": "online.ua",
+            "name": "Online.ua",
+            "qualityScore": 0.7241131521821342,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 30.042025,
+            "domain": "online-casinos.com",
+            "name": "Online-Casinos.com",
+            "qualityScore": 0.9509073819576147,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 29.59233,
+            "domain": "t-online.de",
+            "name": "T-Online",
+            "qualityScore": 0.7307571153815865,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 28.573856,
+            "domain": "albiononline.com",
+            "name": "Albion Online",
+            "qualityScore": 0.9604533266517932,
+            "source": "brandfetch"
+          },
+          {
+            "_score": 26.881111,
+            "domain": "teamworkonline.com",
+            "name": "TeamWork Online",
+            "qualityScore": 0.954411902064514,
+            "source": "brandfetch"
+          }
+        ],
+        "lookup_success": true,
+        "query": "online"
+      }
+    }
+  },
+  "featureArchive": [
+    {
+      "analyzer_version": "v5-rulefit60-clearbit-self-brand-v4",
+      "archive_version": "heurishield-v5-feature-json-v1",
+      "document_id": "1791996042062-78a6efc5339fc8",
+      "feature_sources": {
+        "brand": {
+          "brand_candidate_final_domain_similarity": 1,
+          "brand_candidate_found": true,
+          "brand_candidate_in_original_path": false,
+          "brand_candidate_in_original_query": false,
+          "brand_candidate_in_original_subdomain": false,
+          "brand_candidate_matches_final_domain": true,
+          "brand_candidate_matches_original_domain": true,
+          "brand_candidate_original_domain_similarity": 1,
+          "brand_lookup_status": true,
+          "brand_top_candidate_domain": "roblox.com",
+          "brand_top_candidate_name": "Roblox",
+          "brand_top_candidate_quality_score": 0.9615349423068125,
+          "brand_top_candidate_query": "roblox",
+          "brand_top_candidate_query_priority": 30,
+          "brand_top_candidate_score_source": "brandfetch",
+          "brand_top_candidate_search_score": 120.714584,
+          "brand_top_candidate_source": "clearbit"
+        },
+        "dom": {
+          "analyzer_version": "crawler-dom-parity-v1",
+          "anchor_count": 22,
+          "anchor_domains": [
+            "amazon.com",
+            "apple.com",
+            "google.com",
+            "meta.com",
+            "microsoft.com",
+            "playstation.com",
+            "samsung.com",
+            "xbox.com"
+          ],
+          "base_href": null,
+          "base_href_domain": null,
+          "base_href_external": false,
+          "base_tag_present": false,
+          "credential_form_count": 0,
+          "document_write_count": 0,
+          "dom_node_count": 508,
+          "email_credential_field_count": 0,
+          "email_input_count": 0,
+          "empty_anchor_count": 0,
+          "eval_count": 0,
+          "external_anchor_count": 8,
+          "external_anchor_ratio": 0.36363636363636365,
+          "external_credential_form_count": 0,
+          "external_image_count": 8,
+          "external_image_ratio": 0.8888888888888888,
+          "external_resource_count": 145,
+          "external_resource_ratio": 0.8950617283950617,
+          "external_script_count": 111,
+          "external_script_ratio": 0.8740157480314961,
+          "external_stylesheet_count": 26,
+          "external_stylesheet_ratio": 1,
+          "form_action_empty_count": 0,
+          "form_action_external_domain_count": 0,
+          "form_action_http_count": 0,
+          "form_action_https_count": 0,
+          "form_action_ip_count": 0,
+          "form_action_relative_count": 0,
+          "form_action_same_domain_count": 0,
+          "form_count": 0,
+          "form_get_count": 0,
+          "form_post_count": 0,
+          "hidden_input_count": 0,
+          "html_length": 84484,
+          "identity_personal_field_count": 0,
+          "iframe_count": 0,
+          "iframe_empty_src_count": 0,
+          "iframe_external_domain_count": 0,
+          "iframe_ip_count": 0,
+          "iframe_same_domain_count": 0,
+          "image_count": 9,
+          "inline_script_count": 13,
+          "input_count": 5,
+          "internal_anchor_count": 14,
+          "internal_image_count": 0,
+          "ip_credential_form_count": 0,
+          "javascript_anchor_count": 0,
+          "meta_description": "Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine. Join millions of people and discover an infinite variety of immersive experiences created by a global community!",
+          "meta_refresh_domain": null,
+          "meta_refresh_external": false,
+          "meta_refresh_present": false,
+          "meta_refresh_url": null,
+          "number_input_count": 0,
+          "otp_mfa_field_count": 0,
+          "page_title": "Play Free Online Games on Roblox - Sign Up to Play!",
+          "password_credential_field_count": 1,
+          "password_input_count": 1,
+          "payment_card_field_count": 0,
+          "pin_field_count": 0,
+          "resource_count": 162,
+          "script_count": 127,
+          "stylesheet_count": 26,
+          "tel_input_count": 0,
+          "text_input_count": 4,
+          "unique_external_domain_count": 8,
+          "username_field_count": 1,
+          "visible_text_length": 1131,
+          "window_open_count": 0
+        },
+        "rdap": {
+          "final_days_since_domain_update": 58,
+          "final_days_until_expiration": 107,
+          "final_domain_age_days": 8293,
+          "final_nameserver_count": 4,
+          "final_rdap_available": true,
+          "final_registration_lifetime_days": 8401,
+          "original_days_since_domain_update": 58,
+          "original_days_until_expiration": 107,
+          "original_domain_age_days": 8293,
+          "original_nameserver_count": 4,
+          "original_rdap_available": true,
+          "original_registration_lifetime_days": 8401
+        },
+        "status": {
+          "http_status_code": 200
+        },
+        "url": {
+          "at_count": 0,
+          "cross_domain_redirect_count": 0,
+          "digit_count": 0,
+          "digit_ratio": 0,
+          "dot_count": 2,
+          "embedded_domain_count": 0,
+          "encoded_char_count": 0,
+          "final_at_count": 0,
+          "final_digit_count": 0,
+          "final_digit_ratio": 0,
+          "final_domain_changed": false,
+          "final_dot_count": 2,
+          "final_embedded_domain_count": 0,
+          "final_encoded_char_count": 0,
+          "final_host_is_ip": false,
+          "final_hostname": "www.roblox.com",
+          "final_hostname_length": 14,
+          "final_hyphen_count": 0,
+          "final_path": "/",
+          "final_path_length": 1,
+          "final_percent_count": 0,
+          "final_public_suffix": "com",
+          "final_punycode_present": false,
+          "final_query": "",
+          "final_query_length": 0,
+          "final_query_parameter_count": 0,
+          "final_registrable_domain": "roblox.com",
+          "final_scheme": "https",
+          "final_sensitive_word_count": 0,
+          "final_sensitive_words_found": [],
+          "final_skip_domain_age_lookup": false,
+          "final_special_char_count": 6,
+          "final_special_char_ratio": 0.2608695652173913,
+          "final_subdomain": "www",
+          "final_subdomain_count": 1,
+          "final_underscore_count": 0,
+          "final_url": "https://www.roblox.com/",
+          "final_url_entropy": 3.7294461949052566,
+          "final_url_length": 23,
+          "final_url_token_count": 4,
+          "final_uses_shared_hosting_domain": false,
+          "host_is_ip": false,
+          "hostname": "www.roblox.com",
+          "hostname_length": 14,
+          "hyphen_count": 0,
+          "original_at_count": 0,
+          "original_digit_count": 0,
+          "original_digit_ratio": 0,
+          "original_dot_count": 2,
+          "original_embedded_domain_count": 0,
+          "original_encoded_char_count": 0,
+          "original_host_is_ip": false,
+          "original_hostname": "www.roblox.com",
+          "original_hostname_length": 14,
+          "original_hyphen_count": 0,
+          "original_path": "/",
+          "original_path_length": 1,
+          "original_percent_count": 0,
+          "original_public_suffix": "com",
+          "original_punycode_present": false,
+          "original_query": "",
+          "original_query_length": 0,
+          "original_query_parameter_count": 0,
+          "original_registrable_domain": "roblox.com",
+          "original_scheme": "https",
+          "original_sensitive_word_count": 0,
+          "original_sensitive_words_found": [],
+          "original_skip_domain_age_lookup": false,
+          "original_special_char_count": 6,
+          "original_special_char_ratio": 0.2608695652173913,
+          "original_subdomain": "www",
+          "original_subdomain_count": 1,
+          "original_underscore_count": 0,
+          "original_url": "https://www.roblox.com/",
+          "original_url_entropy": 3.7294461949052566,
+          "original_url_length": 23,
+          "original_url_token_count": 4,
+          "original_uses_shared_hosting_domain": false,
+          "path": "/",
+          "path_length": 1,
+          "percent_count": 0,
+          "public_suffix": "com",
+          "punycode_present": false,
+          "query": "",
+          "query_length": 0,
+          "query_parameter_count": 0,
+          "raw_redirect_count": 0,
+          "redirect_chain": [
+            "https://www.roblox.com/"
+          ],
+          "registrable_domain": "roblox.com",
+          "scheme": "https",
+          "sensitive_word_count": 0,
+          "sensitive_words_found": [],
+          "special_char_count": 6,
+          "special_char_ratio": 0.2608695652173913,
+          "subdomain": "www",
+          "subdomain_count": 1,
+          "underscore_count": 0,
+          "url_entropy": 3.7294461949052566,
+          "url_length": 23,
+          "url_token_count": 4,
+          "uses_shared_hosting_domain": false
+        }
+      },
+      "feature_vector_30": {
+        "anchor_count": 22,
+        "brand_candidate_final_domain_similarity": 1,
+        "brand_candidate_found": 1,
+        "brand_candidate_in_original_path": 0,
+        "brand_candidate_in_original_query": 0,
+        "brand_candidate_in_original_subdomain": 0,
+        "brand_candidate_matches_final_domain": 1,
+        "brand_candidate_matches_original_domain": 1,
+        "brand_candidate_original_domain_similarity": 1,
+        "brand_lookup_status": 1,
+        "brand_top_candidate_quality_score": 0.9615349423068125,
+        "brand_top_candidate_search_score": 120.714584,
+        "credential_form_count": 0,
+        "dom_node_count": 508,
+        "dot_count": 2,
+        "email_input_count": 0,
+        "external_anchor_count": 8,
+        "external_anchor_ratio": 0.36363636363636365,
+        "external_image_ratio": 0.8888888888888888,
+        "external_resource_count": 145,
+        "external_resource_ratio": 0.8950617283950617,
+        "external_script_count": 111,
+        "external_script_ratio": 0.8740157480314961,
+        "final_domain_age_days": 8293,
+        "final_dot_count": 2,
+        "final_hostname_length": 14,
+        "final_path_length": 1,
+        "final_subdomain_count": 1,
+        "final_url_entropy": 3.7294461949052566,
+        "final_url_length": 23,
+        "final_url_token_count": 4,
+        "form_action_https_count": 0,
+        "form_action_same_domain_count": 0,
+        "hostname_length": 14,
+        "html_length": 84484,
+        "image_count": 9,
+        "inline_script_count": 13,
+        "input_count": 5,
+        "internal_anchor_count": 14,
+        "original_domain_age_days": 8293,
+        "original_embedded_domain_count": 0,
+        "original_hostname_length": 14,
+        "original_path_length": 1,
+        "original_query_length": 0,
+        "original_skip_domain_age_lookup": 0,
+        "original_special_char_count": 6,
+        "original_special_char_ratio": 0.2608695652173913,
+        "original_subdomain_count": 1,
+        "original_url_entropy": 3.7294461949052566,
+        "original_url_length": 23,
+        "original_url_token_count": 4,
+        "original_uses_shared_hosting_domain": 0,
+        "otp_mfa_field_count": 0,
+        "password_input_count": 1,
+        "raw_redirect_count": 0,
+        "resource_count": 162,
+        "script_count": 127,
+        "sensitive_word_count": 0,
+        "unique_external_domain_count": 8,
+        "visible_text_length": 1131
+      },
+      "feature_vector_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "feature_vector_values": [
+        8293,
+        8293,
+        120.714584,
+        0.9615349423068125,
+        1,
+        1,
+        1,
+        162,
+        22,
+        127,
+        1,
+        1,
+        14,
+        8,
+        4,
+        0.2608695652173913,
+        1,
+        0.36363636363636365,
+        1,
+        2,
+        2,
+        14,
+        14,
+        14,
+        3.7294461949052566,
+        1131,
+        0,
+        0,
+        0,
+        0,
+        508,
+        84484,
+        1,
+        6,
+        4,
+        0.8740157480314961,
+        3.7294461949052566,
+        145,
+        0.8950617283950617,
+        13,
+        111,
+        8,
+        9,
+        0.8888888888888888,
+        23,
+        0,
+        23,
+        1,
+        1,
+        0,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_url": "https://www.roblox.com/",
+      "hostname": "www.roblox.com",
+      "id": "2026-10-14T16-40-43-496Z_www.roblox.com_1791996042062-78a6efc5339fc8",
+      "model_result": {
+        "feature_coverage": {
+          "coverage_percent": 100,
+          "feature_count": 60,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "fired_rule_count": 33,
+        "predicted_label": "legitimate",
+        "probability_phishing": 0.05639108224407466,
+        "top_fired_rules": [
+          {
+            "coefficient": 2.430953421614121,
+            "direction": "phishing",
+            "expression": "X17 > 0.0721195 and X2 > 20.95503 and X28 <= 0.5 and X5 > 0.5 and X7 > 0.5 and X9 > 123.5",
+            "id": "R150"
+          },
+          {
+            "coefficient": 2.0983388492227046,
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X7 > 25.5",
+            "id": "R055"
+          },
+          {
+            "coefficient": -1.7896570378184653,
+            "direction": "legitimate",
+            "expression": "X10 > 0.5 and X28 <= 0.5 and X3 > 0.350563 and X5 > 0.5",
+            "id": "R019"
+          },
+          {
+            "coefficient": 1.624058175705269,
+            "direction": "phishing",
+            "expression": "X22 <= 19.5 and X40 > 85.0 and X5 > 0.5",
+            "id": "R149"
+          },
+          {
+            "coefficient": 1.5299809461756069,
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X8 > 13.5",
+            "id": "R010"
+          },
+          {
+            "coefficient": -1.3228828460422237,
+            "direction": "legitimate",
+            "expression": "X0 > 1150.0 and X22 <= 15.5 and X8 <= 63.5",
+            "id": "R048"
+          }
+        ],
+        "verdict": "SAFE"
+      },
+      "normalized_url": "https://www.roblox.com/",
+      "observed_at": "2026-10-14T16:40:43.496Z",
+      "original_url": "https://www.roblox.com/",
+      "path_hint": "riwayat/json/2026-10-14T16-40-43-496Z_www.roblox.com_1791996042062-78a6efc5339fc8.json",
+      "registrable_domain": "roblox.com",
+      "score": 6,
+      "tab_id": 481595796,
+      "url": "https://www.roblox.com/",
+      "verdict": "SAFE"
+    },
+    {
+      "analyzer_version": "v5-rulefit60-clearbit-self-brand-v4",
+      "archive_version": "heurishield-v5-feature-json-v1",
+      "document_id": "1791996041932-5cced251b292f8",
+      "feature_sources": {
+        "brand": {
+          "brand_candidate_final_domain_similarity": 1,
+          "brand_candidate_found": true,
+          "brand_candidate_in_original_path": false,
+          "brand_candidate_in_original_query": false,
+          "brand_candidate_in_original_subdomain": false,
+          "brand_candidate_matches_final_domain": true,
+          "brand_candidate_matches_original_domain": true,
+          "brand_candidate_original_domain_similarity": 1,
+          "brand_lookup_status": true,
+          "brand_top_candidate_domain": "roblox.com",
+          "brand_top_candidate_name": "Roblox",
+          "brand_top_candidate_quality_score": 0.9615349423068125,
+          "brand_top_candidate_query": "roblox",
+          "brand_top_candidate_query_priority": 30,
+          "brand_top_candidate_score_source": "brandfetch",
+          "brand_top_candidate_search_score": 120.714584,
+          "brand_top_candidate_source": "clearbit"
+        },
+        "dom": {
+          "analyzer_version": "crawler-dom-parity-v1",
+          "anchor_count": 22,
+          "anchor_domains": [
+            "amazon.com",
+            "apple.com",
+            "google.com",
+            "meta.com",
+            "microsoft.com",
+            "playstation.com",
+            "samsung.com",
+            "xbox.com"
+          ],
+          "base_href": null,
+          "base_href_domain": null,
+          "base_href_external": false,
+          "base_tag_present": false,
+          "credential_form_count": 0,
+          "document_write_count": 0,
+          "dom_node_count": 508,
+          "email_credential_field_count": 0,
+          "email_input_count": 0,
+          "empty_anchor_count": 0,
+          "eval_count": 0,
+          "external_anchor_count": 8,
+          "external_anchor_ratio": 0.36363636363636365,
+          "external_credential_form_count": 0,
+          "external_image_count": 8,
+          "external_image_ratio": 0.8888888888888888,
+          "external_resource_count": 145,
+          "external_resource_ratio": 0.8950617283950617,
+          "external_script_count": 111,
+          "external_script_ratio": 0.8740157480314961,
+          "external_stylesheet_count": 26,
+          "external_stylesheet_ratio": 1,
+          "form_action_empty_count": 0,
+          "form_action_external_domain_count": 0,
+          "form_action_http_count": 0,
+          "form_action_https_count": 0,
+          "form_action_ip_count": 0,
+          "form_action_relative_count": 0,
+          "form_action_same_domain_count": 0,
+          "form_count": 0,
+          "form_get_count": 0,
+          "form_post_count": 0,
+          "hidden_input_count": 0,
+          "html_length": 84484,
+          "identity_personal_field_count": 0,
+          "iframe_count": 0,
+          "iframe_empty_src_count": 0,
+          "iframe_external_domain_count": 0,
+          "iframe_ip_count": 0,
+          "iframe_same_domain_count": 0,
+          "image_count": 9,
+          "inline_script_count": 13,
+          "input_count": 5,
+          "internal_anchor_count": 14,
+          "internal_image_count": 0,
+          "ip_credential_form_count": 0,
+          "javascript_anchor_count": 0,
+          "meta_description": "Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine. Join millions of people and discover an infinite variety of immersive experiences created by a global community!",
+          "meta_refresh_domain": null,
+          "meta_refresh_external": false,
+          "meta_refresh_present": false,
+          "meta_refresh_url": null,
+          "number_input_count": 0,
+          "otp_mfa_field_count": 0,
+          "page_title": "Play Free Online Games on Roblox - Sign Up to Play!",
+          "password_credential_field_count": 1,
+          "password_input_count": 1,
+          "payment_card_field_count": 0,
+          "pin_field_count": 0,
+          "resource_count": 162,
+          "script_count": 127,
+          "stylesheet_count": 26,
+          "tel_input_count": 0,
+          "text_input_count": 4,
+          "unique_external_domain_count": 8,
+          "username_field_count": 1,
+          "visible_text_length": 1131,
+          "window_open_count": 0
+        },
+        "rdap": {
+          "final_days_since_domain_update": 58,
+          "final_days_until_expiration": 107,
+          "final_domain_age_days": 8293,
+          "final_nameserver_count": 4,
+          "final_rdap_available": true,
+          "final_registration_lifetime_days": 8401,
+          "original_days_since_domain_update": 58,
+          "original_days_until_expiration": 107,
+          "original_domain_age_days": 8293,
+          "original_nameserver_count": 4,
+          "original_rdap_available": true,
+          "original_registration_lifetime_days": 8401
+        },
+        "status": {
+          "http_status_code": 200
+        },
+        "url": {
+          "at_count": 0,
+          "cross_domain_redirect_count": 0,
+          "digit_count": 0,
+          "digit_ratio": 0,
+          "dot_count": 2,
+          "embedded_domain_count": 0,
+          "encoded_char_count": 0,
+          "final_at_count": 0,
+          "final_digit_count": 0,
+          "final_digit_ratio": 0,
+          "final_domain_changed": false,
+          "final_dot_count": 2,
+          "final_embedded_domain_count": 0,
+          "final_encoded_char_count": 0,
+          "final_host_is_ip": false,
+          "final_hostname": "www.roblox.com",
+          "final_hostname_length": 14,
+          "final_hyphen_count": 0,
+          "final_path": "/",
+          "final_path_length": 1,
+          "final_percent_count": 0,
+          "final_public_suffix": "com",
+          "final_punycode_present": false,
+          "final_query": "",
+          "final_query_length": 0,
+          "final_query_parameter_count": 0,
+          "final_registrable_domain": "roblox.com",
+          "final_scheme": "https",
+          "final_sensitive_word_count": 0,
+          "final_sensitive_words_found": [],
+          "final_skip_domain_age_lookup": false,
+          "final_special_char_count": 6,
+          "final_special_char_ratio": 0.2608695652173913,
+          "final_subdomain": "www",
+          "final_subdomain_count": 1,
+          "final_underscore_count": 0,
+          "final_url": "https://www.roblox.com/",
+          "final_url_entropy": 3.7294461949052566,
+          "final_url_length": 23,
+          "final_url_token_count": 4,
+          "final_uses_shared_hosting_domain": false,
+          "host_is_ip": false,
+          "hostname": "www.roblox.com",
+          "hostname_length": 14,
+          "hyphen_count": 0,
+          "original_at_count": 0,
+          "original_digit_count": 0,
+          "original_digit_ratio": 0,
+          "original_dot_count": 2,
+          "original_embedded_domain_count": 0,
+          "original_encoded_char_count": 0,
+          "original_host_is_ip": false,
+          "original_hostname": "www.roblox.com",
+          "original_hostname_length": 14,
+          "original_hyphen_count": 0,
+          "original_path": "/",
+          "original_path_length": 1,
+          "original_percent_count": 0,
+          "original_public_suffix": "com",
+          "original_punycode_present": false,
+          "original_query": "",
+          "original_query_length": 0,
+          "original_query_parameter_count": 0,
+          "original_registrable_domain": "roblox.com",
+          "original_scheme": "https",
+          "original_sensitive_word_count": 0,
+          "original_sensitive_words_found": [],
+          "original_skip_domain_age_lookup": false,
+          "original_special_char_count": 6,
+          "original_special_char_ratio": 0.2608695652173913,
+          "original_subdomain": "www",
+          "original_subdomain_count": 1,
+          "original_underscore_count": 0,
+          "original_url": "https://www.roblox.com/",
+          "original_url_entropy": 3.7294461949052566,
+          "original_url_length": 23,
+          "original_url_token_count": 4,
+          "original_uses_shared_hosting_domain": false,
+          "path": "/",
+          "path_length": 1,
+          "percent_count": 0,
+          "public_suffix": "com",
+          "punycode_present": false,
+          "query": "",
+          "query_length": 0,
+          "query_parameter_count": 0,
+          "raw_redirect_count": 0,
+          "redirect_chain": [
+            "https://www.roblox.com/"
+          ],
+          "registrable_domain": "roblox.com",
+          "scheme": "https",
+          "sensitive_word_count": 0,
+          "sensitive_words_found": [],
+          "special_char_count": 6,
+          "special_char_ratio": 0.2608695652173913,
+          "subdomain": "www",
+          "subdomain_count": 1,
+          "underscore_count": 0,
+          "url_entropy": 3.7294461949052566,
+          "url_length": 23,
+          "url_token_count": 4,
+          "uses_shared_hosting_domain": false
+        }
+      },
+      "feature_vector_30": {
+        "anchor_count": 22,
+        "brand_candidate_final_domain_similarity": 1,
+        "brand_candidate_found": 1,
+        "brand_candidate_in_original_path": 0,
+        "brand_candidate_in_original_query": 0,
+        "brand_candidate_in_original_subdomain": 0,
+        "brand_candidate_matches_final_domain": 1,
+        "brand_candidate_matches_original_domain": 1,
+        "brand_candidate_original_domain_similarity": 1,
+        "brand_lookup_status": 1,
+        "brand_top_candidate_quality_score": 0.9615349423068125,
+        "brand_top_candidate_search_score": 120.714584,
+        "credential_form_count": 0,
+        "dom_node_count": 508,
+        "dot_count": 2,
+        "email_input_count": 0,
+        "external_anchor_count": 8,
+        "external_anchor_ratio": 0.36363636363636365,
+        "external_image_ratio": 0.8888888888888888,
+        "external_resource_count": 145,
+        "external_resource_ratio": 0.8950617283950617,
+        "external_script_count": 111,
+        "external_script_ratio": 0.8740157480314961,
+        "final_domain_age_days": 8293,
+        "final_dot_count": 2,
+        "final_hostname_length": 14,
+        "final_path_length": 1,
+        "final_subdomain_count": 1,
+        "final_url_entropy": 3.7294461949052566,
+        "final_url_length": 23,
+        "final_url_token_count": 4,
+        "form_action_https_count": 0,
+        "form_action_same_domain_count": 0,
+        "hostname_length": 14,
+        "html_length": 84484,
+        "image_count": 9,
+        "inline_script_count": 13,
+        "input_count": 5,
+        "internal_anchor_count": 14,
+        "original_domain_age_days": 8293,
+        "original_embedded_domain_count": 0,
+        "original_hostname_length": 14,
+        "original_path_length": 1,
+        "original_query_length": 0,
+        "original_skip_domain_age_lookup": 0,
+        "original_special_char_count": 6,
+        "original_special_char_ratio": 0.2608695652173913,
+        "original_subdomain_count": 1,
+        "original_url_entropy": 3.7294461949052566,
+        "original_url_length": 23,
+        "original_url_token_count": 4,
+        "original_uses_shared_hosting_domain": 0,
+        "otp_mfa_field_count": 0,
+        "password_input_count": 1,
+        "raw_redirect_count": 0,
+        "resource_count": 162,
+        "script_count": 127,
+        "sensitive_word_count": 0,
+        "unique_external_domain_count": 8,
+        "visible_text_length": 1131
+      },
+      "feature_vector_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "feature_vector_values": [
+        8293,
+        8293,
+        120.714584,
+        0.9615349423068125,
+        1,
+        1,
+        1,
+        162,
+        22,
+        127,
+        1,
+        1,
+        14,
+        8,
+        4,
+        0.2608695652173913,
+        1,
+        0.36363636363636365,
+        1,
+        2,
+        2,
+        14,
+        14,
+        14,
+        3.7294461949052566,
+        1131,
+        0,
+        0,
+        0,
+        0,
+        508,
+        84484,
+        1,
+        6,
+        4,
+        0.8740157480314961,
+        3.7294461949052566,
+        145,
+        0.8950617283950617,
+        13,
+        111,
+        8,
+        9,
+        0.8888888888888888,
+        23,
+        0,
+        23,
+        1,
+        1,
+        0,
+        0,
+        0,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_url": "https://www.roblox.com/",
+      "hostname": "www.roblox.com",
+      "id": "2026-10-14T16-40-43-432Z_www.roblox.com_1791996041932-5cced251b292f8",
+      "model_result": {
+        "feature_coverage": {
+          "coverage_percent": 100,
+          "feature_count": 60,
+          "missing_features": 0,
+          "provided_features": 60
+        },
+        "fired_rule_count": 33,
+        "predicted_label": "legitimate",
+        "probability_phishing": 0.05639108224407466,
+        "top_fired_rules": [
+          {
+            "coefficient": 2.430953421614121,
+            "direction": "phishing",
+            "expression": "X17 > 0.0721195 and X2 > 20.95503 and X28 <= 0.5 and X5 > 0.5 and X7 > 0.5 and X9 > 123.5",
+            "id": "R150"
+          },
+          {
+            "coefficient": 2.0983388492227046,
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X7 > 25.5",
+            "id": "R055"
+          },
+          {
+            "coefficient": -1.7896570378184653,
+            "direction": "legitimate",
+            "expression": "X10 > 0.5 and X28 <= 0.5 and X3 > 0.350563 and X5 > 0.5",
+            "id": "R019"
+          },
+          {
+            "coefficient": 1.624058175705269,
+            "direction": "phishing",
+            "expression": "X22 <= 19.5 and X40 > 85.0 and X5 > 0.5",
+            "id": "R149"
+          },
+          {
+            "coefficient": 1.5299809461756069,
+            "direction": "phishing",
+            "expression": "X5 > 0.5 and X8 > 13.5",
+            "id": "R010"
+          },
+          {
+            "coefficient": -1.3228828460422237,
+            "direction": "legitimate",
+            "expression": "X0 > 1150.0 and X22 <= 15.5 and X8 <= 63.5",
+            "id": "R048"
+          }
+        ],
+        "verdict": "SAFE"
+      },
+      "normalized_url": "https://www.roblox.com/",
+      "observed_at": "2026-10-14T16:40:43.432Z",
+      "original_url": "https://www.roblox.com/",
+      "path_hint": "riwayat/json/2026-10-14T16-40-43-432Z_www.roblox.com_1791996041932-5cced251b292f8.json",
+      "registrable_domain": "roblox.com",
+      "score": 6,
+      "tab_id": 481595796,
+      "url": "https://www.roblox.com/",
+      "verdict": "SAFE"
+    }
+  ],
+  "warningContexts": {}
+}

@@ -1,0 +1,1540 @@
+{
+  "generated_at": "2026-10-14T17:12:19.969406+00:00",
+  "input_url": "https://facebook.tamil.bid/",
+  "browser_final_url": "chrome-extension://agdhpgciekkhemdcdefkkfeondbbknei/src/warning/warning.html?id=warn-1791997938090-d2e7aa82486f78",
+  "navigation_error": "",
+  "extension_name": "HeuriShield RuleFit60 T080 Clearbit First",
+  "extension_version": "5.0.4",
+  "analysis": {
+    "analyzed_at": "2026-10-14T17:12:18.085Z",
+    "analyzer_version": "v5-rulefit60-explanation-v6",
+    "brand_features": {
+      "brand_candidate_final_domain_similarity": 0.15384615384615385,
+      "brand_candidate_found": true,
+      "brand_candidate_in_original_path": false,
+      "brand_candidate_in_original_query": false,
+      "brand_candidate_in_original_subdomain": true,
+      "brand_candidate_matches_final_domain": false,
+      "brand_candidate_matches_original_domain": false,
+      "brand_candidate_original_domain_similarity": 0.15384615384615385,
+      "brand_lookup_failed_queries": 0,
+      "brand_lookup_status": true,
+      "brand_top_candidate_domain": "facebook.com",
+      "brand_top_candidate_name": "Facebook",
+      "brand_top_candidate_quality_score": 0.9615383461538174,
+      "brand_top_candidate_query": "facebook",
+      "brand_top_candidate_query_priority": 15,
+      "brand_top_candidate_score_source": "brandfetch",
+      "brand_top_candidate_search_score": 171.56517,
+      "brand_top_candidate_source": "clearbit"
+    },
+    "decision_checklist": {
+      "compatibilityScore": 100,
+      "mode": "rulefit_model"
+    },
+    "document_id": "1791997937584-2403ad12f350d",
+    "dom_analysis": {
+      "feature_version": "crawler-dom-parity-v1",
+      "forms": [
+        {
+          "credential_form_count": 0,
+          "hasOtpOrPinInput": false,
+          "hasPasswordInput": false,
+          "hasPaymentInput": false,
+          "hasSensitiveInput": false,
+          "sensitive_form_count": 0
+        }
+      ],
+      "resources": {
+        "anchor_count": 14,
+        "external_anchor_count": 13,
+        "external_resource_count": 11,
+        "unique_external_domain_count": 1
+      },
+      "scripts": {
+        "document_write_count": 0,
+        "eval_count": 0,
+        "inline_script_count": 10,
+        "script_count": 15,
+        "window_open_count": 0
+      },
+      "text": {
+        "dom_node_count": 398,
+        "html_length": 124676,
+        "visible_text_length": 322
+      }
+    },
+    "dom_error": null,
+    "dom_features": {
+      "analyzer_version": "crawler-dom-parity-v1",
+      "anchor_count": 14,
+      "anchor_domains": [
+        "google.com"
+      ],
+      "base_href": null,
+      "base_href_domain": null,
+      "base_href_external": false,
+      "base_tag_present": false,
+      "credential_form_count": 0,
+      "document_write_count": 0,
+      "dom_node_count": 398,
+      "email_credential_field_count": 0,
+      "email_input_count": 0,
+      "empty_anchor_count": 0,
+      "eval_count": 0,
+      "external_anchor_count": 13,
+      "external_anchor_ratio": 0.9285714285714286,
+      "external_credential_form_count": 0,
+      "external_image_count": 0,
+      "external_image_ratio": 0,
+      "external_resource_count": 11,
+      "external_resource_ratio": 0.5238095238095238,
+      "external_script_count": 5,
+      "external_script_ratio": 0.3333333333333333,
+      "external_stylesheet_count": 3,
+      "external_stylesheet_ratio": 1,
+      "form_action_empty_count": 0,
+      "form_action_external_domain_count": 0,
+      "form_action_http_count": 0,
+      "form_action_https_count": 0,
+      "form_action_ip_count": 0,
+      "form_action_relative_count": 0,
+      "form_action_same_domain_count": 0,
+      "form_count": 0,
+      "form_get_count": 0,
+      "form_post_count": 0,
+      "hidden_input_count": 0,
+      "html_length": 124676,
+      "identity_personal_field_count": 0,
+      "iframe_count": 3,
+      "iframe_empty_src_count": 0,
+      "iframe_external_domain_count": 3,
+      "iframe_ip_count": 0,
+      "iframe_same_domain_count": 0,
+      "image_count": 0,
+      "inline_script_count": 10,
+      "input_count": 1,
+      "internal_anchor_count": 1,
+      "internal_image_count": 0,
+      "ip_credential_form_count": 0,
+      "javascript_anchor_count": 0,
+      "meta_description": "\n\nyoutube.tamil.bid\nfacebook.tamil.bid\nworld.tamil.bid\nparis.tamil.bid\nmain.tamil.bid\nuyir.jesussave.us.tamil.bid\nshop.tamil.bid\nads.tamil.bid\nlanka.tamil.bid\ntyping.tamil.bid\nnews.tamil.bid\nweb.tamil.bid\ntamil.bid",
+      "meta_refresh_domain": null,
+      "meta_refresh_external": false,
+      "meta_refresh_present": false,
+      "meta_refresh_url": null,
+      "number_input_count": 0,
+      "otp_mfa_field_count": 0,
+      "page_title": "facebook",
+      "password_credential_field_count": 0,
+      "password_input_count": 0,
+      "payment_card_field_count": 0,
+      "pin_field_count": 0,
+      "resource_count": 21,
+      "script_count": 15,
+      "stylesheet_count": 3,
+      "tel_input_count": 0,
+      "text_input_count": 0,
+      "unique_external_domain_count": 1,
+      "username_field_count": 0,
+      "visible_text_length": 322,
+      "window_open_count": 0
+    },
+    "dom_score": 10,
+    "evidence": [
+      {
+        "dependency_group": "dom",
+        "evidence_id": "D16",
+        "explanation": "Input kredensial dan label sensitif dibaca langsung dari DOM halaman.",
+        "observation_id": "dom_credential_labels",
+        "raw_value": {
+          "credential_form_count": 0,
+          "identity_like_label_count": 0,
+          "password_like_label_count": 0,
+          "sensitive_form_count": 0
+        },
+        "source": "DOM credential fields",
+        "status": "observed"
+      },
+      {
+        "dependency_group": "dom",
+        "evidence_id": "D18",
+        "explanation": "Jumlah form kredensial dihitung dari input password, email, OTP, PIN, payment, dan identitas.",
+        "observation_id": "dom_credential_forms",
+        "raw_value": {
+          "credential_form_count": 0,
+          "no_clear_page_identity": false,
+          "sensitive_form_count": 0,
+          "visible_brand_hints": []
+        },
+        "source": "DOM forms",
+        "status": "observed"
+      },
+      {
+        "dependency_group": "domain_metadata",
+        "evidence_id": "U18",
+        "explanation": "Umur domain dan metadata registrasi dibaca melalui RDAP/WHOIS seperti pipeline crawler.",
+        "observation_id": "domain_age_rdap",
+        "raw_value": {
+          "final_domain_age_days": 2113,
+          "final_rdap_available": true,
+          "original_domain_age_days": 2113,
+          "original_rdap_available": true
+        },
+        "source": "RDAP/WHOIS",
+        "status": "observed"
+      },
+      {
+        "dependency_group": "brand",
+        "evidence_id": "B01",
+        "explanation": "Kandidat brand dicari melalui Clearbit terlebih dahulu, lalu Brandfetch untuk skor domain yang sama atau fallback.",
+        "observation_id": "brand_candidate",
+        "raw_value": {
+          "brand_candidate_found": true,
+          "brand_top_candidate_domain": "facebook.com",
+          "brand_top_candidate_quality_score": 0.9615383461538174,
+          "brand_top_candidate_search_score": 171.56517
+        },
+        "source": "Brand lookup",
+        "status": "observed"
+      }
+    ],
+    "evidence_trace": [],
+    "explanation": {
+      "action": "Jangan masukkan kata sandi, OTP, atau data kartu sebelum memastikan identitas situs.",
+      "domain": "facebook.tamil.bid",
+      "limitation": "",
+      "reasons": [
+        "Kandidat brand Facebook ditemukan dengan domain facebook.com, berbeda dari facebook.tamil.bid. Perbedaan ini perlu diperiksa, bukan bukti tunggal penipuan."
+      ],
+      "summary": "Halaman dihentikan karena hasil pemeriksaan menunjukkan risiko phishing.",
+      "title": "Terindikasi phishing"
+    },
+    "feature_vector": {
+      "feature_count": 60,
+      "missing_features": [],
+      "provided_features": 60,
+      "values": [
+        2113,
+        2113,
+        171.56517,
+        0.9615383461538174,
+        0.15384615384615385,
+        1,
+        0.15384615384615385,
+        21,
+        14,
+        15,
+        0,
+        0,
+        1,
+        13,
+        4,
+        0.2222222222222222,
+        1,
+        0.9285714285714286,
+        1,
+        2,
+        2,
+        18,
+        18,
+        18,
+        4.032303242743954,
+        322,
+        0,
+        1,
+        0,
+        0,
+        398,
+        124676,
+        1,
+        6,
+        4,
+        0.3333333333333333,
+        4.032303242743954,
+        11,
+        0.5238095238095238,
+        10,
+        5,
+        1,
+        0,
+        0,
+        27,
+        0,
+        27,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector": {
+        "anchor_count": 14,
+        "brand_candidate_final_domain_similarity": 0.15384615384615385,
+        "brand_candidate_found": 1,
+        "brand_candidate_in_original_path": 0,
+        "brand_candidate_in_original_query": 0,
+        "brand_candidate_in_original_subdomain": 1,
+        "brand_candidate_matches_final_domain": 0,
+        "brand_candidate_matches_original_domain": 0,
+        "brand_candidate_original_domain_similarity": 0.15384615384615385,
+        "brand_lookup_status": 1,
+        "brand_top_candidate_quality_score": 0.9615383461538174,
+        "brand_top_candidate_search_score": 171.56517,
+        "credential_form_count": 0,
+        "dom_node_count": 398,
+        "dot_count": 2,
+        "email_input_count": 0,
+        "external_anchor_count": 13,
+        "external_anchor_ratio": 0.9285714285714286,
+        "external_image_ratio": 0,
+        "external_resource_count": 11,
+        "external_resource_ratio": 0.5238095238095238,
+        "external_script_count": 5,
+        "external_script_ratio": 0.3333333333333333,
+        "final_domain_age_days": 2113,
+        "final_dot_count": 2,
+        "final_hostname_length": 18,
+        "final_path_length": 1,
+        "final_subdomain_count": 1,
+        "final_url_entropy": 4.032303242743954,
+        "final_url_length": 27,
+        "final_url_token_count": 4,
+        "form_action_https_count": 0,
+        "form_action_same_domain_count": 0,
+        "hostname_length": 18,
+        "html_length": 124676,
+        "image_count": 0,
+        "inline_script_count": 10,
+        "input_count": 1,
+        "internal_anchor_count": 1,
+        "original_domain_age_days": 2113,
+        "original_embedded_domain_count": 0,
+        "original_hostname_length": 18,
+        "original_path_length": 1,
+        "original_query_length": 0,
+        "original_skip_domain_age_lookup": 0,
+        "original_special_char_count": 6,
+        "original_special_char_ratio": 0.2222222222222222,
+        "original_subdomain_count": 1,
+        "original_url_entropy": 4.032303242743954,
+        "original_url_length": 27,
+        "original_url_token_count": 4,
+        "original_uses_shared_hosting_domain": 0,
+        "otp_mfa_field_count": 0,
+        "password_input_count": 0,
+        "raw_redirect_count": 0,
+        "resource_count": 21,
+        "script_count": 15,
+        "sensitive_word_count": 0,
+        "unique_external_domain_count": 1,
+        "visible_text_length": 322
+      }
+    },
+    "feature_vector_coverage": {
+      "coverage_percent": 100,
+      "feature_count": 60,
+      "missing_features": 0,
+      "provided_features": 60
+    },
+    "final_url": "https://facebook.tamil.bid/",
+    "hostname": "facebook.tamil.bid",
+    "matched_rules": [
+      {
+        "feature": "brand_domain_mismatch",
+        "id": "BRAND_IMPERSONATION_GUARD",
+        "reason": "Brand Facebook terdeteksi, tetapi domain aktif tamil.bid tidak sama dengan domain resmi facebook.com.",
+        "severity": "high",
+        "source": "Brand impersonation guard"
+      },
+      {
+        "coefficient": 3.2860345146652588,
+        "direction": "phishing",
+        "feature": "internal_anchor_count",
+        "id": "RULEFIT_R082",
+        "reason": "RuleFit risiko: internal_anchor_count <= 6.5; final_hostname_length <= 18.5; original_path_length > 0.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": -2.180538806179711,
+        "direction": "legitimate",
+        "feature": "original_hostname_length",
+        "id": "RULEFIT_R032",
+        "reason": "RuleFit aman: original_hostname_length <= 19.5; brand_top_candidate_quality_score > 0.2179; external_script_count <= 85",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 1.5299809461756069,
+        "direction": "phishing",
+        "feature": "original_path_length",
+        "id": "RULEFIT_R010",
+        "reason": "RuleFit risiko: original_path_length > 0.5; anchor_count > 13.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 1.1437869418937523,
+        "direction": "phishing",
+        "feature": "original_domain_age_days",
+        "id": "RULEFIT_R097",
+        "reason": "RuleFit risiko: original_domain_age_days <= 10870; internal_anchor_count <= 10.5; original_path_length > 0.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": -0.9353878722240571,
+        "direction": "legitimate",
+        "feature": "original_path_length",
+        "id": "RULEFIT_R072",
+        "reason": "RuleFit aman: original_path_length > 0.5; anchor_count <= 35.5",
+        "severity": "low",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 0.9302081826705016,
+        "direction": "phishing",
+        "feature": "final_domain_age_days",
+        "id": "RULEFIT_R105",
+        "reason": "RuleFit risiko: final_domain_age_days <= 6287.5; internal_anchor_count <= 55; original_special_char_ratio <= 0.2367",
+        "severity": "low",
+        "source": "RuleFit"
+      }
+    ],
+    "model_result": {
+      "feature_coverage": {
+        "coverage_percent": 100,
+        "feature_count": 60,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "features": {
+        "coverage_percent": 100,
+        "missing_features": 0,
+        "provided_features": 60
+      },
+      "fired_rule_count": 32,
+      "fired_rules": [
+        {
+          "coefficient": 3.2860345146652588,
+          "conditions": [
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 6.5,
+              "value": 1
+            },
+            {
+              "feature": "final_hostname_length",
+              "imputed_value": 18,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 18.5,
+              "value": 18
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "brand_candidate_final_domain_similarity",
+              "imputed_value": 0.15384615384615385,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 0.177866,
+              "value": 0.15384615384615385
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X12 <= 6.5 and X23 <= 18.5 and X5 > 0.5 and X6 <= 0.177866",
+          "id": "R082"
+        },
+        {
+          "coefficient": -2.180538806179711,
+          "conditions": [
+            {
+              "feature": "original_hostname_length",
+              "imputed_value": 18,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 19.5,
+              "value": 18
+            },
+            {
+              "feature": "brand_top_candidate_quality_score",
+              "imputed_value": 0.9615383461538174,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.217949,
+              "value": 0.9615383461538174
+            },
+            {
+              "feature": "external_script_count",
+              "imputed_value": 5,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 85,
+              "value": 5
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "resource_count",
+              "imputed_value": 21,
+              "operator": ">",
+              "passed": true,
+              "threshold": 10.5,
+              "value": 21
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X22 <= 19.5 and X3 > 0.217949 and X40 <= 85.0 and X5 > 0.5 and X7 > 10.5",
+          "id": "R032"
+        },
+        {
+          "coefficient": 1.5299809461756069,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": ">",
+              "passed": true,
+              "threshold": 13.5,
+              "value": 14
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X5 > 0.5 and X8 > 13.5",
+          "id": "R010"
+        },
+        {
+          "coefficient": 1.1437869418937523,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 10870,
+              "value": 2113
+            },
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 10.5,
+              "value": 1
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X0 <= 10870.0 and X12 <= 10.5 and X5 > 0.5",
+          "id": "R097"
+        },
+        {
+          "coefficient": -0.9353878722240571,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 35.5,
+              "value": 14
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X5 > 0.5 and X8 <= 35.5",
+          "id": "R072"
+        },
+        {
+          "coefficient": 0.9302081826705016,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 6287.5,
+              "value": 2113
+            },
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 55,
+              "value": 1
+            },
+            {
+              "feature": "original_special_char_ratio",
+              "imputed_value": 0.2222222222222222,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 0.236695,
+              "value": 0.2222222222222222
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X1 <= 6287.5 and X12 <= 55.0 and X15 <= 0.236695",
+          "id": "R105"
+        },
+        {
+          "coefficient": -0.9104399002827052,
+          "conditions": [
+            {
+              "feature": "brand_top_candidate_search_score",
+              "imputed_value": 171.56517,
+              "operator": ">",
+              "passed": true,
+              "threshold": 22.47024,
+              "value": 171.56517
+            },
+            {
+              "feature": "original_uses_shared_hosting_domain",
+              "imputed_value": 0,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 0
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X2 > 22.47024 and X28 <= 0.5 and X5 > 0.5",
+          "id": "R060"
+        },
+        {
+          "coefficient": -0.8375201447279065,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5766.5,
+              "value": 2113
+            },
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 8.5,
+              "value": 1
+            },
+            {
+              "feature": "original_hostname_length",
+              "imputed_value": 18,
+              "operator": ">",
+              "passed": true,
+              "threshold": 15.5,
+              "value": 18
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X0 <= 5766.5 and X12 <= 8.5 and X22 > 15.5 and X5 > 0.5",
+          "id": "R139"
+        },
+        {
+          "coefficient": 0.8183936216020934,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 7627,
+              "value": 2113
+            },
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 1.5,
+              "value": 1
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X1 <= 7627.0 and X12 <= 1.5 and X5 > 0.5",
+          "id": "R118"
+        },
+        {
+          "coefficient": 0.6120091626401974,
+          "conditions": [
+            {
+              "feature": "external_anchor_ratio",
+              "imputed_value": 0.9285714285714286,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.00138122,
+              "value": 0.9285714285714286
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X17 > 0.00138122 and X5 > 0.5",
+          "id": "R034"
+        },
+        {
+          "coefficient": -0.6078841711881591,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "resource_count",
+              "imputed_value": 21,
+              "operator": ">",
+              "passed": true,
+              "threshold": 12.5,
+              "value": 21
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X5 > 0.5 and X7 > 12.5",
+          "id": "R020"
+        },
+        {
+          "coefficient": -0.5327071622151188,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "resource_count",
+              "imputed_value": 21,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 21
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X5 > 0.5 and X7 > 0.5",
+          "id": "R058"
+        },
+        {
+          "coefficient": -0.47844595081077446,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 2956.5,
+              "value": 2113
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X0 <= 2956.5",
+          "id": "R112"
+        },
+        {
+          "coefficient": -0.449974546155356,
+          "conditions": [
+            {
+              "feature": "dom_node_count",
+              "imputed_value": 398,
+              "operator": ">",
+              "passed": true,
+              "threshold": 195.5,
+              "value": 398
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X30 > 195.5 and X5 > 0.5",
+          "id": "R022"
+        },
+        {
+          "coefficient": 0.4148343290511182,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5864,
+              "value": 2113
+            },
+            {
+              "feature": "original_special_char_ratio",
+              "imputed_value": 0.2222222222222222,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 0.239048,
+              "value": 0.2222222222222222
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X0 <= 5864.0 and X15 <= 0.239048",
+          "id": "R093"
+        },
+        {
+          "coefficient": -0.39868075146517473,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5538.5,
+              "value": 2113
+            },
+            {
+              "feature": "external_anchor_count",
+              "imputed_value": 13,
+              "operator": ">",
+              "passed": true,
+              "threshold": 3.5,
+              "value": 13
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X1 <= 5538.5 and X13 > 3.5",
+          "id": "R066"
+        },
+        {
+          "coefficient": -0.3792422657465309,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5368.5,
+              "value": 2113
+            },
+            {
+              "feature": "original_special_char_ratio",
+              "imputed_value": 0.2222222222222222,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 0.236695,
+              "value": 0.2222222222222222
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 57.5,
+              "value": 14
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X1 <= 5368.5 and X15 <= 0.236695 and X8 <= 57.5",
+          "id": "R115"
+        },
+        {
+          "coefficient": 0.325339912422566,
+          "conditions": [
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 2.5,
+              "value": 1
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X12 <= 2.5 and X5 > 0.5",
+          "id": "R085"
+        },
+        {
+          "coefficient": -0.32254310152984655,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": ">",
+              "passed": true,
+              "threshold": 7.5,
+              "value": 14
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X5 > 0.5 and X8 > 7.5",
+          "id": "R016"
+        },
+        {
+          "coefficient": -0.2889769650010213,
+          "conditions": [
+            {
+              "feature": "external_anchor_count",
+              "imputed_value": 13,
+              "operator": ">",
+              "passed": true,
+              "threshold": 1.5,
+              "value": 13
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X13 > 1.5",
+          "id": "R057"
+        },
+        {
+          "coefficient": 0.2887998379815758,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 2790,
+              "value": 2113
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X1 <= 2790.0",
+          "id": "R108"
+        },
+        {
+          "coefficient": -0.2824501891850474,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5430.5,
+              "value": 2113
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 58,
+              "value": 14
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X1 <= 5430.5 and X8 <= 58.0",
+          "id": "R111"
+        },
+        {
+          "coefficient": 0.2518755396025179,
+          "conditions": [
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 7.5,
+              "value": 1
+            },
+            {
+              "feature": "original_hostname_length",
+              "imputed_value": 18,
+              "operator": ">",
+              "passed": true,
+              "threshold": 12.5,
+              "value": 18
+            },
+            {
+              "feature": "original_query_length",
+              "imputed_value": 0,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 11,
+              "value": 0
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X12 <= 7.5 and X22 > 12.5 and X26 <= 11.0 and X5 > 0.5",
+          "id": "R110"
+        },
+        {
+          "coefficient": 0.23313663535353046,
+          "conditions": [
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            },
+            {
+              "feature": "resource_count",
+              "imputed_value": 21,
+              "operator": ">",
+              "passed": true,
+              "threshold": 11.5,
+              "value": 21
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X5 > 0.5 and X7 > 11.5",
+          "id": "R052"
+        },
+        {
+          "coefficient": 0.1975049186472536,
+          "conditions": [
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 62.5,
+              "value": 14
+            },
+            {
+              "feature": "script_count",
+              "imputed_value": 15,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 15.5,
+              "value": 15
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X8 <= 62.5 and X9 <= 15.5",
+          "id": "R094"
+        },
+        {
+          "coefficient": 0.1137678667301591,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5370.5,
+              "value": 2113
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X0 <= 5370.5",
+          "id": "R090"
+        },
+        {
+          "coefficient": 0.08538515493055515,
+          "conditions": [
+            {
+              "feature": "original_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 5464.5,
+              "value": 2113
+            },
+            {
+              "feature": "resource_count",
+              "imputed_value": 21,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 25.5,
+              "value": 21
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X0 <= 5464.5 and X7 <= 25.5",
+          "id": "R114"
+        },
+        {
+          "coefficient": -0.05752759843469654,
+          "conditions": [
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 7,
+              "value": 1
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X12 <= 7.0 and X5 > 0.5",
+          "id": "R088"
+        },
+        {
+          "coefficient": -0.05609999410759052,
+          "conditions": [
+            {
+              "feature": "internal_anchor_count",
+              "imputed_value": 1,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 16.5,
+              "value": 1
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X12 <= 16.5 and X5 > 0.5",
+          "id": "R075"
+        },
+        {
+          "coefficient": -0.050617124180693196,
+          "conditions": [
+            {
+              "feature": "dom_node_count",
+              "imputed_value": 398,
+              "operator": ">",
+              "passed": true,
+              "threshold": 211,
+              "value": 398
+            },
+            {
+              "feature": "original_path_length",
+              "imputed_value": 1,
+              "operator": ">",
+              "passed": true,
+              "threshold": 0.5,
+              "value": 1
+            }
+          ],
+          "direction": "legitimate",
+          "expression": "X30 > 211.0 and X5 > 0.5",
+          "id": "R030"
+        },
+        {
+          "coefficient": 0.043840429232962566,
+          "conditions": [
+            {
+              "feature": "original_hostname_length",
+              "imputed_value": 18,
+              "operator": ">",
+              "passed": true,
+              "threshold": 15.5,
+              "value": 18
+            },
+            {
+              "feature": "anchor_count",
+              "imputed_value": 14,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 63.5,
+              "value": 14
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X22 > 15.5 and X8 <= 63.5",
+          "id": "R104"
+        },
+        {
+          "coefficient": 0.0299524137801904,
+          "conditions": [
+            {
+              "feature": "final_domain_age_days",
+              "imputed_value": 2113,
+              "operator": "<=",
+              "passed": true,
+              "threshold": 6724,
+              "value": 2113
+            }
+          ],
+          "direction": "phishing",
+          "expression": "X1 <= 6724.0",
+          "id": "R083"
+        }
+      ],
+      "intercept": -1,
+      "logit": 0.5358138639454505,
+      "model_family": "RuleFit",
+      "model_name": "RuleFitCompact60V2",
+      "original_predicted_label": "legitimate",
+      "original_verdict": "SAFE",
+      "post_model_guard": {
+        "active_domain": "tamil.bid",
+        "brand": "Facebook",
+        "feature": "brand_domain_mismatch",
+        "id": "BRAND_IMPERSONATION_GUARD",
+        "official_domain": "facebook.com",
+        "reason": "Brand Facebook terdeteksi, tetapi domain aktif tamil.bid tidak sama dengan domain resmi facebook.com.",
+        "severity": "high",
+        "similarity": 0.15384615384615385
+      },
+      "predicted_label": "phishing",
+      "probability_phishing": 0.86,
+      "ready": true,
+      "rule_count": 150,
+      "targetLabel": "phishing",
+      "threshold": 0.8,
+      "verdict": "DANGEROUS"
+    },
+    "normalized_url": "https://facebook.tamil.bid/",
+    "original_url": "https://facebook.tamil.bid/",
+    "page_status_features": {
+      "http_status_code": 200
+    },
+    "rdap_features": {
+      "final_days_since_domain_update": 358,
+      "final_days_until_expiration": 808,
+      "final_domain_age_days": 2113,
+      "final_nameserver_count": 2,
+      "final_rdap_available": true,
+      "final_registration_lifetime_days": 2922,
+      "original_days_since_domain_update": 358,
+      "original_days_until_expiration": 808,
+      "original_domain_age_days": 2113,
+      "original_nameserver_count": 2,
+      "original_rdap_available": true,
+      "original_registration_lifetime_days": 2922
+    },
+    "registrable_domain": "facebook.tamil.bid",
+    "score": 86,
+    "tab_id": 958202625,
+    "url": "https://facebook.tamil.bid/",
+    "url_features": {
+      "at_count": 0,
+      "cross_domain_redirect_count": 0,
+      "digit_count": 0,
+      "digit_ratio": 0,
+      "dot_count": 2,
+      "embedded_domain_count": 0,
+      "encoded_char_count": 0,
+      "final_at_count": 0,
+      "final_digit_count": 0,
+      "final_digit_ratio": 0,
+      "final_domain_changed": false,
+      "final_dot_count": 2,
+      "final_embedded_domain_count": 0,
+      "final_encoded_char_count": 0,
+      "final_host_is_ip": false,
+      "final_hostname": "facebook.tamil.bid",
+      "final_hostname_length": 18,
+      "final_hyphen_count": 0,
+      "final_path": "/",
+      "final_path_length": 1,
+      "final_percent_count": 0,
+      "final_public_suffix": "bid",
+      "final_punycode_present": false,
+      "final_query": "",
+      "final_query_length": 0,
+      "final_query_parameter_count": 0,
+      "final_registrable_domain": "tamil.bid",
+      "final_scheme": "https",
+      "final_sensitive_word_count": 0,
+      "final_sensitive_words_found": [],
+      "final_skip_domain_age_lookup": false,
+      "final_special_char_count": 6,
+      "final_special_char_ratio": 0.2222222222222222,
+      "final_subdomain": "facebook",
+      "final_subdomain_count": 1,
+      "final_underscore_count": 0,
+      "final_url": "https://facebook.tamil.bid/",
+      "final_url_entropy": 4.032303242743954,
+      "final_url_length": 27,
+      "final_url_token_count": 4,
+      "final_uses_shared_hosting_domain": false,
+      "host_is_ip": false,
+      "hostname": "facebook.tamil.bid",
+      "hostname_length": 18,
+      "hyphen_count": 0,
+      "original_at_count": 0,
+      "original_digit_count": 0,
+      "original_digit_ratio": 0,
+      "original_dot_count": 2,
+      "original_embedded_domain_count": 0,
+      "original_encoded_char_count": 0,
+      "original_host_is_ip": false,
+      "original_hostname": "facebook.tamil.bid",
+      "original_hostname_length": 18,
+      "original_hyphen_count": 0,
+      "original_path": "/",
+      "original_path_length": 1,
+      "original_percent_count": 0,
+      "original_public_suffix": "bid",
+      "original_punycode_present": false,
+      "original_query": "",
+      "original_query_length": 0,
+      "original_query_parameter_count": 0,
+      "original_registrable_domain": "tamil.bid",
+      "original_scheme": "https",
+      "original_sensitive_word_count": 0,
+      "original_sensitive_words_found": [],
+      "original_skip_domain_age_lookup": false,
+      "original_special_char_count": 6,
+      "original_special_char_ratio": 0.2222222222222222,
+      "original_subdomain": "facebook",
+      "original_subdomain_count": 1,
+      "original_underscore_count": 0,
+      "original_url": "https://facebook.tamil.bid/",
+      "original_url_entropy": 4.032303242743954,
+      "original_url_length": 27,
+      "original_url_token_count": 4,
+      "original_uses_shared_hosting_domain": false,
+      "path": "/",
+      "path_length": 1,
+      "percent_count": 0,
+      "public_suffix": "bid",
+      "punycode_present": false,
+      "query": "",
+      "query_length": 0,
+      "query_parameter_count": 0,
+      "raw_redirect_count": 0,
+      "redirect_chain": [
+        "https://facebook.tamil.bid/"
+      ],
+      "registrable_domain": "tamil.bid",
+      "scheme": "https",
+      "sensitive_word_count": 0,
+      "sensitive_words_found": [],
+      "special_char_count": 6,
+      "special_char_ratio": 0.2222222222222222,
+      "subdomain": "facebook",
+      "subdomain_count": 1,
+      "underscore_count": 0,
+      "url_entropy": 4.032303242743954,
+      "url_length": 27,
+      "url_token_count": 4,
+      "uses_shared_hosting_domain": false
+    },
+    "url_score": 86,
+    "verdict": "DANGEROUS"
+  },
+  "warning_context": {
+    "analyzer_version": "v5-rulefit60-explanation-v6",
+    "created_at": "2026-10-14T17:12:18.090Z",
+    "document_id": "1791997937584-2403ad12f350d",
+    "domain": "facebook.tamil.bid",
+    "explanation": {
+      "action": "Jangan masukkan kata sandi, OTP, atau data kartu sebelum memastikan identitas situs.",
+      "domain": "facebook.tamil.bid",
+      "limitation": "",
+      "reasons": [
+        "Kandidat brand Facebook ditemukan dengan domain facebook.com, berbeda dari facebook.tamil.bid. Perbedaan ini perlu diperiksa, bukan bukti tunggal penipuan."
+      ],
+      "summary": "Halaman dihentikan karena hasil pemeriksaan menunjukkan risiko phishing.",
+      "title": "Terindikasi phishing"
+    },
+    "matched_rules": [
+      {
+        "feature": "brand_domain_mismatch",
+        "id": "BRAND_IMPERSONATION_GUARD",
+        "reason": "Brand Facebook terdeteksi, tetapi domain aktif tamil.bid tidak sama dengan domain resmi facebook.com.",
+        "severity": "high",
+        "source": "Brand impersonation guard"
+      },
+      {
+        "coefficient": 3.2860345146652588,
+        "direction": "phishing",
+        "feature": "internal_anchor_count",
+        "id": "RULEFIT_R082",
+        "reason": "RuleFit risiko: internal_anchor_count <= 6.5; final_hostname_length <= 18.5; original_path_length > 0.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": -2.180538806179711,
+        "direction": "legitimate",
+        "feature": "original_hostname_length",
+        "id": "RULEFIT_R032",
+        "reason": "RuleFit aman: original_hostname_length <= 19.5; brand_top_candidate_quality_score > 0.2179; external_script_count <= 85",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 1.5299809461756069,
+        "direction": "phishing",
+        "feature": "original_path_length",
+        "id": "RULEFIT_R010",
+        "reason": "RuleFit risiko: original_path_length > 0.5; anchor_count > 13.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 1.1437869418937523,
+        "direction": "phishing",
+        "feature": "original_domain_age_days",
+        "id": "RULEFIT_R097",
+        "reason": "RuleFit risiko: original_domain_age_days <= 10870; internal_anchor_count <= 10.5; original_path_length > 0.5",
+        "severity": "medium",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": -0.9353878722240571,
+        "direction": "legitimate",
+        "feature": "original_path_length",
+        "id": "RULEFIT_R072",
+        "reason": "RuleFit aman: original_path_length > 0.5; anchor_count <= 35.5",
+        "severity": "low",
+        "source": "RuleFit"
+      },
+      {
+        "coefficient": 0.9302081826705016,
+        "direction": "phishing",
+        "feature": "final_domain_age_days",
+        "id": "RULEFIT_R105",
+        "reason": "RuleFit risiko: final_domain_age_days <= 6287.5; internal_anchor_count <= 55; original_special_char_ratio <= 0.2367",
+        "severity": "low",
+        "source": "RuleFit"
+      }
+    ],
+    "originalUrl": "https://facebook.tamil.bid/",
+    "redirect_source_warning": null,
+    "registrable_domain": "facebook.tamil.bid",
+    "score": 86,
+    "sourceUrl": "https://facebook.tamil.bid/",
+    "verdict": "DANGEROUS"
+  },
+  "document_responses": [
+    {
+      "url": "https://facebook.tamil.bid/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://www.gstatic.com/atari/embeds/97948f00a2b388372a6896e651a295ca/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.gh7qIZtzO5w.O%2Fd%3D1%2Frs%3DAHpOoo84YKT1RVy0T6hcXi5rH3LooB1WCw%2Fm%3D__features__&r=761004179",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://www.gstatic.com/atari/embeds/97948f00a2b388372a6896e651a295ca/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.gh7qIZtzO5w.O%2Fd%3D1%2Frs%3DAHpOoo84YKT1RVy0T6hcXi5rH3LooB1WCw%2Fm%3D__features__&r=635167956",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://www.gstatic.com/atari/embeds/97948f00a2b388372a6896e651a295ca/intermediate-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.gh7qIZtzO5w.O%2Fd%3D1%2Frs%3DAHpOoo84YKT1RVy0T6hcXi5rH3LooB1WCw%2Fm%3D__features__&r=172520315",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://drive.google.com/auth_warmup",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "chrome-extension://agdhpgciekkhemdcdefkkfeondbbknei/src/warning/warning.html?id=warn-1791997938090-d2e7aa82486f78",
+      "status": 200,
+      "type": "Document"
+    }
+  ]
+}

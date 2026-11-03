@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-14T15:21:07.495793+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_phishing_like_250_14_oktober.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 250,
+  "evaluated": 250,
+  "correct": 249,
+  "incorrect": 1,
+  "no_analysis": 0,
+  "accuracy_on_evaluated_percent": 99.6,
+  "accuracy_on_total_percent": 99.6
+}

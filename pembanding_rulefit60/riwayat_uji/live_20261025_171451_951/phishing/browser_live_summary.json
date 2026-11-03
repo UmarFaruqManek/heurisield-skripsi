@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-25T10:17:34.767711+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_openphis_retest_25_oktober.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 144,
+  "correct": 125,
+  "incorrect": 19,
+  "no_analysis": 156,
+  "accuracy_on_evaluated_percent": 86.81,
+  "coverage_percent": 48.0
+}

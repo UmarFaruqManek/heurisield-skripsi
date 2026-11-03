@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-29T21:27:48.802128+00:00",
+  "legitimate_urls": 300,
+  "phishing_urls": 300,
+  "legitimate_unique_domains": 315,
+  "legitimate_sources": {
+    "ac_id": 38,
+    "outside_us_gov": 141,
+    "ror_education": 120,
+    "go_id": 1
+  },
+  "legitimate_path_count": 35,
+  "excluded_domains": 195037,
+  "pages_checked": 576,
+  "legitimate_input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_300_30okt_rulefit60.txt",
+  "phishing_input": "C:\\Users\\USER\\Downloads\\phishing_openphish_300_30okt_rulefit60.txt",
+  "note": "Pemeriksaan HTTP 200/HTML pada waktu persiapan; hasil browser live dapat berbeda. Dataset 60 fitur lama tidak menyimpan URL asal tiap baris sehingga ketaktercakupan domain historis tidak dapat dibuktikan penuh."
+}

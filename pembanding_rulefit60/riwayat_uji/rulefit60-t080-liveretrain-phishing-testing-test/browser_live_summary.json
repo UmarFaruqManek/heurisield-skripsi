@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-13T15:32:58.362948+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing-testing-test.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 252,
+  "correct": 219,
+  "incorrect": 33,
+  "no_analysis": 48,
+  "accuracy_on_evaluated_percent": 86.9,
+  "accuracy_on_total_percent": 73.0
+}

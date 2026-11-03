@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-30T18:08:17.542158+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_subdomain_path_500_31okt_FINAL.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 500,
+  "evaluated": 490,
+  "correct": 433,
+  "incorrect": 57,
+  "no_analysis": 10,
+  "warning_page_observed": 1,
+  "analysis_status_counts": {
+    "completed": 490,
+    "http_error": 3,
+    "no_valid_analysis": 6,
+    "warning_page_observed": 1
+  },
+  "http_error_codes": {
+    "503": 3
+  },
+  "model_analysis_count": 490,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 88.37,
+  "coverage_percent": 98.0
+}

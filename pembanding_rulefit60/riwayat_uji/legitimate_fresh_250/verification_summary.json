@@ -1,0 +1,53 @@
+{
+  "verified_at_utc": "2026-10-14T14:49:52.184769+00:00",
+  "total_urls": 250,
+  "unique_domains": 24,
+  "all_http_200": true,
+  "training_old_rows_verified_against_source": 9314,
+  "training_live_rows_checked": 467,
+  "training_input_url_coverage": 9781,
+  "training_url_overlap": 0,
+  "previous_archive_overlap": 0,
+  "deduplication": "hostname without www + decoded path, ignoring scheme/query/fragment; input and redirected destination checked",
+  "old_training_url_source": "D:\\mesin crawl\\ml_pipeline_v2_domain_age_brand_recovered_118_v1\\combined_full_recovered_118_source_rows.csv",
+  "domain_counts": {
+    "1password.com": 13,
+    "bitwarden.com": 13,
+    "cloudflare.com": 12,
+    "digitalocean.com": 12,
+    "docker.com": 12,
+    "dropbox.com": 12,
+    "ebay.com": 12,
+    "fastmail.help": 12,
+    "figma.com": 12,
+    "github.com": 12,
+    "gitlab.com": 12,
+    "google.com": 12,
+    "microsoft.com": 9,
+    "netflix.com": 3,
+    "notion.com": 12,
+    "npmjs.com": 12,
+    "paypal.com": 12,
+    "proton.me": 12,
+    "slack.com": 6,
+    "spotify.com": 12,
+    "steampowered.com": 12,
+    "wordpress.com": 12,
+    "yubico.com": 1,
+    "zoho.com": 1
+  },
+  "output_file": "C:\\Users\\USER\\Downloads\\legitimate_fresh_phishing_like_250_14_oktober.txt",
+  "exclusion_scan": {
+    "text_files": 168,
+    "csv_with_url_columns": 377,
+    "json_url_files": 27,
+    "unreadable_files": 4,
+    "unique_host_path_keys": 1274749
+  },
+  "limitations": [
+    "Live browser rendering has not been tested; HTTP 200 and public HTML checked without signing in.",
+    "Same brands/domains may exist in training. Fresh means new URL host/path, not unseen domains.",
+    "Most examples are public account/security/billing support or documentation pages; not all contain credential forms.",
+    "No new query parameters were synthesized to create unique URLs."
+  ]
+}

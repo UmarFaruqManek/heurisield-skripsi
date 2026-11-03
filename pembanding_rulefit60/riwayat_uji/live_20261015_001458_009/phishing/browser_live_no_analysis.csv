@@ -1,0 +1,8 @@
+index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,original_domain_age_days,final_domain_age_days,feature_coverage_percent,reasons,error
+32,https://lnk.ink/mMUVT,lnk.ink,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://lnk.ink/mMUVT
+86,https://ubtkzmbaeq.cruisegamevoyage.com/,ubtkzmbaeq.cruisegamevoyage.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ubtkzmbaeq.cruisegamevoyage.com/
+88,https://miipsuunrise.jimdofree.com/,miipsuunrise.jimdofree.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://miipsuunrise.jimdofree.com/
+180,https://locateidevice.com/help?qbd,locateidevice.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://locateidevice.com/help?qbd
+181,http://locateidevice.com/qbd,locateidevice.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://locateidevice.com/qbd
+206,https://policlinicariovermelho.com.br/home?pag=home,policlinicariovermelho.com.br,phishing,DANGEROUS,,0,https://policlinicariovermelho.com.br/home?pag=home,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.
+277,https://doboski.top/adobe%20detect/adobe/,doboski.top,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://doboski.top/adobe%20detect/adobe/

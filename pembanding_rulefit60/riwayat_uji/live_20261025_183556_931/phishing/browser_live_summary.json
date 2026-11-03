@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-10-25T13:00:38.294849+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_openphis_retest_25_oktober.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 186,
+  "correct": 166,
+  "incorrect": 20,
+  "no_analysis": 114,
+  "warning_page_observed": 41,
+  "model_analysis_count": 145,
+  "evaluation_definition": "Observed extension verdict on an HTTP 200 page; warning_page_observed has no verified complete model analysis.",
+  "accuracy_on_evaluated_percent": 89.25,
+  "coverage_percent": 62.0
+}

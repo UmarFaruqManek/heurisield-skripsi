@@ -1,0 +1,4517 @@
+{
+  "summary": {
+    "generated_at": "2026-10-15T13:01:26.814900+00:00",
+    "count": 300,
+    "domain_count": 42,
+    "domain_counts": {
+      "1password.com": 9,
+      "amazon.com": 7,
+      "apple.com": 1,
+      "appwrite.io": 9,
+      "auth0.com": 6,
+      "bitwarden.com": 5,
+      "cloudflare.com": 7,
+      "datadoghq.com": 9,
+      "digitalocean.com": 1,
+      "docker.com": 9,
+      "dropbox.com": 9,
+      "ebay.com": 9,
+      "elastic.co": 8,
+      "fastmail.help": 8,
+      "figma.com": 8,
+      "github.com": 5,
+      "gitlab.com": 5,
+      "google.com": 8,
+      "imperva.com": 8,
+      "kubernetes.io": 8,
+      "microsoft.com": 8,
+      "mozilla.org": 8,
+      "notion.com": 8,
+      "npmjs.com": 6,
+      "okta.com": 8,
+      "oracle.com": 8,
+      "paypal.com": 8,
+      "postgresql.org": 8,
+      "proton.me": 8,
+      "sentry.io": 8,
+      "slack.com": 4,
+      "snowflake.com": 8,
+      "spotify.com": 8,
+      "steampowered.com": 8,
+      "stripe.com": 8,
+      "supabase.com": 8,
+      "tailscale.com": 8,
+      "twilio.com": 8,
+      "ubuntu.com": 1,
+      "vercel.com": 8,
+      "wordpress.com": 8,
+      "yubico.com": 6
+    },
+    "overlap_previous_host_path": 0,
+    "all_http_200": true,
+    "query_count": 9,
+    "output": "C:\\Users\\USER\\Downloads\\legitimate_fresh_phishing_like_300_15_oktober.txt",
+    "exclusion_scan": {
+      "text_files": 169,
+      "csv_with_url_columns": 389,
+      "json_url_files": 28,
+      "unreadable_files": 4,
+      "unique_host_path_keys": 1275627
+    },
+    "limitations": [
+      "Public official help/security/account/documentation pages, not a representative sample of the entire web.",
+      "Fresh refers to URL host/path, not necessarily unseen domains.",
+      "HTML and HTTP verified without login; live rendering and extension verdict not pretested.",
+      "No synthetic query parameters added."
+    ]
+  },
+  "urls": [
+    {
+      "url": "https://support.1password.com/category/billing/",
+      "final_url": "https://support.1password.com/category/billing/",
+      "status": 200,
+      "title": "Billing | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:04.288938+00:00",
+      "source": "https://support.1password.com/",
+      "matches": [
+        "billing",
+        "password",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html",
+      "status": 200,
+      "title": "AWS security credentials - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:12.182328+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "credential",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.apple.com/en-us/102606",
+      "final_url": "https://support.apple.com/en-us/102606",
+      "status": 200,
+      "title": "Get a verification code and sign in with two-factor authentication - Apple Support",
+      "domain": "apple.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:18.814220+00:00",
+      "source": "https://support.apple.com/en-us/102660",
+      "matches": [
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/email-password",
+      "final_url": "https://appwrite.io/docs/products/auth/email-password",
+      "status": 200,
+      "title": "Email and password login - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:18.983678+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "login",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/docs/secure/application-credentials",
+      "final_url": "https://auth0.com/docs/secure/application-credentials",
+      "status": 200,
+      "title": "Application Credentials - Auth0 Docs",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:16.144598+00:00",
+      "source": "https://auth0.com/docs/secure",
+      "matches": [
+        "credential",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://bitwarden.com/help/log-in-to-secrets-manager/",
+      "final_url": "https://bitwarden.com/help/log-in-to-secrets-manager/",
+      "status": 200,
+      "title": "Log in to Secrets Manager | Bitwarden",
+      "domain": "bitwarden.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:52.090055+00:00",
+      "source": "https://bitwarden.com/help/",
+      "matches": [
+        "log in",
+        "log-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/account-security/abuse-contact/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/account-security/abuse-contact/",
+      "status": 200,
+      "title": "Add abuse contact \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:56.613779+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/",
+      "status": 200,
+      "title": "Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:23.671059+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://cloud.digitalocean.com/forgot_password/new",
+      "final_url": "https://cloud.digitalocean.com/forgot_password/new",
+      "status": 200,
+      "title": "DigitalOcean",
+      "domain": "digitalocean.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:35.822831+00:00",
+      "source": "https://docs.digitalocean.com/support/i-forgot-my-username-or-password/",
+      "matches": [
+        "password",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/engine/security/certificates/",
+      "final_url": "https://docs.docker.com/engine/security/certificates/",
+      "status": 200,
+      "title": "Verify repository client with certificates | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:58.808259+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "secur",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/da-dk/security/password-reset",
+      "final_url": "https://help.dropbox.com/da-dk/security/password-reset",
+      "status": 200,
+      "title": "S\u00e5dan \u00e6ndrer eller nulstiller du din adgangskode til Dropbox \u2013 Hj\u00e6lp til Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:55.470582+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/account-safety/account-theft?id=4196&ra=true",
+      "final_url": "https://www.ebay.com/help/account/account-safety/account-theft?id=4196&ra=true",
+      "status": 200,
+      "title": "Get help with a hacked account | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.556786+00:00",
+      "source": "https://www.ebay.com/help/account/protecting-account/tips-keeping-ebay-account-secure?id=4872",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/security/kibana-session-management",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/security/kibana-session-management",
+      "status": 200,
+      "title": "Kibana session management | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:20.975714+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "secur",
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/360060590513",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/360060590513-Using-1Password-on-Fastmail-web-interface",
+      "status": 200,
+      "title": "Using 1Password on Fastmail web interface \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:08.866345+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/articles/360058752374-Using-two-step-verification-2FA",
+      "matches": [
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.figma.com/hc/en-us/articles/4418812476695",
+      "final_url": "https://help.figma.com/hc/en-us/articles/4418812476695-Reset-your-password",
+      "status": 200,
+      "title": "Reset your password \u2013 Figma Learn - Help Center",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:03.954614+00:00",
+      "source": "https://help.figma.com/hc/en-us/articles/360041064554-Log-in-add-accounts-or-log-out",
+      "matches": [
+        "password",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials.md",
+      "final_url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials.md",
+      "status": 200,
+      "title": "docs/content/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials.md at main \u00b7 github/docs \u00b7 GitHub",
+      "domain": "github.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:57.303580+00:00",
+      "source": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "credential",
+        "recover",
+        "secur",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.gitlab.com/administration/settings/account_and_limit_settings/",
+      "final_url": "https://docs.gitlab.com/administration/settings/account_and_limit_settings/",
+      "status": 200,
+      "title": "Account and limit settings | GitLab Docs",
+      "domain": "gitlab.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:55.201878+00:00",
+      "source": "https://docs.gitlab.com/security/two_factor_authentication/",
+      "matches": [
+        "2fa",
+        "account",
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://firebase.google.com/docs/phone-number-verification/android/sign-in",
+      "final_url": "https://firebase.google.com/docs/phone-number-verification/android/sign-in",
+      "status": 200,
+      "title": "Authenticate with Firebase on Android using Firebase Phone Number Verification",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:59.386325+00:00",
+      "source": "https://firebase.google.com/docs/auth",
+      "matches": [
+        "sign in",
+        "sign-in",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/products/account-takeover-protection/",
+      "final_url": "https://www.imperva.com/products/account-takeover-protection/",
+      "status": 200,
+      "title": "Pardon Our Interruption",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:21.258080+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "account",
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/security/service-accounts/",
+      "final_url": "https://kubernetes.io/docs/concepts/security/service-accounts/",
+      "status": 200,
+      "title": "Service Accounts | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:17.142378+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/change-your-microsoft-account-password",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/manage/change-your-microsoft-account-password",
+      "status": 200,
+      "title": "Change your Microsoft account password | Microsoft Support",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.233459+00:00",
+      "source": "https://support.microsoft.com/en-us/account-billing/help-with-the-microsoft-account-recovery-form-b19c02d1-a782-dee6-93c3-dc8113b20c42",
+      "matches": [
+        "account",
+        "billing",
+        "password",
+        "recover",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/OTP",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/OTP",
+      "status": 200,
+      "title": "One-time passwords (OTP) - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:11.492644+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/billing",
+      "final_url": "https://www.notion.com/help/billing",
+      "status": 200,
+      "title": "Manage billing in Notion | Notion Help \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:04.187128+00:00",
+      "source": "https://www.notion.com/help/category/plans-billing-and-payment/all",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/creating-a-new-npm-user-account",
+      "final_url": "https://docs.npmjs.com/creating-a-new-npm-user-account/",
+      "status": 200,
+      "title": "Creating a new user account on the public registry | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:29.628507+00:00",
+      "source": "https://docs.npmjs.com/about-two-factor-authentication",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/identity-101/biometric-passport/",
+      "final_url": "https://www.okta.com/en-gb/identity-101/biometric-passport/",
+      "status": 200,
+      "title": "Biometric Passport: Security, Data Protection & How They Work | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:15.331665+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "authenticat",
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.oracle.com/security/cloud-security/identity-cloud/",
+      "final_url": "https://www.oracle.com/security/cloud-security/identity-cloud/",
+      "status": 200,
+      "title": "Identity and Access Management | Oracle",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:14.713330+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/business",
+      "final_url": "https://www.paypal.com/us/business",
+      "status": 200,
+      "title": "Payments Processing Solutions for All Business | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:34.652605+00:00",
+      "source": "https://www.paypal.com/us/brc/article/what-are-payouts",
+      "matches": [
+        "account",
+        "log in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-password.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-password.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.5.\u00a0Password Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:17.280438+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/support/lost-two-factor-authentication-2fa",
+      "final_url": "https://proton.me/support/two-factor-authentication-2fa",
+      "status": 200,
+      "title": "Two-factor authentication (2FA) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:08.478897+00:00",
+      "source": "https://proton.me/support/set-account-recovery-methods",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "recover",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/account/",
+      "final_url": "https://docs.sentry.io/account/",
+      "status": 200,
+      "title": "Account Settings | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:12.540343+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://slack.com/security-practices",
+      "final_url": "https://slack.com/security-practices",
+      "status": 200,
+      "title": "Security Practices | Legal | Slack",
+      "domain": "slack.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:24.187885+00:00",
+      "source": "https://slack.com/why/slack-vs-email",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/user-guide/security-mfa",
+      "final_url": "https://docs.snowflake.com/en/user-guide/security-mfa",
+      "status": 200,
+      "title": "Multi-factor authentication (MFA) | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:25.483923+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/article/reset-password/",
+      "final_url": "https://support.spotify.com/id-en/article/reset-password/",
+      "status": 200,
+      "title": "How to reset or change your Spotify password - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:55.531390+00:00",
+      "source": "https://www.spotify.com/password-reset",
+      "matches": [
+        "password",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/es/login/",
+      "final_url": "https://help.steampowered.com/es/login/",
+      "status": 200,
+      "title": "Ayuda de Steam",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:10.132491+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.stripe.com/questions/enable-two-step-authentication-using-a-mobile-app",
+      "final_url": "https://support.stripe.com/questions/enable-two-step-authentication-using-an-authenticator-app",
+      "status": 200,
+      "title": "Enable two-step authentication using an authenticator app : Stripe: Help & Support",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:12.369756+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "authenticat",
+        "password",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/auth-mfa",
+      "final_url": "https://supabase.com/docs/guides/auth/auth-mfa",
+      "status": 200,
+      "title": "Multi-Factor Authentication | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:14.661809+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "authenticat",
+        "sign-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/docs/account/billing",
+      "final_url": "https://tailscale.com/docs/account/billing",
+      "status": 200,
+      "title": "Manage billing \u00b7 Tailscale Docs",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:15.817831+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/iam/api/account",
+      "final_url": "https://www.twilio.com/docs/iam/api/account",
+      "status": 200,
+      "title": "REST API: Accounts | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:13.727043+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "account",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://documentation.ubuntu.com/security",
+      "final_url": "https://documentation.ubuntu.com/security/",
+      "status": 200,
+      "title": "Ubuntu security documentation",
+      "domain": "ubuntu.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:22.255932+00:00",
+      "source": "https://help.ubuntu.com/community/Security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/security",
+      "final_url": "https://vercel.com/security",
+      "status": 200,
+      "title": "Security - Vercel",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:19.837542+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://my.wordpress.com/me/security/two-step-auth",
+      "final_url": "https://my.wordpress.com/me/security/two-step-auth",
+      "status": 200,
+      "title": "WordPress.com",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:58.239451+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/application-specific-passwords/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts/",
+      "final_url": "https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts/",
+      "status": 200,
+      "title": "OpenAI mandates hardware-backed passkeys for Trusted Access Cyber members to log into ChatGPT accounts | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:10.618298+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "account",
+        "log-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/manage-two-factor-authentication/",
+      "final_url": "https://support.1password.com/manage-two-factor-authentication/",
+      "status": 200,
+      "title": "Manage two-factor authentication in 1Password Business | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:04.275352+00:00",
+      "source": "https://support.1password.com/category/businesses/",
+      "matches": [
+        "authenticat",
+        "password",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-logging-and-monitoring.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-logging-and-monitoring.html",
+      "status": 200,
+      "title": "Logging and monitoring in AWS Identity and Access Management - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:13.928073+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "loggin",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/sign-in-with-appwrite",
+      "final_url": "https://appwrite.io/docs/products/auth/sign-in-with-appwrite",
+      "status": 200,
+      "title": "Sign in with Appwrite - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:19.775851+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "sign in",
+        "sign-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/docs/secure",
+      "final_url": "https://auth0.com/docs/secure",
+      "status": 200,
+      "title": "Secure - Auth0 Docs",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:11.784634+00:00",
+      "source": "https://auth0.com/docs/secure",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://bitwarden.com/help/setup-two-step-login-fido/",
+      "final_url": "https://bitwarden.com/help/setup-two-step-login-fido/",
+      "status": 200,
+      "title": "Passkey Two-Step Login | Bitwarden",
+      "domain": "bitwarden.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:52.337637+00:00",
+      "source": "https://bitwarden.com/help/",
+      "matches": [
+        "login",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/learning-paths/application-security/account-security/",
+      "final_url": "https://developers.cloudflare.com/learning-paths/application-security/account-security/",
+      "status": 200,
+      "title": "Account security \u00b7 Cloudflare Learning Paths",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:14.776414+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/aws/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/aws/",
+      "status": 200,
+      "title": "AWS Integration Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:25.756069+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/plans/dhi/",
+      "final_url": "https://docs.docker.com/subscription-billing/plans/dhi/",
+      "status": 200,
+      "title": "DHI plans | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:58.650627+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/de-de/security/password-reset",
+      "final_url": "https://help.dropbox.com/de-de/security/password-reset",
+      "status": 200,
+      "title": "Das Dropbox-Passwort \u00e4ndern oder zur\u00fccksetzen \u2013 Dropbox-Hilfe",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:55.961447+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/protecting-account/get-help-hacked-account?id=4196",
+      "final_url": "https://www.ebay.com/help/account/protecting-account/get-help-hacked-account?id=4196",
+      "status": 200,
+      "title": "Get help with a hacked account | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.630817+00:00",
+      "source": "https://www.ebay.com/help/account",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/security/k8s-es-client-certificate-auth",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/security/k8s-es-client-certificate-auth",
+      "status": 200,
+      "title": "Elasticsearch client certificate authentication on ECK | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:19.634100+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/360060590713",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/360060590713-Managing-resold-accounts",
+      "status": 200,
+      "title": "Managing resold accounts \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:39.267370+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/articles/360058753314-Reseller-accounts",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.figma.com/blog/insights/",
+      "final_url": "https://www.figma.com/blog/insights/",
+      "status": 200,
+      "title": "Insights: Opinions from Industry Leaders | Figma Blog",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:06.363639+00:00",
+      "source": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+      "matches": [
+        "log/in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods.md",
+      "final_url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods.md",
+      "status": 200,
+      "title": "docs/content/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods.md at main \u00b7 github/docs \u00b7 GitHub",
+      "domain": "github.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:25.941049+00:00",
+      "source": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication-recovery-methods",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "recover",
+        "secur",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/subscriptions/billing_account.md",
+      "final_url": "https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/subscriptions/billing_account.md",
+      "status": 200,
+      "title": "doc/subscriptions/billing_account.md \u00b7 master \u00b7 GitLab.org / GitLab \u00b7 GitLab",
+      "domain": "gitlab.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:56.067021+00:00",
+      "source": "https://docs.gitlab.com/subscriptions/billing_account/",
+      "matches": [
+        "account",
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.google.com/identity/verification/authentication-policy-compliance",
+      "final_url": "https://developers.google.com/identity/verification/authentication-policy-compliance",
+      "status": 200,
+      "title": "Comply with OAuth 2.0 policies \u00a0|\u00a0 Brand Verification for Google Authentication APIs \u00a0|\u00a0 Google for Developers",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:59.229956+00:00",
+      "source": "https://developers.google.com/identity",
+      "matches": [
+        "authenticat",
+        "identity",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/learn/data-security/hipaa-privacy-rule/",
+      "final_url": "https://www.imperva.com/learn/data-security/hipaa-privacy-rule/",
+      "status": 200,
+      "title": "What is HIPAA Privacy Rule | HIPPA Security Requirments | Imperva",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:24.535989+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/security/hardening-guide/authentication-mechanisms/",
+      "final_url": "https://kubernetes.io/docs/concepts/security/hardening-guide/authentication-mechanisms/",
+      "status": 200,
+      "title": "Hardening Guide - Authentication Mechanisms | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:19.118774+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/removing-a-sign-in-verification-method",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/manage/removing-a-sign-in-verification-method",
+      "status": 200,
+      "title": "Removing a sign-in verification method | Microsoft Support",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.785735+00:00",
+      "source": "https://support.microsoft.com/en-us/account-billing/help-with-the-microsoft-account-recovery-form-b19c02d1-a782-dee6-93c3-dc8113b20c42",
+      "matches": [
+        "account",
+        "billing",
+        "sign in",
+        "sign-in",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passwords",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passwords",
+      "status": 200,
+      "title": "Passwords - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:11.539800+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/payment-methods",
+      "final_url": "https://www.notion.com/help/payment-methods",
+      "status": 200,
+      "title": "Payment methods for Notion plans | Notion Help \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:32.973431+00:00",
+      "source": "https://www.notion.com/help/category/plans-billing-and-payment/all",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/upgrading-to-a-paid-user-account-plan",
+      "final_url": "https://docs.npmjs.com/upgrading-to-a-paid-user-account-plan/",
+      "status": 200,
+      "title": "Upgrading to a paid user account plan | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:51.900535+00:00",
+      "source": "https://docs.npmjs.com/about-two-factor-authentication",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/identity-101/secrets-management/",
+      "final_url": "https://www.okta.com/en-gb/identity-101/secrets-management/",
+      "status": 200,
+      "title": "Secrets Management: Tools & Methods for Authentication | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:14.464882+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "authenticat",
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/users/link-to-mos.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/users/link-to-mos.htm",
+      "status": 200,
+      "title": "Linking a User to a My Oracle Cloud Support Account",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:13.393413+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "account",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/cshelp/article/help676",
+      "final_url": "https://www.paypal.com/us/cshelp/article/how-do-i-change-my-password-and-security-questions-help676",
+      "status": 200,
+      "title": "How do I change my password and security questions? | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:57.366833+00:00",
+      "source": "https://www.paypal.com/us/security/report-fraud",
+      "matches": [
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/account/comments/new/18/client-authentication.html/",
+      "final_url": "https://www.postgresql.org/account/login/?next=/account/comments/new/18/client-authentication.html/",
+      "status": 200,
+      "title": "PostgreSQL:",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:19.853300+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "account",
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/support/set-account-recovery-methods",
+      "final_url": "https://proton.me/support/set-account-recovery-methods",
+      "status": 200,
+      "title": "Proton Account recovery explained | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:01.272432+00:00",
+      "source": "https://proton.me/support/set-account-recovery-methods",
+      "matches": [
+        "account",
+        "password",
+        "recover",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/pricing/",
+      "final_url": "https://docs.sentry.io/pricing/",
+      "status": 200,
+      "title": "Pricing & Billing | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:15.724111+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://slack.com/intl/es-la/trust/security",
+      "final_url": "https://slack.com/intl/es-la/trust/security",
+      "status": 200,
+      "title": "Seguridad de Slack: cifrado de nivel empresarial | Slack",
+      "domain": "slack.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:51.013202+00:00",
+      "source": "https://slack.com/trust/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-overview",
+      "final_url": "https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-overview",
+      "status": 200,
+      "title": "Overview of federated authentication and SSO | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:21.057074+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/category/payments-and-billing/",
+      "final_url": "https://support.spotify.com/us/category/payments-and-billing/",
+      "status": 200,
+      "title": "Payments & billing - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:56.598482+00:00",
+      "source": "https://support.spotify.com/us/article/mobile-billing-payments/",
+      "matches": [
+        "billing",
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/fi/login/",
+      "final_url": "https://help.steampowered.com/fi/login/",
+      "status": 200,
+      "title": "Steam-avustaja",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:41.065042+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.stripe.com/questions/set-up-a-hardware-security-key-for-two-step-authentication",
+      "final_url": "https://support.stripe.com/questions/set-up-a-hardware-security-key-for-two-step-authentication",
+      "status": 200,
+      "title": "Set up a hardware security key for two-step authentication : Stripe: Help & Support",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:11.235635+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/password-security",
+      "final_url": "https://supabase.com/docs/guides/auth/password-security",
+      "status": 200,
+      "title": "Password security | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:14.516914+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/security",
+      "final_url": "https://tailscale.com/security",
+      "status": 200,
+      "title": "Security | Tailscale",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:16.188858+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/iam/api/subaccounts",
+      "final_url": "https://www.twilio.com/docs/iam/api/subaccounts",
+      "status": 200,
+      "title": "REST API: Subaccounts | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.895950+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "account",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/security",
+      "final_url": "https://vercel.com/docs/security",
+      "status": 200,
+      "title": "Vercel security overview",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:13.567300+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/support/log-in-to-wordpress-com/",
+      "final_url": "https://wordpress.com/support/log-in-to-wordpress-com/",
+      "status": 200,
+      "title": "Log In to Your WordPress.com Account | WordPress.com Support",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:58.906207+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "account",
+        "log in",
+        "log-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/email-subscription/",
+      "final_url": "https://www.yubico.com/email-subscription/",
+      "status": 200,
+      "title": "Email preference center | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:10.559158+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/system-authentication-linux-security/",
+      "final_url": "https://support.1password.com/system-authentication-linux-security/",
+      "status": 200,
+      "title": "About the security of using system authentication to unlock 1Password for Linux | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:30.217650+00:00",
+      "source": "https://support.1password.com/category/security/",
+      "matches": [
+        "authenticat",
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-audit-guide.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-audit-guide.html",
+      "status": 200,
+      "title": "AWS security audit guidelines - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:01.888838+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth",
+      "final_url": "https://appwrite.io/docs/products/auth",
+      "status": 200,
+      "title": "Authentication - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:13.730297+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/ai-identity/b2b",
+      "final_url": "https://auth0.com/ai-identity/b2b",
+      "status": 200,
+      "title": "AI Identity for B2B | Auth0",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:47.510127+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://bitwarden.com/help/setup-two-step-login-email/",
+      "final_url": "https://bitwarden.com/help/setup-two-step-login-email/",
+      "status": 200,
+      "title": "Email Two-Step Login | Bitwarden",
+      "domain": "bitwarden.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:35.296769+00:00",
+      "source": "https://bitwarden.com/help/",
+      "matches": [
+        "login",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/okta/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/okta/",
+      "status": 200,
+      "title": "Provision with Okta \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:32.807144+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/oci/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/oci/",
+      "status": 200,
+      "title": "OCI Integration Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.391821+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/manage/plans/",
+      "final_url": "https://docs.docker.com/subscription-billing/manage/plans/",
+      "status": 200,
+      "title": "Manage plans | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:27.310365+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/es-es/security/password-reset",
+      "final_url": "https://help.dropbox.com/es-es/security/password-reset",
+      "status": 200,
+      "title": "C\u00f3mo cambiar o restablecer tu contrase\u00f1a de Dropbox - Ayuda de Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:23.895590+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/policies/identity-policies/multiple-accounts-policy?id=4232",
+      "final_url": "https://www.ebay.com/help/policies/identity-policies/multiple-accounts-policy?id=4232",
+      "status": 200,
+      "title": "Multiple account policy | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:38.052220+00:00",
+      "source": "https://www.ebay.com/help/account/creating-account/creating-ebay-account?id=4191",
+      "matches": [
+        "account",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/deploy/cloud-enterprise/log-into-cloud-ui",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/deploy/cloud-enterprise/log-into-cloud-ui",
+      "status": 200,
+      "title": "Log into the Cloud UI | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.641884+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "log in",
+        "log-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/5730579789583",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/5730579789583-Password-protected-actions",
+      "status": 200,
+      "title": "Password-protected actions \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.313470+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/articles/360058752374-Using-two-step-verification-2FA",
+      "matches": [
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.figma.com/blog/security/",
+      "final_url": "https://www.figma.com/blog/security/",
+      "status": 200,
+      "title": "Tag: Security | Figma Blog",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:05.268189+00:00",
+      "source": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://github.com/github/docs/tree/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa",
+      "final_url": "https://github.com/github/docs/tree/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa",
+      "status": 200,
+      "title": "docs/content/authentication/securing-your-account-with-two-factor-authentication-2fa at main \u00b7 github/docs \u00b7 GitHub",
+      "domain": "github.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:50.144984+00:00",
+      "source": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "secur",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.gitlab.com/auth/auth_practices/",
+      "final_url": "https://docs.gitlab.com/auth/auth_practices/",
+      "status": 200,
+      "title": "Authentication and authorization best practices | GitLab Docs",
+      "domain": "gitlab.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:56.583022+00:00",
+      "source": "https://docs.gitlab.com/auth/",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.google.com/a/answer/33561",
+      "final_url": "https://knowledge.workspace.google.com/admin/users/recovering-administrator-access-to-your-account?visit_id=639276659387024388-2643345561&rd=1",
+      "status": 200,
+      "title": "Recovering administrator access to your account \u00a0|\u00a0 User management \u00a0|\u00a0 Google Workspace Help",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:04.141432+00:00",
+      "source": "https://support.google.com/accounts/answer/6208960",
+      "matches": [
+        "password",
+        "reset"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/learn/application-security/account-takeover-ato/",
+      "final_url": "https://www.imperva.com/learn/application-security/account-takeover-ato/",
+      "status": 200,
+      "title": "Account Takeover Attack (ATO) | Types, Detection & Protection | Imperva",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.790213+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/",
+      "final_url": "https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/",
+      "status": 200,
+      "title": "Distribute Credentials Securely Using Secrets | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.189431+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "credential",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-security-info-verification-codes",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/manage/microsoft-account-security-info-verification-codes",
+      "status": 200,
+      "title": "Microsoft account security info & verification codes | Microsoft Support",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:39.605469+00:00",
+      "source": "https://support.microsoft.com/en-us/account-billing/help-with-the-microsoft-account-recovery-form-b19c02d1-a782-dee6-93c3-dc8113b20c42",
+      "matches": [
+        "account",
+        "billing",
+        "secur",
+        "sign in",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Federated_identity",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Federated_identity",
+      "status": 200,
+      "title": "Federated identity - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.674147+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/members-and-billing",
+      "final_url": "https://www.notion.com/help/members-and-billing",
+      "status": 200,
+      "title": "How members impact billing in Notion | Notion Help \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:52.140576+00:00",
+      "source": "https://www.notion.com/help/category/plans-billing-and-payment/all",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/updating-organization-billing-settings",
+      "final_url": "https://docs.npmjs.com/updating-organization-billing-settings/",
+      "status": 200,
+      "title": "Updating organization billing settings | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.301107+00:00",
+      "source": "https://docs.npmjs.com/about-two-factor-authentication",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/identity-101/wep/",
+      "final_url": "https://www.okta.com/en-gb/identity-101/wep/",
+      "status": 200,
+      "title": "Wired Equivalent Privacy (WEP): Definition & Risks | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.274954+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/sessionsettings/overview.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/sessionsettings/overview.htm",
+      "status": 200,
+      "title": "Managing Session Settings",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:13.385622+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity",
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/brc/payments/billing-expenses",
+      "final_url": "https://www.paypal.com/us/brc/payments/billing-expenses",
+      "status": 200,
+      "title": "Billing and Expenses | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.279894+00:00",
+      "source": "https://www.paypal.com/us/brc/article/what-are-payouts",
+      "matches": [
+        "billing",
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-bsd.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-bsd.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.14.\u00a0BSD Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.636422+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/cs/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/cs/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "Dvouf\u00e1zov\u00e9 ov\u011b\u0159en\u00ed (2FA) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:07.236043+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/pricing/quotas/",
+      "final_url": "https://docs.sentry.io/pricing/quotas/",
+      "status": 200,
+      "title": "Billing Quota Management | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:16.383141+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://slack.com/intl/fr-fr/trust/security",
+      "final_url": "https://slack.com/intl/fr-fr/trust/security",
+      "status": 200,
+      "title": "S\u00e9curit\u00e9 dans Slack\u00a0: chiffrement professionnel | Slack",
+      "domain": "slack.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:01:00.698745+00:00",
+      "source": "https://slack.com/trust/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/user-guide/security-authentication-overview",
+      "final_url": "https://docs.snowflake.com/en/user-guide/security-authentication-overview",
+      "status": 200,
+      "title": "Overview of Snowflake authentication | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:47.785611+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/billing-date/",
+      "final_url": "https://support.spotify.com/us/article/billing-date/",
+      "status": 200,
+      "title": "Your billing date - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:23.856227+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/fr/login/",
+      "final_url": "https://help.steampowered.com/fr/login/",
+      "status": 200,
+      "title": "Assistance Steam",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:39.564994+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.stripe.com/questions/enable-two-step-authentication",
+      "final_url": "https://support.stripe.com/questions/enable-two-step-authentication",
+      "status": 200,
+      "title": "Enable two-step authentication : Stripe: Help & Support",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.085380+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "authenticat",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/password-verification-hook",
+      "final_url": "https://supabase.com/docs/guides/auth/auth-hooks/password-verification-hook",
+      "status": 200,
+      "title": "Password Verification Hook | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.861776+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "password",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/docs/account",
+      "final_url": "https://tailscale.com/docs/account",
+      "status": 200,
+      "title": "Manage your organization \u00b7 Tailscale Docs",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:44.018444+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/usage/secure-credentials",
+      "final_url": "https://www.twilio.com/docs/usage/secure-credentials",
+      "status": 200,
+      "title": "Secure your Twilio Credentials | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.503981+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "credential",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/security/pci-dss",
+      "final_url": "https://vercel.com/docs/security/pci-dss",
+      "status": 200,
+      "title": "PCI DSS iframe Integration",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.319074+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/support/account-recovery/verify-ownership/",
+      "final_url": "https://wordpress.com/support/account-recovery/verify-ownership/",
+      "status": 200,
+      "title": "Verify your WordPress.com account ownership | WordPress.com Support",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:58.316936+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "account",
+        "recover",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/products/security-key/",
+      "final_url": "https://www.yubico.com/products/security-key/",
+      "status": 200,
+      "title": "Security Key Series | YubiKeys | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.810316+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/recovery/",
+      "final_url": "https://support.1password.com/recovery/",
+      "status": 200,
+      "title": "Recover accounts for family or team members | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:58.437391+00:00",
+      "source": "https://support.1password.com/forgot-account-password/",
+      "matches": [
+        "account",
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-iam-awsmanpol.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-iam-awsmanpol.html",
+      "status": 200,
+      "title": "AWS managed policies for AWS Identity and Access Management, IAM Access Analyzer, and account access manager - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:01.857280+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/advanced/billing",
+      "final_url": "https://appwrite.io/docs/advanced/billing",
+      "status": 200,
+      "title": "Billing - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.797427+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/docs/authenticate",
+      "final_url": "https://auth0.com/docs/authenticate",
+      "status": 200,
+      "title": "Authenticate - Auth0 Docs",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.459102+00:00",
+      "source": "https://auth0.com/docs/secure",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://bitwarden.com/help/account-recovery-enrollment/",
+      "final_url": "https://bitwarden.com/help/account-recovery-enrollment/",
+      "status": 200,
+      "title": "Account Recovery Enrollment | Bitwarden",
+      "domain": "bitwarden.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:47.555650+00:00",
+      "source": "https://bitwarden.com/help/",
+      "matches": [
+        "account",
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/entra/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/account-security/scim-setup/entra/",
+      "status": 200,
+      "title": "Provision with Microsoft Entra \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.688319+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/rum/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/rum/",
+      "status": 200,
+      "title": "RUM & Session Replay Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:49.953503+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/plans/docker/",
+      "final_url": "https://docs.docker.com/subscription-billing/plans/docker/",
+      "status": 200,
+      "title": "Docker plans | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:26.728813+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/es-la/security/password-reset",
+      "final_url": "https://help.dropbox.com/es-la/security/password-reset",
+      "status": 200,
+      "title": "C\u00f3mo cambiar o restaurar tu contrase\u00f1a de Dropbox - Ayuda de Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:25.039440+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/account-getting-started/setup-verify?id=4191&ra=true",
+      "final_url": "https://www.ebay.com/help/account/account-getting-started/setup-verify?id=4191&ra=true",
+      "status": 200,
+      "title": "Creating an eBay account | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:40.556587+00:00",
+      "source": "https://www.ebay.com/help/account/changing-account-settings/changing-account-settings?id=4193",
+      "matches": [
+        "account",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/cloud-organization/billing/manage-subscription",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/cloud-organization/billing/manage-subscription",
+      "status": 200,
+      "title": "Manage your subscription | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:47.411686+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/sections/14592289283855-Billing",
+      "final_url": "https://www.fastmail.help/hc/en-us/sections/14592289283855-Billing",
+      "status": 200,
+      "title": "Billing \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:19.883159+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/articles/360058752494-Payments",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.figma.com/blog/infrastructure/",
+      "final_url": "https://www.figma.com/blog/infrastructure/",
+      "status": 200,
+      "title": "Tag: Infrastructure | Figma Blog",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:35.679912+00:00",
+      "source": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+      "matches": [
+        "log/in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md",
+      "final_url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md",
+      "status": 200,
+      "title": "docs/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication.md at main \u00b7 github/docs \u00b7 GitHub",
+      "domain": "github.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:30.430564+00:00",
+      "source": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "secur",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://handbook.gitlab.com/handbook/security/corporate/systems/google/mail/verification/",
+      "final_url": "https://handbook.gitlab.com/handbook/security/corporate/systems/google/mail/verification/",
+      "status": 200,
+      "title": "Google Mail (Gmail) Verification Guide | The GitLab Handbook",
+      "domain": "gitlab.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:05.018327+00:00",
+      "source": "https://docs.gitlab.com/user/profile/account/two_factor_authentication_troubleshooting/",
+      "matches": [
+        "secur",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.google.com/identity/siwg",
+      "final_url": "https://developers.google.com/identity/siwg",
+      "status": 200,
+      "title": "Sign in with Google \u00a0|\u00a0 Google for Developers",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:58:59.956517+00:00",
+      "source": "https://developers.google.com/identity",
+      "matches": [
+        "authenticat",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/learn/data-security/iam-identity-and-access-management/",
+      "final_url": "https://www.imperva.com/learn/data-security/iam-identity-and-access-management/",
+      "status": 200,
+      "title": "What Is Identity and Access Management and Its Key Benefits | Imperva",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.902653+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/tasks/debug/",
+      "final_url": "https://kubernetes.io/docs/tasks/debug/",
+      "status": 200,
+      "title": "Monitoring, Logging, and Debugging | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.470640+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "loggin"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-hotmail",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-hotmail",
+      "status": 200,
+      "title": "How to sign in to Hotmail | Microsoft Support",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.910938+00:00",
+      "source": "https://support.microsoft.com/en-us/account-billing/help-with-the-microsoft-account-recovery-form-b19c02d1-a782-dee6-93c3-dc8113b20c42",
+      "matches": [
+        "account",
+        "billing",
+        "sign in",
+        "sign-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Session_management",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Session_management",
+      "status": 200,
+      "title": "Session management - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:41.193612+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "secur",
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/dormant-account-policy",
+      "final_url": "https://www.notion.com/help/dormant-account-policy",
+      "status": 200,
+      "title": "Notion dormant account policy | Notion Help \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:53.737169+00:00",
+      "source": "https://www.notion.com/help/category/security-and-privacy/all",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/downgrading-to-a-free-user-account-plan",
+      "final_url": "https://docs.npmjs.com/downgrading-to-a-free-user-account-plan/",
+      "status": 200,
+      "title": "Downgrading to a free user account plan | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:32.292046+00:00",
+      "source": "https://docs.npmjs.com/about-two-factor-authentication",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/identity-101/cyber-hygiene/",
+      "final_url": "https://www.okta.com/en-gb/identity-101/cyber-hygiene/",
+      "status": 200,
+      "title": "Cyber Hygiene: Definition & Best Practices | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:45.499530+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/access/managing-user-credentials.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/access/managing-user-credentials.htm",
+      "status": 200,
+      "title": "Managing User Credentials",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.132067+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "credential",
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/security/protect-your-account",
+      "final_url": "https://www.paypal.com/us/security/protect-your-account",
+      "status": 200,
+      "title": "Account Security | Protect Your PayPal Account | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:16.717110+00:00",
+      "source": "https://www.paypal.com/us/security/report-fraud",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-pam.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-pam.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.13.\u00a0PAM Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.325429+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/da/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/da/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "To-faktor-godkendelse (2FA) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:37.029213+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/security-legal-pii/",
+      "final_url": "https://docs.sentry.io/security-legal-pii/",
+      "status": 200,
+      "title": "Security, Legal, & PII | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:45.250414+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://slack.com/intl/it-it/trust/security",
+      "final_url": "https://slack.com/intl/it-it/trust/security",
+      "status": 200,
+      "title": "Sicurezza di Slack: crittografia di livello aziendale | Slack",
+      "domain": "slack.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:01:00.832461+00:00",
+      "source": "https://slack.com/trust/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/guides-overview-cost",
+      "final_url": "https://docs.snowflake.com/en/guides-overview-cost",
+      "status": 200,
+      "title": "Cost & billing | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:11.238662+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/failed-payment/",
+      "final_url": "https://support.spotify.com/us/article/failed-payment/",
+      "status": 200,
+      "title": "Failed payment help - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:24.774054+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/hu/login/",
+      "final_url": "https://help.steampowered.com/hu/login/",
+      "status": 200,
+      "title": "Steam Seg\u00edts\u00e9g",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:59.467203+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.stripe.com/questions/enable-two-step-authentication-via-text-messaging",
+      "final_url": "https://support.stripe.com/questions/enable-two-step-authentication-using-text-messaging-%28sms%29",
+      "status": 200,
+      "title": "Enable two-step authentication using text messaging (SMS) : Stripe: Help & Support",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.570070+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "authenticat",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/sessions",
+      "final_url": "https://supabase.com/docs/guides/auth/sessions",
+      "status": 200,
+      "title": "User sessions | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.174227+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/docs/features/logging",
+      "final_url": "https://tailscale.com/docs/features/logging",
+      "status": 200,
+      "title": "Logging overview \u00b7 Tailscale Docs",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:04.223670+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "loggin"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/verify/api",
+      "final_url": "https://www.twilio.com/docs/verify/api",
+      "status": 200,
+      "title": "Verify API | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:02.158351+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/security/bot-management",
+      "final_url": "https://vercel.com/security/bot-management",
+      "status": 200,
+      "title": "Bot Management",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:46.749058+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/ar/support/security/two-step-authentication/",
+      "final_url": "https://wordpress.com/ar/support/security/two-step-authentication/",
+      "status": 200,
+      "title": "\u062a\u0645\u0643\u064a\u0646 \u0627\u0644\u0645\u0635\u0627\u062f\u0642\u0629 \u0627\u0644\u062b\u0646\u0627\u0626\u064a\u0629 \u2013 \u0627\u0644\u062f\u0639\u0645",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:26.815850+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/why-yubico/secure-it-forward/",
+      "final_url": "https://www.yubico.com/why-yubico/secure-it-forward/",
+      "status": 200,
+      "title": "Protecting Journalists & High Risk Individuals | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.334020+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/audit-log/",
+      "final_url": "https://support.1password.com/audit-log/",
+      "status": 200,
+      "title": "Use the audit log in 1Password Business (beta) | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:57.647822+00:00",
+      "source": "https://support.1password.com/category/businesses/",
+      "matches": [
+        "log in",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/infrastructure-security.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/infrastructure-security.html",
+      "status": 200,
+      "title": "Infrastructure security in AWS Identity and Access Management - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:23.221406+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/advanced/security",
+      "final_url": "https://appwrite.io/docs/advanced/security",
+      "status": 200,
+      "title": "Security - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:47.204484+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/ai-identity/commerce",
+      "final_url": "https://auth0.com/ai-identity/commerce",
+      "status": 200,
+      "title": "AI Identity for Commerce | Auth0",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:07.724152+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://bitwarden.com/help/understand-log-in-vs-unlock/",
+      "final_url": "https://bitwarden.com/help/understand-log-in-vs-unlock/",
+      "status": 200,
+      "title": "Understand Log in vs. Unlock | Bitwarden",
+      "domain": "bitwarden.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:58.676604+00:00",
+      "source": "https://bitwarden.com/help/",
+      "matches": [
+        "log in",
+        "log-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/account-security/cloudflare-access/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/account-security/cloudflare-access/",
+      "status": 200,
+      "title": "Provide edit access to Cloudflare \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:43.782901+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/azure/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/azure/",
+      "status": 200,
+      "title": "Azure Integration Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:10.035258+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/plans/gordon/",
+      "final_url": "https://docs.docker.com/subscription-billing/plans/gordon/",
+      "status": 200,
+      "title": "Gordon plans | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:51.412102+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/fr-fr/security/password-reset",
+      "final_url": "https://help.dropbox.com/fr-fr/security/password-reset",
+      "status": 200,
+      "title": "Comment modifier ou r\u00e9initialiser votre mot de passe Dropbox - Aide de Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:49.689812+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/changing-account-settings/managing-subscriptions?id=4361",
+      "final_url": "https://www.ebay.com/help/account/changing-account-settings/managing-subscriptions?id=4361",
+      "status": 200,
+      "title": "Managing your subscriptions | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:56.039442+00:00",
+      "source": "https://www.ebay.com/help/account/changing-account-settings/changing-account-settings?id=4193",
+      "matches": [
+        "account",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/security/k8s-fleet-server-client-certificate-auth",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/security/k8s-fleet-server-client-certificate-auth",
+      "status": 200,
+      "title": "Fleet Server client certificate authentication on ECK | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:06.175169+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/360058752514-Logged-in-sessions",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/360058752514-Logged-in-sessions",
+      "status": 200,
+      "title": "Logged in sessions \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:35.627349+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/sections/1500000062142-Security-basics",
+      "matches": [
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.figma.com/hc/en-us/articles/360039811114",
+      "final_url": "https://help.figma.com/hc/en-us/articles/360039811114-Create-a-Figma-account",
+      "status": 200,
+      "title": "Create a Figma account \u2013 Figma Learn - Help Center",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:36.320070+00:00",
+      "source": "https://help.figma.com/hc/en-us/articles/360041064554-Log-in-add-accounts-or-log-out",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md",
+      "final_url": "https://github.com/github/docs/blob/main/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md",
+      "status": 200,
+      "title": "docs/content/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication.md at main \u00b7 github/docs \u00b7 GitHub",
+      "domain": "github.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:47.063680+00:00",
+      "source": "https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "secur",
+        "two-factor"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.gitlab.com/security/",
+      "final_url": "https://docs.gitlab.com/security/",
+      "status": 200,
+      "title": "Secure GitLab | GitLab Docs",
+      "domain": "gitlab.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:24.876791+00:00",
+      "source": "https://docs.gitlab.com/administration/settings/sign_in_restrictions/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.google.com/a/answer/13529161",
+      "final_url": "https://knowledge.workspace.google.com/admin/users/allow-users-to-skip-passwords-at-sign-in?visit_id=639276659390539062-572775313&rd=1",
+      "status": 200,
+      "title": "Allow users to skip passwords at sign-in \u00a0|\u00a0 User management \u00a0|\u00a0 Google Workspace Help",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:01.485666+00:00",
+      "source": "https://support.google.com/accounts/answer/13548313",
+      "matches": [
+        "password",
+        "sign-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/learn/",
+      "final_url": "https://www.imperva.com/learn/",
+      "status": 200,
+      "title": "Learning Center | Expertise in Cybersecurity | Imperva",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:12.424361+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/concepts/security/",
+      "final_url": "https://kubernetes.io/docs/concepts/security/",
+      "status": 200,
+      "title": "Security | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.064522+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-outlook-com",
+      "final_url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-outlook-com",
+      "status": 200,
+      "title": "How to sign in to Outlook.com | Microsoft Support",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.693376+00:00",
+      "source": "https://support.microsoft.com/en-us/account-billing/help-with-the-microsoft-account-recovery-form-b19c02d1-a782-dee6-93c3-dc8113b20c42",
+      "matches": [
+        "account",
+        "billing",
+        "sign in",
+        "sign-in"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication",
+      "status": 200,
+      "title": "Authentication - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.224036+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/category/notion-ai-security/all",
+      "final_url": "https://www.notion.com/help/category/notion-ai-security/all",
+      "status": 200,
+      "title": "Notion AI security \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:14.060405+00:00",
+      "source": "https://www.notion.com/help/category/notion-ai-security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/packages-and-modules/securing-your-code",
+      "final_url": "https://docs.npmjs.com/packages-and-modules/securing-your-code/",
+      "status": 200,
+      "title": "Securing your code | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:36.218987+00:00",
+      "source": "https://docs.npmjs.com/verifying-registry-signatures",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/secure-identity-commitment/",
+      "final_url": "https://www.okta.com/en-gb/secure-identity-commitment/",
+      "status": 200,
+      "title": "Okta Secure Identity Commitment | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:03.898189+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/securing/configure_idv_providers_and_identity_assurance.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/securing/configure_idv_providers_and_identity_assurance.htm",
+      "status": 200,
+      "title": "Managing Identity Assurance",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:42.142009+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/brc/article/how-to-accept-foreign-currency-with-your-business-account",
+      "final_url": "https://www.paypal.com/us/brc/article/how-to-accept-foreign-currency-with-your-business-account",
+      "status": 200,
+      "title": "How to Accept International Payments for Businesses | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:18.749180+00:00",
+      "source": "https://www.paypal.com/us/brc/article/what-are-payouts",
+      "matches": [
+        "account",
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-cert.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-cert.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.12.\u00a0Certificate Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:11.366084+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/de/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/de/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "Zwei-Faktor-Authentifizierung (2FA) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:39.540325+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/account/auth-tokens/",
+      "final_url": "https://docs.sentry.io/account/auth-tokens/",
+      "status": 200,
+      "title": "Auth Tokens | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.499605+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/guides-overview-manage",
+      "final_url": "https://docs.snowflake.com/en/guides-overview-manage",
+      "status": 200,
+      "title": "Working with organizations and accounts | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.124450+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/payment-methods/",
+      "final_url": "https://support.spotify.com/us/article/payment-methods/",
+      "status": 200,
+      "title": "Accepted payment methods - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.578605+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/id/login/",
+      "final_url": "https://help.steampowered.com/id/login/",
+      "status": 200,
+      "title": "Bantuan Steam",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.138638+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.stripe.com/payments",
+      "final_url": "https://docs.stripe.com/payments",
+      "status": 200,
+      "title": "Payments | Stripe Documentation",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:12.941966+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/passwords",
+      "final_url": "https://supabase.com/docs/guides/auth/passwords",
+      "status": 200,
+      "title": "Password-based Auth | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:04.757570+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/use-cases/secure-saas",
+      "final_url": "https://tailscale.com/use-cases/secure-saas",
+      "status": 200,
+      "title": "Secure Networking for SaaS Applications (Start for Free) | Tailscale",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.373380+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/usage/billing",
+      "final_url": "https://www.twilio.com/docs/usage/billing",
+      "status": 200,
+      "title": "Billing | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:22.705567+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/security/compliance",
+      "final_url": "https://vercel.com/docs/security/compliance",
+      "status": 200,
+      "title": "Security & Compliance Measures",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.078610+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/he/support/security/two-step-authentication/",
+      "final_url": "https://wordpress.com/he/support/security/two-step-authentication/",
+      "status": 200,
+      "title": "\u05d4\u05e4\u05e2\u05dc\u05ea \u05d0\u05d9\u05de\u05d5\u05ea \u05d3\u05d5-\u05e9\u05dc\u05d1\u05d9 \u2013 \u05ea\u05de\u05d9\u05db\u05d4",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:28.038004+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/products/computer-login-tools/",
+      "final_url": "https://www.yubico.com/products/computer-login-tools/",
+      "status": 200,
+      "title": "Computer Login Security Tools | YubiKeys | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:07.387509+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/activity-log/",
+      "final_url": "https://support.1password.com/activity-log/",
+      "status": 200,
+      "title": "Use the audit log in 1Password Business | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:17.390114+00:00",
+      "source": "https://support.1password.com/category/businesses/",
+      "matches": [
+        "log in",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/disaster-recovery-resiliency.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/disaster-recovery-resiliency.html",
+      "status": 200,
+      "title": "Resilience in AWS Identity and Access Management - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:23.431081+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/jwt",
+      "final_url": "https://appwrite.io/docs/products/auth/jwt",
+      "status": 200,
+      "title": "JWT login - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:09.299369+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://auth0.com/docs/secure/call-apis-on-users-behalf/on-behalf-of-token-exchange",
+      "final_url": "https://auth0.com/docs/secure/call-apis-on-users-behalf/on-behalf-of-token-exchange",
+      "status": 200,
+      "title": "On-Behalf-Of Token Exchange - Auth0 Docs",
+      "domain": "auth0.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:29.561943+00:00",
+      "source": "https://auth0.com/docs/secure",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/account-security/review-audit-logs/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/account-security/review-audit-logs/",
+      "status": 200,
+      "title": "Review audit logs - v1 \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:45.060896+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/login_methods/",
+      "final_url": "https://docs.datadoghq.com/account_management/login_methods/",
+      "status": 200,
+      "title": "Configuring Login Methods",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:12.208468+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/manage/details/",
+      "final_url": "https://docs.docker.com/subscription-billing/manage/details/",
+      "status": 200,
+      "title": "Update your billing details | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:53.893246+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/id-id/security/password-reset",
+      "final_url": "https://help.dropbox.com/id-id/security/password-reset",
+      "status": 200,
+      "title": "Cara mengubah atau mengatur ulang kata sandi Dropbox - Bantuan Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:49.727121+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/account-account-settings/delivery-billing-address?id=4201&ra=true",
+      "final_url": "https://www.ebay.com/help/account/account-account-settings/delivery-billing-address?id=4201&ra=true",
+      "status": 200,
+      "title": "Changing the address on your eBay account | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:16.307138+00:00",
+      "source": "https://www.ebay.com/help/account/changing-account-settings/feedback-profiles?id=4204",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/deploy-manage/cloud-organization/billing/security-billing-dimensions",
+      "final_url": "https://www.elastic.co/docs/deploy-manage/cloud-organization/billing/security-billing-dimensions",
+      "status": 200,
+      "title": "Elastic Security Serverless billing dimensions | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:26.183275+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "billing",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/sections/1500000062082-Account-management",
+      "final_url": "https://www.fastmail.help/hc/en-us/sections/1500000062082-Account-management",
+      "status": 200,
+      "title": "Account management \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:47.604643+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/categories/1500000036682-Account-billing",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.figma.com/hc/en-us/articles/1500005165741",
+      "final_url": "https://help.figma.com/hc/en-us/articles/1500005165741-Switch-between-accounts",
+      "status": 200,
+      "title": "Switch between accounts \u2013 Figma Learn - Help Center",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:00.651161+00:00",
+      "source": "https://help.figma.com/hc/en-us/articles/360041064554-Log-in-add-accounts-or-log-out",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://myaccount.google.com/security-checkup",
+      "final_url": "https://myaccount.google.com/intro/security-checkup",
+      "status": 200,
+      "title": "Security Checkup",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:52.157093+00:00",
+      "source": "https://support.google.com/accounts/answer/32040",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/products/api-security/",
+      "final_url": "https://www.imperva.com/products/api-security/",
+      "status": 200,
+      "title": "Pardon Our Interruption",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.463429+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/tutorials/security/",
+      "final_url": "https://kubernetes.io/docs/tutorials/security/",
+      "status": 200,
+      "title": "Security | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:11.143285+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/self-service-account-recovery",
+      "final_url": "https://learn.microsoft.com/en-us/entra/identity/authentication/self-service-account-recovery",
+      "status": 200,
+      "title": "Frequently asked questions about account recovery in Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.706795+00:00",
+      "source": "https://learn.microsoft.com/en-us/entra/identity/authentication/",
+      "matches": [
+        "account",
+        "authenticat",
+        "identity",
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passkeys",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication/Passkeys",
+      "status": 200,
+      "title": "Passkeys - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:02.552594+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/custom-agents-security-features",
+      "final_url": "https://www.notion.com/help/custom-agents-security-features",
+      "status": 200,
+      "title": "Notion Custom Agents security features | Notion Help \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.176084+00:00",
+      "source": "https://www.notion.com/help/notion-ai-security-practices",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.npmjs.com/receiving-a-one-time-password-over-email",
+      "final_url": "https://docs.npmjs.com/receiving-a-one-time-password-over-email/",
+      "status": 200,
+      "title": "Receiving a one-time password over email | npm Docs",
+      "domain": "npmjs.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:50.683174+00:00",
+      "source": "https://docs.npmjs.com/about-two-factor-authentication",
+      "matches": [
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/identity-101/wifi-pineapple/",
+      "final_url": "https://www.okta.com/en-gb/identity-101/wifi-pineapple/",
+      "status": 200,
+      "title": "WiFi Pineapple Definition & Pineapple Router Uses | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:04.826874+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "status": 200,
+      "title": "IAM with Identity Domains",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:10.302656+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/brc/payments",
+      "final_url": "https://www.paypal.com/us/brc/payments",
+      "status": 200,
+      "title": "Payments | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:37.030232+00:00",
+      "source": "https://www.paypal.com/us/brc/article/what-are-payouts",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-ldap.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-ldap.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.10.\u00a0LDAP Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:31.269397+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/fi/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/fi/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "Kaksivaiheinen tunnistautuminen (2FA) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:01.200184+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/account/user-settings/",
+      "final_url": "https://docs.sentry.io/account/user-settings/",
+      "status": 200,
+      "title": "Account Preferences | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.346193+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/guides-overview-secure",
+      "final_url": "https://docs.snowflake.com/en/guides-overview-secure",
+      "status": 200,
+      "title": "Securing Snowflake | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:30.169307+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/paypal-payments/",
+      "final_url": "https://support.spotify.com/us/article/paypal-payments/",
+      "status": 200,
+      "title": "PayPal payments for Spotify - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:48.843704+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/it/login/",
+      "final_url": "https://help.steampowered.com/it/login/",
+      "status": 200,
+      "title": "Assistenza di Steam",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:20.039148+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://dashboard.stripe.com/register",
+      "final_url": "https://dashboard.stripe.com/register",
+      "status": 200,
+      "title": "Sign up and create a Stripe account | Stripe",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:11.937714+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/phone-login",
+      "final_url": "https://supabase.com/docs/guides/auth/phone-login",
+      "status": 200,
+      "title": "Phone sign-in | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:04.102314+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/use-cases/securing-ai",
+      "final_url": "https://tailscale.com/use-cases/securing-ai",
+      "status": 200,
+      "title": "AI Gateway | Aperture by Tailscale",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:25.004466+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/usage/security",
+      "final_url": "https://www.twilio.com/docs/usage/security",
+      "status": 200,
+      "title": "Security | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:10.201222+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/cdn-security/encryption",
+      "final_url": "https://vercel.com/docs/cdn-security/encryption",
+      "status": 200,
+      "title": "Encryption and TLS",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:10.364711+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/ja/support/security/two-step-authentication/",
+      "final_url": "https://wordpress.com/ja/support/security/two-step-authentication/",
+      "status": 200,
+      "title": "2\u6bb5\u968e\u8a8d\u8a3c\u6a5f\u80fd\u3092\u6709\u52b9\u5316\u3059\u308b \u2013 \u65e5\u672c\u8a9e\u30b5\u30dd\u30fc\u30c8",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:50.674296+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.yubico.com/products/hardware-security-module/",
+      "final_url": "https://www.yubico.com/products/hardware-security-module/",
+      "status": 200,
+      "title": "Hardware Security Module (HSM) For Modern Systems | Yubico",
+      "domain": "yubico.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:01.671658+00:00",
+      "source": "https://www.yubico.com/products/yubico-authenticator/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/sso-security/",
+      "final_url": "https://support.1password.com/sso-security/",
+      "status": 200,
+      "title": "About 1Password Unlock with SSO security | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:20.256451+00:00",
+      "source": "https://support.1password.com/category/security/",
+      "matches": [
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_security-outside-iam.html",
+      "final_url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_security-outside-iam.html",
+      "status": 200,
+      "title": "Security features outside IAM - AWS Identity and Access Management",
+      "domain": "amazon.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:36.741278+00:00",
+      "source": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/mfa",
+      "final_url": "https://appwrite.io/docs/products/auth/mfa",
+      "status": 200,
+      "title": "Multi-factor authentication - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:09.343275+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developers.cloudflare.com/fundamentals/account/",
+      "final_url": "https://developers.cloudflare.com/fundamentals/account/",
+      "status": 200,
+      "title": "Accounts \u00b7 Cloudflare Fundamentals docs",
+      "domain": "cloudflare.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:04.507008+00:00",
+      "source": "https://developers.cloudflare.com/fundamentals/account/",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/pricing",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/pricing/",
+      "status": 200,
+      "title": "Pricing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:28.952633+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/manage/history/",
+      "final_url": "https://docs.docker.com/subscription-billing/manage/history/",
+      "status": 200,
+      "title": "Billing and invoice history | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:12.950376+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/it-it/security/password-reset",
+      "final_url": "https://help.dropbox.com/it-it/security/password-reset",
+      "status": 200,
+      "title": "Come modificare o reimpostare la password di Dropbox - Supporto Dropbox",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:12.375468+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/account/account-account-settings/notifications-subscriptions?id=4203&ra=true",
+      "final_url": "https://www.ebay.com/help/account/account-account-settings/notifications-subscriptions?id=4203&ra=true",
+      "status": 200,
+      "title": "Push Notifications | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:27.701341+00:00",
+      "source": "https://www.ebay.com/help/account/changing-account-settings/feedback-profiles?id=4204",
+      "matches": [
+        "account",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/cloud/security",
+      "final_url": "https://www.elastic.co/cloud/security",
+      "status": 200,
+      "title": "Elastic Cloud Security | Elastic",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.780894+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/1500002756041-Apple-subscriptions",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/1500002756041-Apple-subscriptions",
+      "status": 200,
+      "title": "Apple subscriptions \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:47.954768+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/categories/1500000036682-Account-billing",
+      "matches": [
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.figma.com/hc/en-us/articles/1500006061462",
+      "final_url": "https://help.figma.com/hc/en-us/articles/1500006061462-View-and-manage-account-settings",
+      "status": 200,
+      "title": "View and manage account settings \u2013 Figma Learn - Help Center",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:56.691641+00:00",
+      "source": "https://help.figma.com/hc/en-us/articles/1500005165741-Switch-between-accounts",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/46526",
+      "final_url": "https://support.google.com/accounts/answer/46526",
+      "status": 200,
+      "title": "Make your account more secure - Google Account Help",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:35.178883+00:00",
+      "source": "https://support.google.com/accounts/answer/32040",
+      "matches": [
+        "account",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/products/data-security/",
+      "final_url": "https://www.imperva.com/products/data-security/",
+      "status": 200,
+      "title": "Pardon Our Interruption",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:44.713257+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/tasks/debug/logging/",
+      "final_url": "https://kubernetes.io/docs/tasks/debug/logging/",
+      "status": 200,
+      "title": "Logging in Kubernetes | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:28.408521+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "loggin"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-account-recovery-enable",
+      "final_url": "https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-account-recovery-enable",
+      "status": 200,
+      "title": "Enable and configure account recovery in Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:09.858518+00:00",
+      "source": "https://learn.microsoft.com/en-us/entra/identity/authentication/",
+      "matches": [
+        "account",
+        "authenticat",
+        "identity",
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Practical_implementation_guides/MIME_types",
+      "final_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Practical_implementation_guides/MIME_types",
+      "status": 200,
+      "title": "MIME type verification - Security | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:17.562888+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "secur",
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/category/security-and-privacy/all",
+      "final_url": "https://www.notion.com/help/category/security-and-privacy/all",
+      "status": 200,
+      "title": "Privacy & security \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:32.598339+00:00",
+      "source": "https://www.notion.com/help/category/security-and-privacy",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/products/workforce-identity/",
+      "final_url": "https://www.okta.com/en-gb/products/workforce-identity/",
+      "status": 200,
+      "title": "Secure Your Organization's Access with Workforce Identity | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:24.510681+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/iaas/releasenotes/services/identity/",
+      "final_url": "https://docs.oracle.com/en-us/iaas/releasenotes/services/identity/",
+      "status": 200,
+      "title": "Oracle Cloud Infrastructure Release Notes",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:01.828152+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.paypal.com/api/rest/authentication/",
+      "final_url": "https://developer.paypal.com/api/rest/authentication/",
+      "status": 200,
+      "title": "Authentication | PayPal Developer",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:08.822475+00:00",
+      "source": "https://developer.paypal.com/api/rest/authentication/",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/auth-peer.html",
+      "final_url": "https://www.postgresql.org/docs/current/auth-peer.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.9.\u00a0Peer Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.846644+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/fr/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/fr/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "Authentification \u00e0 deux facteurs (A2F) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:59.596695+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/integrations/session-replay/",
+      "final_url": "https://docs.sentry.io/integrations/session-replay/",
+      "status": 200,
+      "title": "Third-party Session Replay Integrations | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.327392+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "session"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/user-guide/key-pair-auth",
+      "final_url": "https://docs.snowflake.com/en/user-guide/key-pair-auth",
+      "status": 200,
+      "title": "Key-pair authentication and key-pair rotation | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:33.747502+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/google-play-help/",
+      "final_url": "https://support.spotify.com/us/article/google-play-help/",
+      "status": 200,
+      "title": "Paying for Spotify with Google Play Billing - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:09.645715+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/ja/login/",
+      "final_url": "https://help.steampowered.com/ja/login/",
+      "status": 200,
+      "title": "Steam \u30d8\u30eb\u30d7",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:17.254963+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.stripe.com/security/guide",
+      "final_url": "https://docs.stripe.com/security/guide",
+      "status": 200,
+      "title": "Integration security guide | Stripe Documentation",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:15.376583+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/signing-keys",
+      "final_url": "https://supabase.com/docs/guides/auth/signing-keys",
+      "status": 200,
+      "title": "JWT Signing Keys | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:24.309044+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "signin"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/docs/account/bug-report",
+      "final_url": "https://tailscale.com/docs/account/bug-report",
+      "status": 200,
+      "title": "Generate a bug report \u00b7 Tailscale Docs",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:28.253306+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/usage/billing/billing-group",
+      "final_url": "https://www.twilio.com/docs/usage/billing/billing-group",
+      "status": 200,
+      "title": "Billing Groups | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:36.960479+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/security/access-control",
+      "final_url": "https://vercel.com/docs/security/access-control",
+      "status": 200,
+      "title": "Access Control",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:29.161574+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/ko/support/security/two-step-authentication/",
+      "final_url": "https://wordpress.com/ko/support/security/two-step-authentication/",
+      "status": 200,
+      "title": "2\ub2e8\uacc4 \uc778\uc99d \ud65c\uc131\ud654 \u2013 \uc9c0\uc6d0",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:51.951383+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/scim-security/",
+      "final_url": "https://support.1password.com/scim-security/",
+      "status": 200,
+      "title": "About 1Password SCIM Bridge security | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:35.526916+00:00",
+      "source": "https://support.1password.com/category/security/",
+      "matches": [
+        "password",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/oauth2",
+      "final_url": "https://appwrite.io/docs/products/auth/oauth2",
+      "status": 200,
+      "title": "OAuth 2 login - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:29.201683+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/alibaba/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/alibaba/",
+      "status": 200,
+      "title": "Alibaba Integration Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:31.111707+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/subscription-billing/desktop-license/",
+      "final_url": "https://docs.docker.com/subscription-billing/desktop-license/",
+      "status": 200,
+      "title": "Docker Desktop license agreement | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.981803+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "billing",
+        "subscription"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/ja-jp/security/password-reset",
+      "final_url": "https://help.dropbox.com/ja-jp/security/password-reset",
+      "status": 200,
+      "title": "Dropbox \u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5909\u66f4\u307e\u305f\u306f\u30ea\u30bb\u30c3\u30c8\u3059\u308b\u65b9\u6cd5 - Dropbox \u30d8\u30eb\u30d7",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.025637+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/selling/fees-credits-invoices/setting-changing-automatic-payment-method/updating-bank-account-details-payouts?id=4796",
+      "final_url": "https://www.ebay.com/help/selling/fees-credits-invoices/setting-changing-automatic-payment-method/updating-bank-account-details-payouts?id=4796",
+      "status": 200,
+      "title": "Updating your checking account details for payouts | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:37.053844+00:00",
+      "source": "https://www.ebay.com/help/account/changing-account-settings/changing-account-settings?id=4193",
+      "matches": [
+        "account",
+        "payment"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.elastic.co/docs/cloud-account",
+      "final_url": "https://www.elastic.co/docs/cloud-account",
+      "status": 200,
+      "title": "Manage your Cloud account and preferences | Elastic Docs",
+      "domain": "elastic.co",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:42.093777+00:00",
+      "source": "https://www.elastic.co/docs/deploy-manage/security",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.fastmail.help/hc/en-us/articles/360060590553-Compromised-accounts",
+      "final_url": "https://www.fastmail.help/hc/en-us/articles/360060590553-Compromised-accounts",
+      "status": 200,
+      "title": "Compromised accounts \u2013 Fastmail",
+      "domain": "fastmail.help",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:57.635441+00:00",
+      "source": "https://www.fastmail.help/hc/en-us/sections/1500000062142-Security-basics",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.figma.com/blog/rolling-out-santa-without-freezing-productivity/",
+      "final_url": "https://www.figma.com/blog/rolling-out-santa-without-freezing-productivity/",
+      "status": 200,
+      "title": "Rolling Out Santa Without Freezing Productivity: Tips from Securing Figma\u2019s Fleet | Figma Blog",
+      "domain": "figma.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:57.327806+00:00",
+      "source": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/58585",
+      "final_url": "https://support.google.com/accounts/answer/58585",
+      "status": 200,
+      "title": "Someone changed your password - Google Account Help",
+      "domain": "google.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:35.999246+00:00",
+      "source": "https://support.google.com/accounts/answer/41078?hl=en&ref_topic=3382255",
+      "matches": [
+        "account",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.imperva.com/data-security-demo-tours/",
+      "final_url": "https://www.imperva.com/data-security-demo-tours/",
+      "status": 200,
+      "title": "Pardon Our Interruption",
+      "domain": "imperva.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:54.684712+00:00",
+      "source": "https://www.imperva.com/learn/application-security/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://kubernetes.io/docs/reference/issues-security/",
+      "final_url": "https://kubernetes.io/docs/reference/issues-security/",
+      "status": 200,
+      "title": "Kubernetes Issues and Security | Kubernetes",
+      "domain": "kubernetes.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:29.356928+00:00",
+      "source": "https://kubernetes.io/docs/reference/access-authn-authz/",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-account-recovery-overview",
+      "final_url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-account-recovery-overview",
+      "status": 200,
+      "title": "Account Recovery Overview in Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn",
+      "domain": "microsoft.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:38.073475+00:00",
+      "source": "https://learn.microsoft.com/en-us/entra/identity/authentication/",
+      "matches": [
+        "account",
+        "authenticat",
+        "identity",
+        "recover"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://developer.mozilla.org/de/docs/Web/Security",
+      "final_url": "https://developer.mozilla.org/de/docs/Web/Security",
+      "status": 200,
+      "title": "Sicherheit | MDN",
+      "domain": "mozilla.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:23.410289+00:00",
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.notion.com/help/category/account-settings-and-privacy",
+      "final_url": "https://www.notion.com/help/category/account-settings-and-privacy",
+      "status": 200,
+      "title": "Settings & preferences \u2013 Notion Help Center",
+      "domain": "notion.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:46.616087+00:00",
+      "source": "https://www.notion.com/help/account-settings",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.okta.com/en-gb/integrations/secure-identity/",
+      "final_url": "https://www.okta.com/en-gb/solutions/secure-identity-integrations/",
+      "status": 200,
+      "title": "Secure Identity Integrations for your Critical Apps | Okta",
+      "domain": "okta.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:25.159579+00:00",
+      "source": "https://www.okta.com/en-gb/identity-101/",
+      "matches": [
+        "identity",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.oracle.com/en-us/iaas/Content/Identity/sku/overview.htm",
+      "final_url": "https://docs.oracle.com/en-us/iaas/Content/Identity/sku/overview.htm",
+      "status": 200,
+      "title": "IAM Identity Domain Types",
+      "domain": "oracle.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:05.172563+00:00",
+      "source": "https://docs.oracle.com/en-us/iaas/Content/Identity/home.htm",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.paypal.com/us/cshelp/topic/help_account_personal",
+      "final_url": "https://www.paypal.com/us/cshelp/topic/help_account_personal",
+      "status": 200,
+      "title": "My Account | PayPal US",
+      "domain": "paypal.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:48:03.185166+00:00",
+      "source": "https://www.paypal.com/us/cshelp/topic/help_account_personal",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/sspi-auth.html",
+      "final_url": "https://www.postgresql.org/docs/current/sspi-auth.html",
+      "status": 200,
+      "title": "PostgreSQL: Documentation: 18: 20.7.\u00a0SSPI Authentication",
+      "domain": "postgresql.org",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:42.706734+00:00",
+      "source": "https://www.postgresql.org/docs/current/client-authentication.html",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://proton.me/hi/support/account/passwords-authentication/2fa",
+      "final_url": "https://proton.me/hi/support/account/passwords-authentication/2fa",
+      "status": 200,
+      "title": "\u0926\u094b-\u092b\u0948\u0915\u094d\u091f\u0930 \u0938\u0924\u094d\u092f\u093e\u092a\u0928 (2-\u090f\u092b\u090f) | Proton",
+      "domain": "proton.me",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:21.264006+00:00",
+      "source": "https://proton.me/support/account/passwords-authentication/2fa",
+      "matches": [
+        "2fa",
+        "account",
+        "authenticat",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.sentry.io/organization/authentication/",
+      "final_url": "https://docs.sentry.io/organization/authentication/",
+      "status": 200,
+      "title": "Authentication | Sentry Docs",
+      "domain": "sentry.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:25.187868+00:00",
+      "source": "https://docs.sentry.io/account/",
+      "matches": [
+        "authenticat"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.snowflake.com/en/user-guide/agent-identity",
+      "final_url": "https://docs.snowflake.com/en/user-guide/agent-identity",
+      "status": 200,
+      "title": "Agent identity | Snowflake Documentation",
+      "domain": "snowflake.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:41.777750+00:00",
+      "source": "https://docs.snowflake.com/en/user-guide/security-access-control-overview",
+      "matches": [
+        "identity"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.spotify.com/us/article/managed-accounts/",
+      "final_url": "https://support.spotify.com/us/article/managed-accounts/",
+      "status": 200,
+      "title": "Managed accounts for young listeners - Spotify",
+      "domain": "spotify.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:10.676620+00:00",
+      "source": "https://support.spotify.com/us/article/apple-login-help/",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.steampowered.com/ko/login/",
+      "final_url": "https://help.steampowered.com/ko/login/",
+      "status": 200,
+      "title": "Steam \uc9c0\uc6d0",
+      "domain": "steampowered.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:34.806079+00:00",
+      "source": "https://help.steampowered.com/en/login/",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/account/sso",
+      "final_url": "https://docs.stripe.com/get-started/account/sso",
+      "status": 200,
+      "title": "Single sign-on (SSO) | Stripe Documentation",
+      "domain": "stripe.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T12:59:43.943366+00:00",
+      "source": "https://docs.stripe.com/security",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://supabase.com/docs/guides/auth/social-login",
+      "final_url": "https://supabase.com/docs/guides/auth/social-login",
+      "status": 200,
+      "title": "Social login | Supabase Docs",
+      "domain": "supabase.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:24.347610+00:00",
+      "source": "https://supabase.com/docs/guides/auth",
+      "matches": [
+        "login"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://tailscale.com/docs/account/manage-plans",
+      "final_url": "https://tailscale.com/docs/account/manage-plans",
+      "status": 200,
+      "title": "Manage your plan \u00b7 Tailscale Docs",
+      "domain": "tailscale.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:39.333218+00:00",
+      "source": "https://tailscale.com/kb/1018/acls",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.twilio.com/docs/usage/trials/try-out-verify",
+      "final_url": "https://www.twilio.com/docs/usage/trials/try-out-verify",
+      "status": 200,
+      "title": "Try out Twilio Verify | Twilio",
+      "domain": "twilio.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:36.723706+00:00",
+      "source": "https://www.twilio.com/docs/usage/security",
+      "matches": [
+        "verif"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://vercel.com/docs/security/security-dashboard",
+      "final_url": "https://vercel.com/docs/security/security-dashboard",
+      "status": 200,
+      "title": "Security Dashboard",
+      "domain": "vercel.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:31.684657+00:00",
+      "source": "https://vercel.com/docs/security",
+      "matches": [
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://wordpress.com/ru/support/security/two-step-authentication/",
+      "final_url": "https://wordpress.com/ru/support/security/two-step-authentication/",
+      "status": 200,
+      "title": "\u0412\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0434\u0432\u0443\u0445\u044d\u0442\u0430\u043f\u043d\u043e\u0439 \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u2014 \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430",
+      "domain": "wordpress.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:13.452917+00:00",
+      "source": "https://wordpress.com/support/security/two-step-authentication/",
+      "matches": [
+        "authenticat",
+        "secur",
+        "two-step"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://support.1password.com/frozen-account/",
+      "final_url": "https://support.1password.com/frozen-account/",
+      "status": 200,
+      "title": "If your 1Password account is frozen | 1Password Support",
+      "domain": "1password.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:36.178992+00:00",
+      "source": "https://support.1password.com/category/billing/",
+      "matches": [
+        "account",
+        "password"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://appwrite.io/docs/products/auth/accounts",
+      "final_url": "https://appwrite.io/docs/products/auth/accounts",
+      "status": 200,
+      "title": "Accounts - Docs - Appwrite",
+      "domain": "appwrite.io",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:29.604625+00:00",
+      "source": "https://appwrite.io/docs/products/auth",
+      "matches": [
+        "account"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.datadoghq.com/account_management/billing/vsphere/",
+      "final_url": "https://docs.datadoghq.com/account_management/billing/vsphere/",
+      "status": 200,
+      "title": "vSphere Integration Billing",
+      "domain": "datadoghq.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:40.456604+00:00",
+      "source": "https://docs.datadoghq.com/account_management/",
+      "matches": [
+        "account",
+        "billing"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://docs.docker.com/security/authentication/single-sign-on/",
+      "final_url": "https://docs.docker.com/security/authentication/single-sign-on/",
+      "status": 200,
+      "title": "Single sign-on overview | Docker Docs",
+      "domain": "docker.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:31.369470+00:00",
+      "source": "https://docs.docker.com/security/",
+      "matches": [
+        "authenticat",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://help.dropbox.com/ko-kr/security/password-reset",
+      "final_url": "https://help.dropbox.com/ko-kr/security/password-reset",
+      "status": 200,
+      "title": "Dropbox \ube44\ubc00\ubc88\ud638\ub97c \ubcc0\uacbd\ud558\uac70\ub098 \uc7ac\uc124\uc815\ud558\ub294 \ubc29\ubc95 - Dropbox \ub3c4\uc6c0\ub9d0",
+      "domain": "dropbox.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:31.517104+00:00",
+      "source": "https://help.dropbox.com/security/password-reset",
+      "matches": [
+        "password",
+        "reset",
+        "secur"
+      ],
+      "label": "legitimate"
+    },
+    {
+      "url": "https://www.ebay.com/help/selling/fees-credits-invoices/setting-changing-automatic-payment-method/updating-checking-account-details-managed-payments?id=4796",
+      "final_url": "https://www.ebay.com/help/selling/fees-credits-invoices/setting-changing-automatic-payment-method/updating-checking-account-details-managed-payments?id=4796",
+      "status": 200,
+      "title": "Updating your checking account details for payouts | eBay",
+      "domain": "ebay.com",
+      "public_html": true,
+      "checked_at": "2026-10-15T13:00:42.688748+00:00",
+      "source": "https://www.ebay.com/help/selling/fees-credits-invoices/fees-credits-invoices-overview?id=4070",
+      "matches": [
+        "account",
+        "payment"
+      ],
+      "label": "legitimate"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "total_urls": 500,
+  "evaluated": 490,
+  "incorrect": 57,
+  "groups": {
+    "rulefit_model": 37,
+    "brand_guard": 20
+  },
+  "model_wrong_R137_fired": 19,
+  "label_review_required_indices": [
+    470,
+    491
+  ],
+  "candidate": "For brand-only escalation, preserve the model's SAFE decision if raw model risk < 0.30 and no credential fields/forms were observed. Typo and redirect guards unchanged.",
+  "retrospective_replay": {
+    "legitimate_new": {
+      "evaluated": 490,
+      "changed_to_safe": 13,
+      "previously_correct_phishing_changed": 0,
+      "false_positive_legitimate_recovered": 13
+    },
+    "legitimate_prior": {
+      "evaluated": 292,
+      "changed_to_safe": 1,
+      "previously_correct_phishing_changed": 0,
+      "false_positive_legitimate_recovered": 1
+    },
+    "phishing_earlier": {
+      "evaluated": 71,
+      "changed_to_safe": 0,
+      "previously_correct_phishing_changed": 0,
+      "false_positive_legitimate_recovered": 0
+    },
+    "phishing_latest": {
+      "evaluated": 97,
+      "changed_to_safe": 0,
+      "previously_correct_phishing_changed": 0,
+      "false_positive_legitimate_recovered": 0
+    }
+  },
+  "limitation": "Same archives were used to propose the candidate. These counts are development evidence, not an independent accuracy estimate. New phishing and legitimate domains are required before release."
+}

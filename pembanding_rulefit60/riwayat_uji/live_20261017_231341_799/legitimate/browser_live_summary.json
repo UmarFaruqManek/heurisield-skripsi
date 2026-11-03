@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-10-17T15:48:47.761718+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_diverse_500_17_oktober.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 500,
+  "evaluated": 500,
+  "correct": 459,
+  "incorrect": 41,
+  "no_analysis": 0,
+  "accuracy_on_evaluated_percent": 91.8,
+  "accuracy_on_total_percent": 91.8
+}

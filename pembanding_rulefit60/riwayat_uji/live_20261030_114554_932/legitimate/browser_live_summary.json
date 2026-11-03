@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-10-30T04:24:12.415381+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_fresh_300_30okt_rulefit60.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 300,
+  "evaluated": 292,
+  "correct": 269,
+  "incorrect": 23,
+  "no_analysis": 8,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 292,
+    "http_error": 3,
+    "no_valid_analysis": 5
+  },
+  "http_error_codes": {
+    "403": 3
+  },
+  "model_analysis_count": 292,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 92.12,
+  "coverage_percent": 97.33
+}

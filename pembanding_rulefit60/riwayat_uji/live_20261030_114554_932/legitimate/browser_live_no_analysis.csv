@@ -1,0 +1,9 @@
+analysis_status,elapsed_seconds,raw_probability_phishing,raw_verdict,index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,source_domain_age_days,page_domain_age_days,feature_coverage_percent,reasons,displayed_reasons,error
+http_error,4.19,,,1,https://poltekbima.ac.id/,poltekbima.ac.id,legitimate,SAFE,,0,https://poltekbima.ac.id/,,,,,,,,,,,,,,,,
+http_error,2.47,,,17,https://uf.ac.id/,uf.ac.id,legitimate,SAFE,,0,https://uf.ac.id/,,,,,,,,,,,,,,,,
+http_error,3.31,,,84,https://stikep-ppnijabar.ac.id/,stikep-ppnijabar.ac.id,legitimate,SAFE,,0,https://stikep-ppnijabar.ac.id/,,,,,,,,,,,,,,,,
+no_valid_analysis,31.93,,,119,https://unnjinotega.com,unnjinotega.com,legitimate,SAFE,,0,https://unnjinotega.com/,,,,,,,,,,,,,,,,
+no_valid_analysis,35.98,,,129,https://www.nouimei.ru:443/,www.nouimei.ru,legitimate,SAFE,,0,https://www.nouimei.ru/,,,,,,,,,,,,,,,,
+no_valid_analysis,32.89,,,201,https://mumc.gov.bd,mumc.gov.bd,legitimate,SAFE,,0,https://mumc.gov.bd/,,,,,,,,,,,,,,,,
+no_valid_analysis,36.25,,,245,https://eeip.ru:443/,eeip.ru,legitimate,SAFE,,0,https://eeip.ru/,,,,,,,,,,,,,,,,
+no_valid_analysis,55.87,,,274,https://westcovina.gov/,westcovina.gov,legitimate,SAFE,,0,https://westcovina.gov/,,,,,,,,,,,,,,,,Page.goto: Timeout 25000ms exceeded.

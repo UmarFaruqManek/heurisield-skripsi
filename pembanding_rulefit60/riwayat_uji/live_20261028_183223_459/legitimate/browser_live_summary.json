@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-10-28T11:47:25.685963+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\legitimate_indonesia400_luar100_path_query_28okt2026.txt",
+  "label": "legitimate",
+  "expected_verdict": "SAFE",
+  "total_urls": 500,
+  "evaluated": 480,
+  "correct": 445,
+  "incorrect": 35,
+  "no_analysis": 20,
+  "warning_page_observed": 0,
+  "model_analysis_count": 480,
+  "evaluation_definition": "Observed extension verdict on an HTTP 200 page; warning_page_observed has no verified complete model analysis.",
+  "accuracy_on_evaluated_percent": 92.71,
+  "coverage_percent": 96.0
+}

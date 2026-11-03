@@ -1,0 +1,3708 @@
+{
+  "model_family": "RuleFit",
+  "model_name": "RuleFitCompact30ActiveRules",
+  "runtime_schema": "heurishield_rulefit_30_active_rules_v1",
+  "feature_count": 30,
+  "features": [
+    "source_domain_age_days",
+    "page_domain_age_days",
+    "brand_search_score",
+    "brand_quality_score",
+    "brand_source_similarity",
+    "source_path_length",
+    "brand_page_similarity",
+    "resource_count",
+    "anchor_count",
+    "script_count",
+    "brand_matches_page",
+    "brand_matches_source",
+    "internal_anchor_count",
+    "external_anchor_count",
+    "source_url_token_count",
+    "source_special_char_ratio",
+    "page_subdomain_count",
+    "external_anchor_ratio",
+    "source_subdomain_count",
+    "page_dot_count",
+    "dot_count",
+    "hostname_length",
+    "source_hostname_length",
+    "page_hostname_length",
+    "page_url_entropy",
+    "visible_text_length",
+    "source_query_length",
+    "brand_in_source_subdomain",
+    "source_uses_shared_hosting_domain",
+    "source_skip_domain_age_lookup"
+  ],
+  "threshold": 0.8,
+  "threshold_metrics": {
+    "accuracy": 0.9468902865129281,
+    "balanced_accuracy": 0.9441339950962888,
+    "precision_phishing": 0.9553719008264463,
+    "recall_phishing": 0.9218500797448166,
+    "f1_phishing": 0.9383116883116883,
+    "roc_auc": 0.9804863243590659,
+    "pr_auc": 0.9789308643959412,
+    "fpr": 0.033582089552238806,
+    "fnr": 0.07814992025518341,
+    "tp": 578.0,
+    "tn": 777.0,
+    "fp": 27.0,
+    "fn": 49.0,
+    "threshold": 0.8,
+    "selection_rule": "max recall subject to FPR <= 5%"
+  },
+  "intercept": -1.15231453754707,
+  "imputer_strategy": "median",
+  "imputer_median": {
+    "source_domain_age_days": 5368.0,
+    "page_domain_age_days": 5368.0,
+    "brand_search_score": 70.78765,
+    "brand_quality_score": 0.7261105180660911,
+    "brand_source_similarity": 0.4,
+    "source_path_length": 1.0,
+    "brand_page_similarity": 0.4,
+    "resource_count": 20.0,
+    "anchor_count": 25.0,
+    "script_count": 9.0,
+    "brand_matches_page": 0.0,
+    "brand_matches_source": 0.0,
+    "internal_anchor_count": 18.0,
+    "external_anchor_count": 0.0,
+    "source_url_token_count": 5.0,
+    "source_special_char_ratio": 0.1851851851851852,
+    "page_subdomain_count": 1.0,
+    "external_anchor_ratio": 0.0,
+    "source_subdomain_count": 0.0,
+    "page_dot_count": 2.0,
+    "dot_count": 2.0,
+    "hostname_length": 17.0,
+    "source_hostname_length": 16.0,
+    "page_hostname_length": 17.0,
+    "page_url_entropy": 4.0407422412161615,
+    "visible_text_length": 2774.5,
+    "source_query_length": 0.0,
+    "brand_in_source_subdomain": 0.0,
+    "source_uses_shared_hosting_domain": 0.0,
+    "source_skip_domain_age_lookup": 0.0
+  },
+  "rules": [
+    {
+      "id": "R001",
+      "expression": "X10 > 0.5 and X2 > 42.89871 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_page",
+          "feature_index": 10,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 42.89871
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -13.30027013809655,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R002",
+      "expression": "X11 > 0.5 and X3 > 0.38261 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_quality_score",
+          "feature_index": 3,
+          "operator": ">",
+          "threshold": 0.38261
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -9.427607987650196,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R003",
+      "expression": "X1 > 10614.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 10614.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -17.4958121249278,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R004",
+      "expression": "X12 > 6.5 and X15 > 0.127446 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_special_char_ratio",
+          "feature_index": 15,
+          "operator": ">",
+          "threshold": 0.127446
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.06397821333220953,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R005",
+      "expression": "X12 > 7.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.12458883148784197,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R006",
+      "expression": "X1 > 10601.0 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 10601.0
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.4419458003816328,
+      "direction": "phishing"
+    },
+    {
+      "id": "R007",
+      "expression": "X12 > 6.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.5034787051871786,
+      "direction": "phishing"
+    },
+    {
+      "id": "R008",
+      "expression": "X12 <= 6.5 and X14 <= 3.5 and X21 <= 18.5 and X4 <= 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": "<=",
+          "threshold": 3.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": "<=",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -4.270957318889771,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R009",
+      "expression": "X0 > 10601.0 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": ">",
+          "threshold": 10601.0
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.8447070119240483,
+      "direction": "phishing"
+    },
+    {
+      "id": "R010",
+      "expression": "X5 > 0.5 and X7 > 9.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -3.009737170773465,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R011",
+      "expression": "X5 > 0.5 and X7 > 11.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": 0.7321024094926587,
+      "direction": "phishing"
+    },
+    {
+      "id": "R012",
+      "expression": "X12 > 7.5 and X15 > 0.123481 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_special_char_ratio",
+          "feature_index": 15,
+          "operator": ">",
+          "threshold": 0.123481
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.3771132710548156,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R013",
+      "expression": "X0 > 10590.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": ">",
+          "threshold": 10590.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.04385211623511885,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R014",
+      "expression": "X1 > 10590.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 10590.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.5579006182878096,
+      "direction": "phishing"
+    },
+    {
+      "id": "R015",
+      "expression": "X14 <= 3.5 and X23 <= 16.5 and X5 > 0.5 and X6 <= 0.177866 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": "<=",
+          "threshold": 3.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -2.5588253764930857,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R016",
+      "expression": "X1 > 8669.5 and X11 <= 0.5 and X2 > 21.57241 and X25 <= 1585.5 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 8669.5
+        },
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "visible_text_length",
+          "feature_index": 25,
+          "operator": "<=",
+          "threshold": 1585.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -3.918968131956125,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R017",
+      "expression": "X14 <= 3.5 and X19 <= 2.5 and X23 > 16.5 and X5 > 0.5 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": "<=",
+          "threshold": 3.5
+        },
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -6.283872385869863,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R018",
+      "expression": "X2 <= 21.57241 and X24 <= 3.76211 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "page_url_entropy",
+          "feature_index": 24,
+          "operator": "<=",
+          "threshold": 3.76211
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -10.560568177090348,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R019",
+      "expression": "X2 > 35.6221 and X22 <= 22.5 and X5 > 0.5 and X7 > 9.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 35.6221
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 22.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 0.24804783049403858,
+      "direction": "phishing"
+    },
+    {
+      "id": "R020",
+      "expression": "X12 > 6.5 and X2 > 35.6221 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 6.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 35.6221
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -1.7474740138388263,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R021",
+      "expression": "X12 <= 6.5 and X22 <= 15.5 and X5 > 0.5 and X6 > 0.0384615",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.0384615
+        }
+      ],
+      "coefficient": -0.3704462840705904,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R022",
+      "expression": "X11 > 0.5 and X2 > 21.57241 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -1.544191473792122,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R023",
+      "expression": "X12 > 7.5 and X2 > 35.62169 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 7.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 35.62169
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.22223805969452073,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R024",
+      "expression": "X12 > 31.0 and X2 > 21.57241 and X5 > 0.5 and X29 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 31.0
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -4.03383141745072,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R025",
+      "expression": "X5 > 0.5 and X7 > 12.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": -0.9058875696306212,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R026",
+      "expression": "X9 > 8.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5 and X6 > 0.521008",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": ">",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.521008
+        }
+      ],
+      "coefficient": -0.6141188033147029,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R027",
+      "expression": "X23 <= 16.5 and X5 > 0.5 and X6 > 0.177866 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -3.0489722693166086,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R028",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X5 > 0.5 and X6 > 0.148352",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.148352
+        }
+      ],
+      "coefficient": -0.10760196126192298,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R029",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X4 > 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": ">",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.25730511025901653,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R030",
+      "expression": "X5 > 0.5 and X7 > 13.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 13.5
+        }
+      ],
+      "coefficient": -0.049474252683325996,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R031",
+      "expression": "X12 > 8.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 8.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.5954899336241523,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R032",
+      "expression": "X23 <= 17.5 and X5 > 0.5 and X6 > 0.160256 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.160256
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": 0.691702039707796,
+      "direction": "phishing"
+    },
+    {
+      "id": "R033",
+      "expression": "X21 <= 16.5 and X4 > 0.177866 and X5 > 0.5 and X7 <= 13.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": ">",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 13.5
+        }
+      ],
+      "coefficient": -2.6766077786913773,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R034",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X5 > 0.5 and X6 > 0.077037",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.077037
+        }
+      ],
+      "coefficient": -0.3543822566226247,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R035",
+      "expression": "X12 <= 6.5 and X23 <= 17.5 and X4 > 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 17.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": ">",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.3545936201108833,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R036",
+      "expression": "X21 <= 16.5 and X5 > 0.5 and X6 > 0.177866 and X7 <= 12.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": 1.9168522143873759,
+      "direction": "phishing"
+    },
+    {
+      "id": "R037",
+      "expression": "X13 > 0.5 and X5 > 0.5 and X27 <= 0.5",
+      "conditions": [
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_in_source_subdomain",
+          "feature_index": 27,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.319190570822696,
+      "direction": "phishing"
+    },
+    {
+      "id": "R038",
+      "expression": "X11 <= 0.5 and X2 > 21.57241 and X25 > 1585.5 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "visible_text_length",
+          "feature_index": 25,
+          "operator": ">",
+          "threshold": 1585.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.7058511648509944,
+      "direction": "phishing"
+    },
+    {
+      "id": "R039",
+      "expression": "X12 > 8.5 and X13 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 8.5
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.509065610792044,
+      "direction": "phishing"
+    },
+    {
+      "id": "R040",
+      "expression": "X8 > 65.5",
+      "conditions": [
+        {
+          "feature": "anchor_count",
+          "feature_index": 8,
+          "operator": ">",
+          "threshold": 65.5
+        }
+      ],
+      "coefficient": -1.0309636984624866,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R041",
+      "expression": "X12 <= 6.5 and X16 > 1.5 and X23 > 17.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_subdomain_count",
+          "feature_index": 16,
+          "operator": ">",
+          "threshold": 1.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.4071989749022236,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R042",
+      "expression": "X1 <= 8669.5 and X11 <= 0.5 and X14 <= 4.5 and X2 > 21.57241 and X25 <= 1585.5 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 8669.5
+        },
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": "<=",
+          "threshold": 4.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "visible_text_length",
+          "feature_index": 25,
+          "operator": "<=",
+          "threshold": 1585.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.6905952381471555,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R043",
+      "expression": "X12 <= 6.5 and X21 <= 18.5 and X4 > 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": ">",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.6559198098898076,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R044",
+      "expression": "X0 <= 10639.5 and X9 <= 8.5 and X12 <= 7.5 and X14 <= 3.5 and X20 <= 2.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10639.5
+        },
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": "<=",
+          "threshold": 3.5
+        },
+        {
+          "feature": "dot_count",
+          "feature_index": 20,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.1143931172996786,
+      "direction": "phishing"
+    },
+    {
+      "id": "R045",
+      "expression": "X2 > 22.05805 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 22.05805
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.7908916400182116,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R046",
+      "expression": "X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.08432437756197135,
+      "direction": "phishing"
+    },
+    {
+      "id": "R047",
+      "expression": "X1 > 5368.5 and X29 <= 0.5 and X8 <= 65.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 5368.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "anchor_count",
+          "feature_index": 8,
+          "operator": "<=",
+          "threshold": 65.5
+        }
+      ],
+      "coefficient": -0.4164430037277811,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R048",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.5967079294869622,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R049",
+      "expression": "X23 <= 18.5 and X5 > 0.5 and X6 > 0.148352 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": ">",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -0.7987124602474853,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R050",
+      "expression": "X9 > 12.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": ">",
+          "threshold": 12.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.481323962514354,
+      "direction": "phishing"
+    },
+    {
+      "id": "R051",
+      "expression": "X12 <= 6.5 and X16 > 1.5 and X21 > 18.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_subdomain_count",
+          "feature_index": 16,
+          "operator": ">",
+          "threshold": 1.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.2084561533987456,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R052",
+      "expression": "X0 > 5912.5 and X13 <= 0.5 and X28 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": ">",
+          "threshold": 5912.5
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_uses_shared_hosting_domain",
+          "feature_index": 28,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.03193008472236306,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R053",
+      "expression": "X17 > 0.000451467",
+      "conditions": [
+        {
+          "feature": "external_anchor_ratio",
+          "feature_index": 17,
+          "operator": ">",
+          "threshold": 0.000451467
+        }
+      ],
+      "coefficient": -0.9558684668444343,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R054",
+      "expression": "X12 <= 7.5 and X21 <= 16.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.578048820653369,
+      "direction": "phishing"
+    },
+    {
+      "id": "R055",
+      "expression": "X22 <= 15.5 and X5 > 0.5 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": 0.19787331949893708,
+      "direction": "phishing"
+    },
+    {
+      "id": "R056",
+      "expression": "X21 <= 18.5 and X5 > 0.5 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 0.4906339504498424,
+      "direction": "phishing"
+    },
+    {
+      "id": "R057",
+      "expression": "X21 <= 16.5 and X5 > 0.5 and X7 <= 12.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": 0.7356242011988472,
+      "direction": "phishing"
+    },
+    {
+      "id": "R058",
+      "expression": "X12 <= 8.5 and X22 <= 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.8989717756704184,
+      "direction": "phishing"
+    },
+    {
+      "id": "R059",
+      "expression": "X9 > 8.5 and X12 <= 6.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": ">",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -4.1022449268620065,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R060",
+      "expression": "X19 > 2.5 and X23 > 16.5 and X5 > 0.5 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -2.128018479242892,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R061",
+      "expression": "X12 <= 6.5 and X16 <= 1.5 and X23 > 17.5 and X5 > 0.5 and X7 > 17.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_subdomain_count",
+          "feature_index": 16,
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 17.5
+        }
+      ],
+      "coefficient": -3.910813768811536,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R062",
+      "expression": "X0 > 5891.0 and X13 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": ">",
+          "threshold": 5891.0
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.340744126180797,
+      "direction": "phishing"
+    },
+    {
+      "id": "R063",
+      "expression": "X9 <= 8.5 and X12 <= 6.5 and X19 > 2.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.3757170192267245,
+      "direction": "phishing"
+    },
+    {
+      "id": "R064",
+      "expression": "X2 > 35.6221 and X22 > 22.5 and X5 > 0.5 and X7 > 9.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 35.6221
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 22.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 3.8164152084041683,
+      "direction": "phishing"
+    },
+    {
+      "id": "R065",
+      "expression": "X0 <= 10639.5 and X9 <= 8.5 and X12 <= 7.5 and X20 > 2.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10639.5
+        },
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "dot_count",
+          "feature_index": 20,
+          "operator": ">",
+          "threshold": 2.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.8183547481308115,
+      "direction": "phishing"
+    },
+    {
+      "id": "R066",
+      "expression": "X1 <= 8669.5 and X11 <= 0.5 and X14 > 4.5 and X2 > 21.57241 and X18 > 0.5 and X25 <= 1585.5 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 8669.5
+        },
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "source_subdomain_count",
+          "feature_index": 18,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "visible_text_length",
+          "feature_index": 25,
+          "operator": "<=",
+          "threshold": 1585.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.0781456432140604,
+      "direction": "phishing"
+    },
+    {
+      "id": "R067",
+      "expression": "X14 > 3.5 and X19 <= 2.5 and X23 > 16.5 and X5 > 0.5 and X26 > 4.0 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 3.5
+        },
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_query_length",
+          "feature_index": 26,
+          "operator": ">",
+          "threshold": 4.0
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -0.7483593162221847,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R068",
+      "expression": "X12 <= 7.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.16915170909156907,
+      "direction": "phishing"
+    },
+    {
+      "id": "R069",
+      "expression": "X12 > 6.5 and X15 <= 0.127446 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_special_char_ratio",
+          "feature_index": 15,
+          "operator": "<=",
+          "threshold": 0.127446
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 4.100339803848667,
+      "direction": "phishing"
+    },
+    {
+      "id": "R070",
+      "expression": "X12 <= 8.5 and X13 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -1.1317662598697724,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R071",
+      "expression": "X12 <= 6.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.2065639362625214,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R072",
+      "expression": "X5 > 0.5 and X7 <= 12.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": 1.1726602083580837,
+      "direction": "phishing"
+    },
+    {
+      "id": "R073",
+      "expression": "X12 > 7.5 and X15 <= 0.123481 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_special_char_ratio",
+          "feature_index": 15,
+          "operator": "<=",
+          "threshold": 0.123481
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.4342382564624723,
+      "direction": "phishing"
+    },
+    {
+      "id": "R074",
+      "expression": "X5 > 0.5 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -0.5329338362263659,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R075",
+      "expression": "X5 > 0.5 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -1.9313725332309362,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R076",
+      "expression": "X12 > 6.5 and X2 <= 35.6221 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 6.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 35.6221
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.6457505278540314,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R077",
+      "expression": "X13 > 0.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -4.92840385380435,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R078",
+      "expression": "X12 > 7.5 and X2 <= 35.62169 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": ">",
+          "threshold": 7.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 35.62169
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 3.963845419834613,
+      "direction": "phishing"
+    },
+    {
+      "id": "R079",
+      "expression": "X21 <= 16.5 and X4 <= 0.177866 and X5 > 0.5 and X7 <= 13.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": "<=",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 13.5
+        }
+      ],
+      "coefficient": -0.30431298775056853,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R080",
+      "expression": "X17 <= 0.000451467",
+      "conditions": [
+        {
+          "feature": "external_anchor_ratio",
+          "feature_index": 17,
+          "operator": "<=",
+          "threshold": 0.000451467
+        }
+      ],
+      "coefficient": -0.26173237394462073,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R081",
+      "expression": "X21 <= 16.5 and X5 > 0.5 and X6 <= 0.177866 and X7 <= 12.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": 0.9895294359312442,
+      "direction": "phishing"
+    },
+    {
+      "id": "R082",
+      "expression": "X23 <= 17.5 and X5 > 0.5 and X6 <= 0.160256 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.160256
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -6.613689671022335,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R083",
+      "expression": "X2 <= 35.6221 and X5 > 0.5 and X7 > 9.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 35.6221
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": ">",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 0.13761653281042008,
+      "direction": "phishing"
+    },
+    {
+      "id": "R084",
+      "expression": "X13 > 0.5 and X5 > 0.5 and X27 > 0.5",
+      "conditions": [
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_in_source_subdomain",
+          "feature_index": 27,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.9521571175132644,
+      "direction": "phishing"
+    },
+    {
+      "id": "R085",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X5 > 0.5 and X6 <= 0.148352",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.148352
+        }
+      ],
+      "coefficient": -0.46361485859722057,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R086",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X4 <= 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": "<=",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.8308203560216871,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R087",
+      "expression": "X9 > 8.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5 and X6 <= 0.521008",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": ">",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.521008
+        }
+      ],
+      "coefficient": 0.8064254358793895,
+      "direction": "phishing"
+    },
+    {
+      "id": "R088",
+      "expression": "X23 <= 18.5 and X5 > 0.5 and X6 <= 0.148352 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": 5.131369012742646,
+      "direction": "phishing"
+    },
+    {
+      "id": "R089",
+      "expression": "X12 <= 6.5 and X23 <= 17.5 and X4 <= 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 17.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": "<=",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.8682252153973101,
+      "direction": "phishing"
+    },
+    {
+      "id": "R090",
+      "expression": "X1 <= 5368.5 and X8 <= 65.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 5368.5
+        },
+        {
+          "feature": "anchor_count",
+          "feature_index": 8,
+          "operator": "<=",
+          "threshold": 65.5
+        }
+      ],
+      "coefficient": 2.318696511502551,
+      "direction": "phishing"
+    },
+    {
+      "id": "R091",
+      "expression": "X12 <= 8.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.1764225795856529,
+      "direction": "phishing"
+    },
+    {
+      "id": "R092",
+      "expression": "X12 <= 7.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.0203079108297912,
+      "direction": "phishing"
+    },
+    {
+      "id": "R093",
+      "expression": "X0 <= 5912.5 and X13 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 5912.5
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.016043468170402777,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R094",
+      "expression": "X22 > 15.5 and X5 > 0.5 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -2.2187124784342256,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R095",
+      "expression": "X12 <= 7.5 and X21 > 16.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.576692951963351,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R096",
+      "expression": "X0 <= 5891.0 and X13 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 5891.0
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.6511419935222855,
+      "direction": "phishing"
+    },
+    {
+      "id": "R097",
+      "expression": "X21 > 16.5 and X5 > 0.5 and X7 <= 13.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 13.5
+        }
+      ],
+      "coefficient": 2.564817577314045,
+      "direction": "phishing"
+    },
+    {
+      "id": "R098",
+      "expression": "X1 <= 10614.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 10614.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.6393718400425453,
+      "direction": "phishing"
+    },
+    {
+      "id": "R099",
+      "expression": "X23 > 18.5 and X5 > 0.5 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -1.3493324596740928,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R100",
+      "expression": "X12 <= 6.5 and X22 <= 15.5 and X5 > 0.5 and X6 <= 0.0384615",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.0384615
+        }
+      ],
+      "coefficient": -2.9481030993811013,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R101",
+      "expression": "X21 > 16.5 and X5 > 0.5 and X7 <= 12.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 12.5
+        }
+      ],
+      "coefficient": 0.11590339633628007,
+      "direction": "phishing"
+    },
+    {
+      "id": "R102",
+      "expression": "X10 > 0.5 and X2 <= 42.89871 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_page",
+          "feature_index": 10,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 42.89871
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 11.206940654367614,
+      "direction": "phishing"
+    },
+    {
+      "id": "R103",
+      "expression": "X0 <= 10601.0 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10601.0
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 3.820270885879132,
+      "direction": "phishing"
+    },
+    {
+      "id": "R104",
+      "expression": "X23 > 17.5 and X5 > 0.5 and X7 <= 11.5",
+      "conditions": [
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 11.5
+        }
+      ],
+      "coefficient": -1.3073690209726465,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R105",
+      "expression": "X12 <= 7.5 and X22 <= 15.5 and X5 > 0.5 and X6 <= 0.077037",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": "<=",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.077037
+        }
+      ],
+      "coefficient": 1.5664329189326358,
+      "direction": "phishing"
+    },
+    {
+      "id": "R106",
+      "expression": "X9 <= 12.5 and X12 <= 7.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 12.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.5168345475526349,
+      "direction": "phishing"
+    },
+    {
+      "id": "R107",
+      "expression": "X12 <= 6.5 and X16 <= 1.5 and X21 > 18.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_subdomain_count",
+          "feature_index": 16,
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 3.4278284652142306,
+      "direction": "phishing"
+    },
+    {
+      "id": "R108",
+      "expression": "X1 > 5368.5 and X29 > 0.5 and X8 <= 65.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": ">",
+          "threshold": 5368.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "anchor_count",
+          "feature_index": 8,
+          "operator": "<=",
+          "threshold": 65.5
+        }
+      ],
+      "coefficient": 3.313985308622176,
+      "direction": "phishing"
+    },
+    {
+      "id": "R109",
+      "expression": "X12 <= 6.5 and X14 > 3.5 and X21 <= 18.5 and X4 <= 0.148352 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 3.5
+        },
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": "<=",
+          "threshold": 18.5
+        },
+        {
+          "feature": "brand_source_similarity",
+          "feature_index": 4,
+          "operator": "<=",
+          "threshold": 0.148352
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 1.3221185890562095,
+      "direction": "phishing"
+    },
+    {
+      "id": "R110",
+      "expression": "X21 > 18.5 and X5 > 0.5 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "hostname_length",
+          "feature_index": 21,
+          "operator": ">",
+          "threshold": 18.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": -1.7468324536111681,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R111",
+      "expression": "X14 > 3.5 and X23 <= 16.5 and X5 > 0.5 and X6 <= 0.177866 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 3.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": "<=",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_page_similarity",
+          "feature_index": 6,
+          "operator": "<=",
+          "threshold": 0.177866
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 2.0935583704228677,
+      "direction": "phishing"
+    },
+    {
+      "id": "R112",
+      "expression": "X1 <= 10601.0 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 10601.0
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 4.761268265497959,
+      "direction": "phishing"
+    },
+    {
+      "id": "R113",
+      "expression": "X2 <= 22.05805 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 22.05805
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 7.348017120581741,
+      "direction": "phishing"
+    },
+    {
+      "id": "R114",
+      "expression": "X12 <= 31.0 and X2 > 21.57241 and X5 > 0.5 and X29 > 0.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 31.0
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.855240959249261,
+      "direction": "phishing"
+    },
+    {
+      "id": "R115",
+      "expression": "X0 > 5912.5 and X13 <= 0.5 and X28 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": ">",
+          "threshold": 5912.5
+        },
+        {
+          "feature": "external_anchor_count",
+          "feature_index": 13,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_uses_shared_hosting_domain",
+          "feature_index": 28,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.11025359265673061,
+      "direction": "phishing"
+    },
+    {
+      "id": "R116",
+      "expression": "X2 <= 21.57241 and X24 > 3.76211 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": "<=",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "page_url_entropy",
+          "feature_index": 24,
+          "operator": ">",
+          "threshold": 3.76211
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -4.382066808398355,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R117",
+      "expression": "X1 <= 8669.5 and X11 <= 0.5 and X14 > 4.5 and X2 > 21.57241 and X18 <= 0.5 and X25 <= 1585.5 and X5 > 0.5 and X29 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 8669.5
+        },
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 4.5
+        },
+        {
+          "feature": "brand_search_score",
+          "feature_index": 2,
+          "operator": ">",
+          "threshold": 21.57241
+        },
+        {
+          "feature": "source_subdomain_count",
+          "feature_index": 18,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "visible_text_length",
+          "feature_index": 25,
+          "operator": "<=",
+          "threshold": 1585.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_skip_domain_age_lookup",
+          "feature_index": 29,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 6.598947828314322,
+      "direction": "phishing"
+    },
+    {
+      "id": "R118",
+      "expression": "X12 <= 6.5 and X16 <= 1.5 and X23 > 17.5 and X5 > 0.5 and X7 <= 17.5",
+      "conditions": [
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_subdomain_count",
+          "feature_index": 16,
+          "operator": "<=",
+          "threshold": 1.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 17.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 17.5
+        }
+      ],
+      "coefficient": -0.030878289809583178,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R119",
+      "expression": "X14 > 3.5 and X19 <= 2.5 and X23 > 16.5 and X5 > 0.5 and X26 <= 4.0 and X7 <= 9.5",
+      "conditions": [
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 3.5
+        },
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "page_hostname_length",
+          "feature_index": 23,
+          "operator": ">",
+          "threshold": 16.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_query_length",
+          "feature_index": 26,
+          "operator": "<=",
+          "threshold": 4.0
+        },
+        {
+          "feature": "resource_count",
+          "feature_index": 7,
+          "operator": "<=",
+          "threshold": 9.5
+        }
+      ],
+      "coefficient": 3.0436470619106872,
+      "direction": "phishing"
+    },
+    {
+      "id": "R120",
+      "expression": "X0 <= 10590.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10590.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.1766777650887687,
+      "direction": "phishing"
+    },
+    {
+      "id": "R121",
+      "expression": "X0 <= 10639.5 and X9 <= 8.5 and X12 <= 6.5 and X19 <= 2.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10639.5
+        },
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 6.5
+        },
+        {
+          "feature": "page_dot_count",
+          "feature_index": 19,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.0030408248098320674,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R122",
+      "expression": "X0 <= 10639.5 and X9 <= 8.5 and X12 <= 7.5 and X14 > 3.5 and X20 <= 2.5 and X22 > 15.5 and X5 > 0.5",
+      "conditions": [
+        {
+          "feature": "source_domain_age_days",
+          "feature_index": 0,
+          "operator": "<=",
+          "threshold": 10639.5
+        },
+        {
+          "feature": "script_count",
+          "feature_index": 9,
+          "operator": "<=",
+          "threshold": 8.5
+        },
+        {
+          "feature": "internal_anchor_count",
+          "feature_index": 12,
+          "operator": "<=",
+          "threshold": 7.5
+        },
+        {
+          "feature": "source_url_token_count",
+          "feature_index": 14,
+          "operator": ">",
+          "threshold": 3.5
+        },
+        {
+          "feature": "dot_count",
+          "feature_index": 20,
+          "operator": "<=",
+          "threshold": 2.5
+        },
+        {
+          "feature": "source_hostname_length",
+          "feature_index": 22,
+          "operator": ">",
+          "threshold": 15.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": ">",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": -0.21930901604964603,
+      "direction": "legitimate"
+    },
+    {
+      "id": "R123",
+      "expression": "X1 <= 10590.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "page_domain_age_days",
+          "feature_index": 1,
+          "operator": "<=",
+          "threshold": 10590.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.15090995673444604,
+      "direction": "phishing"
+    },
+    {
+      "id": "R124",
+      "expression": "X10 <= 0.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_page",
+          "feature_index": 10,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 2.63915936885985,
+      "direction": "phishing"
+    },
+    {
+      "id": "R125",
+      "expression": "X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.8560217972159977,
+      "direction": "phishing"
+    },
+    {
+      "id": "R126",
+      "expression": "X11 <= 0.5 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": "<=",
+          "threshold": 0.5
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 0.5223055035153523,
+      "direction": "phishing"
+    },
+    {
+      "id": "R127",
+      "expression": "X11 > 0.5 and X3 <= 0.38261 and X5 <= 0.5",
+      "conditions": [
+        {
+          "feature": "brand_matches_source",
+          "feature_index": 11,
+          "operator": ">",
+          "threshold": 0.5
+        },
+        {
+          "feature": "brand_quality_score",
+          "feature_index": 3,
+          "operator": "<=",
+          "threshold": 0.38261
+        },
+        {
+          "feature": "source_path_length",
+          "feature_index": 5,
+          "operator": "<=",
+          "threshold": 0.5
+        }
+      ],
+      "coefficient": 17.796158479029394,
+      "direction": "phishing"
+    }
+  ],
+  "source": "ml_models_rulefit_118_recovered_v1\\models\\RuleFitCompact118.joblib",
+  "notes": "Runtime compacted from RuleFitCompact118 by keeping the same 127 rules, coefficients, intercept, and threshold while exposing only the 30 features referenced by active rule conditions. Predictions are expected to match the 118-feature engine because unused features never participate in rule evaluation."
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-10-31T05:36:44.421680+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_brand_live_300_31okt.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 146,
+  "correct": 117,
+  "incorrect": 29,
+  "no_analysis": 154,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 146,
+    "http_error": 127,
+    "no_valid_analysis": 27
+  },
+  "http_error_codes": {
+    "403": 120,
+    "404": 3,
+    "451": 1,
+    "503": 2,
+    "522": 1
+  },
+  "model_analysis_count": 146,
+  "brand_identity_status_counts": {
+    "matched_candidate": 22,
+    "possible_impersonation": 57,
+    "unknown": 67
+  },
+  "brand_identity_guard_count": 0,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 80.14,
+  "coverage_percent": 48.67
+}

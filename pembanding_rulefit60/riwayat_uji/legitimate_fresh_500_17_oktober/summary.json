@@ -1,0 +1,66 @@
+{
+  "output": "C:\\Users\\USER\\Downloads\\legitimate_fresh_diverse_500_17_oktober.txt",
+  "total_urls": 500,
+  "unique_registrable_domains": 78,
+  "unique_hosts": 101,
+  "with_path": 498,
+  "with_query": 29,
+  "previous_url_overlap": 0,
+  "deduplication": "host and decoded path, ignoring www/scheme/query/fragment and common leading locales; both fetched input and redirect destination excluded",
+  "http_status_200": 500,
+  "max_per_domain": 9,
+  "categories": {
+    "account_support": 142,
+    "travel": 27,
+    "developer": 155,
+    "finance": 50,
+    "consumer_support": 24,
+    "gaming": 16,
+    "education": 9,
+    "shipping": 11,
+    "government": 32,
+    "shopping": 18,
+    "security": 13,
+    "health": 3
+  },
+  "exclusion_keys": 1275306,
+  "exclusion_scan": {
+    "text_files": 171,
+    "csv_with_url_columns": 405,
+    "json_url_files": 28,
+    "unreadable_files": 4,
+    "unique_host_path_keys": 1276252
+  },
+  "verified_at_utc": "2026-10-16T17:42:50.237501+00:00",
+  "limitations": [
+    "URLs are official-domain public HTML reachable via HTTP, not yet browser-live tested.",
+    "Labels are curated from official ownership and page context, not from extension verdicts.",
+    "Fresh URL host/path does not mean unseen brands/domains. No generated query strings or locale-only freshness.",
+    "Overlap check covers accessible local training/test URL archives; files without recoverable URL metadata cannot independently prove URL absence."
+  ],
+  "explicit_training_source_audit": [
+    {
+      "source": "D:\\mesin crawl\\ml_pipeline_v2_domain_age_brand_recovered_118_v1\\combined_full_recovered_118_source_rows.csv",
+      "rows_checked": 9314,
+      "url_columns": [
+        "url_key",
+        "final_url",
+        "meta_refresh_url",
+        "normalized_input_url",
+        "original_url"
+      ],
+      "overlapping_host_paths": 0
+    },
+    {
+      "source": "D:\\Deployment Extension\\data\\sumber\\data_tambahan_live.csv",
+      "rows_checked": 467,
+      "url_columns": [
+        "input_url",
+        "browser_final_url",
+        "analysis_url",
+        "analysis_final_url"
+      ],
+      "overlapping_host_paths": 0
+    }
+  ]
+}

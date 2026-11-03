@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-30T13:02:34.410814+00:00",
+  "mode": "chrome_extension_browser_live",
+  "input": "C:\\Users\\USER\\Downloads\\phishing_rulefit60_30okt_batch_b.txt",
+  "label": "phishing",
+  "expected_verdict": "DANGEROUS",
+  "total_urls": 300,
+  "evaluated": 97,
+  "correct": 74,
+  "incorrect": 23,
+  "no_analysis": 203,
+  "warning_page_observed": 0,
+  "analysis_status_counts": {
+    "completed": 97,
+    "http_error": 129,
+    "no_valid_analysis": 74
+  },
+  "http_error_codes": {
+    "403": 112,
+    "404": 15,
+    "451": 1,
+    "522": 1
+  },
+  "model_analysis_count": 97,
+  "evaluation_definition": "Only completed model analyses with observed verdicts count toward accuracy; warning_page_observed is reported separately.",
+  "accuracy_on_evaluated_percent": 76.29,
+  "coverage_percent": 32.33
+}

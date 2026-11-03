@@ -1,0 +1,8 @@
+index,input_url,input_domain,expected_label,expected_verdict,actual_verdict,correct,browser_final_url,analysis_url,analysis_final_url,registrable_domain,score,probability_phishing,threshold,post_model_guard,fired_rule_count,brand_name,brand_domain,original_domain_age_days,final_domain_age_days,feature_coverage_percent,reasons,error
+78,http://svvissqreem.sbs/,svvissqreem.sbs,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at http://svvissqreem.sbs/
+177,http://calibratec.ec/xinfini,calibratec.ec,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://calibratec.ec/xinfini
+190,https://noking-track.worldsinfo.info/ga/click/2-55794138-322-1724-3395-1790-0e61483e20-4565a6c329,noking-track.worldsinfo.info,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://noking-track.worldsinfo.info/ga/click/2-55794138-322-1724-3395-1790-0e61483e20-4565a6c329
+191,https://paket-packchen.pages.dev/,paket-packchen.pages.dev,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_NAME_NOT_RESOLVED at https://paket-packchen.pages.dev/
+221,http://www.cas.carollinaromer.com/,www.cas.carollinaromer.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://www.cas.carollinaromer.com/
+222,https://www.hsd.carollinaromer.com/,www.hsd.carollinaromer.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.hsd.carollinaromer.com/
+223,http://www.ktg.carollinaromer.com/,www.ktg.carollinaromer.com,phishing,DANGEROUS,,0,about:blank,,,,,,,,,,,,,,,Page.goto: net::ERR_CONNECTION_TIMED_OUT at http://www.ktg.carollinaromer.com/
